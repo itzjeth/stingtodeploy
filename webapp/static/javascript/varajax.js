@@ -1,0 +1,1 @@
+var anc_6310_ajax_object = {"anc_6310_ajax_url":"index.html"};

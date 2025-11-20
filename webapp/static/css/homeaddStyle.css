@@ -1,0 +1,87 @@
+.hero {
+    margin-top: -75px;
+}
+h1{
+
+   font-weight: bold;
+   font-size: 72px;
+  background: linear-gradient(
+    to right,
+    rgb(250, 78, 10),
+    rgb(247, 12, 204),
+    rgb(0, 106, 255),
+    rgb(48, 248, 255),
+    rgb(250, 78, 10)
+  );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 3s linear infinite;
+}
+h4,h2 {
+
+    background: linear-gradient(
+    to left,
+    rgb(250, 78, 10),
+    rgb(247, 12, 204),
+    rgb(0, 106, 255),
+    rgb(48, 248, 255),
+    rgb(250, 78, 10)
+  );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 5s linear infinite;
+    font-weight: bold;
+}
+h3 {
+    font-family: Klartext Mono;
+    background: linear-gradient(
+    to left,
+    rgb(250, 78, 10),
+    rgb(247, 12, 204),
+    rgb(0, 106, 255),
+    rgb(48, 248, 255),
+    rgb(250, 78, 10)
+  );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 5s linear infinite;
+    writing-mode: vertical-rl;
+    font-weight: bold;
+}
+.text-orientation {
+font-size: 30px;
+}
+.stingwhat { font-size: 22px; }
+
+@keyframes gradientAnimation {
+0%{
+    background-position: 200% 50%;
+}
+100%{
+    background-position: 0% 50%;
+}
+}
+
+@media only screen and (max-width: 1150px) {
+
+.text-orientation { text-orientation: upright; font-size: 31px; letter-spacing: 45px; }
+.stingwhat { font-size: 18px; }
+
+}
+@media only screen and (max-width: 550px) {
+h3, h5 {
+     font-size: 0.65em;
+ }
+ p {
+     font-size: 0.55em;
+ }
+ h1 {
+     font-size: 2.1em;
+ }
+  h2, h4 {
+     font-size: 1.05em;
+ }
+}

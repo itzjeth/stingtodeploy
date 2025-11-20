@@ -1,0 +1,107 @@
+
+ .footer-brand,
+.footer-links,
+.footer-social-links,
+.footer-copyright {
+flex: none;
+width: 100%;
+display: inline-flex;
+justify-content: center;
+}
+.footer-brand,
+.footer-links,
+.footer-social-links {
+margin-bottom: 24px;
+}
+.footer-social-links li {
+display: inline-flex;
+}
+.footer-social-links li + li {
+margin-left: 16px;
+}
+.footer-social-links li a {
+padding: 8px;
+}
+.footer-links li + li {
+margin-left: 24px;
+}
+@media (min-width: 2541px) {
+.site-footer {
+ margin-top: 20px;
+}
+.site-footer-inner {
+ justify-content: space-between;
+ padding-top: 64px;
+ padding-bottom: 64px;
+}
+.footer-brand,
+.footer-links,
+.footer-social-links,
+.footer-copyright {
+ flex: 50%;
+}
+.footer-brand,
+.footer-copyright {
+ justify-content: flex-start;
+}
+.footer-links,
+.footer-social-links {
+ justify-content: flex-end;
+}
+.footer-links {
+ order: 1;
+ margin-bottom: 0;
+}
+}
+.footer-social-links {
+z-index: hidden;
+}
+ li, ul, a {
+   text-decoration: none;
+ }
+ body, section {
+   background: #212b2a;
+
+ }
+/*
+ {
+   background: #00FF00;
+   background: linear-gradient(to left, #00FF00 25%, #00FFFF 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+ */
+ h1, h2, h3, h4, h5{
+   font-family: Klartext Mono;
+   background: linear-gradient(
+   to right,
+   rgb(250, 78, 10),
+   rgb(247, 12, 204),
+   rgb(0, 106, 255),
+   rgb(48, 248, 255),
+   rgb(250, 78, 10)
+ );
+   background-clip: text;
+   color: transparent;
+   background-size: 200% auto;
+ }
+ p {
+   color: white;
+ }
+ @media (max-width: 1280px) {
+    p {
+        font-size: 0.85em;
+    }
+    .blg {margin-top: -9vh;}
+}
+ @keyframes gradientAnimation {
+0%{
+   background-position: 200% 50%;
+}
+100%{
+   background-position: 0% 50%;
+}
+}
+ p {
+   color: white;
+ }

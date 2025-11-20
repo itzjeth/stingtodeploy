@@ -1,0 +1,747 @@
+{%extends 'pages/index.html'%}
+{% load static %}
+
+{% block content %}
+
+<script>
+        scrollOffsetFunction = function() {
+          var navElements = document.getElementsByClassName("c-navbar");
+          if (typeof navElements[0] !== "undefined") {
+            var navRect = navElements[0].getBoundingClientRect();
+            var navStyle = getComputedStyle(navElements[0]);
+          if (navStyle.position === "sticky" || navStyle.position === "fixed") {
+              return navRect.bottom - navRect.top + 30;
+            }
+          }
+          return 0;
+        }
+</script>
+
+<script>
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-NQCSXSR');
+</script>
+<style>
+    .boxicons {
+padding: 10px;
+
+    }
+</style>
+
+    <link
+    rel="stylesheet"
+    href="{% static 'css/blog.css'%}">
+
+<section
+  class="o-container u-Mt-lx md:u-Mt-2xl"
+  >
+    <h2
+    class="  u-text-p1 u-text-center u-Mb-lg"
+    >
+    Frequently Asked Questions
+    </h2
+    >
+    <div
+    class="o-columns v--three"
+    >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+        How do I apply to the university?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+        First, you need to fill out online admission form, print your admission form, then you can submit your complete requirement in a folder to the Guidance Office for Evaluation, from that you will receive an email for Examination Date.
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+        What are requirements for first year applicants (Grade 12 Students)
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+        You need a photocopy of Grade 11 card, a Certification from the principal or Adviser indicationg that the applicant is currently enrolled as Grade 12 student with a strand indicated
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+        Does CvSU have entrance exam 2024?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+        The CvSU Bacoor will the conduct of admission exam will be waived for 1st Semester, AY 2023-2024.
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+        Is CvSU Bacoor still open for admission?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+        The application admission for first semester S.Y. 2024 - 2025 already begins on November 6, 2023
+        </p>
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+        What is the passing grade in CvSU?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+        3.00 is the passing grade while 5.00 is the failing grade
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+        What is a 2.00 grade equivalent to CvSU?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+        The grade requirement for transferee is GPA of 2.00 (equivalent of 85%) or better and no failed grade.
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      > <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+
+    </div
+    >
+    <div
+    class="o-columns v--three u-hidden u-Mt-md t-faq__more"
+    >
+            <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      > <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+      <div class="boxicons"
+      >
+        <h4
+        class="u-text-p6-bold u-mb-md"
+        >
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit ?
+        </h4
+        >
+        <p
+        class="u-text-p6"
+        >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, at fugit velit quia eum aspernatur nam distinctio iure! Eligendi dolore eius, eos beatae vitae quisquam libero in optio magnam?
+        </p
+        >
+      </div
+      >
+    </div
+    >
+    <button
+    class="u-block u-maxw-4 u-mx-auto u-text-center u-Mt-md u-text-blue-500 u-text-p6-bold u-bg-white t-faq__more-trigger"
+    style="cursor: pointer;">
+      <span
+      class="t-faq__more-text"
+      >
+      See more questions
+      <svg
+      width="12"
+      height="8"
+      viewBox="0 0 12 8"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="u-ml-2xs">
+      <path
+      d="M10.3 1.7L5.7 6.3 1 1.7"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      />
+    </svg>
+  </span
+  >
+      <span
+      class="u-hidden t-faq__more-text"
+      >
+      Hide questions
+      <svg
+      width="12"
+      height="8"
+      viewBox="0 0 12 8"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="u-ml-2xs u-mb-3xs"
+      style="transform: rotate(180deg)"
+      >
+      <path
+      d="M10.3 1.7L5.7 6.3 1 1.7"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      />
+    </svg>
+  </span
+  >
+      <!-- TODO: add icon -->
+    </button
+    >
+  </section
+  >
+  <div
+  class="u-relative u-bg-black u-text-white u-Py-lg"
+  >
+    <div
+    class="u-relative o-container u-mx-auto"
+    >
+      <h1
+      class="reveal u-text-p1 u-maxw-10 u-mx-auto u-text-center u-Px-sm"
+      style=""
+      >
+      There’s more to Sting than meets the eye
+      </h1
+      >
+      <p
+      class=" reveal u-text-p5 u-maxw-6 u-mx-auto u-text-center u-hidden lg:u-block"
+      >
+      Discover Sting Chatbot. Create a powerful assistance service hub.
+
+    </p
+    >
+    <ul class="footer-social-links list-reset" style="margin-left: auto; margin-right: auto;">
+        <li>
+            <a href="#">
+                <span class="text-white"></span>
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#fff"/>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="screen-reader-text text-white"></span>
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#fff"/>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="screen-reader-text text-white"></span>
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#fff"/>
+                </svg>
+            </a>
+        </li>
+    </ul>
+    </div
+    >
+
+  <script
+  >
+    const faqAdditionalQuestions = document.querySelector('.t-faq__more');
+    const showMoreFaq = document.querySelector('.t-faq__more-trigger');
+    const showMoreTexts = document.querySelectorAll('.t-faq__more-text');
+    showMoreFaq.addEventListener('click', () => {
+      faqAdditionalQuestions.classList.toggle('u-hidden')
+      for (const text of showMoreTexts) {
+        text.classList.toggle('u-hidden')
+      }
+    });
+  </script>
+  <script
+  >
+    const TranscriptField = document.getElementById("ld-transcript");
+    const ExpandButton = document.getElementById("expand");
+    const CompressButton = document.getElementById("compress");
+    function ShowFullTranscript() {
+      TranscriptField.classList.add("t-ld-transcript-full");
+      ExpandButton.setAttribute("class", "u-hidden");
+      CompressButton.setAttribute("class", "t-ld-show")
+    }
+    function HideFullTranscript() {
+      TranscriptField.classList.remove("t-ld-transcript-full");
+      ExpandButton.setAttribute("class", "t-ld-show");
+      CompressButton.setAttribute("class", "u-hidden")
+    }
+  </script>
+
+      <script async defer src="{% static '/javascript/blog.js' %}"
+      >
+      </script>
+      <script async defer src="{% static '/javascript/blogapp.js' %}"
+      >
+      </script>
+      <script
+      src="{% static 'javascript/track.js'%}" async
+      >
+    </script>
+      <style>
+       .boxicons {
+            padding: 15px;
+            /* From https://css.glass */
+background: rgba(9, 5, 10, 0.42);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(9, 5, 10, 0.48);
+        }
+        li, ul, a {
+          text-decoration: none;
+        }
+        body, section {
+          background: #212b2a;
+
+        }
+   /*
+        {
+          background: #00FF00;
+          background: linear-gradient(to left, #00FF00 25%, #00FFFF 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        */
+        h1, h2, h3, h4, h5{
+          font-family: Klartext Mono;
+          background: linear-gradient(
+          to right,
+          rgb(250, 78, 10),
+          rgb(247, 12, 204),
+          rgb(0, 106, 255),
+          rgb(48, 248, 255),
+          rgb(250, 78, 10)
+        );
+          background-clip: text;
+          color: transparent;
+          background-size: 200% auto;
+
+        }
+
+        p {
+         color: white;
+        }
+        @keyframes gradientAnimation {
+      0%{
+          background-position: 200% 50%;
+      }
+      100%{
+          background-position: 0% 50%;
+      }
+    }
+    @media only screen and (max-width: 1150px) {
+
+        h2 {
+            margin-top: 10vh;
+        }
+
+
+}
+.footer-brand,
+  .footer-links,
+  .footer-social-links,
+  .footer-copyright {
+    flex: none;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .footer-brand,
+  .footer-links,
+  .footer-social-links {
+    margin-bottom: 24px;
+  }
+  .footer-social-links li {
+    display: inline-flex;
+  }
+  .footer-social-links li + li {
+    margin-left: 16px;
+  }
+  .footer-social-links li a {
+    padding: 8px;
+  }
+  .footer-links li + li {
+    margin-left: 24px;
+  }
+  @media (min-width: 2541px) {
+    .site-footer {
+      margin-top: 20px;
+    }
+    .site-footer-inner {
+      justify-content: space-between;
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+    .footer-brand,
+    .footer-links,
+    .footer-social-links,
+    .footer-copyright {
+      flex: 50%;
+    }
+    .footer-brand,
+    .footer-copyright {
+      justify-content: flex-start;
+    }
+    .footer-links,
+    .footer-social-links {
+      justify-content: flex-end;
+    }
+    .footer-links {
+      order: 1;
+      margin-bottom: 0;
+    }
+  }
+  .footer-social-links {
+    z-index: hidden;
+  }
+
+      </style>
+  {% endblock %}

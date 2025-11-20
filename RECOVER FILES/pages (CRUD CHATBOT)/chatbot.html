@@ -1,0 +1,726 @@
+
+{% load static %}
+{% if request.session.CustId is not None and request.session.AdminId is None %}
+<head>
+        {% include 'pages/botHead.html' %}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fontawesome.com/icons/grip-lines-vertical?f=classic&s=solid">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <style>
+           .body {
+      padding: 20px;
+    }
+
+    /* Chat History Section */
+    #chatbott {
+      max-width: 100%;
+      overflow-y: auto;
+      max-height: 500px; /* Allow scroll on large chats */
+      margin-bottom: 20px;
+    }
+
+    /* User and Bot Text Messages */
+    .botText, .userText {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    /* Button Styling */
+    .speak-btn, .pause-btn {
+      background-color: #4CAF50; /* Green background */
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 10px;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .speak-btn:hover, .pause-btn:hover {
+      background-color: #45a049; /* Darker green on hover */
+    }
+
+    /* Icon Buttons */
+    .speak-btn .material-icons, .pause-btn .material-icons {
+      font-size: 20px; /* Larger icon size for better visibility */
+      vertical-align: middle;
+    }
+
+    /* Responsive: Ensure buttons are not too small on mobile */
+    @media (max-width: 768px) {
+      .speak-btn, .pause-btn {
+        padding: 10px 15px;  /* Reduce padding for small screens */
+        font-size: 14px;  /* Adjust font size */
+      }
+
+      /* Chat history scroll area */
+      #chatbott {
+        max-height: 400px; /* Reduce scrollable height on smaller screens */
+      }
+    }
+
+    
+ 
+        
+        .suggest-box {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: var(--sidebar-color);
+
+      border: 1px solid var(--incoming-chat-border);
+      border-bottom: none;
+      z-index: 1000;
+      max-height: 150px;
+      overflow-y: auto;
+      margin-bottom: 5px;
+      display: none;
+    }
+    .speak-btn, .pause-btn {
+
+      border: none;
+      padding: 4px 8px;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 10px;
+      transition: all 0.3s ease;
+    }
+
+   
+
+    .speak-btn:focus, .pause-btn:focus {
+      outline: none; /* Remove the outline when button is focused */
+    }
+
+    /* Smaller icon buttons */
+    .speak-btn .material-icons, .pause-btn .material-icons {
+      font-size: 18px;
+      vertical-align: middle; /* Align icon in the middle */
+    }
+    .spinner {
+  width: 35px;
+  height: 35px;
+  border: 4px solid var(--sidebar-color);
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+   
+    
+       </style>
+</head>
+ <div id="preloader"></div>
+<body>
+  
+        <section class="layout" >
+            <nav class="sidebar" >
+              <header>
+                <div class="image-text">
+                    <img src="{% static 'images/stingblack7.png'%}" alt="logo"  />
+                  <div class="text header-text">
+                    <span class="main">STING</span>
+                    <span class="sub">CVSU Bacoor</span>
+                  </div>
+                </div>
+                <img class="ftoggle" src="{% static 'images/grip-2.svg'%}" width="12" style="position: absolute; right: -5; bottom: 20; margin-bottom: -45vh;">
+                <div class="toggle">
+                    <img src="{% static 'images/grip-2.svg'%}" width="12" style="margin-bottom: -84vh;">
+                </div>
+              </header>
+              <div class="menu-bar">
+                <div class="menu">
+                  <button class="new-chat-button" id="new-chat-button">New chat</button>
+                  
+                  <textarea class="history" id="chatbot-history" readonly></textarea>
+                  <p class="chistory">Chatbot History</p>
+                 
+                  <!-- BUTTON RECOMMEND QUESTION
+
+                    <li class="nav-link">
+                      <a type="button" class="sendInputs" onclick="setInputValue1()" onkeypress="getUserResponse" style="background-color: var(--sidebar-color);">
+                        <i class="bx bx-log-out icons logo_logout" style=" color: var(--placeholder-color);"></i>
+                        <span  class="text nav-text logout_span" style="color: var(--text-color);">How to enroll?</span>
+                      </a>
+                      </li>
+                      <li class="nav-link">
+                      <a type="button" class="sendInputs"  onclick="setInputValue2()" onkeypress="getUserResponse"  style="background-color: var(--sidebar-color);">
+                        <i class="bx bx-log-out icons logo_logout" style="color: var(--placeholder-color);"></i>
+                        <span  class="text nav-text logout_span" style="color: var(--text-color);">Who are you?</span>
+                      </a>
+                        </li>
+                    
+                    -->
+                 
+                
+             
+
+
+
+                 <!--
+               
+        
+         <ul class="menu-links">
+                    <li class="nav-link">
+                      <a href="{% url 'home' %}">
+                        <i class="bx bx-home-alt icons"></i>
+                        <span class="text nav-text">Home</span>
+                      </a>
+                    </li>
+                    <li class="nav-link">
+                      <a href="{% url 'explore' %}">
+                       <i class="bx bx-pie-chart-alt icons"></i>
+                        <span class="text nav-text">News</span>
+                      </a>
+                    </li>
+        
+                    <li class="nav-link">
+                      <a href="{% url 'explore' %}">
+                        <i class="bx bx-bell icons"></i>
+                        <span class="text nav-text">Explore</span>
+                      </a>
+                    </li>
+                    <li class="nav-link">
+                      <a href="#">
+                        <i class="bx bx-heart icons"></i>
+                        <span class="text nav-text">Edit Profile</span>
+                      </a>
+                    </li>
+        
+                    <li class="nav-link">
+                      <a href="#">
+                         <i class="bx bx-bar-chart-alt-2 icons"></i>
+                        <i class="bx bx-pie-chart-alt icons"></i>
+                        <span class="text nav-text">Event Updates</span>
+                      </a>
+                    </li>
+        
+        
+        
+                    <li class="nav-link">
+                      <a href="#">
+                        <i class="bx bx-wallet-alt icons"></i>
+                        <span class="text nav-text">About Us</span>
+                      </a>
+                    </li>
+        
+                  </ul>
+                </div>
+         -->
+                
+                <div class="bottom-content">
+                    <!--
+                  <li class="nav-link">
+                    <a href="#">
+                      <i class="bx bx-log-out icons"></i>
+                      <span class="text nav-text" style="position: absolute; left: 60;">Log Out</span>
+                    </a>
+                  </li>
+                   
+                  <li class="mode">
+                    
+                    <div class="moon-sun">
+        
+                      <i class="bx bx-moon icons moon"></i>
+                      <i class="bx bx-sun icons sun"></i>
+        
+                    </div>
+        
+                    <span class="mode-text text">Dark Mode</span>
+                    -->
+             
+                    <div class="toggle-switch">
+                       <!--
+                      <li class="nav-link">
+                        <a href="{% url 'explore'%}">
+                          <i class="bx bx-log-out icons logo_logout" style="color: var(--placeholder-color);"></i>
+                          <span class="text nav-text logout_span" style="color: var(--placeholder-color);">News</span>
+                        </a>
+                     
+                      </li>
+                      -->
+                      <!-- Navigation profile button -->
+                      <li class="nav-link">
+                        <a style="display: flex; align-items: center;">
+                          <img 
+                            src="{{ request.session.user_image|default:'/media/profile_images/default.png' }}" 
+                            width="43" 
+                            style="border-radius: 50%; object-fit: cover;" 
+                            alt="User Profile"
+
+                          >
+                          <span class="text nav-text" style="margin-left: 10px;">
+                            {{ request.session.user_name|default:"Guest" }}
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-link">
+                        <a href="{% url 'edit_profile' %}" style="display: flex; align-items: center;">
+                          <i class="bx bx-edit-alt icons logo_logout" style="color: var(--placeholder-color); font-size: 20px; margin-right: 10px;"></i>
+                          <span class="text nav-text logout_span" style="color: var(--placeholder-color);">Edit Profile</span>
+                        </a>
+                      </li>
+                      
+
+
+                        <li class="nav-link">
+                      <a href="{% url 'logout' %}">
+                        <i class="bx bx-log-out icons logo_logout" style="color: var(--placeholder-color);"></i>
+                        <span class="text nav-text logout_span" style="color: var(--placeholder-color);">Log Out</span>
+                      </a>
+                   
+                    </li>
+                     
+                    </div>
+        
+                  </li>
+        
+                </div>
+      </div> 
+    </nav>
+
+
+    <div class="body">
+      <h1 class="display-5 text-center"> - Sting -</h1>
+    
+      <div id="chatbott">
+        <p class="botText" style="margin-right: auto; margin-left: auto;">
+          <img src="{% static 'images/stingcya2.png' %}" class="chat_logo" alt="" width="50" height="40" style="border-radius: 50%;">
+          <span class="typing">Hi, I'm Sting, How can I assist?</span>
+        </p>
+      </div>
+      <div id="loading" style="display: none; text-align: center;">
+        <div class="spinner"></div>
+      </div>
+      
+      <div id="message-form" class="typing-container">
+        <div class="typing-content">
+          <div class="typing-textarea search-containers" style="color: var(--placeholder-color);">
+            <div class="suggest-box sendInputs" type="button"></div>
+            <textarea 
+              id="messageInput" 
+              class="search-box messageInput"
+              spellcheck="false" 
+              placeholder="Enter a prompt here" 
+              required
+            ></textarea>
+            <span 
+              id="send-btn"
+              class="sendInputs submitinput" 
+              class="material-symbols-rounded" 
+              type="button"
+              style="cursor: pointer; background-color: var(--sidebar-color);"
+            >send</span>
+          </div>
+          <div class="typing-controls">
+            <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+            <span id="delete-btn" style="opacity: 0;"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Edit Profile Modal -->
+
+
+
+    <script>
+      const suggestionsList = [
+        "how to draw",
+        "how to plan",
+        "how to code",
+        "how to cook",
+        "how to sing",
+        "how to start a business",
+        "how to meditate",
+        "how to dance"
+      ];
+  
+      document.querySelectorAll('.search-containers').forEach(container => {
+        const textarea = container.querySelector('.search-box');
+        const suggestBox = container.querySelector('.suggest-box');
+  
+        textarea.addEventListener('input', () => {
+          const query = textarea.value.trim().toLowerCase();
+          if (!query) {
+            suggestBox.style.display = 'none';
+            return;
+          }
+  
+          const matches = suggestionsList.filter(item =>
+            item.toLowerCase().startsWith(query)
+          );
+  
+          if (matches.length > 0) {
+            suggestBox.innerHTML = matches
+              .map(item => `<div class="suggestion-item" style="color: var(--text-color);">${item}</div>`)
+              .join('');
+            suggestBox.style.display = 'block';
+          } else {
+            suggestBox.style.display = 'none';
+          }
+        });
+  
+        suggestBox.addEventListener('click', (e) => {
+  if (e.target.classList.contains('suggestion-item')) {
+    textarea.value = e.target.textContent;
+    suggestBox.style.display = 'none';
+    getUserResponse(); // Automatically submit on click
+  }
+});
+
+        // Hide on click outside
+        document.addEventListener('click', (e) => {
+          if (!container.contains(e.target)) {
+            suggestBox.style.display = 'none';
+          }
+        });
+      });
+    </script>
+    
+
+   <script>
+    $('.messageInput').on('keydown', function(e) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    $('.submitinput').click();
+  }
+});
+   </script>
+   
+    
+    <!-- JavaScript -->
+    <script>
+      let currentUtterance = null;  // Store the current speech utterance so we can pause and resume
+      let speechQueue = [];  // Queue to hold chunks of the text
+      let isPaused = false;  // Boolean to track if speech is paused
+  
+      // Function to handle sending a message and getting a bot reply using AJAX
+      function getUserResponse() {
+  var userText = $('.messageInput').val().trim();
+  if (userText === "") return;
+
+  // Display user input
+  var userHTML = `
+    <p class='userText' style='text-align: justify; text-justify: inter-word; margin-right: auto; margin-left: auto;'>
+      <img src="{{ request.session.user_image|default:'/media/profile_images/default.png' }}" alt="" width="45" height="40" style="border-radius: 50%; transform: scale(0.9);">
+      <span class='typing'>:${userText}</span>
+    </p>
+  `;
+  $('.messageInput').val("");
+  $('#chatbott').append(userHTML);
+  $('#chatbot-history').append(userText + "\n\n");
+
+  // Show loading animation
+  $('#loading').show();
+
+  // AJAX call
+  $.get('/webapp/getResponse', { userMessage: userText }).done(function(data) {
+    // Hide loading animation
+    $('#loading').hide();
+
+    var returnedMessage = `
+      <p class='botText' style='text-align: justify; text-justify: inter-word; margin-right: auto; margin-left: auto;'>
+        <img src="{% static 'images/stingcya2.png' %}" alt="" width="55" height="40" style="border-radius: 50%; transform: scale(0.7);">
+        <span class='typing'>${data}<br></span>
+        <button class="speak-btn" style="background: var(--sidebar-color); color: var(--text-color);">
+          <span class="material-icons">volume_up</span>
+        </button>
+        <button class="pause-btn" style="background: var(--sidebar-color); color: var(--text-color);">
+          <span class="material-icons">pause</span>
+        </button>
+      </p>
+    `;
+    $('#chatbott').append(returnedMessage);
+    document.querySelector(".chat-log").scrollTop = document.querySelector(".chat-log").scrollHeight;
+  });
+}
+
+  
+      // Function to speak the bot's reply in chunks when the Speak button is clicked
+      function speakReply(replyText) {
+        if (currentUtterance) {
+          // If there's an ongoing speech, cancel it before starting a new one
+          speechSynthesis.cancel();
+        }
+  
+        // Split the text into smaller chunks for pausing and resuming
+        speechQueue = splitTextIntoChunks(replyText);
+  
+        // Start speaking the first chunk
+        speakNextChunk();
+      }
+  
+      // Function to split text into manageable chunks
+      function splitTextIntoChunks(text) {
+        const maxChunkLength = 200; // Maximum length of each chunk
+        let chunks = [];
+        let startIndex = 0;
+  
+        while (startIndex < text.length) {
+          let chunk = text.slice(startIndex, startIndex + maxChunkLength);
+          chunks.push(chunk);
+          startIndex += maxChunkLength;
+        }
+  
+        return chunks;
+      }
+  
+      // Function to speak the next chunk from the queue
+      function speakNextChunk() {
+        if (speechQueue.length === 0) return;  // No more chunks to speak
+  
+        const chunk = speechQueue.shift();  // Get the first chunk
+        currentUtterance = new SpeechSynthesisUtterance(chunk);
+        
+        currentUtterance.onend = function() {
+          // Once the chunk finishes, speak the next chunk
+          if (speechQueue.length > 0) {
+            speakNextChunk();
+          }
+        };
+  
+        speechSynthesis.speak(currentUtterance);
+      }
+  
+      // Event listener for the Send button (using ID)
+      document.getElementById("send-btn").addEventListener("click", function() {
+        getUserResponse();  // Send the user's message and get the bot's response
+      });
+  
+      // Submit on Enter key (without Shift)
+      $('.messageInput').keypress(function(e) {
+        if (e.which === 13 && !e.shiftKey) {
+          e.preventDefault(); // Avoid newline
+          getUserResponse();
+        }
+      });
+  
+      // Event listener for Speak buttons (when bot responds)
+      $('#chatbott').on('click', '.speak-btn', function() {
+        const messageText = $(this).prev('span').text().replace("Bot: ", "");
+        speakReply(messageText);  // Speak the bot's response
+      });
+  
+      // Event listener for Pause button
+      $('#chatbott').on('click', '.pause-btn', function() {
+        if (speechSynthesis.speaking) {
+          speechSynthesis.pause();  // Pause the speech
+          isPaused = true;  // Mark as paused
+        }
+      });
+  
+      // Optional: Event listener for Resume button (you can add a resume button if needed)
+      $('#chatbott').on('click', '.resume-btn', function() {
+        if (speechSynthesis.paused) {
+          speechSynthesis.resume();  // Resume the speech
+          isPaused = false;  // Mark as not paused
+        }
+      });
+  
+      // Optional: Automatically focus on the input field when page loads
+      window.onload = function() {
+        document.querySelector(".user-input").focus();
+      };
+    </script>
+
+
+
+
+    <script>
+      function setInputValue1()
+      {
+        var recommended= document.getElementById('messageInput');
+        recommended.value = "How to enroll?";
+      
+      
+      }
+      function setInputValue2()
+      {
+        var recommended= document.getElementById('messageInput');
+        recommended.value = "Who are you";
+      
+      
+      }
+      
+      </script>
+    
+        
+
+
+<!-- id="delete-btn" -->
+
+
+        </div
+        >
+        </section>
+        <!--
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+-->
+</body>
+<footer>
+  <style>
+    .butn {
+      border-radius: 4px;
+      height: 34px;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      -webkit-transition : all 200ms linear;
+      transition: all 200ms linear;
+      padding: 0 30px;
+      letter-spacing: 1px;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      align-items: center;
+      background-color: #ffeba7;
+      color: #000000;
+    }
+     input::file-selector-button {
+    font-weight: bold;
+    background-color: #ffeba7;
+        color: #000000;
+    border-radius: 20px;
+    padding: 5px 18px;
+    cursor:pointer;
+    
+  }
+  input[type="file"] {
+    
+    color:  var(--text-color);
+  }
+     #display_image {
+    margin-top: 20px;
+    width: 250px;
+    height: 231px;
+    border: 1px solid var(--placeholder-color);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+    .overlay {
+			position: fixed;
+			display: none;
+      opacity: 0;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.8);
+     
+}
+.show {
+			display: flex;
+      opacity: 1;
+      transition: opacity 1s linear;
+}
+.wrapper2 {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			width: 650px;
+			height: 450px;
+      padding-top: 50px;
+			background: var(--sidebar-color);
+      
+			border: 0;
+}
+.text2 {
+			height: 100%;
+			background: var(--sidebar-color);
+			border: none;
+      display: flex;
+      justify-content: center;
+			padding: 0 40px 30px 60px;
+      
+			overflow-y: auto;
+}
+.close2{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  right: 0;
+  background: #f00;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  cursor: pointer;
+}
+.modal-bottom {
+  position: absolute;
+  width: calc(100% - 17px);
+  bottom: 0;
+  height: 50px;
+  background: var(--sidebar-color);
+}
+  </style>
+  <script>
+    
+        const image_input = document.querySelector("#image_input");
+
+image_input.addEventListener("change", function () {
+  const reader = new FileReader();
+  reader.addEventListener("load", () => {
+    const uploaded_image = reader.result;
+    document.querySelector("#display_image").style.backgroundImage = `url(${uploaded_image})`;
+  });
+  reader.readAsDataURL(this.files[0]);
+});
+      
+  </script>
+  <script>
+    const modalLink = document.querySelector('#modal');
+const overlay = document.querySelector('.overlay');
+const closeBtn = document.querySelector('.close2');
+
+modalLink.addEventListener('click', e => {
+  // overlay.style.display = 'flex';
+  overlay.classList.add('show');
+});
+
+closeBtn.addEventListener('click', e => {
+  // overlay.style.display = 'none';
+  overlay.classList.remove('show');
+});
+  </script>
+<script>
+  const event = new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', which: 13, keyCode: 13, });
+</script>
+  {% include 'pages/botFooter.html' %}
+   
+  <script type="text/javascript">
+    var loader = document.getElementById("preloader");
+  
+    window.addEventListener("load", function(){
+      loader.style.display = "none";
+    })
+  </script>
+
+</footer>
+{% endif %}
+

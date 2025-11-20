@@ -1,0 +1,151 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sting <></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="{% static '/css/navbar.css' %}">
+    <link rel="stylesheet" href="{% static '/css/chatbot.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="images/x-icon" href="{% static '/images/bigsting.png' %}">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Luckiest+Guy&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+
+<!-------------------------------------------------------------------------------------------------->   
+<!-------------------------------------------------------------------------------------------------->
+<!-- PRELOADER AND ANIMATION SCROLLING EFFECT // PreScrolling.css -->
+    <style>
+      .reveal {
+        position: relative;
+        transform: translateX(150px);
+        opacity: 0;
+        transition: 1s all ease;
+      }
+
+      .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+     
+
+/* Medium screens */
+@media (max-width: 900px) {
+  #preloader {
+    background-size: 30vw;
+  }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  #preloader {
+    background-size: 40vw;
+  }
+}
+
+
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: var(--sidebar-color);
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: var(--text-color);
+        border-radius: 8px;
+      }
+
+      @media only screen and (max-width: 900px) {
+        #preloader {
+          background-size: 71%;
+        }
+      }
+
+      @media only screen and (max-width: 650px) {
+        #preloader {
+          background-size: 81%;
+        }
+      }
+
+      /* Old background preloader commented out:
+      #preloader {
+        background: #1B1A2F url({% static 'images/loadc.gif' %}) no-repeat center center;
+        background-size: 35%;
+        width: 100%;
+        height: 110vh;
+        z-index: 9999;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      */
+    </style>
+    <!-------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------->
+  </head>
+
+  <div id="preloader"></div>
+
+  <html>
+    <body>
+      {% block content %}
+        {#sting#}
+      {% endblock %}
+    </body>
+
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/KVbrHTRxgsk?si=0HSX5rKM2l8cG2DM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    
+    
+  </html>
+    <!-------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------->
+    <!--preLoadeR.css-->
+
+    <!-------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------->
+ 
+
+
+ 
+ 
+    <!-------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------->
+      <!--scrollinG.js-->
+  <script>
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+
+    window.addEventListener("scroll", reveal);
+  </script>
+    <!-------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------->

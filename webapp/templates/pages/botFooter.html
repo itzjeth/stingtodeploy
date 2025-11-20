@@ -1,0 +1,226 @@
+{% load static %}
+<footer>
+
+<link rel="stylesheet" href="{% static 'css/botStyle.css'%}">
+<link rel="stylesheet" href="{% static 'css/typingStyle.css'%}">
+
+<script src="{% static 'javascript/mainBot.js'%}"></script>
+<script src="{% static 'javascript/sideBar.js'%}"></script>
+<script src="{% static 'javascript/closeSidebar.js'%}"></script>
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+<!------------------------------------------------------------------------------>
+<!-- chatBotWholeMain.js -->
+<script>
+let currentUtterance = null;
+let speechQueue = [];
+let isPaused = false;
+
+function getUserResponse() {
+  var userText = $('.messageInput').val().trim();
+  if (userText === "") return;
+
+  var userHTML = `
+    <p class='userText' style='text-align: justify; text-justify: inter-word; margin-right: auto; margin-left: auto;'>
+      <img src="{{ request.session.user_image|default:'/media/profile_images/default.png' }}" alt="" width="45" height="40" style="border-radius: 50%; transform: scale(0.9);">
+      :<span class="typing" style="background-color: var(--incoming-chat-border);padding: 10px; border-radius: 10px;">${userText}</span>
+    </p>`;
+  $('.messageInput').val("");
+  $('#chatbott').append(userHTML);
+  $('#chatbot-history').append(userText + "\n\n");
+
+  $('#loading').show();
+
+  $.get('/webapp/getResponse', { userMessage: userText }).done(function(data) {
+    $('#loading').hide();
+
+    var returnedMessage = `
+      <p class='botText' style='text-align: justify; text-justify: inter-word; margin-right: auto; margin-left: auto;'>
+        <img src="{% static 'images/stingcya2.png' %}" alt="" width="55" height="40" style="border-radius: 50%; transform: scale(0.7);">
+        <span class="typing" style="background-color: var(--incoming-chat-border);  padding: 10px; border-radius: 10px;">${data}<br></span>
+        <button class="speak-btn" style="background: var(--sidebar-color); color: var(--text-color);">
+          <span class="material-icons">volume_up</span>
+        </button>
+        <button class="pause-btn" style="background: var(--sidebar-color); color: var(--text-color);">
+          <span class="material-icons">pause</span>
+        </button>
+      </p>`;
+    $('#chatbott').append(returnedMessage);
+    document.querySelector(".chat-log").scrollTop = document.querySelector(".chat-log").scrollHeight;
+  });
+}
+
+function speakReply(replyText) {
+  if (currentUtterance) speechSynthesis.cancel();
+  speechQueue = splitTextIntoChunks(replyText);
+  speakNextChunk();
+}
+
+function splitTextIntoChunks(text) {
+  const maxChunkLength = 200;
+  let chunks = [];
+  let startIndex = 0;
+  while (startIndex < text.length) {
+    chunks.push(text.slice(startIndex, startIndex + maxChunkLength));
+    startIndex += maxChunkLength;
+  }
+  return chunks;
+}
+
+function speakNextChunk() {
+  if (speechQueue.length === 0) return;
+  const chunk = speechQueue.shift();
+  currentUtterance = new SpeechSynthesisUtterance(chunk);
+  currentUtterance.onend = function() {
+    if (speechQueue.length > 0) speakNextChunk();
+  };
+  speechSynthesis.speak(currentUtterance);
+}
+
+document.getElementById("send-btn").addEventListener("click", function() {
+  getUserResponse();
+});
+
+$('.messageInput').keypress(function(e) {
+  if (e.which === 13 && !e.shiftKey) {
+    e.preventDefault();
+    getUserResponse();
+  }
+});
+
+$('#chatbott').on('click', '.speak-btn', function() {
+  const messageText = $(this).prev('span').text().replace("Bot: ", "");
+  speakReply(messageText);
+});
+
+$('#chatbott').on('click', '.pause-btn', function() {
+  if (speechSynthesis.speaking) {
+    speechSynthesis.pause();
+    isPaused = true;
+  }
+});
+
+$('#chatbott').on('click', '.resume-btn', function() {
+  if (speechSynthesis.paused) {
+    speechSynthesis.resume();
+    isPaused = false;
+  }
+});
+
+window.onload = function() {
+  document.querySelector(".user-input").focus();
+};
+</script>
+
+<!------------------------------------------------------------------------------>
+<!-- suggestionQuestion.js -->
+<script>
+const suggestionsList = [
+
+  "What are the basic enrollment requirements",
+  "Is Formal 138 required",
+  "Is PSA Birth Certificate required",
+  "Is Good Moral required",
+  "Is ID picture required",
+  "What are the requirements for Transferees",
+  "Is Honorable Dismissal required",
+  "is TOR required",
+  "What are the requirements for Shifters-students",
+  "What are the requirements for Foreign Students",
+  "Is Medical Certificate required",
+  "What are the requirements for Returning students",
+  "What are the requirements for Second Courser students",
+  "What is the mininum grade required",
+  
+
+
+
+
+
+ 
+  "LAST"
+];
+
+document.querySelectorAll('.search-containers').forEach(container => {
+  const textarea = container.querySelector('.search-box');
+  const suggestBox = container.querySelector('.suggest-box');
+
+  textarea.addEventListener('input', () => {
+    const query = textarea.value.trim().toLowerCase();
+    if (!query) {
+      suggestBox.style.display = 'none';
+      return;
+    }
+
+    const matches = suggestionsList.filter(item =>
+      item.toLowerCase().startsWith(query)
+    );
+
+    if (matches.length > 0) {
+      suggestBox.innerHTML = matches
+        .map(item => `<div class="suggestion-item" style="color: var(--text-color);">${item}</div>`)
+        .join('');
+      suggestBox.style.display = 'block';
+    } else {
+      suggestBox.style.display = 'none';
+    }
+  });
+
+  suggestBox.addEventListener('click', (e) => {
+    if (e.target.classList.contains('suggestion-item')) {
+      textarea.value = e.target.textContent;
+      suggestBox.style.display = 'none';
+      getUserResponse(); 
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!container.contains(e.target)) {
+      suggestBox.style.display = 'none';
+    }
+  });
+});
+</script>
+
+<!------------------------------------------------------------------------------>
+<!-- ImageInput.js -->
+<script>
+const image_input = document.querySelector("#image_input");
+if (image_input) {
+  image_input.addEventListener("change", function () {
+    const reader = new FileReader();
+    reader.addEventListener("load", () => {
+      const uploaded_image = reader.result;
+      document.querySelector("#display_image").style.backgroundImage = `url(${uploaded_image})`;
+    });
+    reader.readAsDataURL(this.files[0]);
+  });
+}
+</script>
+
+<!------------------------------------------------------------------------------>
+<!-- Preloader.js -->
+<script type="text/javascript">
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+  loader.style.display = "none";
+});
+</script>
+
+<!------------------------------------------------------------------------------>
+<!-- ✅ NEW: Delete Chat History Button Function -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const deleteBtn = document.getElementById("new-chat-button");
+  if (deleteBtn) {
+    deleteBtn.addEventListener("click", function() {
+      if (confirm("Are you sure you want to clear the chat?")) {
+        const chatContainer = document.getElementById("chatbott");
+        if (chatContainer) chatContainer.innerHTML = "";
+      }
+    });
+  }
+});
+</script>
+
+</footer>

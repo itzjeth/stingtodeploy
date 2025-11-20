@@ -1,0 +1,43 @@
+
+#chatbot {
+   margin-right: auto;
+   margin-left: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.botText {
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(109,111,109);
+}
+#userInput {
+   
+    width: 70%;
+    text-align: center;
+    
+}
+#textInput {
+    border: 3px solid white;
+    border-bottom: 3px solid black;
+    font-family: monospace;
+    font-size: 14px;
+    width: 60%;
+    padding: 16px;
+    color: lime;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.userText{
+    
+    font-family: monospace;
+    font-size: 14px;
+    color: black;
+    line-height: 25px;
+}

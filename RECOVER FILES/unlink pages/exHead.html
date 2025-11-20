@@ -1,0 +1,401 @@
+{% load static %}
+<head>
+    {% include 'pages/navbar.html' %}
+</head>
+
+<link rel="stylesheet" href="{% static '/css/mainto.css'%}" media="all" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            
+            #preloader { background: whitesmoke url({% static '/images/zsting.gif'%}) no-repeat center center; background-size: 30%; width: 100%; height: 110vh; position: fixed; z-index: 100; margin-top: -15vh;}
+       ::-webkit-scrollbar { width: 8px;}
+     
+     ::-webkit-scrollbar-track { background-color: transparent; }
+     
+     ::-webkit-scrollbar-thumb { background: linear-gradient(to left, #00FF00 5%, #00FFFF 100%); border-radius: 8px; }
+     @media only screen and (max-width: 1150px) {
+     
+       #preloader { transform:scale(1.8); }
+     
+     }
+       </style>     
+
+
+
+
+
+
+
+
+<link rel='stylesheet' id='education-base-style-css' href='https://cvsu.edu.ph/wp-content/themes/education-base/style.css?ver=1.4.4' type='text/css' media='all' />
+
+<link rel='stylesheet' id='adswscCSS-css' href='https://cvsu.edu.ph/wp-content/plugins/ads-wp-site-count/css/styles.css?ver=6.4.3' type='text/css' media='all' />
+		<script type="text/javascript">
+			ajaxurl = typeof(ajaxurl) !== 'string' ? 'index.html' : ajaxurl;
+		</script>
+		<script type="text/javascript" src="https://cvsu.edu.ph/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://cvsu.edu.ph/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://cvsu.edu.ph/wp-content/plugins/wp-charts-and-graphs/assets/js/pantherius_wp_charts.js?ver=1.2" id="pantherius_wp_charts_script-js"></script>
+<script type="text/javascript" id="anc-6310-ajax-script-js-extra">
+/* <![CDATA[ */
+var anc_6310_ajax_object = {"anc_6310_ajax_url":"index.html"};
+/* ]]> */
+</script>
+<style>
+
+.module__wrapper {
+  display: flex;
+}
+.module__wrapper__seal {
+  background: #000080;
+  min-width: 610px;
+  height: 100vh;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+          clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+}
+.module__wrapper__seal::before {
+  content: "";
+  position: absolute;
+ 
+  width: 595px;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+          clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+}
+.module__wrapper__seal__fixed {
+  position: fixed;
+  width: 580px;
+  height: 100%;
+  background: url(../images/bacoor.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+          clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+}
+.module__wrapper__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.module__wrapper__form__header {
+  position: relative;
+  height: 110px;
+  width: 100%;
+  background: #000080;
+  -webkit-clip-path: polygon(50% 100%, 100% 50%, 100% 0, 0 0, 0 50%);
+          clip-path: polygon(50% 100%, 100% 50%, 100% 0, 0 0, 0 50%);
+  display: none;
+}
+.module__wrapper__form__header::before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100%;
+
+  -webkit-clip-path: polygon(50% 100%, 100% 50%, 100% 0, 0 0, 0 50%);
+          clip-path: polygon(50% 100%, 100% 50%, 100% 0, 0 0, 0 50%);
+}
+.module__wrapper__form__header__border {
+  text-align: center;
+  height: 90px;
+  width: 100%;
+  background: url(../images/bacoor.jpg) center no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(50% 100%, 100% 50%, 100% 0, 0 0, 0 50%);
+          clip-path: polygon(50% 100%, 100% 50%, 100% 0, 0 0, 0 50%);
+  padding: 5px 0;
+}
+.module__wrapper__form__header__border img {
+  width: 75px;
+}
+.module__wrapper__form__content {
+  width: min(100%, 550px);
+  padding-inline: 15px;
+}
+.module__wrapper__form__content__title {
+  font-size: 1.5rem;
+  width: min(100%, 290px);
+  padding-left: 10px;
+  position: relative;
+  line-height: 1.1;
+}
+.module__wrapper__form__content__title::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: #000080;
+  left: 0;
+}
+.module__wrapper__form__content__p {
+  text-align: center;
+  margin-top: 100px;
+}
+#calendar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  font-family: "Lato", sans-serif;
+}
+#calendar_weekdays div {
+  display: inline-block;
+  vertical-align: top;
+}
+#calendar_content,
+#calendar_weekdays,
+#calendar_header {
+  position: relative;
+  width: 320px;
+  overflow: hidden;
+  float: left;
+  z-index: 10;
+}
+
+#calendar_weekdays div,
+#calendar_content div {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  text-align: center;
+ 
+  color: #787878;
+}
+#calendar_content {
+  -webkit-border-radius: 0px 0px 12px 12px;
+  -moz-border-radius: 0px 0px 12px 12px;
+  border-radius: 0px 0px 12px 12px;
+}
+#calendar_content div {
+  float: left;
+}
+#calendar_content div:hover {
+  background-color: #F8F8F8;
+}
+#calendar_content div.blank {
+  background-color: #E8E8E8;
+}
+#calendar_header,
+#calendar_content div.today {
+  zoom: 1;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+#calendar_content div.today {
+  color: #FFFFFF;
+}
+#calendar_header {
+  width: 100%;
+  height: 37px;
+  text-align: center;
+  background-color: #000080;
+  padding: 18px 0;
+  -webkit-border-radius: 12px 12px 0px 0px;
+  -moz-border-radius: 12px 12px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
+}
+#calendar_header h1 {
+  font-size: 1.5em;
+  color: #FFFFFF;
+  float: left;
+  width: 70%;
+}
+i[class^="icon-chevron"] {
+  color: #FFFFFF;
+  float: left;
+  width: 15%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 1024px) {
+  .module__wrapper__seal {
+    min-width: 510px;
+  }
+  .module__wrapper__seal::before {
+    width: 495px;
+  }
+  .module__wrapper__seal__fixed {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .module__wrapper__seal {
+    display: none;
+  }
+  .module__wrapper__form {
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+  .module__wrapper__form__header {
+    display: block;
+  }
+}
+
+</style>
+
+
+
+<style>
+    .searchwp-modal-form {
+        display: none;
+    }
+    .searchwp-modal-form.is-open {
+        display: block;
+    }
+	/* ************************************
+	 *
+	 * 1) Overlay and container positioning
+	 *
+	 ************************************ */
+	.searchwp-modal-form-default .searchwp-modal-form__overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 9999990;
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__container {
+		width: 100%;
+		max-width: 500px;
+		max-height: 100vh;
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__content {
+		overflow-y: auto;
+		box-sizing: border-box;
+		position: relative;
+		z-index: 9999998;
+	}
+    .searchwp-modal-form-default .searchwp-modal-form__close {
+        display: block;
+    }
+    .searchwp-modal-form-default .searchwp-modal-form__close:before {
+        content: "\00d7";
+    }
+	/* **************************************
+	 *
+	 * 2) WordPress search form customization
+	 *
+	 ************************************** */
+    .searchwp-modal-form-default .searchwp-modal-form__overlay {
+        background: rgba(45, 45, 45 ,0.6);
+    }
+    .searchwp-modal-form-default .searchwp-modal-form__content {
+        background-color: #212b2a;
+        padding: 2em;
+        border-radius: 2px;
+    }
+	.searchwp-modal-form-default .searchwp-modal-form__content .search-form {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__content .search-form label {
+		flex: 1;
+		padding-right: 0.75em; /* This may cause issues depending on your theme styles. */
+		/* Some common resets */
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__content .search-form label input {
+		display: block;
+		width: 100%;
+		margin-left: 0.75em;
+		/* Some common resets */
+		float: none;
+		margin: 0;
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__footer {
+		padding-top: 1em;
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__close {
+        line-height: 1em;
+		background: transparent;
+		padding: 0.4em 0.5em;
+        border: 0;
+        margin: 0 auto;
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__close:before {
+		font-size: 2em;
+	}
+	/* ******************************************
+	 *
+	 * 3) Animation and display interaction setup
+	 *
+	 ***************************************** */
+	@keyframes searchwpModalFadeIn {
+		from { opacity: 0; }
+		to { opacity: 1; }
+	}
+	@keyframes searchwpModalFadeOut {
+		from { opacity: 1; }
+		to { opacity: 0; }
+	}
+	@keyframes searchwpModalSlideIn {
+		from { transform: translateY(15%); }
+		to { transform: translateY(0); }
+	}
+	@keyframes searchwpModalSlideOut {
+		from { transform: translateY(0); }
+		to { transform: translateY(-10%); }
+	}
+	.searchwp-modal-form[aria-hidden="false"] .searchwp-modal-form-default .searchwp-modal-form__overlay {
+		animation: searchwpModalFadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+	}
+	.searchwp-modal-form[aria-hidden="false"] .searchwp-modal-form-default .searchwp-modal-form__container {
+		animation: searchwpModalSlideIn .3s cubic-bezier(0, 0, .2, 1);
+	}
+	.searchwp-modal-form[aria-hidden="true"] .searchwp-modal-form-default .searchwp-modal-form__overlay {
+		animation: searchwpModalFadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+	}
+	.searchwp-modal-form[aria-hidden="true"] .searchwp-modal-form-default .searchwp-modal-form__container {
+		animation: searchwpModalSlideOut .3s cubic-bezier(0, 0, .2, 1);
+	}
+	.searchwp-modal-form-default .searchwp-modal-form__container,
+	.searchwp-modal-form-default .searchwp-modal-form__overlay {
+		will-change: transform;
+	}
+    </style>
+        </div>
+		
+        <script>
+          function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+        
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+        }
+        
+        window.addEventListener("scroll", reveal);    
+        </script>    
+      
+
+
+<script type="text/javascript" src="https://cvsu.edu.ph/wp-content/plugins/gutentor/assets/library/wow/wow.min.js?ver=1.2.1" id="wow-js"></script>
+<script type="text/javascript" src="https://cvsu.edu.ph/wp-content/themes/education-base/assets/library/magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0" id="magnific-popup-js-js"></script>
+<script type="text/javascript" src="https://cvsu.edu.ph/wp-content/themes/education-base/assets/js/education-base-custom.js?ver=1.4.6" id="education-base-custom-js"></script>
+
+
+
+
+<script type="text/javascript" src="https://cvsu.edu.ph/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.15.1" id="smush-lazy-load-js"></script>
+
+
+

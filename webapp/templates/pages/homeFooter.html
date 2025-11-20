@@ -1,0 +1,107 @@
+{% load static %}
+
+
+<script src="{% static '/javascript/faq.js'%}"></script>
+<script src="{% static 'javascript/track.js'%}" async></script>
+
+<script src="{%static '/javascript/main.min.js'%}"></script>
+<script async defer src="{% static '/javascript/blog.js' %}"></script>
+<script async defer src="{% static '/javascript/blogapp.js' %}"></script>
+
+<script src="{% static 'javascript/validateEmail.js'%}"></script>
+<script src="{% static 'javascript/openEye.js'%}"></script>
+<script src="{% static 'javascript/alertForm.js'%}"></script>
+<script src="{% static 'javascript/DOMuser.js'%}"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<!------------------------------------------------------------------------------>
+
+
+
+<center>
+  {% if alert == 'success' %}
+  <!-- LoginFormAlertSuccess.js -->
+    <script>
+      Swal.fire({
+        title: 'Success!',
+        text: 'Your request has been successfully submitted.',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      });
+    </script>
+  {% elif alert == 'error' %}
+   <!-- LoginFormAlertFailed.js -->
+    <script>
+      Swal.fire({
+        title: 'Oops!',
+        text: 'There was an error. Please try again.',
+        icon: 'error',
+        confirmButtonText: 'OK'
+      });
+    </script>
+  {% endif %}
+</center>
+
+
+
+
+<!------------------------------------------------------------------------------>
+
+
+<style>
+   ::placeholder{
+     font-size: 17px;
+     color: var(--toggle-color);
+ }
+</style>
+
+
+<!------------------------------------------------------------------------------>
+<script>
+    const modalLink = document.querySelector('#modal');
+    const overlay = document.querySelector('.overlay2');
+    const closeBtn = document.querySelector('.close2');
+    
+    modalLink.addEventListener('click', e => {
+      // overlay.style.display = 'flex';
+      overlay.classList.add('show');
+    });
+    
+    closeBtn.addEventListener('click', e => {
+      // overlay.style.display = 'none';
+      overlay.classList.remove('show');
+    });
+      </script>
+
+<!------------------------------------------------------------------------------>
+
+<script>
+  // Get elements
+  const userStatus = document.getElementById("user_status");
+  const userInput = document.getElementById("user");
+  const emailInput = document.getElementById("email");
+
+  // Function to update placeholders
+  function updatePlaceholders() {
+    const status = userStatus.value;
+
+    if (status === "student") {
+      userInput.placeholder = "Enter your student number";
+      emailInput.placeholder = "Enter your student email";
+    } else if (status === "teacher") {
+      userInput.placeholder = "Enter your full name - Teacher";
+      emailInput.placeholder = "Enter your email";
+    } else if (status === "visitor") {
+      userInput.placeholder = "Enter your full name - Visitor";
+      emailInput.placeholder = "Enter your email";
+    }
+  }
+
+  // Update on page load (to match the default selected option)
+  updatePlaceholders();
+
+  // Update when dropdown value changes
+  userStatus.addEventListener("change", updatePlaceholders);
+</script>

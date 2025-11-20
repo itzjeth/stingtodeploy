@@ -1,0 +1,91 @@
+
+    .form_name,
+    .form_group {
+        color: white;
+    }
+    
+    .contact-area{
+    
+    color: white;
+    }
+    p, .u-text {
+        color: #8a94a7;
+    }
+ 
+ 
+
+    
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.box:hover {
+  animation-play-state: paused;
+}
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+.contact-area .form-control{
+   
+  box-shadow: none;
+  padding: 6px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: var(--toggle-color);
+  background: var(--incoming-chat-bg);
+  border: 1px solid var(--incoming-chat-border);
+  /*
+--border-angle: 0turn;
+--main-bg: conic-gradient(from var(--border-angle), #213, #112 5%, #112 60%, #213 95%);
+border: solid 2px transparent;
+border-radius: 2em;
+--gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #08f, #f03 99%, transparent);
+background: var(--main-bg) padding-box, var(--gradient-border) border-box, var(--main-bg) border-box;
+*/
+background-position: center center;
+animation: bg-spin 3s linear infinite;
+}
+
+
+    .contact-area textarea.form-control{
+    padding: 6px;
+    height: 250px;
+    margin-bottom: 30px;
+    color: var(--toggle-color);
+    background: var(--incoming-chat-bg);
+  border: 1px solid var(--incoming-chat-border);
+    text-shadow: 0 1px 0 #000;
+    /*
+  --border-angle: 0turn;
+  --main-bg: conic-gradient(from var(--border-angle), #213, #112 5%, #112 60%, #213 95%);
+  border: solid 2px transparent;
+  border-radius: 1em;
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #08f, #f03 99%, transparent);
+  background: var(--main-bg) padding-box, var(--gradient-border) border-box, var(--main-bg) border-box;
+  */
+  background-position: center center;
+  animation: bg-spin 3s linear infinite;
+}
+
+    .btn.btn-send {
+    background: black;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 11px 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    }
+
+    
+     
+  
+ 
+
+    
+
+    

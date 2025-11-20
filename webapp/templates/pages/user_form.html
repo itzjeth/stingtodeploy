@@ -1,0 +1,65 @@
+{% extends "pages/base.html" %}
+{% load widget_tweaks %}
+{% block title %}{{ form.instance.pk|yesno:"Edit User,Add User" }}{% endblock %}
+{% load static %}
+{% block content %}
+<div class="d-flex justify-content-center align-items-center" style="min-height: 70vh;">
+    <div class="card p-5 shadow-lg" style="width: 100%; max-width: 480px; border-radius: 16px;">
+        <h3 class="text-center mb-4">{{ form.instance.pk|yesno:"Edit User,Add User" }}</h3>
+
+        <!-- Profile Image Preview -->
+        <div class="text-center mb-3">
+            {% if form.instance.userImage %}
+            <img id="imagePreview" 
+                 src="{{ form.instance.userImage.url }}" 
+                 alt="Profile Image Preview" 
+                 class="rounded-circle shadow-sm"
+                 style="width: 120px; height: 120px; object-fit: cover;">
+        {% else %}
+            <img id="imagePreview" 
+                 src="{% static 'images/default.png' %}" 
+                 alt="Profile Image Preview" 
+                 class="rounded-circle shadow-sm"
+                 style="width: 120px; height: 120px; object-fit: cover;">
+        {% endif %}
+        </div>
+
+        <form method="post" enctype="multipart/form-data" novalidate>
+            {% csrf_token %}
+            {% for field in form %}
+                <div class="mb-3">
+                    <label for="{{ field.id_for_label }}" class="form-label fw-semibold">{{ field.label }}</label>
+
+                    {% if field.name == "userImage" %}
+                        {{ field|add_class:"form-control form-control-md rounded-3 shadow-sm" }}
+                    {% else %}
+                        {{ field|add_class:"form-control form-control-md rounded-3 shadow-sm" }}
+                    {% endif %}
+
+                    {% if field.errors %}
+                        <div class="text-danger small mt-1">{{ field.errors|join:", " }}</div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success btn-lg rounded-3 shadow-sm">💾 Save</button>
+                <a href="{% url 'user_list' %}" class="btn btn-outline-secondary btn-lg rounded-3">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Live Image Preview Script -->
+<script>
+    const fileInput = document.getElementById("id_userImage");
+    const preview = document.getElementById("imagePreview");
+
+    fileInput.addEventListener("change", function() {
+        const file = this.files[0];
+        if (file) {
+            preview.src = URL.createObjectURL(file);
+        }
+    });
+</script>
+{% endblock %}

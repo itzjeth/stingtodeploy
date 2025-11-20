@@ -1,0 +1,370 @@
+{% load static %}
+<head>
+  <title>Sting <></title>
+  <link rel="stylesheet" href="{% static 'css/editProfile.css' %}">
+  <link rel="icon" type="images/x-icon" href="{% static '/images/bigsting.png'%}">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="top-buttons">
+    <a class="action-btn" href="{% url 'chatbot' %}">
+      <i class="bx bx-arrow-back"></i>
+      <span>Go Back</span>
+    </a>
+
+    <a class="action-btn" href="{% url 'logout' %}">
+      <i class="bx bx-log-out"></i>
+      <span>Log Out</span>
+    </a>
+  </div>
+
+  <div class="container">
+    <h2>Edit Your Profile</h2>
+
+   <div class="profile-image-container">
+  <div class="profile-image">
+    <img id="preview-image" src="{{ user.userImage.url|default:'/media/profile_images/default.png' }}" alt="Profile Image">
+  </div>
+ 
+</div>
+
+
+    <form method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+      {% csrf_token %}
+
+      <div class="form-group">
+        <label for="userName">Name</label>
+        <input type="text" name="userName" id="userName" value="{{ user.userName }}" required>
+      </div>
+
+      <div class="form-group"> 
+  <label for="userImage">Change Profile Image</label>
+  <div class="file-input-wrapper">
+    <input type="file" name="userImage" id="userImage" accept="image/*" onchange="previewImage(event)">
+    <button type="button" id="remove-image" class="remove-btn" onclick="removeImage()">✖</button>
+  </div>
+</div>
+
+
+      <!-- 🔑 Password Fields -->
+      <div class="form-group password-group">
+        <label for="new_password">New Password</label>
+        <div class="password-wrapper">
+          <input type="password" name="new_password" id="new_password" placeholder="Enter new password">
+          <i class="bx bx-low-vision toggle-password" onclick="togglePassword('new_password', this)"></i>
+        </div>
+        <div class="password-strength-bar">
+          <div id="strength-bar-fill"></div>
+        </div>
+        <small id="password-strength" class="warning-text"></small>
+      </div>
+
+      <div class="form-group password-group">
+        <label for="confirm_password">Confirm Password</label>
+        <div class="password-wrapper">
+          <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm new password">
+          <i class="bx bx-low-vision toggle-password" onclick="togglePassword('confirm_password', this)"></i>
+        </div>
+        <small id="password-warning" class="warning-text"></small>
+      </div>
+
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+{% include 'pages/loader.html' %}
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  {% if messages %}
+  <script>
+    {% for message in messages %}
+      Swal.fire({
+        icon: '{% if "error" in message.tags %}error{% else %}success{% endif %}',
+        title: "{{ message|escapejs }}",
+        showConfirmButton: false,
+        timer: 2000,
+        position: 'top-end',
+        toast: true
+      });
+    {% endfor %}
+  </script>
+  {% endif %}
+
+  <style>
+    .file-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between input and X */
+}
+
+.file-input-wrapper input[type="file"] {
+  flex: 1;
+}
+
+.remove-btn {
+  
+  color: red;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  cursor: pointer;
+  display: none; /* hidden until file selected */
+  line-height: 12px;
+  text-align: center;
+  padding: 0;
+}
+
+
+
+    .profile-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-image img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #d1d5db;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.remove-btn {
+  background-color: #dc2626; /* red */
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+  display: none; /* hidden until image changes */
+}
+
+.remove-btn:hover {
+  background-color: #b91c1c;
+}
+
+
+    .password-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .password-wrapper input {
+      width: 100%;
+      padding: 10px 40px 10px 10px;
+      border: 0.3px solid #d1d5db;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    .toggle-password {
+      position: absolute;
+      right: 12px;
+      cursor: pointer;
+      font-size: 20px;
+      color: #666;
+      transition: color 0.2s;
+    }
+
+    .toggle-password:hover {
+      color: #000;
+    }
+
+    .warning-text {
+      font-size: 14px;
+      margin-top: 4px;
+      display: block;
+    }
+
+    .password-strength-bar {
+      width: 100%;
+      height: 8px;
+      background-color: #e5e7eb;
+      border-radius: 8px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+
+    #strength-bar-fill {
+      height: 100%;
+      width: 0%;
+      background-color: red;
+      border-radius: 8px;
+      transition: width 0.3s ease, background-color 0.3s ease;
+    }
+
+    .weak { color: red; }
+    .medium { color: orange; }
+    .strong { color: green; }
+  </style>
+
+  <script>
+const imageInput = document.getElementById('userImage');
+const removeBtn = document.getElementById('remove-image');
+const preview = document.getElementById('preview-image'); // optional if you want to reset preview
+
+function previewImage(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function() {
+    preview.src = reader.result; // preview image update
+    removeBtn.style.display = "inline-block"; // show X button
+  };
+  reader.readAsDataURL(file);
+}
+
+function removeImage() {
+  imageInput.value = ""; // clear file input
+  preview.src = "/media/profile_images/default.png"; // reset preview to default
+  removeBtn.style.display = "none"; // hide X button
+}
+
+  // Show or hide remove button on page load
+  window.addEventListener("load", function() {
+    if (preview.src.includes("default.png")) {
+      removeBtn.style.display = "none";
+    } else {
+      removeBtn.style.display = "inline-block";
+    }
+  });
+
+    // 👁️ Toggle password visibility
+    function togglePassword(fieldId, iconElement) {
+      const input = document.getElementById(fieldId);
+      if (input.type === "password") {
+        input.type = "text";
+        iconElement.classList.replace("bx-low-vision", "bx-show");
+      } else {
+        input.type = "password";
+        iconElement.classList.replace("bx-show", "bx-low-vision");
+      }
+    }
+
+    const newPassword = document.getElementById('new_password');
+    const confirmPassword = document.getElementById('confirm_password');
+    const warningText = document.getElementById('password-warning');
+    const strengthText = document.getElementById('password-strength');
+    const strengthBar = document.getElementById('strength-bar-fill');
+
+    newPassword.addEventListener('input', checkStrength);
+    confirmPassword.addEventListener('input', checkPasswords);
+
+    // 🔹 Password strength
+    function checkStrength() {
+      const value = newPassword.value.trim();
+      let strength = 0;
+
+      if (!value) {
+        strengthText.textContent = "";
+        strengthBar.style.width = "0%";
+        return;
+      }
+
+      if (value.length < 8) {
+        strengthText.textContent = "❌ Too short (min 8 characters)";
+        strengthText.className = "warning-text weak";
+        strengthBar.style.width = "25%";
+        strengthBar.style.backgroundColor = "red";
+        return;
+      }
+
+      if (/[A-Z]/.test(value)) strength++;
+      if (/[a-z]/.test(value)) strength++;
+      if (/\d/.test(value)) strength++;
+      if (/[\W_]/.test(value)) strength++;
+
+      if (strength <= 2) {
+        strengthText.textContent = "Weak password — try adding numbers or symbols.";
+        strengthText.className = "warning-text weak";
+        strengthBar.style.width = "35%";
+        strengthBar.style.backgroundColor = "red";
+      } else if (strength === 3) {
+        strengthText.textContent = "Medium password — you can make it stronger!";
+        strengthText.className = "warning-text medium";
+        strengthBar.style.width = "70%";
+        strengthBar.style.backgroundColor = "orange";
+      } else {
+        strengthText.textContent = "Strong password! ✅";
+        strengthText.className = "warning-text strong";
+        strengthBar.style.width = "100%";
+        strengthBar.style.backgroundColor = "green";
+      }
+
+      checkPasswords();
+    }
+
+    // 🔹 Password match
+    function checkPasswords() {
+      if (!confirmPassword.value) {
+        warningText.textContent = "";
+        return;
+      }
+
+      if (newPassword.value !== confirmPassword.value) {
+        warningText.textContent = "⚠️ Passwords do not match.";
+      } else {
+        warningText.textContent = "";
+      }
+    }
+
+    // 🔹 Validate form before submit
+    function validateForm() {
+      const value = newPassword.value.trim();
+      let strength = 0;
+
+      if (value.length < 8) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Password must be at least 8 characters!',
+          position: 'top-end',
+          toast: true,
+          timer: 2000,
+          showConfirmButton: false
+        });
+        return false;
+      }
+
+      if (/[A-Z]/.test(value)) strength++;
+      if (/[a-z]/.test(value)) strength++;
+      if (/\d/.test(value)) strength++;
+      if (/[\W_]/.test(value)) strength++;
+
+      if (strength <= 2) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Please choose a stronger password!',
+          text: 'Use uppercase letters, numbers, or symbols.',
+          position: 'top-end',
+          toast: true,
+          timer: 2500,
+          showConfirmButton: false
+        });
+        return false;
+      }
+
+      if (newPassword.value !== confirmPassword.value) {
+        warningText.textContent = "⚠️ Passwords do not match.";
+        confirmPassword.focus();
+        return false;
+      }
+
+      return true;
+    }
+  </script>
+</body>
+</html>

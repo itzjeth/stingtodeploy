@@ -1,0 +1,60 @@
+{% extends "pages/base.html" %}
+{% load widget_tweaks %}
+
+{% block title %}
+    {% if form.instance.pk %}Edit{% else %}Add{% endif %} Access Request
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center align-items-center" style="min-height: 70vh;">
+    <div class="card p-5 shadow-lg" style="width: 100%; max-width: 500px; border-radius: 16px;">
+        <h3 class="text-center mb-4">{% if form.instance.pk %}Edit{% else %}Add{% endif %} Access Request</h3>
+
+        <form method="post" novalidate id="reviewForm">
+            {% csrf_token %}
+            {% for field in form %}
+                <div class="mb-3 position-relative">
+                    <label for="{{ field.id_for_label }}" class="form-label fw-semibold">{{ field.label }}</label>
+
+                    {% if field.field.widget.input_type == "select" %}
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="bi bi-caret-down-fill"></i></span>
+                            {{ field|add_class:"form-select form-select-lg rounded-end shadow-sm" }}
+                        </div>
+                    {% else %}
+                        {{ field|add_class:"form-control form-control-lg rounded-3 shadow-sm" }}
+                    {% endif %}
+
+                    <div class="invalid-feedback">
+                        Please provide a valid {{ field.label|lower }}.
+                    </div>
+
+                    {% if field.errors %}
+                        <div class="text-danger small mt-1">{{ field.errors|join:", " }}</div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+
+            <div class="d-grid gap-2 mt-3">
+                <button type="submit" class="btn btn-success btn-lg rounded-3 shadow-sm">💾 Save</button>
+                <a href="{% url 'review_list' %}" class="btn btn-outline-secondary btn-lg rounded-3">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Optional JavaScript for real-time validation -->
+<script>
+document.getElementById('reviewForm').addEventListener('submit', function (event) {
+    let form = this;
+    if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    form.classList.add('was-validated');
+});
+</script>
+{% endblock %}

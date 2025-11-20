@@ -1,0 +1,56 @@
+
+{% load static %}
+
+    <head>
+        {% include 'pages/logHead.html' %}
+    </head>
+
+<body>
+   
+  <div class="container">
+      <div class="pic2"></div>
+      
+          <img src="{% static 'images/stingblack8.png'%}" alt="">
+              <h1>Log in To Continue</h1>
+              <form action="dologin" method="post">
+                {% csrf_token %}   
+          <div class="inp">
+              <input type="text" id="username" name="userId">
+              <label onclick="focusinp('usr')" for="Username">Username</label>
+          </div>
+          <br>
+      <div class="inp">
+          <input type="password" name="password" id="password" name="userpass">
+          <label onclick="focusinp('usr')" for="Password">Password</label>
+      </div>
+      <div style="display: flex; opacity: 0;">
+        <input type="radio" id="radio-one" name="type" value="User" checked="true"/>
+        <input type="radio" id="radio-two" name="type" value="Admin" />
+      </div>
+    </form>
+      <div style="display: flex;"><a href="">Forgot Password? - Support</a></div>
+      
+      <button id="loginn" type="submit">Login</button>
+   
+      <a  onclick="myFunction()" href="{% url 'signup' %}">Dont have a account? Sign up</a>
+  </div>
+
+  
+  <div class="pic">
+  </div>
+  
+  
+
+</body>
+
+<footer>
+  <script>
+    document.getElementById('loginn').onkeydown = function(e){
+   if(e.keyCode == 13){
+     // submit
+   }
+};
+  </script>
+  {% include 'pages/logFooter.html' %}
+</footer>
+

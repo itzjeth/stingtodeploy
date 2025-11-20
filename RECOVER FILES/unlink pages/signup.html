@@ -1,0 +1,72 @@
+{% load static %}
+<div class="overlay2">
+  <div class="wrapper2">
+    <div class="close2">X</div>
+<div id="contact" class="contact-area section-padding">
+  <div class="container">
+      <div class="row">
+          <div class="section-title">
+                  <h2>Signup</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-contact-form">
+              <form id="contact-form" action="addUser" method="post"> <!--action="{% url 'home' %}"-->
+                   {% csrf_token %}
+                   <center>
+                   <button type="button" class="login-with-google-btn">
+                      <img src="{% static 'images/goo.png'%}" alt="" style="border: none; width: 32px; margin-left: 62px; margin-top: 7px; margin-right: 7px;">
+                      <p style="margin-top: 7px;">Sign In with Google</p>
+                      </button>
+                  </center>
+                  <br>
+                  <div class="messages"></div>
+                 
+                  <div class="controls">
+                      <div class="row">
+                          <div class="col-md-6" >
+                              <div class="form-group">
+                                  <input name="userName" type="text" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required."style="border: 1px solid black;"   >
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <input name="userEmail" type="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required." style="border: 1px solid black;"  >
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                             
+                              <div class="form-group">
+                                  <div class="wrap">
+                                  <span class="eye-icon"><i class="far fa-eye-slash"></i></span>
+                                  <input name="userPass" type="password" class="form-control pass"  id="password" placeholder="Enter your password *" onkeyup="validate_password()" required="required" data-error="Valid email is required." style="border: 1px solid black;"  >
+                                  <div class="help-block with-errors"></div>
+                                
+                              </div>
+                          </div>
+                      </div>
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <input type="password" class="form-control pass" placeholder="Enter your password *" id="confirm_pass" name="confirm_pass" required="required" onkeyup="validate_password()" data-error="Valid email is required." style="border: 1px solid black;"  >
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <center>
+                      <span id="wrong_pass_alert"></span>
+                       
+                          <div class="Button">
+                              <button id="create" onclick="wrong_pass_alert();show_success();" class="btn btn-send" type="submit">Sign in</button>
+                          </div>
+                      </center>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>

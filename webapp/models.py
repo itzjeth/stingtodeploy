@@ -1,0 +1,66 @@
+from django.db import models  
+from django.contrib.auth.models import User
+import json
+            
+class Review(models.Model):
+    STATUS_CHOICES = [
+        ('pending', 'Pending'),
+        ('approved', 'Approved'),
+        ('rejected', 'Rejected'),
+    ]
+    
+    USER_STATUS_CHOICES = [
+        ('student', 'Student'),
+        ('teacher', 'Teacher'),
+        ('visitor', 'Visitor'),
+    ]
+
+    Id = models.AutoField(primary_key=True)
+    user = models.CharField(max_length=45)  # Name of the user submitting the review
+    email = models.CharField(max_length=45)  # User's email
+    status = models.CharField(
+        max_length=10,
+        choices=STATUS_CHOICES,
+        default='pending',
+    )
+    message = models.CharField(max_length=60)  # Review message
+   
+    user_status = models.CharField(
+        max_length=10,
+        choices=USER_STATUS_CHOICES,
+        default='visitor',  # Default value can be 'visitor'
+    )
+    password = models.CharField(max_length=50, blank=True, null=True)
+
+    class Meta:
+        db_table = "Review"
+
+class Users(models.Model):
+    CustId = models.AutoField(primary_key=True)
+    userName = models.CharField(max_length=255)
+    userEmail = models.EmailField(unique=True)
+    userPass = models.CharField(max_length=255)
+    userImage = models.ImageField(upload_to='profile_images/', default='profile_images/default.png')
+    class Meta:
+        db_table = "TB_Users"
+
+class Admin(models.Model):
+	AdminId   = models.CharField(primary_key=True,max_length=20)
+	AdminPass = models.CharField(max_length=60)
+	class Meta:
+		db_table = "TB_Admin"
+
+class ChatHistory(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    title = models.CharField(max_length=255, default="Untitled Chat")
+    messages = models.TextField()  # <-- use TextField instead of JSONField
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def set_messages(self, messages):
+        """Save list/dict messages as JSON string."""
+        self.messages = json.dumps(messages)
+
+    def get_messages(self):
+        """Return messages as Python object."""
+        return json.loads(self.messages)
+

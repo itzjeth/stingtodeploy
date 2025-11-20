@@ -1,0 +1,567 @@
+{%extends 'pages/index.html'%}
+{% load static %}
+
+{% block content %}
+<head>
+
+        {% include 'pages/bloghead.html' %}
+</head>
+
+<body
+>
+    <div
+    class="o-wrapper"
+    >
+    <main
+    class="t-chatbot-demo"
+    >
+    <section
+    class="u-Mt-md"
+    >
+    <div
+    class="o-container u-Pt-md u-Pb-sm blg"
+    >
+    <h2
+    class="u-text-p1 u-text-center u-maxw-7 u-mx-auto u-Mb-lg"
+    >
+    Why Sting?
+    </h2
+    >
+
+      <div
+      class="u-block lg:u-hidden"  style="margin-top: -3vh;"
+      >
+        <div
+        class="u-maxw-6 u-mx-auto u-Mb-lg"
+        >
+          <img
+              src="{% static 'images/ch1.png' %}"
+              srcset="
+              {% static 'images/ch1.png' %} 360w,
+              {% static 'images/ch1.png' %} 714w,
+              {% static 'images/ch1.png' %} 1068w,
+              {% static 'images/ch1.png' %} 1422w,
+              {% static 'images/ch1.png' %} 1776w"
+              alt="No-code visual chatbot builder"
+              class="u-Mb-md"
+              width="544"
+              height="535"
+              loading="lazy"
+          >
+          <h4
+          class="u-text-p4"
+          >
+          Assist your questions in CvSU Bacoor
+        </h4
+        >
+          <p
+          class="u-text-p5"
+          >
+          Struggling? Don't know how to start? Worry not, thats why we build Sting chatbot. Sting can answer them!
+        </p
+        >
+        </div
+        >
+        <div
+        class="u-maxw-6 u-mx-auto u-Mb-lg"
+        >
+          <img
+              src="{% static 'images/home1.png'%}"
+               srcset="
+               {% static 'images/home1.png'%} 360w,
+               {% static 'images/home1.png'%} 714w,
+               {% static 'images/home1.png'%} 1068w,
+               {% static 'images/home1.png'%} 1422w,
+               {% static 'images/home1.png'%} 1776w"
+              alt="ChatBot Chat widget"
+              class="u-Mb-md"
+              width="544"
+              height="535"
+              loading="lazy"
+          >
+          <h4
+          class="u-text-p4"
+          >
+          User Friendly Chatbot
+        </h4
+        >
+          <p
+          class="u-text-p5"
+          >
+          Sting can also handle vibes like a real person. Sting can comfort you emotionally and mentally, Because Sting is build with multiple NLP techniques.
+          </p
+          >
+        </div
+        >
+        <div
+        class="u-maxw-6 u-mx-auto"
+        >
+          <img
+            src="{% static 'images/sting66.jpg'%}"
+            srcset="
+            {% static 'images/sting66.jpg'%} 360w,
+            {% static 'images/sting66.jpg'%} 714w,
+            {% static 'images/sting66.jpg'%} 1068w,
+            {% static 'images/sting66.jpg'%} 1422w,
+            {% static 'images/sting66.jpg'%} 1776w"
+            alt="Chatbot integrations"
+            class="u-Mb-md"
+            width="544"
+            height="535"
+            loading="lazy"
+               >
+          <h4
+          class="u-text-p4"
+          >
+          About CvSU Bacoor
+          </h4
+          >
+          <p
+          class="u-text-p5"
+          >
+          Sting is not just wandering around somewhere, Sting can also gives you information about whats going on inside CvSU Bacoor
+          </p
+          >
+        </div
+        >
+      </div
+      >
+      <!-- Desktop -->
+      <div
+      class="t-chatbot-demo-app u-hidden lg:u-block"
+      >
+        <div
+        class="t-chatbot-demo-app__screen u-mx-auto u-Mb-xl"
+        >
+          <img
+              src="{% static 'images/ch1.png'%}"
+              srcset="
+              {% static 'images/ch1.png' %} 360w,
+              {% static 'images/ch1.png' %} 714w,
+              {% static 'images/ch1.png' %} 1068w,
+              {% static 'images/ch1.png' %} 1422w,
+              {% static 'images/ch1.png' %} 1776w"
+              alt="No-code visual chatbot builder"
+              class="t-chatbot-demo-app__screen-cover v--a"
+              width="888"
+              height="520"
+              loading="lazy"
+              >
+          <img
+              src="{% static 'images/home1.png'%}"
+              srcset="
+              {% static 'images/home1.png'%} 360w,
+              {% static 'images/home1.png'%} 714w,
+              {% static 'images/home1.png'%} 1068w,
+              {% static 'images/home1.png'%} 1422w,
+              {% static 'images/home1.png'%} 1776w"
+              alt="ChatBot Chat widget"
+              class="t-chatbot-demo-app__screen-cover v--b"
+              width="888"
+              height="520"
+              loading="lazy"  >
+          <img
+              src="{% static 'images/sting66.jpg'%}"
+              srcset="
+              {% static 'images/sting66.jpg'%} 360w,
+              {% static 'images/sting66.jpg'%} 714w,
+              {% static 'images/sting66.jpg'%} 1068w,
+              {% static 'images/sting66.jpg'%} 1422w,
+              {% static 'images/sting66.jpg'%} 1776w"
+              alt="Chatbot integrations"
+              class="t-chatbot-demo-app__screen-cover v--c"
+              width="888"
+              height="520"
+              loading="lazy"
+              >
+        </div>
+        <svg
+        width="1110"
+        height="4"
+        viewBox="0 0 1110 3"
+        fill="none"
+        xmlns=""
+        class="t-chatbot-demo-app__progress"
+        >
+          <path
+          d="M2 2H1108"
+          stroke="#"
+          stroke-width="3"
+          stroke-linecap="round"
+          />
+          <path
+          d="M2 2H1108"
+          stroke="lime"
+          stroke-width="3"
+          stroke-linecap="round"
+          class="t-chatbot-demo-app__progress-rect"
+          />
+        </svg>
+        <div
+        class="t-chatbot-demo-app__features u-flex"
+        data-app-progress
+        >
+          <div
+          class="u-pt-2xl u-pr-md u-maxw-4"
+          >
+            <h4
+            class="u-text-p6-bold u-mb-lg"
+            >
+            Assist your questions in CvSU Bacoor
+            </h4
+            >
+            <p
+            class="u-text-p6"
+            >
+            Struggling? Don't know how to start? Worry not, thats why we build Sting chatbot. Sting can answer them!
+            </p
+            >
+          </div
+          >
+          <div
+          class="u-pt-2xl u-px-md u-maxw-4"
+          >
+            <h4
+            class="u-text-p6-bold u-mb-lg"
+            >
+            User Friendly Chatbot
+            </h4
+            >
+            <p
+            class="u-text-p6"
+            >
+            Sting can also handle vibes like a real person. Sting can comfort you emotionally and mentally, Because Sting is build with multiple NLP techniques.
+            </p
+            >
+          </div
+          >
+          <div
+          class="u-pt-2xl u-pl-md u-maxw-4"
+          >
+            <h4
+            class="u-text-p6-bold u-mb-lg"
+            >
+            About CvSU Bacoor
+            </h4
+            >
+            <p
+            class="u-text-p6"
+            >
+            Sting is not just wandering around somewhere, Sting can also gives you information about whats going on inside CvSU Bacoor
+            </p
+            >
+          </div
+          >
+        </div
+        >
+      </div
+      >
+    </div
+    >
+  </section
+  >
+  <!-- Desktop -->
+ <section
+ class="o-container o-columns v--four u-mx-auto u-Mt-xl u-hidden lg:u-grid"
+ >
+  <div class="reveal"
+  >
+    <img
+        src="{% static 'images/xff.png'%}"
+        alt="Chatbot for lead generation icon"
+        class="u-Mb-sm u-ml-0"
+        width="56"
+        height="56"
+        loading="lazy"
+        style="
+        width: 96px;
+        height: 96px;
+    "
+    >
+    <h3
+    class="u-text-p5-bold"
+    >
+    Efficient
+    </h3
+    >
+    <p
+    class="u-text-p6"
+    >
+    User-friendly experience that meets the needs of your student audience. Regular updates, and improvements will ensure that remains effective over time
+    </p
+    >
+  </div
+  >
+  <div class="reveal"
+  >
+    <img
+        src="{% static 'images/assst4.png'%}"
+        alt="Chatbot for sales icon"
+        class="u-Mb-sm u-ml-0"
+        width="96"
+        height="96"
+        loading="lazy"
+        style="
+        width: 96px;
+        height: 96px;
+        "
+        >
+    <h3
+    class="u-text-p5-bold"
+    >
+    Assist Students
+    </h3
+    >
+    <p
+    class="u-text-p6"
+    >
+    Our top priority, by incorporating these friendly characteristics into Sting's design and behavior,and create a more welcoming and engaging user experience.
+    </p
+    >
+    </div
+    >
+  <div class="reveal"
+  >
+    <img
+        src="{% static 'images/money.png'%}"
+        alt="Improve customer service with a chatbot icon"
+        class="u-Mb-sm u-ml-0"
+        width="96"
+        height="96"
+        loading="lazy"
+        style="
+        width: 96px;
+        height: 96px;
+        "
+        >
+    <h3
+    class="u-text-p5-bold">Completely Free
+    </h3
+    >
+    <p
+    class="u-text-p6"
+    >
+    You read it right! Sting is a completely free chatbot you can use for assistance. Sting can effectively engage users, address their needs, and enhance their overall experience without imposing any cost for usage
+    </p
+    >
+  </div
+  >
+  <div class="reveal"
+  >
+    <img
+        src="{% static 'images/hours3.png'%}"
+        alt="Chatbot for customer support icon"
+        class="u-Mb-sm u-ml-0" width="96"
+        height="96"
+        loading="lazy"
+        style="
+        width: 96px;
+        height: 96px;
+        ">
+    <h3
+    class="u-text-p5-bold"
+    >
+    Offer 24/7 support
+    </h3
+    >
+    <p
+    class="u-text-p6"
+    >
+    Sting can provide 24-hour support to users, offering assistance and guidance whenever they need it, thereby enhancing their experience and satisfaction with the service
+    </p
+    >
+  </div
+  >
+</section
+>
+<section
+class="reveal u-maxw-8 u-Mt-xl lg:u-Mt-2xl u-Px-md md:u-Px-0 u-mx-auto u-text-center"
+>
+  <h2
+  class="u-text-p2 u-text-center"
+  >
+  That’s just the beginning
+  </h2
+  >
+  <p
+  class="u-text-p5 u-text-center"
+  >
+  Feel free to buy us a Coffee for our hardwork making this<br> We appreciate it!
+  </p
+  >
+  <a
+  data-controller="track"
+  data-track-category="Signup"
+  data-track-action="Signup Redirect"
+  data-track-label="Start a Free Trial 2"
+  data-action="track#send"
+  >
+    <a
+    class="reveal bmc-button"
+    target="_blank"
+    href="https://www.buymeacoffee.com/jethrojabay"
+    >
+    <img
+    src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg"
+    alt="Buy me a coffee"
+    >
+    <span
+    style="margin-left:5px"
+    >
+    Buy me a coffee
+    </span
+    >
+    </a
+    >
+    </a
+    >
+</section
+>
+  <section
+  class="reveal u-My-xl lg:u-My-2xl lg:u-Pb-2xl"
+  >
+
+      <div
+      class="u-relative u-maxw-12 u-mx-auto u-flex"
+      >
+        <!-- Mobile -->
+        <img
+        src="{% static 'images/joe-bush-decor-mobile.4b4008494b25728a62bcd8be70379d35ab3b530bc7a32179250857fa3ddc935f.svg' %}"
+        alt=""
+        class="lg:u-hidden u-Ml-sm"
+        width="185"
+        height="102"
+        loading="lazy"
+         style="
+         position: absolute;
+        width: 185px;
+        right: 15px;
+        bottom: 8px;
+        "
+        >
+        <!-- Desktop -->
+        <img
+        src="{% static 'images/joe-bush-decor.bb92a93aa71f309e9cd18043292820f8c97aa843f2d878bb33b36d30531720dc.svg' %}"
+        alt="" class="u-hidden lg:u-block u-Ml-sm"
+        width="151"
+        height="325"
+        loading="lazy"
+        style="
+        position:
+        absolute;
+        width: 151px;
+        height: 325px;
+        left: -300px;
+        bottom: -20px;
+        "
+        >
+        <div
+        class="u-Mt-md"
+        style="
+        z-index: 1;
+        "
+        >
+          <h3
+          class="u-text-p3"
+          >
+          "ChatBot platform has become a key part of our proposition today.
+          <span
+          class="u-bg-gray u-rounded u-px-xs"
+          >
+          As an Developer, I know Sting will be a great tool to CvSU Students.</span> That is why i will try my hardwork to make an amazing CvSU Chatbot."
+          </h3
+          >
+          <div
+          >
+            <h3
+            >
+            <strong>
+              Jethro Jabay
+            </strong><br />
+            Sting's Developer
+          </h3
+          >
+        </div
+        >
+        </div
+        >
+        <img
+        src="{% static 'images/me.jpg' %}"
+        srcset="{% static 'images/me.jpg' %} 360w,
+        {% static 'images/me.jpg' %} 494w,
+        {% static 'images/me.jpg' %} 628w,
+        {% static 'images/me.jpg' %} 762w,
+        {% static 'images/me.jpg' %} 896w"
+        alt="Jeth, Sting Developer"
+        class="u-hidden lg:u-block u-Ml-sm"
+        width="448"
+        height="448"
+        loading="lazy"
+        style="
+        width: 448px;
+        height: 648px;
+        margin-right: -100px;
+        flex: 0 0 auto;
+        "
+        >
+      </div
+      >
+    </div
+    >
+
+
+
+      <!-- Desktop -->
+  </section
+  >
+
+  <div
+  class="u-relative u-bg-black u-text-white u-Py-lg"
+  >
+    <div
+    class="u-relative o-container u-mx-auto"
+    >
+      <h1
+      class="reveal u-text-p1 u-maxw-10 u-mx-auto u-text-center u-Px-sm"
+      style=""
+      >
+      There’s more to Sting than meets the eye
+      </h1
+      >
+      <p
+      class=" reveal u-text-p5 u-maxw-6 u-mx-auto u-text-center u-hidden lg:u-block"
+      >
+      Discover Sting Chatbot. Create a powerful assistance service hub.
+    </p
+    >
+    <ul class="footer-social-links list-reset" style="margin-left: auto; margin-right: auto;">
+      <li>
+          <a href="#">
+              <span class="text-white"></span>
+              <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#fff"/>
+              </svg>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="screen-reader-text text-white"></span>
+              <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#fff"/>
+              </svg>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span class="screen-reader-text text-white"></span>
+              <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#fff"/>
+              </svg>
+          </a>
+      </li>
+  </ul>
+    </div
+    >
+</body>
+
+{% endblock %}

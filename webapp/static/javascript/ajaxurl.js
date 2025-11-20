@@ -1,0 +1,1 @@
+ajaxurl = typeof(ajaxurl) !== 'string' ? 'index.html' : ajaxurl;

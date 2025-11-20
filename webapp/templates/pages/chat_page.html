@@ -1,0 +1,158 @@
+
+{% load static %}
+
+<head>
+        {% include 'pages/botHead.html' %}
+       
+</head>
+<div id="preloader"></div>
+
+<body>
+  <script async defer crossorigin="anonymous"src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+  <section class="layout">
+    <nav class="sidebar">
+      <header>
+        <div class="image-text">
+          <img src="{% static 'images/stingblack7.png'%}" alt="logo" />
+          <div class="text header-text">
+            <span class="main">STING</span>
+            <span class="sub">CvSU Bacoor</span>
+          </div>
+        </div>
+
+        <img class="ftoggle" src="{% static 'images/grip-2.svg'%}" width="12"
+             style="position: absolute; right: -5; bottom: 20; margin-bottom: -45vh;">
+        <div class="toggle">
+          <img src="{% static 'images/grip-2.svg'%}" width="12" style="margin-bottom: -84vh;">
+        </div>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <button class="new-chat-button" id="new-chat-button">New chat</button>
+          <textarea class="history" id="chatbot-history" readonly></textarea>
+          <p class="chistory">Chatbot History</p>
+
+          <div class="bottom-content">
+            <div class="toggle-switch">
+              <li class="nav-link">
+                <a style="display: flex; align-items: center;">
+                  <img src="{{ request.session.user_image|default:'/media/profile_images/default.png' }}"
+                       width="43"
+                       style="border-radius: 50%; object-fit: cover;"
+                       alt="User Profile">
+                  <span class="text nav-text" style="margin-left: 10px;">
+                    {{ request.session.user_name|default:"Guest" }}
+                  </span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="{% url 'edit_profile' %}" style="display: flex; align-items: center;">
+                  <i class="bx bx-edit-alt icons logo_logout"
+                     style="color: var(--placeholder-color); font-size: 20px; margin-right: 10px;"></i>
+                  <span class="text nav-text logout_span" style="color: var(--placeholder-color);">Edit Profile</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="{% url 'logout' %}">
+                  <i class="bx bx-log-out icons logo_logout" style="color: var(--placeholder-color);"></i>
+                  <span class="text nav-text logout_span" style="color: var(--placeholder-color);">Log Out</span>
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="body">
+      <h1 class="display-5 text-center"> - Sting -</h1>
+ <p class="botText" style="margin-right: auto; margin-left: auto;">
+          <img src="{% static 'images/stingcya2.png' %}" class="chat_logo" alt="" width="50" height="40"
+               style="border-radius: 50%;">
+          <span class="typing"
+                style="background-color: var(--incoming-chat-border); padding: 10px; border-radius: 10px;">
+            Hi, I'm Sting, How can I assist?
+          </span>
+        </p>
+      <div id="chatbott">
+        
+      </div>
+     
+
+      <div id="loading" style="display: none; text-align: center;">
+        <div class="spinner"></div>
+      </div>
+
+      <div id="message-form" class="typing-container">
+        <div class="typing-content">
+          <div class="typing-textarea search-containers" style="color: var(--placeholder-color);">
+            <div class="suggest-box sendInputs" type="button"></div>
+            <textarea id="messageInput"
+                      class="search-box messageInput"
+                      spellcheck="false"
+                      placeholder="Enter a prompt here"
+                      required></textarea>
+            <span id="send-btn"
+                  class="sendInputs submitinput"
+                  class="material-symbols-rounded"
+                  type="button"
+                  style="cursor: pointer; background-color: var(--sidebar-color);">
+              send
+            </span>
+          </div>
+
+          <div class="typing-controls">
+            <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+            <span id="delete-btn" style="opacity: 0;"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+<footer>
+
+ 
+<!------------------------------------------------------------------------------>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+{% if messages %}
+  <script>
+    {% for message in messages %}
+      Swal.fire({
+        icon: '{% if "error" in message.tags %}error{% else %}success{% endif %}',
+        title: "{{ message|escapejs }}",
+        showConfirmButton: false,
+        timer: 2000,
+        position: 'top-end',
+        toast: true
+      });
+    {% endfor %}
+  </script>
+{% endif %}
+
+
+<!--EnterInput.JS-->
+<script>
+  $('.messageInput').on('keydown', function(e) {
+if (e.key === 'Enter' && !e.shiftKey) {
+  e.preventDefault();
+  $('.submitinput').click();
+}
+});
+</script>
+<script>
+  const event = new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', which: 13, keyCode: 13, });
+</script>
+
+
+
+<!------------------------------------------------------------------------------>
+
+{% include 'pages/botFooter.html' %}
+</footer>
+

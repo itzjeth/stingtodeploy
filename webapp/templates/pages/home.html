@@ -1,0 +1,683 @@
+{%extends 'pages/index.html'%}
+
+{% load static %}
+
+{% block content %}
+
+<body class="is-boxed has-animations">
+  <head>
+    {% include 'pages/navbar.html' %}
+    {% include 'pages/homeHead.html' %}
+  </head>
+
+  <div class="body-wrap" style="background: var(--sidebar-color);">
+    <main>
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <h1 class="hero-title mt-9">STING - CvSU CHATBOT</h1>
+              <p class="hero-paragraph">Empowering Conversations, One Sting at a Time</p>
+              <div class="hero-cta">
+
+                {% if request.session.CustId is not None and request.session.AdminId is None %}
+                  <a class="button" href="{% url 'chatbot'%}" style="border: 1px solid var(--icon-color);">Chat now</a>
+                {% endif %}
+
+              </div>
+            </div>
+
+            <div class="hero-figure anime-element">
+              <img src="{% static 'images/stingblack777.png' %}">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="features-inner section-inner">
+          <div class="features-wrap">
+            <div class="feature text-center is-revealing">
+              <div class="feature-inner">
+                <div class="feature-icon">
+                  <img src="{% static '/images/admission-assistance.png' %}" alt="Admission Assistance">
+                </div>
+                <h4 class="feature-title mt-24">Admission Assistance</h4>
+                <p class="text-sm mb-0">
+                  Sting's Admission assistance is a service designed to support individuals in navigating the complex process of applying for educational programs inside CvSU Bacoor.
+                </p>
+              </div>
+            </div>
+            
+            <div class="feature text-center is-revealing">
+              <div class="feature-inner">
+                <div class="feature-icon">
+                  <img src="{% static '/images/friendly-interface.png' %}" alt="Friendly Interface">
+                </div>
+                <h4 class="feature-title mt-24">Friendly Interface</h4>
+                <p class="text-sm mb-0">
+                  Sting UI interface is so friendly that you can use dark/light theme using our toggle button that focuses on creating intuitive, easy-to-use, and efficient interactions between users and a system or device.
+                </p>
+              </div>
+            </div>
+            
+            <div class="feature text-center is-revealing">
+              <div class="feature-inner">
+                <div class="feature-icon">
+                  <img src="{% static '/images/nlp-icon.png' %}" alt="NLPs">
+                </div>
+                <h4 class="feature-title mt-24">NLPs</h4>
+                <p class="text-sm mb-0">
+                  Sting's Natural Language Processing is a capability of our bot to respond with manners and friendly replies to your questions.
+                </p>
+              </div>
+            </div>
+            
+            <div class="feature text-center is-revealing">
+              <div class="feature-inner">
+                <div class="feature-icon">
+                  <img src="{% static '/images/nlu-icon.png' %}" alt="NLUs">
+                </div>
+                <h4 class="feature-title mt-24">NLUs</h4>
+                <p class="text-sm mb-0">
+                  Sting's Natural Language Understanding (NLU) enables it to comprehend and interpret user inputs in natural language. This involves understanding various forms of expression, including slang and typos.
+                </p>
+              </div>
+            </div>
+            
+            <div class="feature text-center is-revealing">
+              <div class="feature-inner">
+                <div class="feature-icon">
+                  <img src="{% static '/images/explore-icons.png' %}" alt="Explore">
+                </div>
+                <h4 class="feature-title mt-24">Explore</h4>
+                <p class="text-sm mb-0">
+                  Sting offers users an interactive platform to explore various options, find relevant information, or engage with different features seamlessly in CvSU Bacoor.
+                </p>
+              </div>
+            </div>
+            
+            <div class="feature text-center is-revealing">
+              <div class="feature-inner">
+                <div class="feature-icon">
+                  <img src="{% static '/images/contextual-icon.png' %}" alt="Contextual">
+                </div>
+                <h4 class="feature-title mt-24">Contextual</h4>
+                <p class="text-sm mb-0">
+                  Sting maintains context throughout the conversation to provide relevant responses and follow-up questions, remembering previous interactions and understanding the flow.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+    
+      <div class="o-wrapper">
+        <main class="t-chatbot-demo">
+          <section class="u-Mt-md" id="about">
+            <div class="o-container u-Pt-md u-Pb-sm">
+              <h2 class="reveal u-text-p3 u-text-center u-maxw-7 u-mx-auto u-Mb-md">
+                ABOUT STING
+              </h2>
+      
+              <!-- Mobile -->
+              <div class="u-block lg:u-hidden">
+                <div class="reveal u-maxw-6 u-mx-auto u-Mb-lg">
+                  <img
+                    src="{% static 'images/deviceframes.png' %}"
+                    srcset="
+                      {% static 'images/deviceframes.png' %} 360w,
+                      {% static 'images/deviceframes.png' %} 714w,
+                      {% static 'images/deviceframes.png' %} 1068w,
+                      {% static 'images/deviceframes.png' %} 1422w,
+                      {% static 'images/deviceframes.png' %} 1776w
+                    "
+                    alt="No-code visual chatbot builder"
+                    class="u-Mb-md"
+                    width="544"
+                    height="535"
+                    loading="lazy"
+                  >
+                  <h4 class="u-text-p7">
+                    Assist your questions in CvSU Bacoor
+                  </h4>
+                  <p class="u-text-p7">
+                    Struggling? Don't know how to start? Worry not, thats why we build Sting chatbot. Sting can answer them!
+                  </p>
+                </div>
+      
+                <div class="reveal u-maxw-6 u-mx-auto u-Mb-lg">
+                  <img
+                    src="{% static 'images/deviceframes (4).png'%}"
+                    srcset="
+                      {% static 'images/deviceframes (4).png'%} 360w,
+                      {% static 'images/deviceframes (4).png'%} 714w,
+                      {% static 'images/deviceframes (4).png'%} 1068w,
+                      {% static 'images/deviceframes (4).png'%} 1422w,
+                      {% static 'images/deviceframes (4).png'%} 1776w
+                    "
+                    alt="ChatBot Chat widget"
+                    class="u-Mb-md"
+                    width="544"
+                    height="535"
+                    loading="lazy"
+                  >
+                  <h4 class="u-text-p7">
+                    User Friendly Chatbot
+                  </h4>
+                  <p class="u-text-p7">
+                    Sting is accessible and responsive to any devices like PCs, Laptop, Tablet and Smartphones making the chatbot more appealing to the user.
+                  </p>
+                </div>
+      
+                <div class="reveal u-maxw-6 u-mx-auto">
+                  <img
+                    src="{% static 'images/University (3).png'%}"
+                    srcset="
+                      {% static 'images/University (3).png'%} 360w,
+                      {% static 'images/University (3).png'%} 714w,
+                      {% static 'images/University (3).png'%} 1068w,
+                      {% static 'images/University (3).png'%} 1422w,
+                      {% static 'images/University (3).png'%} 1776w
+                    "
+                    alt="Chatbot integrations"
+                    class="u-Mb-md"
+                    width="544"
+                    height="535"
+                    loading="lazy"
+                  >
+                  <h4 class="u-text-p7">
+                    About CvSU Bacoor
+                  </h4>
+                  <p class="u-text-p7">
+                    Sting is not just wandering around somewhere, Sting can also gives you information about whats going on inside CvSU Bacoor
+                  </p>
+                </div>
+              </div>
+      
+              <!-- Desktop -->
+              <div class="reveal t-chatbot-demo-app u-hidden lg:u-block">
+                <div class="t-chatbot-demo-app__screen u-mx-auto u-Mb-xl">
+                  <img
+                    src="{% static 'images/deviceframes.png'%}"
+                    srcset="
+                      {% static 'images/deviceframes.png' %} 360w,
+                      {% static 'images/deviceframes.png' %} 714w,
+                      {% static 'images/deviceframes.png' %} 1068w,
+                      {% static 'images/deviceframes.png' %} 1422w,
+                      {% static 'images/deviceframes.png' %} 1776w
+                    "
+                    alt="No-code visual chatbot builder"
+                    class="t-chatbot-demo-app__screen-cover v--a"
+                    width="888"
+                    height="520"
+                    loading="lazy"
+                  >
+                  <img
+                    src="{% static 'images/deviceframes (5).png'%}"
+                    srcset="
+                      {% static 'images/deviceframes (5).png'%} 360w,
+                      {% static 'images/deviceframes (5).png'%} 714w,
+                      {% static 'images/deviceframes (5).png'%} 1068w,
+                      {% static 'images/deviceframes (5).png'%} 1422w,
+                      {% static 'images/deviceframes (5).png'%} 1776w
+                    "
+                    alt="ChatBot Chat widget"
+                    class="t-chatbot-demo-app__screen-cover v--b"
+                    width="888"
+                    height="520"
+                    loading="lazy"
+                  >
+                  <img
+                    src="{% static 'images/University (3).png'%}"
+                    srcset="
+                      {% static 'images/University (3).png'%} 360w,
+                      {% static 'images/University (3).png'%} 714w,
+                      {% static 'images/University (3).png'%} 1068w,
+                      {% static 'images/University (3).png'%} 1422w,
+                      {% static 'images/University (3).png'%} 1776w
+                    "
+                    alt="Chatbot integrations"
+                    class="t-chatbot-demo-app__screen-cover v--c"
+                    width="888"
+                    height="520"
+                    loading="lazy"
+                  >
+                </div>
+      
+                <svg
+                  width="310"
+                  height="4"
+                  viewBox="0 0 1110 3"
+                  fill="none"
+                  xmlns=""
+                  class="t-chatbot-demo-app__progress"
+                  style="margin-top: -5vh;"
+                >
+                  <path d="M2 2H1108" stroke="#" stroke-width="3" stroke-linecap="round" />
+                  <path
+                    d="M2 2H1108"
+                    stroke="var(--scroll-color)"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    class="t-chatbot-demo-app__progress-rect"
+                  />
+                </svg>
+      
+                <div class="t-chatbot-demo-app__features u-flex" data-app-progress>
+                  <div class="reveal u-pt-2xl u-pr-md u-maxw-4">
+                    <h4 class="u-text-p7-bold u-mb-lg">
+                      Assist your questions in CvSU Bacoor
+                    </h4>
+                    <p class="u-text-p8">
+                      Struggling? Don't know how to start? Worry not, thats why we build Sting chatbot. Sting can answer them!
+                    </p>
+                  </div>
+      
+                  <div class="reveal u-pt-2xl u-px-md u-maxw-4">
+                    <h4 class="u-text-p7-bold u-mb-lg">
+                      User Friendly Chatbot
+                    </h4>
+                    <p class="u-text-p8">
+                      Sting is accessible and responsive to any devices like PCs, Laptop, Tablet and Smartphones making the chatbot more appealing to the user.
+                    </p>
+                  </div>
+      
+                  <div class="reveal u-pt-2xl u-pl-md u-maxw-4">
+                    <h4 class="u-text-p7-bold u-mb-lg">
+                      About CvSU Bacoor
+                    </h4>
+                    <p class="u-text-p8">
+                      Sting is not just wandering around somewhere, Sting can also gives you information about whats going on inside CvSU Bacoor
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr>
+       
+      
+ <!-- Desktop -->
+<section class="o-container o-columns v--four u-mx-auto u-Mt-xl u-hidden lg:u-grid">
+  <!-- Efficient Feature -->
+  <div class="reveal">
+    <img
+      src="{% static 'images/analyz.png' %}"
+      alt="Chatbot for lead generation icon"
+      class="u-Mb-sm u-ml-0"
+      width="56"
+      height="56"
+      loading="lazy"
+      style="width: 96px; height: 96px;">
+    <h3 class="u-text-p7-bold">Efficient</h3>
+    <p class="u-text-p8">
+      User-friendly experience that meets the needs of your student audience. Regular updates, and improvements will ensure that it remains effective over time.
+    </p>
+  </div>
+
+  <!-- Assist Students Feature -->
+  <div class="reveal">
+    <img
+      src="{% static 'images/learn.png' %}"
+      alt="Chatbot for sales icon"
+      class="u-Mb-sm u-ml-0"
+      width="96"
+      height="96"
+      loading="lazy"
+      style="width: 96px; height: 96px;">
+    <h3 class="u-text-p7-bold">Assist Students</h3>
+    <p class="u-text-p8">
+      Our top priority, by incorporating these friendly characteristics into Sting's design and behavior, and creating a more welcoming and engaging user experience.
+    </p>
+  </div>
+
+  <!-- Completely Free Feature -->
+  <div class="reveal">
+    <img
+      src="{% static 'images/free.png' %}"
+      alt="Improve customer service with a chatbot icon"
+      class="u-Mb-sm u-ml-0"
+      width="96"
+      height="96"
+      loading="lazy"
+      style="width: 96px; height: 96px;">
+    <h3 class="u-text-p7-bold">Completely Free</h3>
+    <p class="u-text-p8">
+      You read it right! Sting is a completely free chatbot you can use for assistance. Sting can effectively engage users, address their needs, and enhance their overall experience without imposing any cost for usage.
+    </p>
+  </div>
+
+  <!-- Offer 24/7 Support Feature -->
+  <div class="reveal">
+    <img
+      src="{% static 'images/clock.png' %}"
+      alt="Chatbot for customer support icon"
+      class="u-Mb-sm u-ml-0"
+      width="96"
+      height="96"
+      loading="lazy"
+      style="width: 96px; height: 96px;">
+    <h3 class="u-text-p7-bold">Offer 24/7 support</h3>
+    <p class="u-text-p8">
+      Sting can provide 24-hour support to users, offering assistance and guidance whenever they need it, thereby enhancing their experience and satisfaction with the service.
+    </p>
+  </div>
+</section>
+
+
+<hr>
+<hr>
+<section class="o-container u-Mt-lx lg:u-Mt-2xl">
+  <!-- Section Header -->
+  <h2 class="reveal u-text-p2 u-text-center u-Mb-lg">
+    Frequently Asked Questions
+  </h2>
+
+  <!-- FAQ Columns -->
+  <div class="o-columns v--three">
+    
+    <!-- FAQ Item: How to apply as Old Student? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        How to apply as Old Student?
+      </h4>
+      <i>
+        <p class="u-text-p8">
+          First you need to get a CoG (Certificate of Grades) at the registrar, after that the University will announce where/when the Enrollment will happen. Then follow these steps:
+          <br><br>
+          Step 1: Society Fee. It should be announced at your Department.
+          <br><br>
+          Step 2: Fill-out Curriculum Checklist. Curriculum checklists are available at your society. Must be placed in a long brown folder, properly labeled with your name, course, and student number.
+          <br><br>
+          Step 3: Evaluation of grades & Advising of Subjects to enroll. Wait for an announcement at your department where it will be held.
+          <br><br>
+          Step 4: Issuance of Queuing Number (per program).
+          <br><br>
+          Step 5: Encoding of Subjects. Your department will announce where it will be held.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: How to apply as New Student? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        How to apply as New Student?
+      </h4>
+      <i>
+        <p class="u-text-p8">
+          If you are a New student, you should follow these easy steps:
+          <br><br>
+          Step 1: Admission Form. Fill-out and download the application form.
+          <br><br>
+          Step 2: Printing of Admission Form. Download and print the completed online application form and attach a 1x1 photo in the printed application with your affixed signature. Place it in a short white folder with all the required documents.
+          <br><br>
+          Step 3: Submission. Bring 2 white short folders and 2 photocopies of all your original documents. Submit them to the Guidance office of CvSU-Bacoor City.
+          <br><br>
+          Step 4: Examination Date. You will be given a permit and a schedule for the examination.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: How to apply as Transferee? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        How to apply as Transferee?
+      </h4>
+      <i>
+        <p class="u-text-p8">
+          To apply as a Transferee, you need the following:
+          <br><br>
+          Step 1: Accomplish the Application Form for Admission.
+          <br><br>
+          Step 2: Photocopy of Transcript of Records/Certificate of Grades.
+          <br><br>
+          Other requirements after Evaluation:
+          <br><br>
+          * Honorable Dismissal.
+          <br><br>
+          * Certificate of Good Moral Character.
+          <br><br>
+          * NBI or Police Clearance.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: What is CvSU Mission? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">What is CvSU Mission?</h4>
+      <i>
+        <p class="u-text-p7">
+          Cavite State University shall provide excellent, equitable, and relevant educational opportunities in the arts, sciences, and technology through quality instruction and responsive research and development activities. It shall produce professional, skilled, and morally upright individuals for global competitiveness.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: What is CvSU Bacoor Quality Policy? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">What is CvSU Bacoor Quality Policy?</h4>
+      <i>
+        <p class="u-text-p7">
+          We commit to the highest standards of education, value our stakeholders, strive for continual improvement of our products and services, and uphold the University’s tenets of Truth, Excellence, and Service to produce globally competitive and morally upright individuals.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: How to apply for scholarships at CvSU Bacoor? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        How can I apply for scholarships at CvSU Bacoor?
+      </h4>
+      <i>
+        <p class="u-text-p8">
+          To apply for scholarships at CvSU Bacoor, you need to inquire at the Scholarship Office of the university. They usually have specific requirements and application procedures for different scholarship programs.
+        </p>
+      </i>
+    </div>
+  </div>
+
+  <!-- Additional FAQ Items (Hidden on Small Screens) -->
+  <div class="reveal o-columns v--three u-hidden u-Mt-md t-faq__more">
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        We have already passed CTC until the 1st semester, our card is only valid, will we still pass an updated CTC?
+      </h4>
+      <i>
+        <p class="u-text-p7">
+          If it's during admission, it's possible, but when we come out with the list for NOA, the card must be updated (1st to 4th quarter) and must have good moral indicated. The updated Card and Good Moral Certified True Copy (CTC) will be attached.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: My documents are not Certified True Copy (CTC), can I forward them? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        My documents are not Certified True Copy (CTC), can I forward them?
+      </h4>
+      <i>
+        <p class="u-text-p7">
+          Upon admission, the requirements may not be CTC initially, but when we issue a list for NOA, the CTC requirements must specifically be passed, which is quite significant.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: What does NOA mean? and What is NOA for? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        What does NOA mean? and What is NOA for?
+      </h4>
+      <i>
+        <p class="u-text-p7">
+          NOA stands for "Notice of Admission". It is given to those who are eligible to enroll, informing them that they have been accepted to the university.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: When is the deadline for submission of requirements? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        When is the deadline for submission of requirements?
+      </h4>
+      <i>
+        <p class="u-text-p7">
+          The deadline depends on each course or quota. We will announce when we are nearing the admission period for each program.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: Can I take a course that is not aligned with STRAND? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        Can I take a course that is not aligned with STRAND?
+      </h4>
+      <i>
+        <p class="u-text-p7">
+          The course you take must align with your strand; it is an essential requirement.
+        </p>
+      </i>
+    </div>
+
+    <!-- FAQ Item: Can the requirements be incomplete? Can I just follow? -->
+    <div class="reveal faq_border">
+      <h4 class="u-text-p7-bold u-mb-md">
+        Can the requirements be incomplete? Can I just follow?
+      </h4>
+      <i>
+        <p class="u-text-p8">
+          The requirements must be complete for us to evaluate if you're qualified for the course. Incomplete requirements will hinder the process.
+        </p>
+      </i>
+    </div>
+  </div>
+
+  <!-- See More Button -->
+  <button  id="request"
+    class="u-block u-maxw-3 u-mx-auto u-text-center u-Mt-md u-text-blue-500 u-text-p7-bold t-faq__more-trigger"
+    style="cursor: pointer;">
+    <span class="t-faq__more-text">
+      See more questions
+    </span>
+    <span class="u-hidden t-faq__more-text" >
+      Hide questions
+    </span>
+    <!-- TODO: Add icon -->
+  </button>
+</section>
+<section>
+<div class="u-relative u-Py-lg" style="background: var(--outgoing-chat-bg);">
+  <div class="u-relative o-container u-mx-auto">
+    
+    <!-- Success and Error Alerts -->
+    
+    <center>
+    <!-- Contact Area Section -->
+    <div class="contact-area section-padding">
+      <div class="container reveal">
+        <div class="row">
+          <div class="section-title">
+            <h2>Request access to chatbot</h2>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-contact-form">
+            <form id="contact-form" action="addReview" method="post">
+              {% csrf_token %}
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  
+                  <!-- Full Name -->
+                 <div class="row">
+  <!-- Full Name -->
+  <div class="col-md-6">
+    <div class="form-group">
+      <input
+        name="user"
+        id="user"
+        type="text"
+        class="form-control"
+      
+        required="required"
+        data-error="Fullname is required."
+        style="border: 1px solid black;"
+      />
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+
+  <!-- Email -->
+  <div class="col-md-6">
+    <div class="form-group">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        class="form-control"
+       
+        required="required"
+        data-error="Valid email is required."
+        style="border: 1px solid black;"
+      />
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+</div>
+
+<!-- User Status Dropdown -->
+<div class="col-md-12">
+  <div class="form-group">
+    
+    <select
+      name="user_status"
+      id="user_status"
+      class="form-control"
+      style="border: 1px solid black; color: var(--toggle-color);"
+    required>
+     <option value="" disabled selected>Select your user type --</option>
+      <option value="student">Student</option>
+      <option value="teacher">Teacher</option>
+      <option value="visitor">Visitor</option>
+    </select>
+    <div class="help-block with-errors"></div>
+  </div>
+</div>
+
+<!-- JavaScript -->
+
+
+                <!-- Message Section -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea name="message" class="form-control" placeholder="Your reason *" rows="4" required="required" data-error="Leave a message for me" style="border: 1px solid black;"></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="Button">
+                    <button class="btn btn-send" type="submit">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include 'pages/loader.html' %}
+</section>
+</center>
+    <footer>
+      {% include 'pages/homeFooter.html'%}
+    </footer>
+
+
+
+  {% endblock %}

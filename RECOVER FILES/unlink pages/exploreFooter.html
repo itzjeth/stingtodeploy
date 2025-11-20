@@ -1,0 +1,79 @@
+{% load static %}
+<footer>
+    <script type="text/javascript">
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+          loader.style.display = "none";
+        })
+      </script>
+      <script>
+                function reveal() {
+              var reveals = document.querySelectorAll(".reveal");
+
+              for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                  reveals[i].classList.add("active");
+                } else {
+                  reveals[i].classList.remove("active");
+                }
+              }
+              }
+
+              window.addEventListener("scroll", reveal);
+      </script>
+      <style>
+      
+      :root {
+
+--icon-color: #ACACBE;
+--icon-hover-bg: #5b5e71;
+--placeholder-color: #dcdcdc;
+--outgoing-chat-bg: #0b0c1d;
+--incoming-chat-bg: #444654;
+--outgoing-chat-border: #343541;
+--incoming-chat-border: #444654;
+--body-color: #181914;
+--sidebar-color: #1d2026;
+--scroll-color: rgb(20, 199, 231);
+
+
+--primary-color: #f4f2f2;
+--primary-color-light: #f4f2f2;
+--toggle-color: #ddd;
+--text-color:  #8a94a7;
+--p-color:  #8a94a7;
+--dark-color: #000;
+
+--trans-02: all 1.2s ease;
+--trans-03: all 0.3s ease;
+--trans-04: all 0.4s ease;
+--trans-04: all 0.5s ease;
+}
+.light-mode {
+--body-color: #ffffe0;
+--sidebar-color: #ffffff;
+
+--toggle-color: #000;
+--text-color: #000;
+--p-color:  #4f5561;
+--dark-color: #000;
+--icon-color: #a9a9bc;
+--icon-hover-bg: #f1f1f3;
+--placeholder-color: #6c6c6c;
+--outgoing-chat-bg: #faf7ce;
+--incoming-chat-bg: #F7F7F8;
+--outgoing-chat-border: #FFFFFF;
+--incoming-chat-border: #D9D9E3;
+--scroll-color: rgb(3, 3, 19);
+--primary-color-light: #000000;
+}
+</style>
+     
+
+
+</footer>
