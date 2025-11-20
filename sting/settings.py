@@ -26,7 +26,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # SECURITY
 SECRET_KEY = 'django-insecure-(0zdy7ad-m%b%$0geg^i-f78=!0$tea!@^=l(p#7=hwa@^2wt*'
 DEBUG = True
-ALLOWED_HOSTS = ['https://stingtodeploy.onrender.com']  # Allow all hosts for Render deployment
+ALLOWED_HOSTS = ['https://stingtodeploy.onrender.com/']  # Allow all hosts for Render deployment
 
 # Email configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
