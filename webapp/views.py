@@ -121,7 +121,7 @@ def userReview(request):
 
     return render(request, "pages/home.html", {'form': form, 'alert': alert})
 
-@transaction.atomic
+
 @transaction.atomic
 def send_review_email(request, pk):
     if request.method != "POST":
@@ -325,9 +325,8 @@ def edit_profile(request):
         messages.success(request, "✅ Profile updated successfully.")
         return render(request, 'pages/edit_profile.html', {'user': user})
 
-    return render(request, 'pages/edit_profile.html', {'user': user})
 
-    return render(request, 'pages/edit_profile.html', {'user': user})
+
 
 def base(request):
 

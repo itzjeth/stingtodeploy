@@ -81,8 +81,9 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'webapp/static')]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Media files
+MEDIA_ROOT = '/mnt/media'  # persistent disk path on Render
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
