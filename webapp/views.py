@@ -1,30 +1,19 @@
-from django.http import HttpResponse
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
-from django.contrib import admin
-from django.shortcuts import render,redirect, get_object_or_404
-from django.db.models import Q
-from django.db import connection, transaction
-from webapp.forms import UserForm,ReviewForm,AdminForm 
-from webapp.models import  Users,Review,Admin,ChatHistory
-#from chatterbot import ChatBot
-from chatterbot.comparisons import LevenshteinDistance
-from chatterbot.response_selection import get_most_frequent_response
-from django.utils.safestring import mark_safe
-#from chatterbot.trainers import ListTrainer
-from django.templatetags.static import static
 from django.contrib import messages
+from django.db.models import Q
 from django.db import transaction
 from django.core.mail import send_mail
 from django.conf import settings
-from django.contrib.auth.hashers import make_password
+from django.utils.safestring import mark_safe
 from difflib import SequenceMatcher
+import json, random, string, datetime
+
+from webapp.forms import UserForm, ReviewForm
+from webapp.models import Users, Review, Admin, ChatHistory
 """{% load static %}"""
-import json
-import datetime
-import random
-import string
-cursor = connection.cursor()
+
 
 
 
@@ -904,47 +893,34 @@ QA_DATA = [
 ]    
 
 def fuzzy_match(user_message, threshold=0.55):
-    """Compares user's message to question patterns. Returns best matching response."""
+    """Compare user's message to QA_DATA patterns and return best matching response."""
     best_match = None
     best_score = 0
-
     for item in QA_DATA:
         for pattern in item["patterns"]:
             score = SequenceMatcher(None, user_message.lower(), pattern.lower()).ratio()
             if score > best_score:
                 best_score = score
                 best_match = item["response"]
-
     if best_score >= threshold:
         return best_match
     return None
 
 def getResponse(request):
-    """
-    Original GET-based endpoint adapted to use QA_DATA with fuzzy matching.
-    Returns HttpResponse with safe HTML.
-    """
     user_message = request.GET.get('userMessage', '')
     if not user_message:
         return HttpResponse(mark_safe("Please provide a message."))
-
-    # Fuzzy search for best response
     chat_response = fuzzy_match(user_message)
-
-    if chat_response is None:
-        chat_response = "I'm sorry, I couldn’t find an answer to that. " \
-                        "Please try rephrasing or ask about CvSU Bacoor services."
-
+    if not chat_response:
+        chat_response = "I'm sorry, I couldn’t find an answer. Try rephrasing or ask about CvSU Bacoor services."
     return HttpResponse(mark_safe(chat_response))
 
-# Optional: POST-based JSON endpoint for AJAX requests
 def chatbot_response(request):
     if request.method == "POST":
         user_message = request.POST.get("message", "")
         answer = fuzzy_match(user_message)
         if not answer:
-            answer = "I'm sorry, I couldn’t find an answer to that. " \
-                     "Please try rephrasing or ask about CvSU Bacoor services."
+            answer = "I'm sorry, I couldn’t find an answer. Try rephrasing or ask about CvSU Bacoor services."
         return JsonResponse({"response": answer})
     return JsonResponse({"response": "Invalid request method."})
 
