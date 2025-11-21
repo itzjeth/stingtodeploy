@@ -7,17 +7,7 @@
 </head>
 
 <body>
-  <div class="top-buttons">
-    <a class="action-btn" href="{% url 'chatbot' %}">
-      <i class="bx bx-arrow-back"></i>
-      <span>Go Back</span>
-    </a>
-
-    <a class="action-btn" href="{% url 'logout' %}">
-      <i class="bx bx-log-out"></i>
-      <span>Log Out</span>
-    </a>
-  </div>
+  
 
   <div class="container">
     <h2>Edit Your Profile</h2>
@@ -69,7 +59,7 @@
         <small id="password-warning" class="warning-text"></small>
       </div>
 
-      <button type="submit">Save Changes</button>
+      <button type="submit" href="{% url 'logout' %}">Save Changes</button>
     </form>
   </div>
 {% include 'pages/loader.html' %}
