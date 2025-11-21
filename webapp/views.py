@@ -19,9 +19,6 @@ from webapp.models import Users, Review, Admin
 
 
 
-
-
-
      
 def home_page(request,):
     return render(request, 'pages/home.html')
