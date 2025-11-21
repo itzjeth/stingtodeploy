@@ -97,7 +97,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # EMAIL SETTINGS (Gmail SMTP)
 # ------------------------------
 
-EEMAIL_BACKEND = "sendgrid_backend.SendgridBackend"
+EMAIL_BACKEND = "sendgrid_backend.SendgridBackend"
 SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")
 
 EMAIL_HOST = "smtp.sendgrid.net"
@@ -107,4 +107,5 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 DEFAULT_FROM_EMAIL = os.environ.get("EMAIL_FROM")
+
 
