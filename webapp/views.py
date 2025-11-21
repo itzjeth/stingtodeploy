@@ -97,31 +97,13 @@ def get_chat_histories(request):
 
 
 def generate_random_password(length=8):
-    """Generate a random password with letters, digits, and symbols."""
-    chars = string.ascii_letters + string.digits + "!@#$%^&*()"
-    return ''.join(random.choice(chars) for _ in range(length))
+    letters = string.ascii_letters + string.digits
+    return ''.join(random.choice(letters) for _ in range(length))
 
 
-def userReview(request):
-    alert = None
-    if request.method == "POST":
-        form = ReviewForm(request.POST)
-        if form.is_valid():
-            try:
-                form.save()
-                alert = 'success'
-            except Exception as e:
-                print("Error saving form:", e)  # ✅ Add this
-                alert = 'error'
-        else:
-            print("Form is invalid:", form.errors)  # ✅ Debug invalid form
-            alert = 'error'
-    else:
-        form = ReviewForm()
-
-    return render(request, "pages/home.html", {'form': form, 'alert': alert})
-
-
+# -------------------------------
+# SEND EMAIL + CREATE USER
+# -------------------------------
 @transaction.atomic
 def send_review_email(request, pk):
     if request.method != "POST":
@@ -131,168 +113,136 @@ def send_review_email(request, pk):
     review = get_object_or_404(Review, pk=pk)
 
     try:
-        # 1) Generate new password and save to Review
         new_password = generate_random_password()
         review.password = new_password
         review.save()
-        print(f"[send_review_email] Review {review.pk} saved with new password.")
 
-        # 2) Create or update Users entry
+        # Create or update user
         user_obj = Users.objects.filter(userEmail=review.email).first()
+        created = False
+
         if user_obj:
             user_obj.userPass = new_password
             user_obj.userName = review.user
             user_obj.save()
-            created = False
-            print(f"[send_review_email] Existing user updated: {user_obj.userEmail}")
         else:
             user_obj = Users.objects.create(
                 userName=review.user,
                 userEmail=review.email,
                 userPass=new_password,
-                userImage='profile_images/default.png'
+                userImage='profile_images/default.png'  # Cloudinary folder
             )
             created = True
-            print(f"[send_review_email] New Users record created: {user_obj.userEmail}")
 
-        # 3) Send the email
+        # Email content
         subject = "Your Sting Chatbot Access Account"
         message = (
             f"Hello {review.user},\n\n"
-            f"Your account has been {'created' if created else 'updated'} as a {review.user_status}.\n\n"
-            f"Here are your login details:\n"
+            f"Your account has been {'created' if created else 'updated'}.\n\n"
             f"Username: {review.email}\n"
             f"Password: {new_password}\n\n"
-            f"Please keep these credentials safe.\n\n"
-            f"– STING CHATBOT –"
+            "Keep these credentials safe.\n\n– STING CHATBOT –"
         )
 
-        try:
-            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
-            print(f"[send_review_email] Email sent to {review.email}")
-        except Exception as mail_err:
-            print("[send_review_email] Email sending failed:", mail_err)
-            messages.warning(request, f"Account {'created' if created else 'updated'}, but email failed to send.")
+        send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
 
-        # 4) Delete the review after sending the email
         review.delete()
-        print(f"[send_review_email] Review {pk} deleted after email sent.")
-
-        # 5) Feedback to admin UI
-        messages.success(request, f"✅ Email sent and account processed for {review.email}.")
+        messages.success(request, f"Email sent and account processed for {review.email}.")
 
     except Exception as e:
         print("[send_review_email] ERROR:", e)
-        messages.error(request, "❌ An error occurred while creating the account or sending the email.")
+        messages.error(request, "An error occurred during account creation or email sending.")
         raise
 
     return redirect('review_list')
 
 
-def review_list(request):
-    query = request.GET.get('q')
-    reviews = Review.objects.all()
-    if query:
-        reviews = reviews.filter(
-            Q(user__icontains=query) |
-            Q(email__icontains=query) |
-            Q(message__icontains=query)
-           
-        )
-    return render(request, 'pages/review_list.html', {'reviews': reviews})
-
-
-
+# -------------------------------
+# CREATE REVIEW REQUEST
+# -------------------------------
 @transaction.atomic
 def review_create(request):
     if request.method == 'POST':
         form = ReviewForm(request.POST)
+
         if form.is_valid():
             review = form.save(commit=False)
-
-            # 1️⃣ Generate random password
             random_password = generate_random_password()
 
-            # 2️⃣ Save password into Review record
             review.password = random_password
             review.save()
 
-            # 3️⃣ Create a new user automatically in TB_Users
             Users.objects.create(
                 userName=review.user,
                 userEmail=review.email,
-                userPass=random_password,  # store as plain text (or hash if desired)
-                userImage='profile_images/default.png'  # default image
+                userPass=random_password,
+                userImage='profile_images/default.png'  # stored in Cloudinary
             )
 
-            # 4️⃣ Send email with credentials
+            # Send email
             subject = "Your Sting Chatbot Access Account"
             message = (
                 f"Hello {review.user},\n\n"
-                f"Your account has been created successfully as a {review.user_status}.\n\n"
-                f"Here are your login details:\n"
+                f"Your account has been created successfully.\n\n"
                 f"Username: {review.email}\n"
                 f"Password: {random_password}\n\n"
-                f"Please keep these credentials safe.\n\n"
-                f"– STING CHATBOT –"
+                "Please keep these credentials safe.\n\n– STING CHATBOT –"
             )
-            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
+            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email])
 
-            messages.success(request, f"✅ Access request created and account generated for {review.email}.")
+            messages.success(request, f"Access request created for {review.email}.")
             return redirect('review_list')
-        else:
-            messages.error(request, "⚠️ Invalid form data. Please review and try again.")
+
+        messages.error(request, "Invalid form data.")
     else:
         form = ReviewForm()
 
     return render(request, 'pages/review_form.html', {'form': form})
 
 
-def review_update(request, pk):
-    review = get_object_or_404(Review, pk=pk)
-    if request.method == 'POST':
-        form = ReviewForm(request.POST, instance=review)
-        if form.is_valid():
-            form.save()
-            return redirect('review_list')
-    else:
-        form = ReviewForm(instance=review)
-    return render(request, 'pages/review_form.html', {'form': form})
-
-def review_delete(request, pk):
-    review = get_object_or_404(Review, pk=pk)
-    if request.method == 'POST':
-        review.delete()
-        return redirect('review_list')
-    return render(request, 'pages/review_confirm_delete.html', {'review': review})
-
+# -------------------------------
+# LOGIN VIEW (Cloudinary Safe)
+# -------------------------------
 def doLogin(request):
-	if request.method == "POST":
-		uid = request.POST.get('userId', '')
-		upass = request.POST.get('userpass', '')
-		utype = request.POST.get('type', '')
+    if request.method == "POST":
+        uid = request.POST.get('userId', '')
+        upass = request.POST.get('userpass', '')
+        utype = request.POST.get('type', '')
 
-		if utype == "Admin":
-			for a in Admin.objects.raw('SELECT * FROM TB_Admin WHERE AdminId="%s" AND AdminPass="%s"' % (uid, upass)):
-				if a.AdminId == uid:
-					request.session['AdminId'] = uid
-					return render(request, "pages/base.html")
-			else:
-				messages.error(request, "Incorrect username or password")
-				return redirect("home")
+        # -------------------------
+        # ADMIN LOGIN
+        # -------------------------
+        if utype == "Admin":
+            for a in Admin.objects.raw('SELECT * FROM TB_Admin WHERE AdminId="%s" AND AdminPass="%s"' % (uid, upass)):
+                request.session['AdminId'] = uid
+                return render(request, "pages/base.html")
 
-		if utype == "User":
-			for a in Users.objects.raw('SELECT * FROM TB_Users WHERE userEmail="%s" AND userPass="%s"' % (uid, upass)):
-				if a.userEmail == uid:
-					request.session['CustId'] = uid
-					request.session['user_name'] = a.userName
-					request.session['user_image'] = a.userImage.url if a.userImage else '/media/profile_images/default.png'
-					return render(request, "pages/chatbot.html")
-			else:
-				messages.error(request, "Incorrect username or password")
-				return redirect("home")
+            messages.error(request, "Incorrect username or password")
+            return redirect("home")
 
-# views.py
+        # -------------------------
+        # USER LOGIN
+        # -------------------------
+        if utype == "User":
+            for a in Users.objects.raw('SELECT * FROM TB_Users WHERE userEmail="%s" AND userPass="%s"' % (uid, upass)):
+                request.session['CustId'] = uid
+                request.session['user_name'] = a.userName
+
+                # Cloudinary-safe image URL
+                if a.userImage:
+                    request.session['user_image'] = a.userImage.url
+                else:
+                    request.session['user_image'] = '/static/profile_images/default.png'
+
+                return render(request, "pages/chatbot.html")
+
+            messages.error(request, "Incorrect username or password")
+            return redirect("home")
+
+
+# -------------------------------
+# EDIT PROFILE (Cloudinary Upload)
+# -------------------------------
 @transaction.atomic
 def edit_profile(request):
     user_email = request.session.get('CustId')
@@ -301,6 +251,7 @@ def edit_profile(request):
     if request.method == 'POST':
         user.userName = request.POST.get('userName')
 
+        # If image uploaded → Cloudinary will handle it
         if 'userImage' in request.FILES:
             user.userImage = request.FILES['userImage']
 
@@ -309,22 +260,22 @@ def edit_profile(request):
 
         if new_password or confirm_password:
             if new_password != confirm_password:
-                messages.error(request, "⚠️ Passwords do not match.")
+                messages.error(request, "Passwords do not match.")
                 return render(request, 'pages/edit_profile.html', {'user': user})
-            else:
-                user.userPass = new_password
-                messages.success(request, "🔒 Password updated successfully.")
+            user.userPass = new_password
 
         user.save()
 
+        # Update session with Cloudinary URL
         request.session['user_name'] = user.userName
         request.session['user_image'] = (
-            user.userImage.url if user.userImage else '/media/profile_images/default.png'
+            user.userImage.url if user.userImage else '/static/profile_images/default.png'
         )
 
-        messages.success(request, "✅ Profile updated successfully.")
+        messages.success(request, "Profile updated successfully.")
         return render(request, 'pages/edit_profile.html', {'user': user})
 
+    return render(request, 'pages/edit_profile.html', {'user': user})
 
 
 

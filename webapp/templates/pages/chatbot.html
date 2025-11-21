@@ -37,14 +37,15 @@
             <div class="toggle-switch">
               <li class="nav-link">
                 <a style="display: flex; align-items: center;">
-                  <img src="{{ request.session.user_image|default:'/media/profile_images/default.png' }}"
-                       width="43"
-                       style="border-radius: 50%; object-fit: cover;"
-                       alt="User Profile">
-                  <span class="text nav-text" style="margin-left: 10px;">
-                    {{ request.session.user_name|default:"Guest" }}
-                  </span>
-                </a>
+          <img src="{{ request.session.user_image|default:'/static/profile_images/default.png' }}"
+         width="43"
+         style="border-radius: 50%; object-fit: cover;"
+         alt="User Profile">
+         
+    <span class="text nav-text" style="margin-left: 10px;">
+        {{ request.session.user_name|default:"Guest" }}
+    </span>
+    </a>
               </li>
 
               <li class="nav-link">

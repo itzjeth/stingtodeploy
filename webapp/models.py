@@ -41,6 +41,7 @@ class Users(models.Model):
     userEmail = models.EmailField(unique=True)
     userPass = models.CharField(max_length=255)
     userImage = models.ImageField(upload_to='profile_images/', default='profile_images/default.png')
+
     class Meta:
         db_table = "TB_Users"
 

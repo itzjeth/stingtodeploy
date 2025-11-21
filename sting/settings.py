@@ -1,10 +1,13 @@
 import os
 from pathlib import Path
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY
-SECRET_KEY = 'django-insecure-(0zdy7ad-m%b%$0geg^i-f78=!0$tea!@^=l(p#7=hwa@^2wt*'
+SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret-key")
 DEBUG = False  # Always False in production!
 ALLOWED_HOSTS = ['stingtodeploy.onrender.com']
 
@@ -18,6 +21,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'widget_tweaks',
+    'cloudinary',
+    'cloudinary_storage',
 ]
 
 MIDDLEWARE = [
@@ -81,23 +86,25 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'webapp/static')]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Media files
-MEDIA_ROOT = '/mnt/media'  # persistent disk path on Render
-MEDIA_URL = '/media/'
+CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL")
 
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
-# Default primary key field type
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+MEDIA_URL = '/media/'   # Cloudinary auto handles URLs
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# Email configuration
-if os.environ.get('RENDER', None):
-    # Use console email backend on Render to prevent errors
-    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-else:
-    # Use Gmail SMTP locally
-    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_PORT = 587
-    EMAIL_USE_TLS = True
-    EMAIL_HOST_USER = 'jjabay3@gmail.com'  # Your Gmail
-    EMAIL_HOST_PASSWORD = 'iogu hhkn qytf aqne'  # App password
-    DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+# ------------------------------
+# EMAIL SETTINGS (Gmail SMTP)
+# ------------------------------
+
+EEMAIL_BACKEND = "sendgrid_backend.SendgridBackend"
+SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")
+
+EMAIL_HOST = "smtp.sendgrid.net"
+EMAIL_HOST_USER = "apikey"           # literally this word
+EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+DEFAULT_FROM_EMAIL = os.environ.get("EMAIL_FROM")
+
