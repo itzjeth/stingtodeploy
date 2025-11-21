@@ -16,8 +16,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY
 SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret-key")
-DEBUG = True  # Always False in production!
-ALLOWED_HOSTS = []
+DEBUG = False  # Always False in production!
+ALLOWED_HOSTS = ['stingtodeploy.onrender.com']
 
 # Applications
 INSTALLED_APPS = [
