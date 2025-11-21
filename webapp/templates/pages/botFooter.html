@@ -22,7 +22,14 @@ function getUserResponse() {
 
   var userHTML = `
     <p class='userText' style='text-align: justify; text-justify: inter-word; margin-right: auto; margin-left: auto;'>
-      <img src="{{ request.session.user_image|default:'/media/profile_images/default.png' }}" alt="" width="45" height="40" style="border-radius: 50%; transform: scale(0.9);">
+      <img src="{% if request.session.user_image %}{{ request.session.user_image }}
+          {% elif user.userImage %}{{ user.userImage.url }}
+          {% else %}https://res.cloudinary.com/dbtj41ky2/image/upload/v1763708641/default_h6ywr4.png
+          {% endif %}"
+     alt="Profile Image"
+     width="45" height="40"
+     style="border-radius: 50%; transform: scale(0.9);">
+
       :<span class="typing" style="background-color: var(--incoming-chat-border);padding: 10px; border-radius: 10px;">${userText}</span>
     </p>`;
   $('.messageInput').val("");

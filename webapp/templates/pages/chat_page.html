@@ -37,10 +37,12 @@
             <div class="toggle-switch">
               <li class="nav-link">
                 <a style="display: flex; align-items: center;">
+                
                   <img src="{{ user.userImage.url|default:'https://res.cloudinary.com/dbtj41ky2/image/upload/v1763708641/default_h6ywr4.png' }}" 
          width="43"
          style="border-radius: 50%; object-fit: cover;"
          alt="User Profile">
+         
                   <span class="text nav-text" style="margin-left: 10px;">
                     {{ request.session.user_name|default:"Guest" }}
                   </span>

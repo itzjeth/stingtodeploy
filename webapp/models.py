@@ -41,7 +41,7 @@ class Users(models.Model):
     userName = models.CharField(max_length=255)
     userEmail = models.EmailField(unique=True)
     userPass = models.CharField(max_length=255)
-    userImage = CloudinaryField('Profile Images', default='default_h6ywr4.png')
+    userImage = CloudinaryField('Profile Images')
 
     class Meta:
         db_table = "TB_Users"
