@@ -23,8 +23,6 @@ urlpatterns = [
     path('reviews/delete/<int:pk>/', views.review_delete, name='review_delete'),
     path('reviews/send-email/<int:pk>/', views.send_review_email, name='send_review_email'),
     path('forgot-password/', views.forgot_password, name='forgot_password'),
-    path("save_chat/", views.save_chat_history, name="save_chat"),
-    path("get_chats/", views.get_chat_histories, name="get_chats"),
     path("chat_page/", views.chat_page, name="chat_page"),
     path("chatbot/", views.chatbot_response, name="chatbot"),
 

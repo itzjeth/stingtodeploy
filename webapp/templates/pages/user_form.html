@@ -8,21 +8,24 @@
         <h3 class="text-center mb-4">{{ form.instance.pk|yesno:"Edit User,Add User" }}</h3>
 
         <!-- Profile Image Preview -->
-        <div class="text-center mb-3">
-            {% if form.instance.userImage %}
-            <img id="imagePreview" 
-                 src="{{ form.instance.userImage.url }}" 
-                 alt="Profile Image Preview" 
-                 class="rounded-circle shadow-sm"
-                 style="width: 120px; height: 120px; object-fit: cover;">
-        {% else %}
-            <img id="imagePreview" 
-                 src="{% static 'images/default.png' %}" 
-                 alt="Profile Image Preview" 
-                 class="rounded-circle shadow-sm"
-                 style="width: 120px; height: 120px; object-fit: cover;">
-        {% endif %}
-        </div>
+      <div class="text-center mb-3">
+    {% if user.userImage %}
+        <!-- Show the user's Cloudinary image -->
+        <img id="imagePreview"
+             src="{{ user.userImage.url }}"
+             alt="Profile Image Preview"
+             class="rounded-circle shadow-sm"
+             style="width: 120px; height: 120px; object-fit: cover;">
+    {% else %}
+        <!-- Show default Cloudinary image -->
+        <img id="imagePreview"
+             src="https://res.cloudinary.com/dbtj41ky2/image/upload/v1763708641/default_h6ywr4.png"
+             alt="Profile Image Preview"
+             class="rounded-circle shadow-sm"
+             style="width: 120px; height: 120px; object-fit: cover;">
+    {% endif %}
+</div>
+
 
         <form method="post" enctype="multipart/form-data" novalidate>
             {% csrf_token %}

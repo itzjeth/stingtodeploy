@@ -11,7 +11,7 @@ from difflib import SequenceMatcher
 import json, random, string, datetime
 
 from webapp.forms import UserForm, ReviewForm
-from webapp.models import Users, Review, Admin, ChatHistory
+from webapp.models import Users, Review, Admin
 """{% load static %}"""
 
 
@@ -40,60 +40,6 @@ def chatbot_front(request):
 
 def userHomePage(request):
     return render(request, 'pages/userHome.html')
-
-from django.http import JsonResponse
-from django.contrib.auth.decorators import login_required
-from .models import ChatHistory
-import json
-
-@login_required
-def save_chat_history(request):
-    if request.method == "POST":
-        try:
-            data = json.loads(request.body)
-            messages = data.get("messages", [])
-            title = data.get("title", "Untitled Chat")
-
-            chat = ChatHistory(user=request.user, title=title)
-            chat.set_messages(messages)  # ✅ use model helper
-            chat.save()
-
-            return JsonResponse({"status": "success"})
-        except Exception as e:
-            return JsonResponse({"status": "error", "message": str(e)}, status=500)
-
-    return JsonResponse({"status": "error", "message": "Invalid method"}, status=400)
-
-
-@login_required
-def get_chat_histories(request):
-    chats = ChatHistory.objects.filter(user=request.user).order_by('-created_at')
-    data = []
-    for chat in chats:
-        try:
-            messages = chat.get_messages()  # ✅ use model helper
-        except (ValueError, TypeError):
-            messages = []
-
-        data.append({
-            "id": chat.id,
-            "title": chat.title,
-            "created_at": chat.created_at.strftime("%b %d, %Y %H:%M"),
-            "messages": messages
-        })
-
-    return JsonResponse(data, safe=False)
-
-
-
-
-
-
-
-
-
-
-
 
 
 def generate_random_password(length=8):
@@ -147,8 +93,8 @@ def send_review_email(request, pk):
             user_obj = Users.objects.create(
                 userName=review.user,
                 userEmail=review.email,
-                userPass=new_password,
-                userImage='profile_images/default.png'  # Cloudinary folder
+                userPass=new_password
+                # userImage omitted → model default will be used
             )
             created = True
 
@@ -201,11 +147,11 @@ def review_create(request):
             review.password = random_password
             review.save()
 
+            # Create user (Cloudinary default image used automatically)
             Users.objects.create(
                 userName=review.user,
                 userEmail=review.email,
-                userPass=random_password,
-                userImage='profile_images/default.png'  # stored in Cloudinary
+                userPass=random_password
             )
 
             # Send email
@@ -258,7 +204,9 @@ def doLogin(request):
         # ADMIN LOGIN
         # -------------------------
         if utype == "Admin":
-            for a in Admin.objects.raw('SELECT * FROM TB_Admin WHERE AdminId="%s" AND AdminPass="%s"' % (uid, upass)):
+            for a in Admin.objects.raw(
+                'SELECT * FROM TB_Admin WHERE AdminId=%s AND AdminPass=%s', [uid, upass]
+            ):
                 request.session['AdminId'] = uid
                 return render(request, "pages/base.html")
 
@@ -269,16 +217,12 @@ def doLogin(request):
         # USER LOGIN
         # -------------------------
         if utype == "User":
-            for a in Users.objects.raw('SELECT * FROM TB_Users WHERE userEmail="%s" AND userPass="%s"' % (uid, upass)):
+            for a in Users.objects.raw(
+                'SELECT * FROM TB_Users WHERE userEmail=%s AND userPass=%s', [uid, upass]
+            ):
                 request.session['CustId'] = uid
                 request.session['user_name'] = a.userName
-
-                # Cloudinary-safe image URL
-                if a.userImage:
-                    request.session['user_image'] = a.userImage.url
-                else:
-                    request.session['user_image'] = '/static/profile_images/default.png'
-
+                request.session['user_image'] = a.userImage.url if a.userImage else None
                 return render(request, "pages/chatbot.html")
 
             messages.error(request, "Incorrect username or password")
@@ -293,7 +237,7 @@ def edit_profile(request):
     if request.method == 'POST':
         user.userName = request.POST.get('userName')
 
-        # If image uploaded → Cloudinary will handle it
+        # Upload new image if provided
         if 'userImage' in request.FILES:
             user.userImage = request.FILES['userImage']
 
@@ -310,9 +254,7 @@ def edit_profile(request):
 
         # Update session with Cloudinary URL
         request.session['user_name'] = user.userName
-        request.session['user_image'] = (
-            user.userImage.url if user.userImage else '/static/profile_images/default.png'
-        )
+        request.session['user_image'] = user.userImage.url if user.userImage else None
 
         messages.success(request, "Profile updated successfully.")
         return render(request, 'pages/edit_profile.html', {'user': user})

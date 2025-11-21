@@ -4,6 +4,14 @@ import cloudinary
 import cloudinary.uploader
 import cloudinary.api
 
+
+cloudinary.config(
+    cloud_name = 'dbtj41ky2',
+    api_key = '354454232486459',
+    api_secret = '2rHmFv2MpjPDiJTQutpU2yNHixU',
+    secure = True
+)
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY
@@ -88,14 +96,16 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Media files
 CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL")
 
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-
 MEDIA_URL = '/media/'   # Cloudinary auto handles URLs
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# ------------------------------
-# EMAIL SETTINGS (Gmail SMTP)
-# ------------------------------
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dbtj41ky2',
+    'API_KEY': '354454232486459',
+    'API_SECRET': '2rHmFv2MpjPDiJTQutpU2yNHixU',
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 EMAIL_BACKEND = "sendgrid_backend.SendgridBackend"
 SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")

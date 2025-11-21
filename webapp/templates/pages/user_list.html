@@ -7,7 +7,9 @@
 
     <!-- Search Form -->
     <form method="get" class="d-flex mb-3">
-        <input type="text" name="q" class="form-control me-2" placeholder="Search by name..." value="{{ query|default_if_none:'' }}">
+        <input type="text" name="q" class="form-control me-2" 
+               placeholder="Search by name..." 
+               value="{{ query|default_if_none:'' }}">
         <button type="submit" class="btn btn-outline-primary">Search</button>
     </form>
 
@@ -23,21 +25,39 @@
                 <th>Actions</th>
             </tr>
         </thead>
+
         <tbody>
             {% for user in users %}
             <tr>
-                <td><img src="{{ user.userImage.url }}" width="50" height="50" class="rounded-circle"></td>
+                <td>
+    {% if user.userImage %}
+        <img src="{{ user.userImage.url }}" width="50" height="50" class="rounded-circle">
+    {% else %}
+        <img src="https://res.cloudinary.com/dbtj41ky2/image/upload/v1763708641/default_h6ywr4.png" width="50" height="50" class="rounded-circle">
+    {% endif %}
+</td>
+
                 <td>{{ user.userName }}</td>
                 <td>{{ user.userEmail }}</td>
                 <td>******</td>
-                <td>{{ review.message }}</td>
+
+                <td>
+                    {% if user.message %}
+                        {{ user.message }}
+                    {% else %}
+                        <span class="text-muted">No message</span>
+                    {% endif %}
+                </td>
+
                 <td>
                     <a href="{% url 'user_edit' user.pk %}" class="btn btn-sm btn-primary">Edit</a>
                     <a href="{% url 'user_delete' user.pk %}" class="btn btn-sm btn-danger">Delete</a>
                 </td>
             </tr>
             {% empty %}
-            <tr><td colspan="5" class="text-center">No users found.</td></tr>
+            <tr>
+                <td colspan="6" class="text-center">No users found.</td>
+            </tr>
             {% endfor %}
         </tbody>
     </table>

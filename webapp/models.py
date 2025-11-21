@@ -1,5 +1,6 @@
 from django.db import models  
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AbstractBaseUser, BaseUserManager
+from cloudinary.models import CloudinaryField
 import json
             
 class Review(models.Model):
@@ -40,7 +41,7 @@ class Users(models.Model):
     userName = models.CharField(max_length=255)
     userEmail = models.EmailField(unique=True)
     userPass = models.CharField(max_length=255)
-    userImage = models.ImageField(upload_to='profile_images/', default='profile_images/default.png')
+    userImage = CloudinaryField('Profile Images', default='default_h6ywr4.png')
 
     class Meta:
         db_table = "TB_Users"
@@ -51,17 +52,5 @@ class Admin(models.Model):
 	class Meta:
 		db_table = "TB_Admin"
 
-class ChatHistory(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    title = models.CharField(max_length=255, default="Untitled Chat")
-    messages = models.TextField()  # <-- use TextField instead of JSONField
-    created_at = models.DateTimeField(auto_now_add=True)
 
-    def set_messages(self, messages):
-        """Save list/dict messages as JSON string."""
-        self.messages = json.dumps(messages)
-
-    def get_messages(self):
-        """Return messages as Python object."""
-        return json.loads(self.messages)
 
