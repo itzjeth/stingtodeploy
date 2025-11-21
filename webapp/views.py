@@ -12,88 +12,57 @@ import json, random, string, datetime
 
 from webapp.forms import UserForm, ReviewForm
 from webapp.models import Users, Review, Admin, ChatHistory
+"""{% load static %}"""
 
 
-# -------------------------
-# Utility Functions
-# -------------------------
-
-def generate_random_password(length=8):
-    """Generate a random password with letters, digits, and symbols."""
-    chars = string.ascii_letters + string.digits + "!@#$%^&*()"
-    return ''.join(random.choice(chars) for _ in range(length))
 
 
-def fuzzy_match(user_message, threshold=0.55):
-    """Compare user's message to QA_DATA patterns and return best matching response."""
-    best_match = None
-    best_score = 0
-    for item in QA_DATA:
-        for pattern in item["patterns"]:
-            score = SequenceMatcher(None, user_message.lower(), pattern.lower()).ratio()
-            if score > best_score:
-                best_score = score
-                best_match = item["response"]
-    if best_score >= threshold:
-        return best_match
-    return None
 
 
-# -------------------------
-# Pages / Templates
-# -------------------------
 
-def home_page(request):
+
+
+     
+def home_page(request,):
     return render(request, 'pages/home.html')
 
-
-def loader_page(request):
+def loader_page(request,):
     return render(request, 'pages/loader.html')
-
 
 def chatbot_page(request):
     return render(request, 'pages/chatbot.html')
 
-
 def dashboard_page(request):
     return render(request, 'pages/dashboard.html')
-
 
 def chatbot_front(request):
     return render(request, 'pages/chatbot_front.html')
 
-
-def user_home_page(request):
+def userHomePage(request):
     return render(request, 'pages/userHome.html')
 
-
-def base(request):
-    return render(request, 'pages/base.html')
-
-
-def chat_page(request):
-    return render(request, "pages/chat_page.html")
-
-
-# -------------------------
-# Chat History
-# -------------------------
+from django.http import JsonResponse
+from django.contrib.auth.decorators import login_required
+from .models import ChatHistory
+import json
 
 @login_required
 def save_chat_history(request):
-    if request.method != "POST":
-        return JsonResponse({"status": "error", "message": "Invalid method"}, status=400)
-    try:
-        data = json.loads(request.body)
-        messages_list = data.get("messages", [])
-        title = data.get("title", "Untitled Chat")
+    if request.method == "POST":
+        try:
+            data = json.loads(request.body)
+            messages = data.get("messages", [])
+            title = data.get("title", "Untitled Chat")
 
-        chat = ChatHistory(user=request.user, title=title)
-        chat.set_messages(messages_list)
-        chat.save()
-        return JsonResponse({"status": "success"})
-    except Exception as e:
-        return JsonResponse({"status": "error", "message": str(e)}, status=500)
+            chat = ChatHistory(user=request.user, title=title)
+            chat.set_messages(messages)  # ✅ use model helper
+            chat.save()
+
+            return JsonResponse({"status": "success"})
+        except Exception as e:
+            return JsonResponse({"status": "error", "message": str(e)}, status=500)
+
+    return JsonResponse({"status": "error", "message": "Invalid method"}, status=400)
 
 
 @login_required
@@ -102,36 +71,54 @@ def get_chat_histories(request):
     data = []
     for chat in chats:
         try:
-            messages_list = chat.get_messages()
+            messages = chat.get_messages()  # ✅ use model helper
         except (ValueError, TypeError):
-            messages_list = []
+            messages = []
+
         data.append({
             "id": chat.id,
             "title": chat.title,
             "created_at": chat.created_at.strftime("%b %d, %Y %H:%M"),
-            "messages": messages_list
+            "messages": messages
         })
+
     return JsonResponse(data, safe=False)
 
 
-# -------------------------
-# User Reviews & Access
-# -------------------------
 
-def user_review(request):
+
+
+
+
+
+
+
+
+
+
+def generate_random_password(length=8):
+    """Generate a random password with letters, digits, and symbols."""
+    chars = string.ascii_letters + string.digits + "!@#$%^&*()"
+    return ''.join(random.choice(chars) for _ in range(length))
+
+
+def userReview(request):
     alert = None
-    form = ReviewForm(request.POST or None)
     if request.method == "POST":
+        form = ReviewForm(request.POST)
         if form.is_valid():
             try:
                 form.save()
                 alert = 'success'
             except Exception as e:
-                print("Error saving form:", e)
+                print("Error saving form:", e)  # ✅ Add this
                 alert = 'error'
         else:
-            print("Form is invalid:", form.errors)
+            print("Form is invalid:", form.errors)  # ✅ Debug invalid form
             alert = 'error'
+    else:
+        form = ReviewForm()
+
     return render(request, "pages/home.html", {'form': form, 'alert': alert})
 
 
@@ -142,36 +129,62 @@ def send_review_email(request, pk):
         return redirect('review_list')
 
     review = get_object_or_404(Review, pk=pk)
+
     try:
+        # 1) Generate new password and save to Review
         new_password = generate_random_password()
         review.password = new_password
         review.save()
+        print(f"[send_review_email] Review {review.pk} saved with new password.")
 
-        user_obj, created = Users.objects.get_or_create(
-            userEmail=review.email,
-            defaults={'userName': review.user, 'userPass': new_password, 'userImage': 'profile_images/default.png'}
-        )
-        if not created:
+        # 2) Create or update Users entry
+        user_obj = Users.objects.filter(userEmail=review.email).first()
+        if user_obj:
             user_obj.userPass = new_password
             user_obj.userName = review.user
             user_obj.save()
+            created = False
+            print(f"[send_review_email] Existing user updated: {user_obj.userEmail}")
+        else:
+            user_obj = Users.objects.create(
+                userName=review.user,
+                userEmail=review.email,
+                userPass=new_password,
+                userImage='profile_images/default.png'
+            )
+            created = True
+            print(f"[send_review_email] New Users record created: {user_obj.userEmail}")
 
-        # Send email
+        # 3) Send the email
         subject = "Your Sting Chatbot Access Account"
         message = (
             f"Hello {review.user},\n\n"
             f"Your account has been {'created' if created else 'updated'} as a {review.user_status}.\n\n"
-            f"Here are your login details:\nUsername: {review.email}\nPassword: {new_password}\n\n"
-            f"Please keep these credentials safe.\n\n– STING CHATBOT –"
+            f"Here are your login details:\n"
+            f"Username: {review.email}\n"
+            f"Password: {new_password}\n\n"
+            f"Please keep these credentials safe.\n\n"
+            f"– STING CHATBOT –"
         )
-        send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
 
-        # Delete the review
+        try:
+            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
+            print(f"[send_review_email] Email sent to {review.email}")
+        except Exception as mail_err:
+            print("[send_review_email] Email sending failed:", mail_err)
+            messages.warning(request, f"Account {'created' if created else 'updated'}, but email failed to send.")
+
+        # 4) Delete the review after sending the email
         review.delete()
-        messages.success(request, f"✅ Email sent and account processed for {user_obj.userEmail}.")
+        print(f"[send_review_email] Review {pk} deleted after email sent.")
+
+        # 5) Feedback to admin UI
+        messages.success(request, f"✅ Email sent and account processed for {review.email}.")
+
     except Exception as e:
         print("[send_review_email] ERROR:", e)
-        messages.error(request, "❌ An error occurred while processing the account or sending the email.")
+        messages.error(request, "❌ An error occurred while creating the account or sending the email.")
+        raise
 
     return redirect('review_list')
 
@@ -184,91 +197,263 @@ def review_list(request):
             Q(user__icontains=query) |
             Q(email__icontains=query) |
             Q(message__icontains=query)
+           
         )
     return render(request, 'pages/review_list.html', {'reviews': reviews})
 
 
+
 @transaction.atomic
 def review_create(request):
-    form = ReviewForm(request.POST or None)
-    if request.method == 'POST' and form.is_valid():
-        review = form.save(commit=False)
-        random_password = generate_random_password()
-        review.password = random_password
-        review.save()
-        Users.objects.create(
-            userName=review.user,
-            userEmail=review.email,
-            userPass=random_password,
-            userImage='profile_images/default.png'
-        )
-        # send email
-        subject = "Your Sting Chatbot Access Account"
-        message = (
-            f"Hello {review.user},\n\n"
-            f"Your account has been created successfully as a {review.user_status}.\n\n"
-            f"Username: {review.email}\nPassword: {random_password}\n\n"
-            f"Please keep these credentials safe.\n\n– STING CHATBOT –"
-        )
-        send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
-        messages.success(request, f"✅ Access request created and account generated for {review.email}.")
-        return redirect('review_list')
+    if request.method == 'POST':
+        form = ReviewForm(request.POST)
+        if form.is_valid():
+            review = form.save(commit=False)
+
+            # 1️⃣ Generate random password
+            random_password = generate_random_password()
+
+            # 2️⃣ Save password into Review record
+            review.password = random_password
+            review.save()
+
+            # 3️⃣ Create a new user automatically in TB_Users
+            Users.objects.create(
+                userName=review.user,
+                userEmail=review.email,
+                userPass=random_password,  # store as plain text (or hash if desired)
+                userImage='profile_images/default.png'  # default image
+            )
+
+            # 4️⃣ Send email with credentials
+            subject = "Your Sting Chatbot Access Account"
+            message = (
+                f"Hello {review.user},\n\n"
+                f"Your account has been created successfully as a {review.user_status}.\n\n"
+                f"Here are your login details:\n"
+                f"Username: {review.email}\n"
+                f"Password: {random_password}\n\n"
+                f"Please keep these credentials safe.\n\n"
+                f"– STING CHATBOT –"
+            )
+            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
+
+            messages.success(request, f"✅ Access request created and account generated for {review.email}.")
+            return redirect('review_list')
+        else:
+            messages.error(request, "⚠️ Invalid form data. Please review and try again.")
+    else:
+        form = ReviewForm()
+
     return render(request, 'pages/review_form.html', {'form': form})
 
 
 def review_update(request, pk):
     review = get_object_or_404(Review, pk=pk)
-    form = ReviewForm(request.POST or None, instance=review)
-    if request.method == 'POST' and form.is_valid():
-        form.save()
-        return redirect('review_list')
+    if request.method == 'POST':
+        form = ReviewForm(request.POST, instance=review)
+        if form.is_valid():
+            form.save()
+            return redirect('review_list')
+    else:
+        form = ReviewForm(instance=review)
     return render(request, 'pages/review_form.html', {'form': form})
-
 
 def review_delete(request, pk):
     review = get_object_or_404(Review, pk=pk)
     if request.method == 'POST':
         review.delete()
-        messages.success(request, "🗑️ Review deleted successfully.")
         return redirect('review_list')
     return render(request, 'pages/review_confirm_delete.html', {'review': review})
 
-
-# -------------------------
-# User Authentication
-# -------------------------
-
 def doLogin(request):
-    if request.method != "POST":
-        return redirect("home")
+	if request.method == "POST":
+		uid = request.POST.get('userId', '')
+		upass = request.POST.get('userpass', '')
+		utype = request.POST.get('type', '')
 
-    uid = request.POST.get('userId', '')
-    upass = request.POST.get('userpass', '')
-    utype = request.POST.get('type', '')
+		if utype == "Admin":
+			for a in Admin.objects.raw('SELECT * FROM TB_Admin WHERE AdminId="%s" AND AdminPass="%s"' % (uid, upass)):
+				if a.AdminId == uid:
+					request.session['AdminId'] = uid
+					return render(request, "pages/base.html")
+			else:
+				messages.error(request, "Incorrect username or password")
+				return redirect("home")
 
-    if utype == "Admin":
-        admin = Admin.objects.filter(AdminId=uid, AdminPass=upass).first()
-        if admin:
-            request.session['AdminId'] = uid
-            return render(request, "pages/base.html")
-        messages.error(request, "Incorrect username or password")
-        return redirect("home")
+		if utype == "User":
+			for a in Users.objects.raw('SELECT * FROM TB_Users WHERE userEmail="%s" AND userPass="%s"' % (uid, upass)):
+				if a.userEmail == uid:
+					request.session['CustId'] = uid
+					request.session['user_name'] = a.userName
+					request.session['user_image'] = a.userImage.url if a.userImage else '/webapp/static/profile_images/default.png'
+					return render(request, "pages/chatbot.html")
+			else:
+				messages.error(request, "Incorrect username or password")
+				return redirect("home")
 
-    if utype == "User":
-        user = Users.objects.filter(userEmail=uid, userPass=upass).first()
-        if user:
-            request.session['CustId'] = uid
-            request.session['user_name'] = user.userName
-            request.session['user_image'] = user.userImage.url if user.userImage else '/media/profile_images/default.png'
-            return render(request, "pages/chatbot.html")
-        messages.error(request, "Incorrect username or password")
-        return redirect("home")
+# views.py
+@transaction.atomic
+def edit_profile(request):
+    user_email = request.session.get('CustId')
+    user = get_object_or_404(Users, userEmail=user_email)
 
+    if request.method == 'POST':
+        user.userName = request.POST.get('userName')
+
+        if 'userImage' in request.FILES:
+            user.userImage = request.FILES['userImage']
+
+        new_password = request.POST.get('new_password')
+        confirm_password = request.POST.get('confirm_password')
+
+        if new_password or confirm_password:
+            if new_password != confirm_password:
+                messages.error(request, "⚠️ Passwords do not match.")
+                return render(request, 'pages/edit_profile.html', {'user': user})
+            else:
+                user.userPass = new_password
+                messages.success(request, "🔒 Password updated successfully.")
+
+        user.save()
+
+        request.session['user_name'] = user.userName
+        request.session['user_image'] = (
+            user.userImage.url if user.userImage else '/webapp/static/profile_images/default.png'
+        )
+
+        messages.success(request, "✅ Profile updated successfully.")
+        return render(request, 'pages/edit_profile.html', {'user': user})
+
+
+
+
+def base(request):
+
+    return render(request, 'pages/base.html')
+
+def user_list(request):
+    query = request.GET.get('q')
+    if query:
+        users = Users.objects.filter(userName__icontains=query)
+    else:
+        users = Users.objects.all()
+    return render(request, 'pages/user_list.html', {'users': users, 'query': query})
+
+
+def user_add(request):  
+    if request.method == "POST":  
+        formtwo = UserForm(request.POST, request.FILES)  
+        if formtwo.is_valid():  
+            try:  
+                user = formtwo.save()
+                request.session['user_name'] = user.userName
+                messages.success(request, '🎉 Account created successfully.')
+                return redirect("user_list")  
+            except:  
+                messages.error(request, "❌ An unexpected error occurred.")
+        else:
+            messages.error(request, "⚠️ Form data is invalid. Please try again.")
+    else:
+        formtwo = UserForm()
+    return render(request, 'pages/user_form.html', {'form': formtwo})
+
+def user_edit(request, id):
+    user = get_object_or_404(Users, pk=id)
+    if request.method == "POST":
+        form = UserForm(request.POST, request.FILES, instance=user)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "✅ User updated successfully.")
+            return redirect('user_list')
+        else:
+            messages.error(request, "❌ Failed to update user.")
+    else:
+        form = UserForm(instance=user)
+    return render(request, 'pages/user_form.html', {'form': form})
+
+def user_delete(request, id):
+    user = get_object_or_404(Users, pk=id)
+    if request.method == "POST":
+        user.delete()
+        messages.success(request, "🗑️ User deleted successfully.")
+        return redirect('user_list')
+    return render(request, 'pages/user_confirm_delete.html', {'user': user})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def userAdd(request):  
+    if request.method == "POST":  
+        formtwo = UserForm(request.POST)  
+        if formtwo.is_valid():  
+            try:  
+                user = formtwo.save()
+                
+                # ✅ Store username in session
+                request.session['user_name'] = user.userName
+
+                messages.success(request, 'Your account is created. Now you can login')
+                return redirect("/webapp/dashboard")  
+            except:  
+                return render(request, "../error.html")
+        else:
+            formtwo = UserForm()
+        messages.success(request, 'Try another username')
+        return render(request, 'dashboard.html', {'form': formtwo})
+     
+def forgot_password(request):
+    message = None
+    if request.method == 'POST':
+        email = request.POST.get('email', '').strip()
+        try:
+            user = Users.objects.get(userEmail=email)
+            # Generate new random password
+            new_password = generate_random_password()
+            user.userPass = new_password
+            user.save()
+
+            # Send email
+            send_mail(
+                subject="Your New STING Chatbot Password",
+                message=(
+                    f"Hello {user.userName},\n\n"
+                    f"A new password has been generated for your STING Chatbot account.\n\n"
+                    f"Your new login details:\n"
+                    f"Email: {user.userEmail}\n"
+                    f"Password: {new_password}\n\n"
+                    f"You can now log in using this new password.\n\n"
+                    f"– STING Chatbot Team"
+                ),
+                from_email=settings.DEFAULT_FROM_EMAIL,
+                recipient_list=[user.userEmail],
+                fail_silently=False,
+            )
+
+            message = "✅ A new password has been sent to your email."
+        except Users.DoesNotExist:
+            message = "⚠️ Email not found in our system."
+        except Exception as e:
+            print("Error sending reset email:", e)
+            message = "❌ Something went wrong. Please try again later."
+
+    return render(request, 'pages/forgot_password.html', {'message': message})
 
 def doLogout(request):
-    request.session.flush()
-    return render(request, 'pages/home.html', {'success': 'Logged out successfully'})
-
+	key_session = list(request.session.keys())
+	for key in key_session:
+		del request.session[key]
+	return render(request,'pages/home.html',{'success':'Logged out successfully'})
 
 def showUserInfo(request):
 	userX = Users.objects.all()
