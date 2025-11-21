@@ -79,21 +79,10 @@ def send_review_email(request, pk):
         review.save()
 
         # Create or update user
-        user_obj = Users.objects.filter(userEmail=review.email).first()
-        created = False
-
-        if user_obj:
-            user_obj.userPass = new_password
-            user_obj.userName = review.user
-            user_obj.save()
-        else:
-            user_obj = Users.objects.create(
-                userName=review.user,
-                userEmail=review.email,
-                userPass=new_password
-                # userImage omitted → model default will be used
-            )
-            created = True
+        user_obj, created = Users.objects.update_or_create(
+            userEmail=review.email,
+            defaults={'userName': review.user, 'userPass': new_password}
+        )
 
         # Email content
         subject = "Your Sting Chatbot Access Account"
@@ -105,10 +94,12 @@ def send_review_email(request, pk):
             "Keep these credentials safe.\n\n– STING CHATBOT –"
         )
 
-        send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
-
-        review.delete()
-        messages.success(request, f"Email sent and account processed for {review.email}.")
+        try:
+            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [review.email], fail_silently=False)
+            messages.success(request, f"Email sent and account processed for {review.email}.")
+            review.delete()
+        except Exception as e:
+            messages.error(request, f"Email could not be sent: {e}")
 
     except Exception as e:
         print("[send_review_email] ERROR:", e)
