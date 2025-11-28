@@ -428,391 +428,351 @@ from django.shortcuts import render
 
 
 QA_DATA = [
-     #ENROLLMENT REQUIREMENTS
-    {
-        "patterns": [
-            "What are the basic enrollment requirements", "requirements for enrollment", "general requirements",
-            "cvsu bacoor enrollment needs", "documents needed to enroll"
-        ],
-        "response": "To enroll at Cavite State University (CvSU) Bacoor Campus, applicants must secure several essential documents. These typically include a completed Application Form, original and photocopies of Form 138 (for incoming freshmen), Certified True Copy of grades (for transferees), PSA Birth Certificate, Certificate of Good Moral Character, and a 1x1 or 2x2 ID photo. Students also need to undergo confirmation of slot, pay the required school fees, and attend orientation sessions. The campus may also request additional documents depending on the program or student classification."
-    },
-    {
-        "patterns": [
-            "form 138 requirement", "report card needed", "is form 138 required",
-            "high school card cvsu bacoor", "form 138 for enrollment"
-        ],
-        "response": "Yes, Form 138 or the Senior High School Report Card is a mandatory requirement for all incoming freshman students at CvSU Bacoor Campus. This document verifies that the student successfully completed Grade 12 and includes the learner’s academic performance, final grades, and school details. The school requires both the original and photocopy during validation. Students must ensure all grades are complete and that the form is signed by the school registrar or principal to avoid delays in enrollment."
-    },
-    {
-        "patterns": [
-            "psa birth certificate", "birth certificate requirement", "do i need my psa",
-            "psa needed for enrollment", "submit birth certificate"
-        ],
-        "response": "CvSU Bacoor Campus requires a PSA-issued Birth Certificate for all enrolling students. This document confirms the applicant’s identity, date of birth, and citizenship, which are essential for school records. Students must present the original document for verification and submit a photocopy. The PSA Birth Certificate must be clear, unalterred, and legible. If errors exist, students may be asked to provide supporting documents or correction proof."
-    },
-    {
-        "patterns": [
-            "certificate of good moral", "good moral requirement", "is good moral needed",
-            "good moral cvsu bacoor", "moral certificate"
-        ],
-        "response": "Yes, all applicants must submit a Certificate of Good Moral Character issued by their previous school. CvSU Bacoor uses this certificate to ensure that the applicant has exhibited proper behavior and discipline. The certificate must be signed by an authorized school official, usually the guidance counselor or principal. Expired or unsigned certificates may not be accepted, so students should request a newly issued one if needed."
-    },
-    {
-        "patterns": [
-            "id picture requirement", "photo requirement", "what size of id picture",
-            "cvsu photo requirement", "2x2 picture enrollment"
-        ],
-        "response": "Students enrolling in CvSU Bacoor Campus must submit recent ID pictures, typically either 1x1 or 2x2 depending on the program's instructions. The photo must have a plain background, preferably white, and the student should be wearing decent attire. These photos are used for student records, forms, and identification during campus transactions. It is recommended to bring extra copies for contingencies."
-    },
-    {
-        "patterns": [
-            "requirements for transferees", "transferee enrollment cvsu", "transferee documents",
-            "cvsu bacoor transferee requirements", "transfer student requirements"
-        ],
-        "response": "Transferees must submit several documents including an Honorable Dismissal, Transcript of Records or Certified True Copy of Grades, Certificate of Good Moral Character, PSA Birth Certificate, and ID pictures. They must also undergo an evaluation process where the campus checks which subjects can be credited. Some programs may require transferees to take an interview or qualifying exam. Once evaluated and accepted, the student may proceed with enrollment."
-    },
-    {
-        "patterns": [
-            "honorable dismissal", "do transferees need honorable dismissal", "transfer credentials",
-            "honorable dismissal requirement", "leaving school document"
-        ],
-        "response": "Yes, an Honorable Dismissal is required for transferees enrolling at CvSU Bacoor Campus. This document certifies that the student has officially left their previous institution and is allowed to continue their studies elsewhere. It must be issued by the school registrar. Without it, the campus cannot proceed with the full admission process, especially in crediting subjects or validating academic history."
-    },
-    {
-        "patterns": [
-            "tor requirement", "transcript of records", "tor for transferee",
-            "need tor for enrollment", "tor cvsu bacoor"
-        ],
-        "response": "Transferees must present their Transcript of Records (TOR) or at least a Certified True Copy of Grades for evaluation. CvSU Bacoor uses this document to determine whether the applicant meets the academic requirements and which subjects can be credited. The TOR must be clear, updated, and signed by the registrar. Students should check for missing grades since incomplete records may delay the evaluation process."
-    },
-    {
-        "patterns": [
-            "requirements for shifters", "shifting requirements", "cvsu shifting process",
-            "shifter documents", "change course requirements"
-        ],
-        "response": "Shifters—students already enrolled at CvSU but seeking to change programs—must secure a Shifting Form, updated grades, evaluation from their current department, and approval from the target department. Additional requirements may include interviews or passing certain prerequisites. Shifters must also ensure they have no pending balances or academic deficiencies before the shift is approved."
-    },
-    {
-        "patterns": [
-            "requirements for foreign students", "international student", "foreign applicant cvsu",
-            "foreign student documents", "alien enrollment"
-        ],
-        "response": "Foreign students must submit a valid passport, student visa, Alien Certificate of Registration (ACR I-Card), authenticated academic records, Certificate of Good Moral Character, and English proficiency certification depending on their background. CvSU Bacoor may also require evaluation of foreign transcripts and payment of special processing fees. All documents must be authenticated according to DFA or embassy protocols."
-    },
-    {
-        "patterns": [
-            "medical requirements", "medical certificate", "physical exam cvsu",
-            "health requirements", "medical check enrollment"
-        ],
-        "response": "CvSU Bacoor may require a Medical Certificate for specific programs, especially those related to health sciences or technical fields. The medical assessment ensures that students are fit to participate in academic and campus activities. The certificate must come from a licensed physician and may include tests such as CBC, urinalysis, and chest X-ray depending on university guidelines."
-    },
-    {
-        "patterns": [
-            "requirements for balik aral", "returning student", "returnee enrollment",
-            "balik aral documents", "come back student cvsu"
-        ],
-        "response": "Returning students or ‘balik-aral’ enrollees must update their records by submitting an Application for Re-admission, previous grades, and clearance from their last attended semester. They must also settle any outstanding obligations. If they have been away for several years, the department may require an interview, evaluation, or additional documentation to ensure academic continuity."
-    },
-    {
-        "patterns": [
-            "requirements for second courser", "second course enrollment", "another degree cvsu",
-            "2nd coursers requirements", "taking another program"
-        ],
-        "response": "Second coursers must submit their TOR showing completion of their first degree, along with a Certificate of Good Moral Character, ID photos, and PSA Birth Certificate. They may also undergo evaluation depending on program prerequisites. Some subjects may be credited if aligned with the new program. Interviews or qualifying exams may be required depending on the department’s standards."
-    },
-    {
-        "patterns": [
-            "grade requirement", "minimum grade required", "grade cutoff",
-            "passing grade for admission", "cvsu grade requirement"
-        ],
-        "response": "CvSU Bacoor Campus typically requires applicants to have passing grades in all core subjects, especially Math, English, and Science depending on their chosen program. While the university is not strict on grade cut-offs for general admission, competitive programs may impose higher academic standards. Students with failing grades may undergo additional screening or interviews."
-    },
-    {
-        "patterns": [
-            "age requirement", "minimum age enrollment", "can i enroll at this age",
-            "age limit cvsu", "age requirement admission"
-        ],
-        "response": "CvSU Bacoor Campus does not impose strict age limits for admission. As long as the student can provide complete documents and meets academic requirements, they may enroll regardless of age. However, legal-age specifications may apply when signing documents or consent forms. Minors may need parental consent for official transactions."
-    },
-    {
-        "patterns": [
-            "is entrance exam required", "cvsu bacoor entrance exam", "do i need exam to enroll",
-            "admission test requirement", "is there exam for enrollment"
-        ],
-        "response": "CvSU Bacoor Campus does not regularly require an entrance exam for most undergraduate programs. However, this may depend on university-wide announcements, program demand, and academic policies for the school year. Some programs with high competition may require screening, interviews, or qualifying assessments. Applicants should always check the latest updates from the campus to confirm whether an exam is needed."
-    },
+############ PERSONAL BOUT CVSU ####################
+{
+  "patterns": [
+    "current president cvsu",
+    "who is president cvsu",
+    "cvsu president",
+    "president"
+  ],
+  "response": """
+<img src="https://cvsu.edu.ph/wp-content/uploads/2025/01/2-1920x1920.png" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 75%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU). The members of the CvSU Board of Regents elected Dr. Nuestro to become the next president of the University, succeeding Dr. Hernando D. Robles who retired in October 2024. Having served as the University’s Vice President for Academic Affairs, Dr. Nuestro envisions CvSU as a premier global university by 2028. In her presentation during the Public Forum for the Search for the 4th CvSU President, Dr. Nuestro emphasized her administration’s goals centered on IDEAL: Inclusive and Accessible Education, Dynamic and Competitive Research and Innovation, Empowered Communities and Stronger Partnership, Accountable and Client-Centered Governance, and Long-lasting/Sustainable Resource Generation.
+  """
+},
 
-    {
-        "patterns": [
-            "is interview required", "interview for enrollment", "do i need interview cvsu",
-            "program interview requirement", "screening interview"
-        ],
-        "response": "Certain programs at CvSU Bacoor Campus require interviews to determine if the applicant is suited for the chosen course. Interviews may evaluate communication skills, motivation, and academic readiness. The department may also ask about career goals and previous academic experiences. Not all programs require this step, but applicants should be prepared in case interviews are scheduled."
-    },
+{
+ "patterns": [
+    "old president cvsu",
+    "old president",
+    "old cvsu president"
+  ],
+  "response": """
+<img src="https://www.manilatimes.net/uploads/imported_images/uploads/2021/03/CP-ONLINE_CVSU-PRESIDENT-Robles.jpg" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 75%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU).
 
-    {
-        "patterns": [
-            "is reservation required", "slot reservation cvsu", "do I need to reserve slot",
-            "reservation fee", "cvsu slot confirmation"
-        ],
-        "response": "CvSU Bacoor sometimes requires students to reserve their slot after admission confirmation, especially for high-demand programs. This ensures that the student secures a seat before the enrollment period. Reservation may involve submitting preliminary documents or attending orientation sessions. In some cases, a reservation form or payment of minimal campus fees may be required."
-    },
+Dr. Hernando D. Robles is the former President of Cavite State University (CvSU), serving from 2016 until his retirement in 2024. During his presidency, he also acted as the Vice-Chairperson of the CvSU Board of Regents. Under his leadership, CvSU achieved major milestones, including receiving the Philippine Quality Award for Quality Management Mastery, becoming one of the top-performing state universities in terms of accredited academic programs, and expanding its research and extension initiatives in agriculture, environmental studies, and community development. He supported collaborations with government agencies and private partners, strengthened infrastructure, improved management systems, and elevated the overall academic reputation of the university across all its campuses. His term ended when Dr. Ma. Agnes P. Nuestro succeeded him as the new university president in 2024.
+  """
+},
 
-    {
-        "patterns": [
-            "requirements for online enrollment", "online enrollment process", "what to upload online",
-            "digital submission requirements", "cvsu online requirements"
-        ],
-        "response": "For online enrollment, students are typically required to upload scanned copies or clear photographs of essential documents such as Form 138, PSA Birth Certificate, Good Moral Certificate, and ID pictures. The files should be readable and submitted in formats like JPG or PDF. Students must follow instructions properly because blurred or incomplete submissions often lead to delays in validation."
-    },
+{
+ "patterns": [
+    "current department chairperson",
+    "department chairperson",
+    "chairperson"
+  ],
+  "response": """
 
-    {
-        "patterns": [
-            "original documents or photocopy", "is original needed", "photocopy acceptable",
-            "submit original documents", "document authenticity"
-        ],
-        "response": "CvSU Bacoor requires both original and photocopies of major documents. Original copies are used only for verification and will be returned immediately. Photocopies are submitted for official records. The student must ensure that photocopies are clear and complete, including signatures, school stamps, and important details. Failure to present originals during verification may prevent completion of enrollment."
-    },
+<b> JOVELYN D. OCAMPO, MIT </b>
 
-    {
-        "patterns": [
-            "requirements for scholarship", "scholarship documents cvsu", "apply for scholarship",
-            "scholarship requirements", "financial aid cvsu bacoor"
-        ],
-        "response": "Scholarship applicants must submit additional documents such as income tax returns, barangay certificates of residency or indigency, and academic records showing outstanding grades. Some scholarships require recommendation letters or proof of extracurricular achievements. The CvSU Scholarship Office also evaluates applicants through interviews or screening, depending on the type of scholarship applied for."
-    },
+  """
+},
 
-    {
-        "patterns": [
-            "requirements for voucher students", "SHS voucher requirement", "voucher for cvsu",
-            "does cvsu accept voucher", "voucher guidelines"
-        ],
-        "response": "Senior High School graduates with government vouchers must submit their voucher certificate or applicable ESC/PEAC documentation when enrolling. This document verifies their scholarship status and eligibility for certain financial assistance programs. CvSU Bacoor will validate the authenticity of the voucher and check if it applies to their program. It is important that students keep a clear digital and physical copy of the voucher."
-    },
+{
+ "patterns": [
+    "current research coordinator",
+    "campus research coordinator ",
+    "research coordinator"
+  ],
+  "response": """
+  
+<b> RONAN M. CAJIGAL, MAEd </b>
 
-    {
-        "patterns": [
-            "requirements for late enrollment", "late enrollment cvsu", "can I enroll late",
-            "late enrollees requirements", "enrollment deadline cvsu bacoor"
-        ],
-        "response": "Late enrollees must secure approval from the registrar and their department chairperson. They must present complete documents and may need to write a request letter explaining the reason for late enrollment. Availability of slots and program schedules will also affect approval. The campus may impose strict cut-off dates, so it is advised to enroll early whenever possible."
-    },
 
-    {
-        "patterns": [
-            "requirements for bridging subjects", "bridging program", "take bridging courses",
-            "bridging subjects cvsu", "additional academic requirements"
-        ],
-        "response": "Some students, especially transferees or second coursers, may be required to take bridging subjects if their previous academic background does not match CvSU’s curriculum. The department evaluates their records and decides which bridging subjects are necessary. Students must enroll in these subjects before proceeding to higher-level courses. These requirements ensure that all students meet the academic standards of the program."
-    },
+  """
+},
 
-    {
-        "patterns": [
-            "do i need barangay clearance", "barangay certificate requirement", "residency proof",
-            "barangay card for enrollment", "community document"
-        ],
-        "response": "Barangay Clearance is not a standard requirement for all students enrolling at CvSU Bacoor. However, certain scholarships, financial aid programs, or specific academic requirements may request it. If requested, the certificate should confirm the student's address and good standing in the community."
-    },
+{
+ "patterns": [
+    "current campus administrator",
+    "campus admin ",
+    "admin",
+    "administrator",
+    "campus administrator"
+  ],
+  "response": """
+  
+<b> MENVYLUZ S. MACALALAD, MBA </b>
 
-    {
-        "patterns": [
-            "parent consent requirement", "minor student requirements", "under 18 enrollment",
-            "parental consent cvsu", "legal guardian consent"
-        ],
-        "response": "Students under 18 may need to submit a Parent or Guardian Consent Form when enrolling at CvSU Bacoor. This document allows the university to proceed with admission processes involving minors. It also ensures that parents are aware of the student’s academic obligations. The form must be signed and may require photocopies of the parent’s ID."
-    },
+  """
+},
 
-    {
-        "patterns": [
-            "requirements for changing campus", "transfer campus cvsu", "shift to cvsu bacoor",
-            "intercampus transfer requirements", "campus transfer cvsu"
-        ],
-        "response": "Students transferring from one CvSU campus to another must secure a Campus Transfer Form, updated grades, and evaluation from their current department. They must also obtain clearance from the campus they are leaving to ensure no pending obligations. The receiving campus (CvSU Bacoor) will evaluate whether slots are available and if the student meets program requirements."
-    },
+##########################################################################
 
-    {
-        "patterns": [
-            "do i need credentials for evaluation", "subject evaluation requirement", "crediting subjects",
-            "evaluation documents", "grades needed for evaluation"
-        ],
-        "response": "Applicants who want to credit their previous subjects must present official documents such as a TOR, certified grade copies, and course descriptions. These documents allow CvSU Bacoor to determine which subjects align with their curriculum. Without complete documents, crediting cannot proceed. The evaluation process ensures fairness and accuracy in determining equivalent subjects."
-    },
+{
+  "patterns": [
+    "cvsu bacoor majors",
+    "courses offered bacoor",
+    "courses offered",
+    "what major cvsu bacoor offers",
+    "cvsu bacoor offers",
+    "courses in cvsu"
+  ],
+  "response": """
+  CvSU Bacoor offers various majors including Computer Science, Information Technology, Business Administration, Education, Pychology, and Criminology
+  """
+},
 
-    {
-        "patterns": [
-            "course description requirement", "do I need syllabus", "subject description cvsu",
-            "course outline required", "evaluation of subjects"
-        ],
-        "response": "Transferees and second coursers may be asked to submit course descriptions or syllabi of subjects taken from previous institutions. This helps the department evaluate whether the content matches CvSU’s curriculum. The documents should be official copies from the previous school and include detailed topics, units, and learning outcomes."
-    },
+{
+ "patterns": [
+    "in computer science",
+    "is computer science ",
+    "computer science",
+    "BSCS"
+  ],
+  "response": """
+  
+BSCS or BS Computer Science is the study of how computers work and how to create programs, apps, websites, and other technologies by learning coding, problem-solving, and how machines “think.”
+<br>Typical jobs: Programmer, software developer, game developer, web developer, AI engineer.
+<b>Difficulty: Hard – requires strong logic, patience, and a lot of coding practice.
+<b>Passing Rate: No national licensure exam.
+<br>Summary: CS focuses on creating technology through coding and building software.
 
-    {
-        "patterns": [
-            "is ncae required", "ncae exam", "ncae requirement cvsu",
-            "national career assessment exam", "need ncae"
-        ],
-        "response": "The National Career Assessment Examination (NCAE) is not a strict requirement for CvSU Bacoor enrollment. However, some programs may use NCAE results for guidance purposes, especially when evaluating student strengths and appropriate courses. If requested, students should present their NCAE certificate or results slip."
-    },
 
-    {
-        "patterns": [
-            "requirements for working students", "working student enrollment", "employed student requirements",
-            "work certificate cvsu", "enroll while working"
-        ],
-        "response": "Working students are not required to present employment documents for enrollment unless applying for scholarships or flexible schedule arrangements. CvSU Bacoor allows working students to enroll normally as long as they meet all academic requirements. However, they should check class schedules early to avoid conflicts with their work hours."
-    },
+  """
+},
 
-    {
-        "patterns": [
-            "wifi or email requirement", "email needed for enrollment", "gmail account cvsu",
-            "cvsu email requirement", "communication requirement"
-        ],
-        "response": "Applicants need an active email address, preferably Gmail, to complete the enrollment process at CvSU Bacoor. The university uses email for sending confirmation messages, instructions, and enrollment updates. Students must ensure that their email is accessible, secure, and regularly checked for notifications."
-    },
+{
+ "patterns": [
+    "in information technology",
+    "is information technology",
+    "information technology",
+    "BSIT"
+  ],
+  "response": """
+  
+BSIT or BS Information Technology is about using, managing, and maintaining computer systems, networks, and data to help organizations run smoothly, including fixing technical problems and protecting systems from hackers.
+<br>Typical jobs: IT technician, network administrator, cybersecurity specialist, IT support, system analyst.
+<b>Difficulty: Moderate to Hard – easier than CS but challenging in networking, troubleshooting, and cybersecurity.
+<b>Passing Rate: No national licensure exam.
+<br>Summary: IT focuses on maintaining and supporting technology in real-world workplaces.
 
-    {
-        "patterns": [
-            "dress code for id picture", "attire for id requirement", "what to wear for id photo",
-            "id picture dress code", "photo attire cvsu"
-        ],
-        "response": "Students must wear decent clothing in their ID pictures. Sleeveless shirts, hats, sunglasses, or distracting accessories are not allowed. The photo should have a plain background, and the student should appear neat and presentable. Proper attire ensures that the student’s image meets the campus identification standards."
-    },
+  """
+},
 
-    {
-        "patterns": [
-            "requirements for honor students", "with honors requirement", "honor graduate priority",
-            "academic awardee cvsu", "honor certificate enrollment"
-        ],
-        "response": "Honor graduates may present their certificates or proofs of academic awards when enrolling at CvSU Bacoor, especially if applying for scholarships or priority admission. While honors are not required for general enrollment, they may qualify students for special programs or benefits. The campus may request authenticated documents to verify honors."
-    },
+{
+ "patterns": [
+    "in business admin",
+    "in business administration",
+    "is business administration",
+    "business administration",
+    "BSBA"
+  ],
+  "response": """
+  
+BSBA or BS Business Administration teaches how businesses work and how to manage people, money, operations, and marketing to make an organization successful and efficient.
+<br>Typical jobs: Manager, HR officer, marketing assistant, entrepreneur, business analyst.
+<b>Difficulty: Easy to Moderate – less math-heavy than CS/IT but requires strong communication, analysis, and management skills.
+<b>Passing Rate: No national licensure exam.
+<br>Summary: Business Administration focuses on running and leading a business effectively.
 
-    {
-        "patterns": [
-            "requirements for college freshman", "freshman documents", "grade 12 graduates enrollment",
-            "requirements for first year", "new student cvsu bacoor"
-        ],
-        "response": "College freshmen must submit Form 138, PSA Birth Certificate, Certificate of Good Moral Character, ID pictures, and any additional documents required by their chosen program. They must complete the campus's validation and orientation procedures. Freshmen should also ensure that their academic records are complete, with all grades showing and properly signed by school officials."
-    },
+  """
+},
 
-    {
-        "patterns": [
-            "requirements for als passers", "als graduate enrollment", "als certificate",
-            "als equivalency", "alternative learning cvsu"
-        ],
-        "response": "ALS passers must submit their ALS Certificate of Completion and the official Accreditation and Equivalency (A&E) Test Results. These documents serve as proof that the student meets the equivalent qualifications of a high school graduate. Additional requirements such as Good Moral Certificate and ID pictures also apply. ALS students may undergo initial evaluation to determine readiness for college-level coursework."
-    },
+{
+ "patterns": [
+    "in education",
+    "is education",
+    "is educ",
+    "education",
+    "second education",
+    "BSEd"
+  ],
+  "response": """
+  
+BSEd or BS Education prepares future teachers by teaching them how to handle classrooms, create lessons, guide students, and understand how children learn and grow.
+<br>Typical jobs: Teacher, tutor, school administrator, guidance associate, curriculum developer.
+<b>Difficulty: Moderate – requires patience, communication, and mastery of teaching techniques.
+<b>Passing Rate (CvSU Bacoor): 90% passing rate in the 2025 Licensure Exam for Teachers (LET).
+<br>Summary: Education focuses on training teachers to help students learn well.
 
-    {
-        "patterns": [
-            "requirements for cross enrollees", "cross enrollment cvsu", "take subjects in cvsu",
-            "cross enrolling student", "temp student cvsu bacoor"
-        ],
-        "response": "Cross enrollees must present a Cross Enrollment Permit issued by their home school. This document grants permission to take certain subjects at CvSU Bacoor. They must also submit photocopies of their school ID, registration form, and endorsement letter from their department. After verification, they can proceed with subject enrollment depending on slot availability."
-    },
+  """
+},
 
-    {
-        "patterns": [
-            "requirements for ojt students", "ojt enrollment", "internship requirements cvsu",
-            "ojt documents", "on the job training"
-        ],
-        "response": "OJT students may be required to submit updated grades, medical certificates, waivers, and endorsement forms before being allowed to enroll in OJT subjects. They must also attend orientations and comply with program-specific requirements such as resume submission or NBI clearance depending on partner companies. The OJT coordinator will provide instructions regarding placements and documentation."
-    },
+{
+ "patterns": [
+    "in pyschology",
+    "is psychology",
+    "psychology",
+    "psych",
+    "BSP"
+  ],
+  "response": """
+  
+BSP or BS Psychology studies how people think, feel, and behave, helping explain emotions, actions, personality, relationships, and mental health.
+<br>Typical jobs: Guidance counselor, HR specialist, mental health aide, researcher, psychometrician.
+<br>Difficulty: Moderate to Hard – involves heavy reading, research, and understanding human behavior.
+<br>Passing Rate: Psychology board exam is only for Psychometricians/Psychologists; no specific CvSU data available.
+<br>Summary: Psychology focuses on understanding the human mind and behavior.
+  """
+},
 
-    {
-        "patterns": [
-            "requirements for married students", "marriage certificate", "change surname cvsu",
-            "married student document", "update civil status"
-        ],
-        "response": "Married students who wish to update their records must submit their Marriage Certificate from PSA along with a request form to change their surname or civil status. This update ensures accurate identification for official documents, IDs, and transcripts. The campus registrar will process the update as long as photocopies and originals are provided for verification."
-    },
+{
+ "patterns": [
+    "in criminology",
+    "is criminology",
+    "criminology",
+    "crim",
+    "BSC"
+  ],
+  "response": """
+  
+Criminology studies crime, how and why it happens, how investigations work, and how police, courts, and forensic experts maintain peace and safety.
+<br>Typical jobs: Police officer, investigator, forensic assistant, crime analyst, corrections officer.
+<b>Difficulty: Moderate – includes law, investigation techniques, physical training, and forensic concepts.
+<b>Passing Rate (CvSU Bacoor): 94% passing rate in the February 2025 Criminology Licensure Exam.
+<br>Summary: Criminology focuses on crime, law enforcement, and keeping communities safe.
+"""
+},
 
-    {
-        "patterns": [
-            "what if documents incomplete", "incomplete requirements", "missing documents cvsu",
-            "can i enroll without requirements", "document deficiency"
-        ],
-        "response": "If applicants have incomplete requirements, they must contact the admissions office to determine if temporary enrollment or conditional acceptance is possible. CvSU Bacoor may allow students to enroll conditionally while waiting for certain documents, but strict deadlines must be followed. Failure to submit missing records may result in cancellation of enrollment."
-    },
+{
+ "patterns": [
+    "between computer science and IT",
+    "computer science and it",
+    "computer science and information technology",
+    "information technology and computer science",
+    "cs and it",
+    "BSIT and BSCS"
+  ],
+  "response": """
+  
+<b>Computer Science (CS)</b>
+<br>
+Focus: Creating technology.<br>
+What it deals with:
+<br>
+*How computers work internally
+<br>
+*Programming and building software
+<br>
+*Algorithms and problem-solving
+<br>
+*Artificial intelligence, machine learning, data science
+<br>
+*Designing new systems, apps, and advanced tech
+<br><br>
+Typical work: Software developer, programmer, AI engineer, systems architect, researcher.
+<br><br>
+Summary: <br>
+CS is more theoretical and focuses on coding, algorithms, and making new technologies.
+<br><br>
+<b>Information Technology (IT)</b>
+<br>
+Focus: Using technology.<br>
+What it deals with:
+<br>
+*Managing computer systems and networks
+<br>
+*Troubleshooting hardware and software
+<br>
+*Cybersecurity and protecting data
+<br>
+*Maintaining servers, databases, and IT infrastructure
+<br>
+*Ensuring organizations run smoothly using technology
+<br><br>
+*Typical work: IT support specialist, network admin, cybersecurity technician, system analyst.
+<br><br>
+Summary:<br>
+IT is more practical and focuses on operating, securing, and managing existing technology.
+<br>"""
+},
 
-    {
-        "patterns": [
-            "how many id pictures required", "number of photos", "id picture count",
-            "how many pictures cvsu", "photo quantity requirement"
-        ],
-        "response": "CvSU Bacoor typically requires 2-4 pieces of 1x1 or 2x2 ID photos. These are used for enrollment forms, student identification, and university records. Students should bring extra copies in case additional documents require attachment. It is always better to prepare more than the minimum to avoid delays."
-    },
 
-    {
-        "patterns": [
-            "requirements for guardian enrollment", "can someone enroll for me", "proxy enrollment",
-            "guardian submit documents", "representative enrollment"
-        ],
-        "response": "A designated guardian may enroll on behalf of the student by presenting an Authorization Letter signed by the student, along with photocopies of both the student's and guardian's valid IDs. All required documents must be complete to avoid delays. Some steps, like interviews or online account verification, may still require the student's personal appearance."
-    },
 
-    {
-        "patterns": [
-            "requirements for returnees with failing grades", "failed subjects", "failed student enrollment",
-            "readmission failing grades", "academic deficiency"
-        ],
-        "response": "Students with failing grades who wish to return must undergo evaluation from their department. They may be required to retake failed subjects, attend academic counseling, or meet certain grade requirements before being allowed to re-enroll. The registrar may also request updated records to determine academic standing. Departments prioritize students who show commitment to improving their performance."
-    },
+{
+  "patterns": [
+    "who suspends classes",
+    "authority suspend classes",
+    "class suspension authority"
+  ],
+  "response": """
+  KEEP THIS EMPTY - NO DATA HERE
+  """
+},
+{
+  "patterns": [
+    "program accreditation",
+    "what is accreditation",
+    "meaning of program accreditation"
+  ],
+  "response": """
+  KEEP THIS EMPTY - NO DATA HERE
+  """
+},
+{
+  "patterns": [
+    "academic load",
+    "what is academic load",
+    "meaning academic load"
+  ],
+  "response": """
+  KEEP THIS EMPTY - NO DATA HERE
+  """
+},
+{
+  "patterns": [
+    "maintain attendance to pass",
+    "attendance requirement",
+    "do i need attendance to pass"
+  ],
+  "response": """
+  KEEP THIS EMPTY - NO DATA HERE
+  """
+},
+{
+  "patterns": [
+    "passing grade cvsu bacoor",
+    "cvsu passing grade",
+    "what is passing grade"
+  ],
+  "response": """
+  KEEP THIS EMPTY - NO DATA HERE
+  """
+},
+{
+  "patterns": [
+    "re enrollment subjects",
+    "what happens re enrollment",
+    "reenroll subjects"
+  ],
+  "response": """
+  KEEP THIS EMPTY - NO DATA HERE
+  """
+},
+{
+  "patterns": [
+    "prerequisite subjects",
+    "what is prerequisite",
+    "subject prerequisite meaning"
+  ],
+  "response": """ 
+  KEEP THIS EMPTY - NO DATA HERE
+  """
+},
+{
+  "patterns": [
+    "leave of absence",
+    "what is loa",
+    "meaning leave of absence"
+  ],
+  "response": """ 
+  KEEP THIS EMPTY - NO DATA HERE 
+  """
+}
 
-    {
-        "patterns": [
-            "requirements for graduating shs", "grade 12 graduating", "not yet form 138",
-            "enrolling without card", "pending report card"
-        ],
-        "response": "Students who are graduating from Senior High School but have not yet received Form 138 must wait for the official release of their report card. CvSU Bacoor requires the complete and signed Form 138 for enrollment validation. Temporary certificates or incomplete cards are usually not accepted. Students should coordinate with their SHS registrar for expedited release of documents."
-    },
 
-    {
-        "patterns": [
-            "requirements for special cases", "unique situations enrollment", "special documents cvsu",
-            "exception cases", "special enrollment permissions"
-        ],
-        "response": "Special cases such as students with special needs, displaced students, or applicants with unusual circumstances may require additional documents depending on university policy. These may include medical assessments, affidavits, or special endorsements. CvSU Bacoor reviews each case individually to ensure fairness while maintaining academic standards."
-    },
+  ##CUSTOM
+  
+  
 
-    {
-        "patterns": [
-            "do I need NBI clearance", "nbi for enrollment", "background check cvsu",
-            "nbi requirement", "police clearance"
-        ],
-        "response": "NBI Clearance is not required for general enrollment at CvSU Bacoor. However, certain programs, OJT applications, or scholarship requirements may request NBI or Police Clearance. Students should prepare these documents only if specifically requested by their department or program coordinator."
-    },
 
-    {
-        "patterns": [
-            "requirements for ID issuance", "student ID cvsu", "ID card requirements",
-            "school ID documents", "ID registration"
-        ],
-        "response": "To obtain their official CvSU student ID, students must provide their enrollment slip, recent ID pictures, and validated personal information. The ID serves as the primary proof of enrollment and is used for campus access, library transactions, and examinations. Students should double-check spelling and personal details before issuance to avoid incorrect entries."
-    },
 
-    {
-        "patterns": [
-            "requirements for enrollment confirmation", "confirm slot cvsu", "slot confirmation",
-            "enrollment confirmation step", "how to confirm enrollment"
-        ],
-        "response": "Enrollment confirmation requires students to submit validated documents, settle necessary fees (if applicable), and receive confirmation from the registrar. Some programs may require attending orientation or signing acknowledgment forms before the slot is officially reserved. Confirmation ensures that the student is included in class lists and system records."
-    },
 
-    {
-        "patterns": [
-            "requirements for proof of identity", "what valid id needed", "valid id requirement",
-            "proof of identity cvsu", "id for enrollment"
-        ],
-        "response": "Students must present at least one valid ID during enrollment for identity verification. Acceptable IDs include school IDs, national IDs, passports, or any government-issued card. If a student has no government ID, they may use their SHS ID along with their PSA Birth Certificate as supporting identity documents."
-    },
 
-    {
-        "patterns": [
-            "final list of requirements", "complete enrollment requirements", "all documents needed",
-            "checklist cvsu bacoor", "what to prepare for enrollment"
-        ],
-        "response": "The complete set of enrollment requirements for CvSU Bacoor Campus generally includes Form 138 (for freshmen), PSA Birth Certificate, Certificate of Good Moral Character, ID pictures, valid ID, and additional documents depending on student classification (transferee, ALS passer, foreign student, etc.). Students must undergo document validation, follow the enrollment schedule, and secure confirmation from the registrar. Ensuring that all documents are complete and accurate helps prevent delays and guarantees smooth admission."
-    }
+
+
+
+
 ]    
 
 def fuzzy_match(user_message, threshold=0.55):
