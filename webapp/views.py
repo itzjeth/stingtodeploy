@@ -682,13 +682,29 @@ IT is more practical and focuses on operating, securing, and managing existing t
 {
   "patterns": [
     "who suspends classes",
-    "authority suspend classes",
-    "class suspension authority"
+    "suspend classes",
+    "suspend class",
+    "to suspend classes",
+    "class suspension",
+    "walang pasok"
+    
   ],
   "response": """
-  KEEP THIS EMPTY - NO DATA HERE
+    At CvSU, the University President who has final authority to suspend classes throughout the University including all units or branches.
+    The university president may suspend classes in specific units or campuses for specified periods of units.
+    Suspension of classes does not mean that faculty and employee will not report for duty <br><br>
+  
+    but in emergencies such as typhoons or floods, class suspension may also follow alerts from PAGASA or official orders from the city mayor.
+    <br><br>
+
+    To stay updated on class suspension announcements, make sure to follow these reliable sources
+<br>
+<a href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+    
   """
 },
+
 {
   "patterns": [
     "program accreditation",
@@ -696,7 +712,7 @@ IT is more practical and focuses on operating, securing, and managing existing t
     "meaning of program accreditation"
   ],
   "response": """
-  KEEP THIS EMPTY - NO DATA HERE
+ The university shall as much as possible, submit all programs for accreditation particularly by Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) or any accrediting agency prescribed by CHED and the Philippine Association of State Universities and Colleges
   """
 },
 {
@@ -706,29 +722,120 @@ IT is more practical and focuses on operating, securing, and managing existing t
     "meaning academic load"
   ],
   "response": """
-  KEEP THIS EMPTY - NO DATA HERE
+  No student shall be alowed to take more than the maximum credit units per semester. A graduating student may be allowed to enroll more than the maximum allowable may be allowed to enroll more than the maximum allowable credit units not to exceed 26 units during the last two semesters of his course provided that he has a GPA of 2.50 or better in the previous two semesters as certified by the University Registrar. A graduating student petitioning for registrating up to maximum allowable academic load must secure a certification from the University Registrar that he is a graduating student.
   """
 },
 {
   "patterns": [
+    "do i need attendance to pass",
     "maintain attendance to pass",
+    "attendance to pass",
     "attendance requirement",
-    "do i need attendance to pass"
+    "attendance important",
+    "attendance"
+    
   ],
   "response": """
-  KEEP THIS EMPTY - NO DATA HERE
+    Pupils/Students are required to attend their classes and campus events promptly and regularly. Attendance alone does not guarantee passing; students must also complete and pass the projects, activities, and requirements given by the instructor. If a university student accumulates absences equivalent to 20% or more of the total class hours without an excusable reason, they may be dropped from the roll. Additionally, if a student’s academic performance is poor, they may receive a failing grade of 5.0.
   """
 },
 {
   "patterns": [
     "passing grade cvsu bacoor",
+    "passing grade",
+    "the passing grade",
+    "grading system of cvsu bacoor",
+    "the grading system",
+    "grading system",
+    "table of conversion",
+    "the table of conversion",
     "cvsu passing grade",
+    "cvsu failing grade",
+    "failing grade",
+    "fail grade",
     "what is passing grade"
+  ],
+  "response": """
+ All credits earned from other colleges or universities will be evaluated according to the following table of conversion, which reflects the grading system used at CvSU Bacoor. The passing grade is 3.00, while 5.00 is considered failing. Below is the grading system of CvSU Bacoor.<br><br>
+    
+    
+  <table style="width: 100%; border: 1px solid var(--text-color);; padding: 30px;">
+  <tr>
+    <td style="padding: 15px; border-bottom: 1px solid var(--text-color);  padding: 5px;">Grade</td>
+    <td style="padding: 15px; border-bottom: 1px solid var(--text-color);  padding: 5px;">Grade</td>
+  </tr>
+    <tr >
+       <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 1.00 </td>
+       <td style="border-bottom: 1px solid var(--text-color);"> 95%' </td>
+    </tr>
+<tr >
+    <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 1.25 </td>
+    <td style="border-bottom: 1px solid var(--text-color);"> 93%' </td>
+
+   </tr>
+<tr >
+    <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 1.50 </td>
+    <td style="border-bottom: 1px solid var(--text-color);"> 90%' </td>
+   
+ </tr>
+ <tr >
+  <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 1.75 </td>
+  <td style="border-bottom: 1px solid var(--text-color);"> 89%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 2.00 </td>
+  <td style="border-bottom: 1px solid var(--text-color);"> 85%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 2.25 </td>
+  <td style="border-bottom: 1px solid var(--text-color);"> 83%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 2.50 </td>
+  <td style="border-bottom: 1px solid var(--text-color);"> 80%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 2.75 </td>
+  <td style="border-bottom: 1px solid var(--text-color);"> 78%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 3.00 </td>
+  <td style="border-bottom: 1px solid var(--text-color);"> 75%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 4.00 </td>
+  <td style="border-bottom: 1px solid var(--text-color);"> INC/INCOMPLETE' </td>
+
+</tr>
+<tr>
+    <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"> 5.00 </td>
+    <td style="border-bottom: 1px solid var(--text-color);"> DRP/DROP - The student failed the course. The numberical grade of "5.00" must be written in red ink by the teacher </td>
+</tr>
+    
+    
+    </table><br><br>
+    
+    Each College shall endeavor to formulate and adopt a uniform method or system of assigning grades to scores and the assignment of weights to different types of test, requirements, laboratory exercises, and the like. This should be forwarded to the Vice President for Academic Affairs for his review and corrections before final adoption of the College concerned.
+  """
+},
+
+{
+  "patterns": [
+    "application category",
+    "",
+    "reenroll subjects"
   ],
   "response": """
   KEEP THIS EMPTY - NO DATA HERE
   """
 },
+
 {
   "patterns": [
     "re enrollment subjects",
