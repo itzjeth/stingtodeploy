@@ -430,14 +430,18 @@ from django.shortcuts import render
 QA_DATA = [
 ############ PERSONAL BOUT CVSU ####################
 {
-  "patterns": [
+"patterns": [
     "current president cvsu",
-    "who is president cvsu",
+    "current president"
+    "president cvsu",
     "cvsu president",
+    "new president",
+    "president now",
+    "bagong presidente",
     "president"
   ],
   "response": """
-<img src="https://cvsu.edu.ph/wp-content/uploads/2025/01/2-1920x1920.png" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 75%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU). The members of the CvSU Board of Regents elected Dr. Nuestro to become the next president of the University, succeeding Dr. Hernando D. Robles who retired in October 2024. Having served as the University’s Vice President for Academic Affairs, Dr. Nuestro envisions CvSU as a premier global university by 2028. In her presentation during the Public Forum for the Search for the 4th CvSU President, Dr. Nuestro emphasized her administration’s goals centered on IDEAL: Inclusive and Accessible Education, Dynamic and Competitive Research and Innovation, Empowered Communities and Stronger Partnership, Accountable and Client-Centered Governance, and Long-lasting/Sustainable Resource Generation.
+<img src="https://cvsu.edu.ph/wp-content/uploads/2025/01/2-1920x1920.png" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 45%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU). The members of the CvSU Board of Regents elected Dr. Nuestro to become the next president of the University, succeeding Dr. Hernando D. Robles who retired in October 2024. Having served as the University’s Vice President for Academic Affairs, Dr. Nuestro envisions CvSU as a premier global university by 2028. In her presentation during the Public Forum for the Search for the 4th CvSU President, Dr. Nuestro emphasized her administration’s goals centered on IDEAL: Inclusive and Accessible Education, Dynamic and Competitive Research and Innovation, Empowered Communities and Stronger Partnership, Accountable and Client-Centered Governance, and Long-lasting/Sustainable Resource Generation.
   """
 },
 
@@ -445,10 +449,12 @@ QA_DATA = [
  "patterns": [
     "old president cvsu",
     "old president",
+    "lumang presidente",
+    "former president",
     "old cvsu president"
   ],
   "response": """
-<img src="https://www.manilatimes.net/uploads/imported_images/uploads/2021/03/CP-ONLINE_CVSU-PRESIDENT-Robles.jpg" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 75%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU).
+<img src="https://www.manilatimes.net/uploads/imported_images/uploads/2021/03/CP-ONLINE_CVSU-PRESIDENT-Robles.jpg" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 45%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU).
 
 Dr. Hernando D. Robles is the former President of Cavite State University (CvSU), serving from 2016 until his retirement in 2024. During his presidency, he also acted as the Vice-Chairperson of the CvSU Board of Regents. Under his leadership, CvSU achieved major milestones, including receiving the Philippine Quality Award for Quality Management Mastery, becoming one of the top-performing state universities in terms of accredited academic programs, and expanding its research and extension initiatives in agriculture, environmental studies, and community development. He supported collaborations with government agencies and private partners, strengthened infrastructure, improved management systems, and elevated the overall academic reputation of the university across all its campuses. His term ended when Dr. Ma. Agnes P. Nuestro succeeded him as the new university president in 2024.
   """
@@ -458,6 +464,8 @@ Dr. Hernando D. Robles is the former President of Cavite State University (CvSU)
  "patterns": [
     "current department chairperson",
     "department chairperson",
+    "bagong department chairperson",
+    "new chairperson",
     "chairperson"
   ],
   "response": """
@@ -471,6 +479,8 @@ Dr. Hernando D. Robles is the former President of Cavite State University (CvSU)
  "patterns": [
     "current research coordinator",
     "campus research coordinator ",
+    "bagong research coordinator",
+    "new research coordinator ",
     "research coordinator"
   ],
   "response": """
@@ -485,6 +495,10 @@ Dr. Hernando D. Robles is the former President of Cavite State University (CvSU)
  "patterns": [
     "current campus administrator",
     "campus admin ",
+    "bagong campus administrator",
+    "bagong campus admin",
+    "new campus administrator",
+    "new campus admin",
     "admin",
     "administrator",
     "campus administrator"
@@ -503,6 +517,8 @@ Dr. Hernando D. Robles is the former President of Cavite State University (CvSU)
     "cvsu bacoor majors",
     "courses offered bacoor",
     "courses offered",
+    "major offers",
+    "major offered",
     "what major cvsu bacoor offers",
     "cvsu bacoor offers",
     "courses in cvsu"
@@ -699,8 +715,8 @@ IT is more practical and focuses on operating, securing, and managing existing t
 
     To stay updated on class suspension announcements, make sure to follow these reliable sources
 <br>
-<a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
-<a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
     
   """
 },
@@ -827,50 +843,105 @@ IT is more practical and focuses on operating, securing, and managing existing t
 
 {
   "patterns": [
-    "admission",
-    "admission in",
-    "admission of",
-    "enrollment",
-    "enrollment in",
-    "enroll",
-    "enroll in",
-    "reenroll",
-    "application",
-    "application in",
-    "requirements",
-    "requirements in"
-    "requirement",
-    "procedure",
-    "procedure in",
-    "applicant",
-    "examination",
-    "examination in",
-    "reminders",
-    "reminders for",
-    "reminders in",
-    "graduate",
-    "the examination",
-    "the requirement",
-    "document requirements",
-    "cvsu admission",
-    "admission period",
-    "first year applicant",
-    "grade 12 student",
-    "senior high",
-    "new student",
-    "transferee",
-    "second course",
-    "tcp applicant",
-    "als applicant",
-    "diploma degree holder",
-    "procedure for application",
-    "application procedure",
-    "application category",
-    "reminder for applicant",
-    "of admission examination",
-    "QR code"
+     "admission",
+  "admission in",
+  "admission at cvsu",
+  "admission in cvsu",
+  "cvsu admission",
+  "admission schedule",
+  "admission period",
+  "admission requirements",
+
+  "enrollment",
+  "enrollment in",
+  "enrollment in cvsu",
+  "enroll",
+  "enroll in",
+  "enroll in cvsu",
+  "how to enroll",
+  "how to enroll in cvsu",
+
+  "application",
+  "application in",
+  "application in cvsu",
+  "application process",
+  "application procedure",
+  "procedure for application",
+  "application requirements",
+  "application category",
+
+  "requirement",
+  "requirements",
+  "requirements in",
+  "requirements in cvsu",
+  "document requirements",
+  "the requirement",
+  "admission requirements",
+
+  "procedure",
+  "procedure in",
+  "procedure in cvsu",
+
+  "examination",
+  "examination in",
+  "examination in cvsu",
+  "admission examination",
+  "the examination",
+  "reminders for examination",
+
+  "reminders",
+  "reminder for",
+  "reminder in",
+  "reminder in cvsu",
+  "reminder for applicant",
+
+  "applicant",
+  "first year applicant",
+  "senior high",
+  "grade 12 student",
+  "new student",
+  "graduate",
+  "transferee",
+  "second course",
+  "tcp applicant",
+  "als applicant",
+  "diploma degree holder",
+
+  "of admission examination",
+  "qr code",
+  "scan qr",
+  "admission qr",
+
+  "cvsu admission",
+  "cavite state university admission",
+  "cvsu application",
+  "apply cvsu",
+  "cvsu online admission",
+  "admission schedule cvsu",
+  "cvsu enrollment",
+  "cvsu first semester",
+  "admission link cvsu",
+  "when is cvsu admission",
+  "cvsu requirements",
+  "cvsu application date",
+  "how to apply cvsu",
+  "cvsu college admission",
+  "cvsu 2026 admission",
+  "online admission 2026",
+  "cvsu qr code admission",
+  "where to apply cvsu",
+  "cvsu admission portal",
+  "cvsu application 2025 2026",
+
+  "cvsu bacoor entrance exam",
+  "is there entrance exam cvsu bacoor",
+  "entrance exam reminders cvsu bacoor",
+  "important reminders before cvsu exam",
+  "what to know before entrance exam",
+  "requirements for cvsu bacoor exam",
+  "exam guidelines cvsu bacoor",
+  "entrance test info cvsu bacoor"
    
-    "",
    
   ],
   "response": """
@@ -881,7 +952,7 @@ IT is more practical and focuses on operating, securing, and managing existing t
 <tr>
 <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Beginning <b style="border-bottom: 2px solid var(--text-color) ">October 15, 2025 - April 16, 2026</b>, the Online Admission System will be open for aspiring applicants to process their application for College Admission for the First Semester, S.Y. 2026-2027 <br><br>
 
-<b>LINK: </b><a style="cursor: pointer; background: var(--sidebar-color); color: var(--text-color);" href="https://admission.cvsu.edu.ph/">https://admission.cvsu.edu.ph/</a><br>
+<b>LINK: </b><a target="_blank" style="cursor: pointer; background: var(--sidebar-color); color: var(--text-color);" href="https://admission.cvsu.edu.ph/">https://admission.cvsu.edu.ph/</a><br>
 OR ACCESS THE LINK THROUGH THIS QR CODE:</b>
 <img src="data:image/jpeg;base64,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8U88oQwA8oksI8gMoc88U88sgAA8wUsks88I088U888888888888888888U488888888888888888U8sMMMMMMMMMMMMMMMM8888sUU8U8844cgQg8888884gUYQ0Qgog0AQ888888UIwscUUEs8QU4888c88888888888888888o88888888888888888gc/8QALxAAAQQBAgYCAgEEAwEBAAAABAACAwUBBhYQFBUgNDUSExEzUCEwMTIiJEU2I//aAAgBAQABBwK9vMg55aYich3y/gf8KvvDQX4QxERcEc5MziCJpq6unsp/qxpIX8LaQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGtpBraQa2kGj9LugidKq65mAgzEtI4xy5ef4IrGGlE44aR8Ur+DM8wrjpHxSv4MzzCuOkfFK7LKxirIWy7tCW7Qlu0JbtCW7Qlu0JM1UG97W8HarDbnOIpMSxRyIrUogpEsARTDRoiDtQjAEvHrzo7Ef77K8HrJ2w1tnFZxyPs7iCrzFjdoS3aEt2hLdoS3aEt2hITUgpZEUHYZ5hXHSPildmrPAgQIM1hN9O1bJbVsltWyW1bJS6ZsIYpJB/3w8N11qzpixkzl7NRgisYPBK0iGKaw04eUaTMNbjU0LALYuI46WfS/q1eUpdiXHLRVs9bBMzV/wCwFV9WRZ5lxtWyW1bJbVsltWyRenzgh5CKT2oXaZ5hXHSPildmrPAgWl/ZosuEGHM256pbnqlDqGtnljiO8IxD/vh4bZtVHj4sZgjTlnIRO+C8ABgiFHnYTDHNf+3MQlGebA2ejDnBB+k24Cr5WxA2A9gx79X/ALAVpH/c5HWI1c1jtz1S3PVIS7ANmxDqH05ipPahdpnmFcdI+KV2as8CBaX9mtS+pl41XsgEd4RiH/fDw3FTrcVOmPbIxjzqK1mNLkDtgK8WES3IiKsSZqW5rg66KHcVOtQGjHGRyaS8Qpav/YCtI/7nLV3jicdNe2hWofTmKk9qF2meYVx0j4pXZqzwIFpf2a1L6mXjVeyAR3hGIf8AfDw6FbLOPxnOAvDEUl1WRPfGdWnHFkE9Ctl0K2RA04kn1jVpxjMyabDJDHIbq/8AYCtI/wC5y1d44nHTXtoVqH05ipPahdpnmFcdI+KV2as8CBaX9mr+GUitkZ0mzXSbNV1ZYRnhvO8IxD/vh4dXrE+qsnPdkRuWCjNsvYnqqs6+KuEZ1esUM0RDMSahANIscv00POMDKxav/YCtI/7nLUwpBUAuOk2a6TZqgrzR7KJ+ofTmKk9qF2meYVx0j4pXZqzwIFpyaKCx+XUq5dSrl1KuXUq5G2ADgy2j/vh4w/qiWbABuc4ODMmNLkex8bstYEZK3D6QgcOuhhiminb85SxYHfGKeCfGc6v/AGArSxA47zF1KuXUq5dSrl1KuV6aFLVFMpPahdpnmFcdI+KV2apY+QGHHKkrlSVypK5UlcqSuVJUAxP3w8OVJUX6o0WMRksrNfPAwAJlu7DrM3NCRAypEbfRyT2k79NMeyt/GrPYwrSXiFLVcUsjwlypK5UlcqSuVJXKkrlSVTDzttA89hnmFcdI+KV2fnGF82L5sXzYvmxfJvD5sXzYvmzh8mqxxnNgevi7hpxzcVMC+bFqvOM2MK0nnGBSljOMrOcYWM4yvzjC+WMr/C+Tc9xnmFcdI+KV2as8CDtqvZAKw8A3sh/VEjPMKVZ64Dhf+3M7dIf6HLV//nrSPklrVngQLS3s8rUvqZVp33AfcZ5hXHSPildmrPAgWl8YzZZWpGtxVSrT2PzbiL4MVo1uK07ILnc6GvgxfBi+DFK532ScKz1wHD4tyvgxfBi+DFqzGMFjLSH+hy1f/wCevznC0r/yPmWGtwvx+VqBrW1BeaRzuqhdpnmFcdI+KV2Pjjkx+GQQR5/LmMfj8XsUUFWVJTEEOtA8WvrTljOcZxnmilzRS5orgGKNkQXOMYbjGFekTstS280UuaKXNFJ8kkn9WSyx/laX/wCzk1aqhhigEWk/YTrU73x1zc6dnnfaRYc1r8fFow7M4z2GeYVx0j4pXdqGWWGskfIabMzLGPfG7DwDTJzRIum1y6bXLNbXfjPELwxFYWB7DzW1L3yVob3ghSvy/ptcum1y1NBDAfE3S4os4xOem1yhGGH+SlHgIxjEQgsDvlLDDO34xhBwu+fcZ5hXHSPildmpSZxg4XdXs1NYGkM+ujhintBY+j1iZV10b2vNc5gZbobayzNFhdHrFJ/SR+AvDET6quke59gcYIaTB1ezVDNKRWQyahPNHscsnInJdh+kvEKWpzChXiLq9mur2a6vZrTp5pNhll/NKPWySdXs1UWR81kIzsM8wrjpHxSuzVngQLT4sBZ+Y72qrxa6SXTvuA+L2NkY9mKOqbnGeGaKpznOWtaxrWKWnrZ5HydBqVaGlVZsolQKPbCcz0GpVzI+mmiiKNKNyzPDTog5hkrBqsAST7CBoSo8xdBqVDT1sEjJewzzCuOkfFK7NWeBAtLezyihYDIswjUtcJMya0nlGrypgL20mNEiMe6IQqSHUFs6WJvEm/toySGAyPmCEksryzHPKi3FcIkmYuZ0wtvYBRfVuK4RZxRz2vWnK4Q/Ja1FWBAQju0n7CdX5hAQOJdxXCprmyLshoe0zzCuOkfFK7NWeBAtLezzxIHjKhkhIpAQIJS4r6wLljGbpqsY5rlua1W5rVSPzI974dQ2UEUcQtMFZQRGbYqlcCxBWE0FJSgnhfdfAwV5kcVBUh2ME79sVSBqxa77EdXDWLWNBpwq+V0poUB8P1XVICCA+YUmUOdk9Zf2JRw0PYZ5hXHSPildmrPAgWlvZ5VwZKAC+fddkt12Sn1IeRDLDFJmGWOTddkt1WXEfTFfKPBJtSuQw7BYIoLPUJwRxEBhcpxD5wb0yvg+k+wmspmy19yVWsezddkt12S3XZLddkqW8MsTPpNCiPHdBa6fCBAnIpPahdpnmFcdI+KV2WVdFZwsirqEeun+88JlgM6DaQa2kGtpBraQa2kGtph8GaUDcxjoo8RRRx8DNODGkykbSDW0g1dV0dYUyGkpYLOGZ+0g1tINXdNBWRQPpa6OzJkirqIeun+5ai9OYqT2oXaZ5hXHSPildlxZOrB2S7umW7plu6ZbumW7plu6ZR6smfIxvCH9UXE3U0ohc8G7plu6ZbumVpYus52TaS8QpXNw+rdBiluH2uSFq7xxFpP2E6t7B1aLifd0yP1HKeJKNSe1C7TPMK46R8Urs1Z4ECqwOpE/Rs9bPWz1s9T6U+mCaUf98PDZ63Z9X/DeC3gug9X/AO/s9WIXTy5B+GkvEKVvTdVdBmop+lZnWrvHEVTZdLIfNz+5v+js9bPQWmeTKhI7DPMK46R8Urs1Z4EC0v7NWJuK8VxG7oVu6FDaoiJIhhO8IxD/AL4eG7oVtSaT/nLH9UskY+l5iB4Jm3rKluAN3Qp9U+/dmx2jOrSudWTshprtlXDKzd0K3dCrm6ZaRwsWlvZ5/sGeYVx0j4pXZqzwIFpf2a1L6mXjVeyAR3hGIf8AfDxZqsNrGNdpost2SI9QjV7GByUZNq9x20jlBaRUMeK/doSurGKzKZNwrKqa0+5WVMRWMjfXV0tnM6Kmoia4v7jzWV47p92hITUgpZEUHYZ5hXHSPildmrPAgWl/ZrUvqZeNV7IBHeEYh/3w8W6WsXYxlmowRWMHLlbOWVNX6jBFCHg3XWq2LjOOlIBozLCD7tq2S2rZKwqyKzMWNIf7HrV3jiLSfsJ0efDXQfcVZQX0OQDKA0IeQik9qF2meYVx0j4pXZqzwIFpf2auhJjQHw7ZtVtm1QOnrKAwWU7wjEP++HjHqWraxmCH4kInfwForAuBk5YsoU7oNL+r4HWwde9jNQWQ1i8bOn7IWuyUr+1EsYh20Jw9eXJLYGQ30GBAQCKQhpptmLcDSAVlBYinjTdhnmFcdI+KV2as8CBURcAR327jqFuOoW46hbjqEVf1UgpLB/3w9jKC2kYx+3bhbduFTjyi1w0Oo/bkLS/q0XagAyYjtopL2WObbtwtu3C27cLbtwqsWekJ5q7uK8yvfDTEQiWQ80F5WEysh7DPMK46R8Urs1GIQYHEzoVsuhWy6FbLoVsuhWy6FbKGktWyxZXQrZdCtkK1zBRmcbyqsCbKeWgGnEA+vUdacYbE/TYZIY5DezUIs5YGI+hWy6FbKqqLGCxFl7DPMK46R8Ur+DM8wrjpHxSv4MzzCuOkfFK/gzPMK46XPigfMN/AmGQAwOmkfmSR7+LSim4/HOmLnTFzpi50xc6YudMXOmLnTFzpi50xc6YudMXOmLnTFzpi50xc6YudMXOmLnTFzpi50xc6YudMXOmLnTFzpi50xc6YudMXOmLnTE+SSTP5/jmtc/PxyCa3H54Na52cYcGWzHy4Na52fw9j4/6JjHyZ/D2Pjz+EyKWT8pzXMzlqxjLs4w+KWP8AHHEE+W/P/K5UpcqUuVJ/uQQuImihw2uoBMZbquvzn8XZVOSBmYUd5ZEUEcNbQi/KLVFbJJ8L6mhmgeYtKCfYVKTqoX7RIiVpX2T1qKs5wb7lpD/0Fe+2N4VnsQFehc7Xy4Q8DyZ4oZYWD10sIvkjqwPirYMTbtBTtVg5bnH9uqlZBYhyajriDoIHSQTw8NLNw6zznVkmebHiUF9YwQMgQuOkaedLTPbZUmR5GOie9mlfZPWT2ss+S1DWckT9ukP/AEFe+2N4VnsQFlzcZa26C5E+VmlAvnNKWS9rwisi+SOtU+tavjlfjP8AdrtTTDRtii1NVy/0tqYQ0VxWk/YyrVfso+NaLzpw8GrCfwwYXSpX1mSQamE5ew+3SvsnrU73R2sD4XwX9VnGl4JBpbSG99sbwrPYgLUBLg8V8+ohMHAREv8AxRUf4B/+fahfJHR58NdBibdlcru8EshGw/2wxJjZ2QG1BwLsprXOzjFLDIFVMxp0hkNrGtUV00/1FRRSTPxHtoIcLM+kxPILm1NXwSyRbrrVqKBplXifSvsnrVfso1SWXTi8ZbHHiR8t77Y3hWexAWrfEGWmDfvCyPqo37SYxQP/AJ9iF8kdaq9a3+8CeRXzfaNqsN+MLOo6dv8AW21FkyN0H+FXao+DMR51HTsxl1veSWX/AOQd1XAVbYc5/P8AVVl4AytYNSGC19hLJfGjnmMlVNqCCAX6LQiMo8mZBSsgMFl1BbB2A8DMZzjgLdgRVDRoHYZNC7OpKjK3DSp2oKbLXfxn4zlXILgTpW/wlLSx4BY4sMc6L6j9OsFdhdKXSl0pdKXSl0pdKXSl0pdKXSl0pdKXSl0pdKXSl0pdKXSl0pdKXSl0pdKXSl0pdKXSl0pdKXSl0pNqPznGK7TgguWTL//EAAL/2gAMAwEAAgADAAAAEMPPPPPPPPPPPPPPPPLLOPPPPPPPPPPPPPPPPPFKPPMMMPONPNNOMMMPPFKPKCAHAHFKDKLCANPPFKPKKPPFONFGKPPKFPPFKPKIMNFOPFCFPMMFPPFKPPAAAMBDBIHABADPPFKPKMNPPKAKPPKCCOPPFKPLCGIADJOAAMMCHPPFKPOIPDHPDGHMFPEMPPFKPKBOGMMNHJIOHHEPPFKPKGMEMOJKAHMNHPPPFKPKNPOMLPPPPMOHPPPFKPKKPPBKBIANPNHMPPFKPKKPNFKHOECFHEFPPFKPLDDHHPDHAADDDDPPFKPPPPPPPPPPPPPPPPPFLPPPPPPPPPPPPPPPPOFPHPPPPPPPPPPPPPPPLPPPOPFINJKFJOFMLFPPPPPPBMPPKIEHKAFOMPPPPPLAJGNJDNHLJCMOPPPFPPPPPPPPPPPPPPPPPKHAAAAAAAAAAAAAAAAAHP/EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQIBAT8AZH//xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAEDAQE/AGR//8QARBAAAQMBAwcJBQYFBAIDAAAAAQACAxESFLEEEBMhMWOSICJBUWFioaLRMnGBkcFCUHKTsuEVIzAzo0NSZHMFRFOCg//aAAgBAQAIPwLJ6aanOd/s/dTTPee8a/cekMkXSxxwURqx41J217yVFqA1ucdgCdlUtfgrzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCvM3grzN4K8zeCyWYyWdZYRr+GZuy1azdNsYfcY2CR2OfeDD7j3r8c+8GH3HvX4594MORIxzgXWearvN4K7zeCu83grvN4K7zeCu83grvNrNOjPd5tXuQ2PaHfPM6CUlhoSKJjSGvrqPYaJ8Mhc2msU6dajY5otEc7sUkT3Estc2nuUbHNDXU5ylje63WlnsV3m8Fd5vBXebwV3m8Fd5vBXebwTIJQXmlTTk71+OfeDDkb8YFRFodSvOVuDiPorcHEfRW4OI+itwcR9E58NGNLjzj0fBd9uObRz8I9UHw0dr9o9PwT2TW4gGOoBSrdXWm1svaHCvamOisvfUVJ9FlLZDLD7RYKt185RBwa6z7W3UFvXKF0dkRBvOPaVMWVc+osld16hLBYpW0etW4OI+itwcR9Fbg4j6K3BxH0UjorDKVoTXWaLv8nevxz7wYcjfjArdOU1bAI2a9qtv4Vbfwpjn2nuDRzetbl+C77cc1hnGj0AJrGUc9xHO6ypnP0sDRG+jftM1FR+w8VC7W4BQtbYNdrupTAW7ZOo1U7nWi21qFdSgJo00NRRd167GfVTk0caCgqrb+FW38Khc62a7W9S/B+oLv8nevxz7wYcjfjArdOXfZjn37MVuX4LvtxzXryOV68jk081wqPimZLVr5nuabbdhPvWUzWJom2Xtsk0PwULrTHEUOzoU09l4LqiyTtKvXkcsnfaaIQ3YRrqetb36LuvXYz6reHDP3X4L8H6gu/yd6/HPvBhyN+MCt05d9mOffsxW5fgu+3HNcnfMIrcswT8rAc0kEUO0LJsnL4ZHWmO6wrk75hXJ3zCnjsPpWigycvaDSvasoiLCZKj5LuvXYz6reHDP3X4L8H6gu/yd6/HPvBhyN+MCt05RRl7rTdQ96uM3CrjNwp+RyhrZWkkt7VuX4LvtxzX6LiQyKUgnVzU4UIiYCPgv+RJin5XG1wZrBKv0XEopA9h6Qocme9ujbrAU0TmO05NHe4Zu69djPqoIXPIea2QrjNwq4zcKlyWRjLLtZHYvwfqC7/J3r8c+8GHI34wKllaxujOtxor/AJP+Y1X/ACf8xqv+T/mNV/yf8xqbl0BJifQaQdS77cc/dCOXQAjaNI1RZLK9j5nua5rCQQTtCe0tcNoOoqPJJnNOwhhIWUzshlBdVkjg12s9RUUrXt62moU2UxRupWjngYqGZkgG0tdXBd16mnZHUMpbcB1q/wCT/mNV/wAn/Mar/k/5jVf8n/Mao8rhe42aNa8E+0F3+TvX4594MOQxhcdMNgr0FXeThKu8nCVd5OEq7ycJV3k4SrvJwlXeT2x9k5rvJwld0IQSf3X/AGT1p8zGuELAQXaxqTTUaQ6wnTsB52ouH+4qJjnsIbzmio2J7S06R21f8duJW9+iZG52p+wVV3k4SrvJwlXeThKu8nCVd5OEq7ycJToXgW9pbyd6/HPvBhyCVaCtBWgrQVoZrQVoK0M1oKn+vJ+pWTmLhtfirQQP/rjEon/V+iBRKBRKBzWhyt6/HPvBhyN+MDyd+zFbiTDkd0LevxW4jwzdrcBye1n1X/Z9Fuxit+MCty5d9mK/H+g8revxz7wYcjfjAoj/AEnINHtsxR7/AOgqwPkg0f2XYKp/vMxVgfJWB8lYHyVo+0c24jwzWQrA+SsD5KwPkgP9L6rtZ9V/2fRAp2v+Qdv4gg0IoAA8z9QVo+3yd6/HPvBhyHsa4doqmQsaesNontDh1HWoomseLFHNFD7QTp3kW9hcVuX4IHWrzJxFXmTiKvMnEcxyeP8AtM+yOpAUAzNmeBVuoO7qvMnEVeZOIq8ycRT3ud7zVMkc2vUaKf8Am2bFLfOpt60yJreedgotwcQmPLTpm7DTrT5nuFl2onsTmgjqKbBGCOkNHJ3r8c+8GHKikcx1putpodqkyuZ7Tta55ITHlrhsINCpcrlfG+VocxzyQQTsIVwyf8tquGT/AJbVcMn/AC259yzBNy2cNE8gAEh1a09xc4s1k6ypMjhc47S5gJVwyf8ALarhk/5bVDEyNugBo0U6SpsmjkIk+00Ho7VcMn/LaocnjjrtsNDa/JTQskA2W2g4qHJoo3UpVrAMFLEx7dtHCoUWSQsd1tYAeXvX4594MORBK5jjNSo9xV+l4lLlUj2dRKlYHMNuoP4SrjF8kzI4w5pqDRNNHNheQfgjlstC8fazXGL5LvFblmCfkcZc41Jp0lQZS+OJj6MY06gFfpeJSyF7yXaz71DlL2NsN1AqaVz3UpU9S3v0UE72VDq2Sr9LxK/S8Sv0vEpspe9uicaEqKQsfabrHvV+l4lJlcjml+sE8nevxz7wYcjfjAqeO2zRk0UOTBr7TddSvx/oOdwq1woR2FDIxUdpznIx8ymigaKDNJkoL3GpNSrm35lZHMYoGUssHaK9Ky6PTTWy20dWoe5XNvzK/wDHu0DHstOA11PxWUTF9nZnyiK20Qk07ahQZOGPpStSpmWmHoVzb8yoslDXt2Gp5O9fjn3gw5G/GBW5cp22mHorTZ7lDBZe3YbRO3UonUe1uop+U1Y+VoIsN2H4Jho5sT3D3gI5VqLh9hvpyG5VzWyOA5jeg+5PNXviY5x7SFHlNGNfQCw30V78jfRTPtPO00ps9ygnssrWlkHFXvyN9FlElstFBqAwzZRHasWKayNtepZPFZLnkHWTitwcQsnfZfpAK0BxV78jfRTZRaY61UWWjY0nlb1+OfeDDkb8YFbl2eT2HihUAfpYWl7KurrapXM0czhG/m9DtSDX1Br7Wa2zhVtnCnbXEk/FMcyyxoaOb1LKA7SzC0+hoKqzJxKKthobSvaFMHWrZGo0UANkxB2s111KnDqtfQUNFZk4lAHc+lamuxTg0aaihooA60W2dZqpwbNq1qNFCH2w5u13WoqW21pXtFFI5lh7tfN5O9fjn3gw5G/GBW5cog20HNHO7VYg4T6qxBwn1T2Q2XtLTQHp+KbtY4OHwViDhPqtHBwn1zmSer2NcdY6R7lpZ+IeiYTZYKCu1RsisspSoNdnvUobadT2dmrUomxlta84HpUwaHBlnmqFsZDjU2grEHCfVWIOE+qsQcJ9VYg4T6qZsYbYLuaFKXBpIPN26lG+UvZZpaIprNOpd/k71+OfeDDkSPc0Nfa5qjmkcbJbrp0p7i0Eg1HYrzN4K8zeCvM3grzN4K8zeCvM3hmvE2sdiGxjQ35Z3zyBz+gU9yvM3grzN4KN7nAxB3O95Ckle0tfTmq8zeCvM3go5XutuI5yke5oEZdzfeo5pHGyW86nTm/B+sLv8nevxz7wYchsQfV9mh1K5M4lcmcSuTOJXJnErkziVyZxK5s1kD2s/dGcZK02HUraVyZxK5M4lcmcSdGGUZYoNfTVb36JsIfbB2mmxOhDNHZ2Gu1bw4LcHEJsYfzw2h7VcmcSOTNaH0116jVd/k71+OfeDDkb8YFaXR80mtKr+If4v3X8Q/xfuv4h/i/dfxD/ABfur/Wwwupo+r4rvtxzfxD/ABfurhWzq/udXwX8P/y/sv4f/l/ZXrRXjn2LFqnxqF/EP8X7rSW7NOdSm0Vz736K86OwD9m1tV40mks/Zs0p8VvDgtDpKss0rTpqtFd6fzLdbezs1L+If4v3X8Q/xfur7asGtLFPryd6/HPvBhyN+MCt05FlsAgU96uT+JXJ/EhkjhpHhtbXWty/Bd9uOa5P4le2c7X7PWq1sOLfkhlbRpGB1LPWnZOXmDmFwNKq5P4kyURNk1WCK+zqV8Zwp0gfVluo99E6AvtOrqNFcn8SuT+JNgLLDidZrm3Lv6G9fjn3gw5G/GBW6cu+zHPv2YrcvwXfbjnu82odiZNEGzG2Aa1o7WpIZHPycaJxFKEs1alFLG1k5ttDq1V4h8VPG58kesuZs52vpV3m8FGxzQIg3ne8nPFIxujpW12qWRjrZpzaqJ7WkMtc5SSxuFgt5tU9pc0ECg7Vd5vBMglBeaVNOTvX4594MORvxgVunLvsxz79mK3L8F32457cOvvH0T2TW4gGOoBSrdXWm1sySvcK9pT2TWmNoaAeq0c/CPVRBwa6z7W3UFE6OzWnOPUrcHEfRW4OI+imLDbrSyepdkf1W8OC3BxCmDi21Z5qyVrxK7WNJqHN19FVK6KwylaE11mi7/J3r8c+8GHI34wK3TlCBbLm7dWxWGcasM409jLLJGuPO6luX4Lvtxzl79QH2U3Y6RxHxOeJjbDtnO+CmAttpWnat67NOXVcKigqoCeYHVqKbVOTz7FKCuyqgLqtcSaiinJsmIt1CvSFkNTLat87m6gssAELQQbJqedqWSFxnlpZtCg5ptfRSMZYY7XzuTvX4594MORvxgVO+yywRWlcFevI5XryOV68jlevI5NynnOicBzHdIXfbjyG5LzXCo57en4q6ednqrp52eqmbZe21UbeldjMFvXLKJrLi21SyTq+C/8AHN0zI22XH2de37VFdPOz1V087PVXTzs9VdPOz1WXs0UNgstVDtZ/DVQT2nlzdVkhTOssbaqdu1pCiyir3bBZdyd6/HPvBhyIIi9wlrT4K5O+YVyd8wrk75hXJ3zCuTvmFcnfMI5G6gcOkZrk75hXJ3zCcKObG0H5ciHJi5hDaHV1KeOw/SONFBk5e0QgV7alZREWEyVHy5MEdt2lBork75hXJ3zCkyVzWNdrOrk71+OfeDD7j3r8c+8GH3HvX4594MPuPevxzyuDdJQsJ6+r7imdQDYOknqCO1zifnyG5TKB2OKvc3GVe5uMq9zcZV7m4yr3NxlXubjKvc3GVe5uMq9zcZV7m4yr3NxlXubjKvc3GVe5uMq9zcZV7m4yr3NxlXubjKvc3GVe5uMq9zcZV7m4yr3NxlXubjKvc3GVe5uMq9zcZV7m4yr3NxlXubjKvc3GVe5uMp73OPaa/d7WknqCORzAfgOdoJPUE7JZQOssOdoJPUE9hb7xTMxhcewVT2Fp6iKZmRudTqFU5pB6jmAqSnxub7xTOIXlvXZ1ZrtJwlXaThKu8nCf6jPae4NHxR1dFftPKMUwHXQeqbYkmdqYRqcD2qP2nmiNG9bz7TiiJWd5w1eCyZoEjRadZ2PGYjVE2g/E5N/0jr/C7NuHYhRt/nQj5t6s3/X9V3hhm38eKA57Oez4Zme09wATPZZA5o+AW8bipGucLVnmq7z+HqtBNs7PX+o/2RIK/FQC0Yias66qSF7PxCmb/bC4/RfZbFa+JP7ZmvaWNFBVtdWbZI5lv/7P2J51gGI/ROHOaSD8FuHYhP1W4g9h7ddQo2/yZdY7HdS/6/qu8MM2/jxVdZ2IDmO57PcU4amc1nvKaajRyeC3jcVvm4FUVP6uUR6Vo1B1ed+6fbZ+JvpVZG1oks2hY2PC3DsQtw3E5+gu53uG1N6ee74agidUrdXvagObMLXx6VuHYhMNHNhaQfiU/U4iju68dKkFHsdGD4rvDDNv48U37E/hTWoec5nOFOlrkP7gZT/9HL/jvW8bipWvLbVnmrQ5Rwt9VDHKHCQO5wHV7/6kQ5x8B1lPhJZ/vbrCa0k9QWUc2lp5B6BtTtQkBZ81EwusNsvA2061GwuedgCyuaUPYy0+yRT3DUiN23EotlJY4tJAFNXxWjn4R6pmvR0kH4Stw7ELcNxKcf5MnNk9fgmjnPDQT102YrvDDNv48VvfonHnQ/pKaebFrd+Ir/jPW8bit83A/wBaB3vB2FTxPjd2c4ITEnsYVkzCyN3tOO05staTT/Ub9U2Qk9QYapjbEA6Ol3vUchMzYz9k+2Uc2WPNQCw82tWqR50dhzQ6m3WoHEtEQbrFOk5srcas1MNK839lEasedXyzP9lkrHH3AqB5Ja+pqKIHM57tJoXNpZ6Sjsa8EoyO4CrR4FaOz/4/uyip/LeS6M9h9PuXKov5jzap1BTx2h0dY9yZlRLT1tWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8q0/lWn8qvHlUjjM/aKigHwzf/EACoQAAECBAUDBQEBAQAAAAAAAAEAESExUfAQQWHB8SBx0TCBkaGxUEDh/9oACAEBAAE/IYoRumRIWEPMv8ICScFigSas0NRkookPA6hEEcr9yoAALZOmx1UACuvFXXirrxV14q68VdeKuvFXXirrxV14q68VdeKuvFXXirrxV14q68VdeKuvFXXirrxV14q68VdeKuvFXXirrxV14q68VdeKuvFXXim7EmKOzCL+ZxagYQTiG/b+GGGwMDQfxhl2r/jGXavrMCPuIY7kE59lZ+as/NWfmrPzVn5qz80Gbw/d98S3jCLuhLkAwM2B8JCo8P1QW2JvYdkK3joKDUpIBLH+CALs+AxJzHRPZ9Qyj5Jg6ygfpWfmrPzVn5qz81Z+as/NMfHoD96btX6BmKIcMYgMOz9PDhw4QZiBxhfoOG3U0a8hB/YtZ4mQNoB+ZheKAHnRkjn1gKiZCSKobwmAGgBk6lJHmFLoLglDVG3oqjBmoFYKhGhgxIexgadPDhw4GZphvYFf6dN2r9AzFYahHOAAWOyLka5Goz/i2MCv9eDhkVxZFmoI+wUra6ycQ5gHuBiEUTgmIQxbA0QTKAYBiZMpNHBQgEcc0JGyLi18JqwVGGQD0rMgXI1yNHeQEIAzYBX+nTdq/QMxWGo6YEr/AF4ua2/Ra2/RPBgTycRBQRyQu7E0ylbJmoEKRBbFzCM13hbTOQWtv0Tz3IyAyfUJYKjryKECv9Om7V+gZisNR0wJX+vBwyKsXdEEGILFX2lSKH2YBEkUpsEgA2cVYu6sXdPiMHWkeyeJdgRJFo90Dq4BaISwVHXkUIFf6dN2r9AzFYahHnU4G5gnNFzRH8tsYAJf6+hzxh8SQKIKJYLBMEArrWhL7iOjDztKGO4LQTaXkeHCK7QYGLT8LBUYZGi6g40FzRc0QKwdbiOAK/06btX6BmKBNtuLuKqyt1ZW6srdWVug4KgFJJPXBwyOFroj1qYgCCPdFG0s/kEEwUQ7LBsHUFTjDNOxATYbfFFDslRKszd4ahDxoYOWqxI7WGBCClgqEUMygW1Kyt1ZW6srdWVuoq8ozSBV/p03avrMdsSZSt7ZW9sre2VvbK3tlb2yCIWPtkZFW9soQm8I0ECQEVCHhnYCAYEIGUrBHBQJXDwBQ2PRKMw5hZTswY4U/qEhNzz1Ct7ZW9sre2VvbK3tlb2yFt0RAEum7V9ZhkAd1ya5NcmuTQPAfIpLk1ya5PDnkegZB/cuARBECEMwPNXJphAp2+RAkgD2UkB3UmD2KMgDuhBBPYokA5LIEMCHv1Xav1TKSVkr6LXRXatXqnrNW+iS4sqldaj0IFLtX6BlITgPmCPgBoIAMHCnEkPAIZICGCJgc/SuJLiS4kvtwa4XqnAnOSHsuJLiS4km9Aq30SVMTAOyh8FZIOAdAiAMAI1WcbEBlEAPudOm7V9ZgEGi4Agf3UF4syL6Wk7Vn2oNLxjcUCEdZ4iAlh4RAALgiYKubdXNurm3U0azJMSaVDDAMAIAAYAt9ggCRXNurm3VzboqC0BgTfpa68+74WnTXmRDEbL7eTDezUg7yST3hyQh+U5gcH5UiqwAjpu1fomBU+PfeBMjycc0YglH9e5YHYhRm2OvBBiFdWyurZWCvjG+0oA9RkADgIoaO5Lc7kqco5Z3JCurZXVsjbQUOLz4ILSIBbUXVsskRyoqhpMODD2Q+NDhS1IFFHUHeqxQmA5Rm1A67tX1mC+oIrQVy5FpQIJfiCzEqkCxsEjWcDjBGaO/AVMEGQUbSAkOrikACDAAHyr7SiCcnRmISj1rNCiC5cnZUZ3MDT6X0OHKCzTJXOZvtfUIGwsvHZly5cuXLlOD8cO4Q5UGDsYpy5MxbQ0w6btX6BlIGaJhIiCKISLAAkmdT0KPZxroBCHekcGn74uIJLnnTbhAUAgMM+vpJ+Vbe6ACQ2BAjM2aZViKJZAkVt7rX8N5Z50WAiQ8AM/bEfwIkSJLJRFwaJA9ygczASZIl2Vt7ojCXlv303av0DKV1qE6xQJcQJVd0sqOqjAPaBaOqh844cmiOwHM2IITvMGaJPQbBAbJQhjxBncGSenW6GHvgmgYnASGGRTB5mY9hwmjK1pWeQYA+HZNmJRF0aBqw3uabLgQdWE34h34A6rtX6BlK61GIiyYBLFD2ikwnBwj6QMDC+9NQaDtRkVxNcTX2ddE6inXIyFkRvf0caYFHCEQHMEp4vp6CHonucC2Ryensz4FNmJd3ujHpWZCgIZZZYl9kFGRCYOEGaACIIkd8JYcchELmLWZdN2r9AyldahFjBAA4ibJsSRKfxIpkDmBeyTm8eklCho1DbuYNZmV/Rs1ZGLTRtEBQaQICAaBU6jL3Gi/YQhRZC0gMCTmTVRvw6MZZEdJIkSJGE7cguGqSjJSBIDMzdQz8BUDkS/06btX1mMh2Sx3YjPuieAMhfAKHHsLxPmrTxVp4q08VaeKtPFEYNn4wOiEm7IyxIMTMgGxNQwPBQGhWnirTxTktyx3OQ7JjtrBR81aeKtPFHRZSDIaJ6u9Y7gBn3RfCGQPgMVL/Tpu1fWYT4DeZgSucrnK5yucrnK5ymFmeM0ZHC10xFNzvkHXOVzlc5ReKNxkJ32vqEf/APcggJbzJiPxiVvIhC8GkK5ypAtMyzS3+nTdq/QMxbKr9HHSqqvYhtdr9Fxfu3nxVX/ticpjBcp+ebpHOP1CZYtrfIJ+y/unVXArML9fB0jRWRdmgrxVfn72+/Tdq/QMxWGoRcbGS0zLiK4ijXOBkHMr/Xi5xFScWW5DHnHarmQkmHcg11LxeU3RcRUBnp1GuOy5oi8wbBpkz6Uyb+Cgy4iuIqJ4xinGF1qPQu1foGYrDUdMCV/rwcMjgfEJF3RJsDjWagg1YZ2GXGUFLfONBqwK5HxT/LWF9OCqs/NNCrLHcZDviWCoLGOTA0QlMUNDuAjXLGXMwIGT1RXD3RItUKBXkLxNmrPzTHx6A/em7V+gZisNR0wJX+vBwyOALtgCgf2LWeJkGiGYZjEOj60vbBbH4JgBoAZOmZ78aC/YDjw4Grgk6PucDopK3gBsBgAlz3IRkTgwBuJEkLxTDewK/wBOm7V+gZisNQirBAOzFxZcWUJ85EwJX+vBwyODpyEY8l9W2TmJVF+MAYFAyEAJxA6lYIW6llJGnwFphHcdtss0euqxghuIZmCZEyDFoslmJ7ov/SiQMgoPlfNpHsgAxy0Dl03av0DMVaOxEWTVX6LVX6LVX6LVX6I+YhfMYpg4ZHF4OCeaIsRhjHVxYY5nJXalSktvcCZC2Q0UxwuDX9KMMMMLXdqBwGcyT+hAyY6hZI149gIhg9mp/kdN2r6zATkmDScrF3Vi7qxd1Yu6sXdWLuglpMmge6MirF3Vi7ptAMoQw9DCH1OQQnzIgUKIW7gRmkDq4BaI6RNcFqAGqsXdWLun9YX4IdN2r/jGXav+MZdq/wCMZdq8X+JgoNh/CAEgWIdT109yfoChFIBBWDurB3Vg7qwd1YO6sHdWDurB3Vg7qwd1YO6sHdWDurB3Vg7qwd1YO6sHdWDurB3Vg7qwd1YO6sHdWDurB3Vg7qwd1YO6sHdWDurB3WuujF9/zx8tyA5+lr3wjH4iCCxwI1cgOStLriPsYgZqkByUWBEQ4Bv1hBmjsYm9lBsjui+8NdefY/ZAIOYGIwOGIYARJJU/fJ93zjBaDtIsGqAJAAOTIK5tlc2yv7b1P28YMoXGZrr99vD8RzPfO5YarL2bSp9gnxyAM97JCwSSwH/YpoCt9x74WFTPYIEfFkrc8eGZYGE87wwlTsVOF6pUSb56ce4wEv8AaWfsgEthwvHL0WMdzHNlwipqshL1IpDOCkjrWz5AbLsyOEd+f1gcWRfIQ9/kGqGBhvWF2MHMiX0fjBOLt3/wmTwboSY4cA1oqtOD4BBSOHP2XgpU7FTheqUQgB1lWUJrxr7FSDn9o+wUBIT9hGDwkthRq/hEEyHqs7+yYARmM/rhQAEdatlmi6OwUMoc/K+if9M1ohnXf5f4nH8X4YOB9ozsiFMpfheJj2AWxU4XqlVVkirrPhAThUuUIQTXwoySkx2jg8dMhYIJcxzIwIuCEogYEMi9R13NOWdoBA8WkN0bIjRyA5KFaSrl5k4hvu8QVS5IBzhC+9YNyiXGIR36hKMqSNbwGQQwG4q95rN848LZJMAPxQ4jM8j0WKnC9Uq/1qNUdh9akCN7QK0UP+B5wxiCQ0cGhQOrLkoAe9D+wofXpXpCQQJIEFiJFDJ/AIxPaiAbkxfLJuLMeOJXxRZ0TQjGn3RCJHJLk4MlPzkYCd8ZkND2R2TIzAJgNh4LJ1CGqASZDZBgYxjyIzBUSN2YGZTEHZEklyXKazsSNEX09yAugLEd1cxQwDhLN1y/iiUcu3qUOR/FRMDemaQR6FNKRKlksgGRHHu6v5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+Sv5K/kr+SqYN5oXJtgyf/2Q==" 
 style="display: block;margin-left: auto;margin-right: auto; width: 25%;">
@@ -935,7 +1006,7 @@ Applicant who graduated from any Bachelor's degree program, interested in pursui
 </tr>
 <tr>
 <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><b>1.</b> Access the admission link on a website browser then sign up with
-a Gmail account. Download and Fill out the online application form, <a style="cursor: pointer; background: var(--sidebar-color); color: var(--text-color);" href="https://drive.google.com/file/d/1zoG0QutodBOX_iegsrPdtaXlgBs8Gn0a/view?fbclid=IwAR0cxxbPFag9mCOKcdWDrqd4Og8ytmJL_WFJYA5M4l_guRogSN7Ds-GBgoo" alt="admission.pdf" style="cursor: pointer;">Application Form</a> keep in mind the following:    
+a Gmail account. Download and Fill out the online application form, <a target="_blank" style="cursor: pointer; background: var(--sidebar-color); color: var(--text-color);" href="https://drive.google.com/file/d/1zoG0QutodBOX_iegsrPdtaXlgBs8Gn0a/view?fbclid=IwAR0cxxbPFag9mCOKcdWDrqd4Og8ytmJL_WFJYA5M4l_guRogSN7Ds-GBgoo" alt="admission.pdf" style="cursor: pointer;">Application Form</a> keep in mind the following:    
 <br><br></td>
 <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">
 * The declared track/strand in the online application form and the track/strand indicated in the documentary requirement should match. <br><br>
@@ -1093,7 +1164,7 @@ the Teacher Education Department (TED) and will not take the admission exam.
 * Physical distancing must be observed for the entire duration of the applicants' stay in the University.  
 <br><br>
 <b>NOTES:</b>
-* The result of the admission examination will be announced via our Facebook page once out, so stay posted. <br><a style="cursor: pointer; background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSU.B.Admission">Cavite State University - Bacoor Guidance and Admission Services</a><br><br>
+* The result of the admission examination will be announced via our Facebook page once out, so stay posted. <br><a target="_blank" style="cursor: pointer; background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSU.B.Admission">Cavite State University - Bacoor Guidance and Admission Services</a><br><br>
 * The Office of Student Affairs and Services (OSAS) of CVSU Campus informs all applicants that filling out the online application form and having a control number do not mean a sure slot for admission.  <br><br>
 * All applicants are advised to remember the control number assigned to them.
 <br><br>
@@ -1111,7 +1182,9 @@ the Teacher Education Department (TED) and will not take the admission exam.
     "reenroll subjects"
   ],
   "response": """
-  KEEP THIS EMPTY - NO DATA HERE
+  No student shall be allowed to repeat or re-enroll a subject for more than three (3)  times. <br><br>
+    
+    A student who fails a subject for the third time shall be permanently disqualified from further registration in the University
   """
 },
 {
@@ -1121,7 +1194,8 @@ the Teacher Education Department (TED) and will not take the admission exam.
     "subject prerequisite meaning"
   ],
   "response": """ 
-  KEEP THIS EMPTY - NO DATA HERE
+  A student shall not be allowed to register an advanced subject without passing/satisfying the requirements of the prerequisite subject(s) specified in the curriculum. <br>
+    Passing grades obtained in the advanced course without first satisfying the prerequisites shall be considered null and void by the University Registrar
   """
 },
 {
@@ -1131,22 +1205,904 @@ the Teacher Education Department (TED) and will not take the admission exam.
     "meaning leave of absence"
   ],
   "response": """ 
-  KEEP THIS EMPTY - NO DATA HERE 
+  A student who is granted leave of absence (LOA) within "75%" of the time devoted to a semester/term shall be given a corresponding grade by the instructor concerned for record purposes only but this will not be reflected in his Permanent Record. 
   """
+},
+{
+  "patterns": [
+    "honorable dismissal",
+    "honor dismissal",
+    "what is honorable dismissal",
+    "meaning honorable dismissal"
+    "honorable dismissal in cvsu",
+    "honor dismissal in cvsu",
+    "what is honorable dismissal in cvsu",
+    "meaning honorable dismissal in cvsu"
+  ],
+  "response": """ 
+ Honorable dismissal shall be issued by the University Registrar to a student who stopped schooling in the University provided that he was not found guilty of misdemeanor defined under the University Students' Norm of Conduct. If a student left the University for reasons of misdemeanor and/or academic delinquency, no certification of honorable dismissal shall be issued.
+  """
+},
+{
+  "patterns": [
+    "grade requirements and retention",
+    "grade require and retention",
+    "grade required and retention",
+    "what is grade requirements and retention",
+    "meaning grade requirements and retention"
+    "grade requirements and retention in cvsu",
+    "grade require and retention in cvsu",
+    "grade required and retention in cvsu",
+    "what is grade requirements and retention in cvsu",
+    "meaning grade requirements and retention in cvsu"
+  ],
+  "response": """ 
+ In order to qualify for the general comprehensive examination, a student must obtain a GPA of 2.00 ( ~ equivalent to 85% or more) or better for all the courses taken. Courses listed under "others" shall be excluded from the computation but grades in these subjects must be passing.<br><br>
+
+Failure to pass a subject twice shall disqualify the student from the graduate program.<br><br>
+
+Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% ) or better every term in order to qualify to continue with his program
+  """
+},
+
+ {
+        "patterns": [
+            "grade requirements", 
+            "grade required", 
+            "grade require", 
+            "grade requirements in cvsu", 
+            "grade requirements for cvsu",
+            "grade required in cvsu", 
+            "grade required for cvsu", 
+            "grade require in cvsu", 
+            "grade require for cvsu"
+        ],
+        "response": """
+
+        Here’s what’s known per course type, though note: actual acceptance may vary by campus and slot availability.
+        <br>
+      <table  style="width: 100%; border: 1px solid var(--text-color); padding: 30px;>
+
+    <tr>
+      <td style="padding: 15px; border-bottom: 1px solid var(--text-color);  padding: 5px;></td>
+      <td style="padding: 15px; border-bottom: 1px solid var(--text-color);  padding: 5px;">Course</td>
+      <td style="padding: 15px; border-bottom: 1px solid var(--text-color);  padding: 5px;">Key Information / Admission Notes</td>
+    </tr>
+  <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Computer Science (BSCS)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Technical course. <strong>SHS grades of 85+ in Math, Science, and English</strong> recommended. SHS strand must match (STEM or TVL-ICT).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Information Technology (BSIT)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Similar to CS. SHS strand must match (STEM or TVL-ICT). High demand may limit slots.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Business Administration / Management</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">No strict grade requirement. SHS report card is evaluated. Admission is more flexible than technical courses.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Education (BSEd / BEEd)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);"><strong>Final grade of 85+</strong> in relevant subjects recommended. SHS strand must match campus requirements (GAS, HUMSS, STEM).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Psychology (BS Psychology)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">No strict grade requirement. Submit SHS report card; may include entrance exam or interview.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Criminology (BS Criminology)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Submit SHS report card (Form 138). Admission may include exam, interview, or screening.</td>
+    </tr>
+</table>"""
+    },
+    
+     {
+    "patterns": [
+    "unit load",
+    "unit load in cvsu",
+    "what is unit load",
+    "what is unit load in cvsu",
+    "meaning unit load",
+    "meaning unit load in cvsu",
+    "maximum load",
+    "maximum load in cvsu",
+    "minimum load",
+    "minimum load in cvsu",
+    "maximum and minimum load",
+    "maximum and minimum load in cvsu",
+    "units",
+    "units in cvsu"
+  ],
+   "response": """ 
+
+   Unit load refers to the total number of academic units (credits) a student enrolls in for a semester. Each subject or course has a specific number of units assigned to it, which reflects the amount of academic work or class hours per week.
+   <br>
+   <br>
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color);">
+ 
+    <tr style="background: var(--text-color);">
+      <th style="padding: 10px; border: 1px solid var(--sidebar-color); color: var(--sidebar-color); ">Topic</th>
+      <th style="padding: 10px; border: 1px solid var(--sidebar-color); color: var(--sidebar-color); ">Details</th>
+    </tr>
+ 
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Understanding Unit Load</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        <ul>
+          <li><strong>1 unit</strong> = 1 hour of lecture per week or 3 hours of lab/practical per week (may vary by course).</li>
+          <li>Each course carries a certain number of units (usually 3–4 units for lecture courses, more for lab-heavy courses like IT, CS, or Engineering).</li>
+          <li>Your <strong>unit load</strong> is the sum of all the units of the courses you are taking in that semester.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Maximum and Minimum Load</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        <ul>
+          <li><strong>Normal load:</strong> 15–21 units per semester (common for most programs).</li>
+          <li><strong>Overload:</strong> Some students may take more than 21 units if approved, usually based on GPA and other requirements.</li>
+          <li><strong>Underload:</strong> Students may take fewer units if there are valid reasons, like health issues or academic probation.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Why Unit Load Matters</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        <ul>
+          <li>Determines your study schedule and workload.</li>
+          <li>Impacts tuition and fees, because fees are often based on units.</li>
+          <li>Affects graduation timeline—taking more units per semester can shorten your stay, while fewer units may extend it.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+    """
+    },
+
+        {
+        "patterns": [
+            "dress code",
+            "dress code in cvsu",
+            "wash day",
+            "wash day in cvsu",
+            "uniform day",
+            "uniform day in cvsu",
+            "what is the dress code of cvsu",
+            "which day usually is wash day",
+            "which day usually is uniform day",
+            "dress code for events",
+            "dress code for research",
+            "what to wear",
+            "susuotin",
+            "clothes to wear"
+
+
+            
+        ],
+        "response": """
+        
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color);">
+  <thead>
+    <tr>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Day / Event</th>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Dress Requirement / Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Monday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day – Students are expected to wear their official CvSU uniform.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Tuesday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Wednesday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Wash Day – Students may wear casual/alternate attire as permitted.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Thursday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Friday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Saturday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Wash Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Special Events / Ceremonies</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Students are required to wear the official uniform or formal attire as directed by the event organizers.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Research Defense / Academic Presentations</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Students must wear formal clothing, such as a blouse/shirt with slacks or skirt, or business attire, as required by the faculty and department guidelines.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+ To stay updated on dress code announcements, make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+        
+        """
+    },
+     {
+        "patterns": [
+  "what is cor",
+  "get certification of registration",
+  "cor used for",
+  "cor form valid",
+  "cor proof of enrollment",
+  "is cor required",
+  "what is cog",
+  "request certificate of grades",
+  "when request certificate of grades"
+        ],
+        "response": """
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
+  <tbody>
+   
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is COR?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COR stands for <strong>Certificate of Registration</strong>. It is an official document issued by CvSU that shows a student’s enrolled courses, units, and schedule for a specific semester.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How do I get a COR?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Students can obtain a COR after completing enrollment through the registrar’s office or online student portal. Some campuses require clearance or payment confirmation first.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is a COR used for?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COR is used to verify enrollment, check registered subjects, and for official purposes such as scholarships, clearance, loans, and administrative transactions.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How long is a COR valid?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COR is valid only for the semester it was issued. Students must obtain a new COR for each subsequent semester.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can COR be used as an ID or replace the school ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        No, COR is not an official ID. It cannot replace the school ID, but it can serve as proof of enrollment for specific administrative purposes.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is COR required to bring to school?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Students may be asked to present COR during enrollment, class registration, or certain verification procedures. It is recommended to have a copy on hand for official transactions.
+      </td>
+    </tr>
+
+    <!-- COG Questions -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is COG?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COG stands for <strong>Certificate of Grades</strong>. It shows a student’s academic performance or grades for a specific semester or school year.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How can I request a COG?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Students can request a COG at the registrar’s office or via the official student portal. Some campuses may require a request form or payment of fees.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">When can I request a COG?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        A COG can be requested after grades have been officially released for the semester or academic term. Check the registrar’s schedule for availability.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is a COG used for?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COG is used to verify academic performance, for scholarship applications, transfer credentials, or other administrative purposes requiring proof of grades.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can a COG be used as proof of enrollment?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        No, COG only shows grades and academic performance. Proof of enrollment requires a COR or school ID.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How long is a COG valid?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        A COG is valid indefinitely as proof of grades for the specific semester it represents.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+For more information about Certification of Grades and Certification of Registration , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+        """
+
+     },
+     {
+       "patterns": [
+  "student id in cvsu bacoor",
+  "why no student ids yet",
+  "when student ids available",
+  "lost cor before student id",
+  "student id proof of enrollment",
+  "lost student id",
+  "bring student id everyday",
+  "temporary documents replace student id"
+  "get student id",
+  "how to get student id",
+  "student id requirements",
+  "student id application",
+  "how can i obtain student id",
+  "request student id",
+  "student identification card",
+  "how to apply student id",
+  "getting student id",
+  "student id process",
+  "where to get student id",
+  "student id issuance"
+],
+     "response": """ 
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is there a Student ID in CvSU Bacoor?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, CvSU Bacoor issues official Student IDs to enrolled students. The ID is used for identification, library access, campus transactions, and verification purposes.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Why don’t we have our Student IDs yet?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Student IDs are usually processed after enrollment and payment verification. Delays can happen due to printing schedules, administrative processing, or verification requirements.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">When will the Student IDs be available?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        IDs are typically released a few weeks after enrollment. The exact date depends on the registrar’s office and campus printing schedule. Students are advised to follow announcements for distribution dates.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What should I do if I lose my COR before getting my Student ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        You should request a duplicate COR from the registrar. This duplicate can temporarily serve for verification purposes until your Student ID is issued.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can I use my Student ID as proof of enrollment?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, the Student ID can serve as proof of enrollment along with your COR for most campus transactions and verification purposes.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What should I do if I lose my Student ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Report the loss immediately to the registrar’s office. You will need to request a replacement ID, which may require payment of a replacement fee.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Do I need to bring my Student ID every day?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, it is recommended to carry your Student ID for identification, library access, and any official campus transactions.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can temporary documents replace a Student ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, in some cases, a COR or temporary enrollment slip can be used until your official Student ID is issued.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); margin-top: 20px;">
+  <thead>
+    <tr style="background-color:#f2f2f2;">
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Step</th>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">1. Complete Your Enrollment</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        You must be officially enrolled in CvSU Bacoor. Your Student ID will only be processed once your name appears in the school system.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">2. Watch for Facebook Announcements</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        All Student ID schedules (picture-taking, processing, releasing) are posted on the official CvSU Bacoor Facebook page. Check regularly for updates about your batch.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">3. Prepare Required Documents</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Bring the required documents, usually:
+        <ul style="margin: 5px 0 0 18px;">
+          <li>Enrollment slip or proof of enrollment</li>
+          <li>A valid ID (if needed)</li>
+          <li>Any additional documents stated in the announcement</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">4. Go to Campus on Your Assigned Date</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Follow the exact schedule posted for your batch. Arrive on time and proceed to the room/building indicated in the Facebook announcement.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">5. Attend Photo-Taking Session (if applicable)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Some semesters require on-site photo capture. If your batch already submitted photos earlier, you may skip this and move directly to ID claiming.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">6. Claim Your Student ID</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Go to the designated office, typically the Registrar’s Office or OSAS/Student Affairs Office. Present your documents and claim your official Student ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">7. For Late or Missed Schedules</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        If you missed your assigned date, wait for additional announcements. CvSU Bacoor often posts separate instructions for late claimants or alternative schedules.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<br>
+For more information about Student ID announcements and queries , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+    """
+     },
+     {
+      "patterns": [
+  "cvsu free tuition"
+],
+
+
+     "response": """ 
+CvSU offers <strong>free tuition</strong> because it is a state university covered by RA 10931, which provides free tuition and waived school fees for qualified Filipino students taking their <strong>first bachelor’s degree</strong>. You only need to meet CvSU’s admission and academic requirements to stay eligible.
+
+"""
+     },
+          {
+     "patterns": [
+  "cvsu free tuition",
+  "meaning of cvsu logo",
+  "cvsu mission",
+  "cvsu vision",
+  "why logo symbols agriculture science technology",
+  "cvsu core values",
+  "purpose of vision mission",
+  "logo reflect mission vision"
+],
+    "response": """ 
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the meaning of the CvSU logo / seal?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The seal presents a number of symbolic elements: a book and torch (representing knowledge and wisdom, symbolizing education and humanities), a coffee twig with berries (representing the agriculture thrust of Cavite and the university’s agricultural programs), an atomic structure (for science and research), and a gear (symbolizing engineering and technology programs). <br>
+        The overall triangular shape refers to the three-fold functions of the university: instruction, research, and extension/services.  <br>
+        The date “1906” on the seal marks the year when the institution first started (as a school), signifying its long history and heritage. 
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the vision of CvSU?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        CvSU’s vision is: <b>“The premier university in historic Cavite globally recognized for excellence in character development, academics, research, innovation and sustainable community engagement.”</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the mission of CvSU?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        CvSU’s mission is <b>"To provide excellent, equitable, and relevant educational opportunities in the arts, sciences and technology through quality instruction and responsive research and development activities. It aims to produce professional, skilled, and morally upright individuals for global competitiveness."</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Why does the logo include symbols like agriculture, science, and gear/technology?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Because CvSU offers a diverse set of programs — from agriculture and agronomy, to science, engineering/technology, and humanities. The logo symbolizes this diversity and reflects the university’s commitment to serve multiple sectors, aligned with its mandate for instruction, research, and extension.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What are the core values of CvSU?</td>
+      <td style="padding:  10px; border: 1px solid var(--text-color);">
+        The core values of CvSU are <b>Truth, Excellence, and Service.</b> 
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the purpose of the vision and mission statements?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The vision gives the long-term aspiration of CvSU (what it aims to be globally recognized for). The mission outlines the concrete commitments and actions — offering quality, relevant education, research, and development — to produce competent and morally upright graduates able to compete globally. 
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How does the logo reflect the mission and vision?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The elements of the seal (book/torch, agriculture, science, technology) reflect the university’s commitment to a wide range of disciplines — embodying its mission of providing “arts, sciences and technology.” The use of the university’s founding date and the symbolic representation of instruction-research-extension reflects its long history and its aspiration in the vision to be recognized for excellence and holistic development. 
+      </td>
+    </tr>
+  </tbody>
+</table>
+"""
+     },
+     {
+"patterns": [
+  "park anywhere near cvsu bacoor",
+  "park in official cvsu bacoor parking",
+  "cvsu parking fee",
+  "parking",
+  "parking area",
+  "park area",
+  "park in cvsu",
+  "students allowed to park inside campus",
+  "motorcycle parking area",
+  "parking during events",
+  "overnight parking allowed",
+  "mag park"
+  "cvsu bacoor parking safe"
+],
+     "response": """ 
+
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); margin-top: 20px;">
+  <tbody>
+
+    <!-- Parking near CvSU -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can I park anywhere near CvSU Bacoor?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        No. You can only park in designated areas near the campus. Some nearby streets may prohibit parking or require permission from residents. Always check signages to avoid towing or penalties.
+      </td>
+    </tr>
+
+    <!-- CvSU Parking Area -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can I park in the official CvSU Bacoor parking area?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, CvSU Bacoor has limited parking slots available for students, staff, and visitors. Availability may depend on campus rules, events, or peak hours. Always follow the guard’s instructions upon entering.
+      </td>
+    </tr>
+
+    <!-- Parking Fee -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is there a parking fee?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Typically, parking inside CvSU Bacoor is free, but this may change depending on campus policies or special events. Some nearby private parking areas may charge hourly or daily rates.
+      </td>
+    </tr>
+
+    <!-- Student Parking Rules -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Are students allowed to park inside the campus?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, students may park inside as long as they follow the campus parking rules, present valid identification (ID or COR), and there are available slots. Some terms may vary during busy days.
+      </td>
+    </tr>
+
+    <!-- Motorcycle Parking -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is there a separate parking area for motorcycles?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes. CvSU Bacoor usually provides a designated motorcycle parking zone. Motorcycles must be parked properly within the marked lanes.
+      </td>
+    </tr>
+
+    <!-- Parking During Events -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is parking allowed during big events or special activities?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Parking may be restricted or rerouted during university events such as orientations, performances, or exams. Guards will often guide traffic and advise alternative parking options.
+      </td>
+    </tr>
+
+    <!-- Overnight Parking -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is overnight parking allowed?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        No. Overnight parking is not allowed unless approved by campus administration for official purposes. Unattended vehicles may be reported or ordered to vacate.
+      </td>
+    </tr>
+
+    <!-- Safety & Security -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is the CvSU Bacoor parking area safe?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The parking area is monitored by campus security, but the university is not responsible for lost items or damages. Always lock your vehicle and avoid leaving valuables inside.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+For more information about Parking Area inside CvSU and parking inqueries , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+
+},
+{
+     "patterns": [
+  "shift courses",
+  "how to shift course",
+  "changing course",
+  "course transfer",
+  "apply to shift course",
+  "requirements for shifting course",
+  "shifting course process",
+  "course shifting procedure",
+  "how can i transfer course",
+  "switch course",
+  "CvSU Bacoor course shift",
+  "request to shift course"
+],
+     "response": """ 
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); margin-top:20px;">
+  <thead>
+    <tr>
+      <th style="padding:10px; border:1px solid var(--text-color); width:25%;">Step</th>
+      <th style="padding:10px; border:1px solid var(--text-color);">Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">1. Decide & Check Feasibility</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Choose the course you want to shift into and make sure it is offered by CvSU (including your campus).  
+        Check if shifting is allowed from your current program, especially if you are moving from non-degree to degree programs.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">2. Get the Shifting Form</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Obtain the official <strong>Application for Shifting / Change of Program</strong> form from your campus.  
+        Fill it out with your current program, desired program, and the reason for shifting (if required).
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">3. Get Required Approvals</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Your form must be signed by:
+        <ul style="margin:5px 0 0 18px;">
+          <li>Your current Dean / Program Head (for release)</li>
+          <li>Dean / Program Head of the course you want to shift into (for acceptance)</li>
+        </ul>
+        Some campuses may also require guidance counseling or evaluation.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">4. Submit to Registrar</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Submit your fully signed shifting form to the Campus Registrar or the office in charge of shiftees.  
+        Submission must be done <strong>before the start of enrollment</strong> since shifting is processed before registration.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">5. Submit Additional Requirements (If Needed)</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Some programs may require:
+        <ul style="margin:5px 0 0 18px;">
+          <li>Minimum GPA</li>
+          <li>Entrance exam</li>
+          <li>Transcript of Grades / academic records</li>
+          <li>Certificate of Good Moral Character</li>
+        </ul>
+        This depends on the course you want to enter.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">6. Wait for Confirmation</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        The Registrar will update your records once your shifting is approved.  
+        After approval, you can enroll under your new program during the next enrollment period.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); ">⚠️ Important Reminders</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        <ul style="margin:5px 0 0 18px;">
+          <li>Shifting approval depends on slot availability and your academic standing.</li>
+          <li>Some programs have year-level limits for shiftees.</li>
+          <li>Board-related programs may require additional prerequisites.</li>
+          <li>Shifting late in your college years may delay graduation.</li>
+        </ul>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+"""
+
+},
+{ "patterns": [
+  "fail subject",
+  "failing grade appeal",
+  "absences allowed",
+  "passing after failing quizzes",
+  "struggling in subject",
+  "dropped vs failed",
+  "retake subject",
+  "improve grades",
+  "failing grade prerequisites",
+  "failing grade scholarship",
+  "grade impact",
+  "subject failure consequences"
+],
+
+ "response": """ 
+ 
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What happens if I fail a subject?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">If you fail a subject, you are required to retake it in the following semester or during the next available offering. Failing a major subject may affect your progression in your program and could delay your graduation, especially if it is a prerequisite to other subjects.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How can I appeal a failing grade?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">You may file a grade appeal through your instructor and program coordinator. Provide valid reasons such as grade computation errors, missing requirements that you can prove were submitted, or other academic concerns. The department will review your case and decide if your grade can be revised.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How many absences are allowed?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Most subjects allow a maximum of <strong>20% of total class hours</strong> as allowable absences. If you exceed this limit, you may receive a failing grade (FA) or be dropped from the class, depending on the instructor’s policy.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I still pass if I fail quizzes or activities?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Yes, you can still pass if your overall weighted grade meets the passing requirement (typically 75% or 3.00). Performance in finals, major outputs, and class participation can still raise your overall score.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What should I do if I am struggling in a subject?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Talk to your instructor early, attend consultations, ask for clarifications, and participate in review sessions. Managing your time and organizing your study schedule can also help improve your performance.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What is the difference between “Dropped” and “Failed”?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">“Dropped” means you are removed from the subject before the midterm or final cutoff, often due to absences. “Failed” means you completed the course but did not meet the passing requirements.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I retake a subject multiple times?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Yes, but repeated failing attempts may require special approval from the dean or department. Retaking subjects increases workload and may delay your graduation.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How can I improve my grades after performing poorly?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Consistent studying, attending all classes, submitting complete requirements, improving exam preparation, and seeking feedback from instructors can significantly raise your chances of passing.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What happens if my failing grade affects my prerequisites?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">If the failed subject is a prerequisite, you cannot enroll in the next-level subject until you pass it. This may affect your semester load and graduation timeline.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Does failing a subject affect my scholarship?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Yes, many scholarships require maintaining a certain GPA or no failing grades. A failing grade can lead to probation or loss of scholarship benefits.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+  """
+},
+{
+     "patterns": [
+  "is ID required",
+  "is student ID needed",
+  "ID policy inside campus",
+  "are IDs mandatory",
+  "uniform requirement",
+  "is uniform compulsory",
+  "campus ID enforcement",
+  "campus uniform enforcement",
+  "ID and uniform rules",
+  "what happens without ID",
+  "what happens without uniform",
+  "ID or uniform exceptions"
+],
+    "response": """ 
+At CvSU, both student IDs and the prescribed school uniform are required inside the campus; according to the Code of Conduct and Dress Code, every enrolled student must wear the official uniform on school days and must also display their official ID card whenever on campus.
+<br><br>
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Requirement</th>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Details</th>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Consequences if Not Followed</th>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Notes / Exceptions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Student ID</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Must wear the official ID visibly at all times while inside campus.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">May be denied entry to campus or classrooms; repeated offenses can lead to disciplinary action.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Special cases may exist for events or temporary permissions; generally required for all students.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>School Uniform</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Must wear the prescribed official uniform on school days.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Denied entry to campus or classrooms; repeated non-compliance may result in sanctions.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Some campuses may allow exceptions on designated “wash days” or special events.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Both ID & Uniform</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Required together to fully comply with CvSU’s student conduct policies.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Non-compliance with either can result in restricted access or disciplinary measures.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Essential whenever a student is considered “on campus duty” (classes, labs, facilities).</td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+<br>
+For more information make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+  """
+ 
 }
+
 
 
   ##CUSTOM
   
-  
-
-
-
-
-
-
-
-
 
 ]    
 
