@@ -1,0 +1,22 @@
+make a pattern keyword of this questions 
+
+Are IDs and uniforms strictly required inside the campus
+
+
+this structure :
+"patterns": [
+   "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question",
+ "keyword of question"
+    
+  ],
+
