@@ -431,61 +431,98 @@ QA_DATA = [
 ############ PERSONAL BOUT CVSU ####################
 {
 "patterns": [
-    "current president cvsu",
-    "current president"
-    "president cvsu",
-    "cvsu president",
-    "new president",
-    "president now",
-    "bagong presidente",
-    "president"
-  ],
+  "cvsu president",
+  "who is the president of cvsu",
+  "current cvsu president",
+  "cvsu university president",
+  "who leads cvsu",
+  "cvsu top official",
+  "cvsu administration head",
+  "dr ma agnes nuestro",
+  "agnes nuestro cvsu president",
+  "president of cavite state university",
+  "cvsu leadership",
+  "cvsu president information"
+],
+
   "response": """
-<img src="https://cvsu.edu.ph/wp-content/uploads/2025/01/2-1920x1920.png" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 45%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU). The members of the CvSU Board of Regents elected Dr. Nuestro to become the next president of the University, succeeding Dr. Hernando D. Robles who retired in October 2024. Having served as the University’s Vice President for Academic Affairs, Dr. Nuestro envisions CvSU as a premier global university by 2028. In her presentation during the Public Forum for the Search for the 4th CvSU President, Dr. Nuestro emphasized her administration’s goals centered on IDEAL: Inclusive and Accessible Education, Dynamic and Competitive Research and Innovation, Empowered Communities and Stronger Partnership, Accountable and Client-Centered Governance, and Long-lasting/Sustainable Resource Generation.
+<img src="https://cvsu.edu.ph/wp-content/uploads/2025/01/2-1920x1920.png" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 45%;"><br>
+<b>Dr. Ma. Agnes P. Nuestro </b> has been named as the fourth president of Cavite State University (CvSU). The members of the CvSU Board of Regents elected Dr. Nuestro to become the next president of the University, succeeding Dr. Hernando D. Robles who retired in October 2024. Having served as the University’s Vice President for Academic Affairs, Dr. Nuestro envisions CvSU as a premier global university by 2028. In her presentation during the Public Forum for the Search for the 4th CvSU President, Dr. Nuestro emphasized her administration’s goals centered on IDEAL: Inclusive and Accessible Education, Dynamic and Competitive Research and Innovation, Empowered Communities and Stronger Partnership, Accountable and Client-Centered Governance, and Long-lasting/Sustainable Resource Generation.
   """
 },
 
 {
  "patterns": [
-    "old president cvsu",
-    "old president",
-    "lumang presidente",
-    "former president",
-    "old cvsu president"
-  ],
+  "former cvsu president",
+  "old president of cvsu",
+  "who is the previous cvsu president",
+  "cvsu past president",
+  "who was cvsu president before",
+  "cvsu former leadership",
+  "cvsu administration history",
+  "dr hernando robles",
+  "hernando robles cvsu",
+  "ex cvsu president",
+  "past university president cvsu",
+  "previous cvsu head"
+],
+
   "response": """
 <img src="https://www.manilatimes.net/uploads/imported_images/uploads/2021/03/CP-ONLINE_CVSU-PRESIDENT-Robles.jpg" alt"cvsu president photo" " style="display: block;margin-left: auto;margin-right: auto; width: 45%;"><br>Dr. Ma. Agnes P. Nuestro has been named as the fourth president of Cavite State University (CvSU).
 
-Dr. Hernando D. Robles is the former President of Cavite State University (CvSU), serving from 2016 until his retirement in 2024. During his presidency, he also acted as the Vice-Chairperson of the CvSU Board of Regents. Under his leadership, CvSU achieved major milestones, including receiving the Philippine Quality Award for Quality Management Mastery, becoming one of the top-performing state universities in terms of accredited academic programs, and expanding its research and extension initiatives in agriculture, environmental studies, and community development. He supported collaborations with government agencies and private partners, strengthened infrastructure, improved management systems, and elevated the overall academic reputation of the university across all its campuses. His term ended when Dr. Ma. Agnes P. Nuestro succeeded him as the new university president in 2024.
+<u>Dr. Hernando D. Robles </u> is the former President of Cavite State University (CvSU), serving from 2016 until his retirement in 2024. During his presidency, he also acted as the Vice-Chairperson of the CvSU Board of Regents. Under his leadership, CvSU achieved major milestones, including receiving the Philippine Quality Award for Quality Management Mastery, becoming one of the top-performing state universities in terms of accredited academic programs, and expanding its research and extension initiatives in agriculture, environmental studies, and community development. He supported collaborations with government agencies and private partners, strengthened infrastructure, improved management systems, and elevated the overall academic reputation of the university across all its campuses. His term ended when Dr. Ma. Agnes P. Nuestro succeeded him as the new university president in 2024.
   """
 },
 
 {
- "patterns": [
-    "current department chairperson",
-    "department chairperson",
-    "bagong department chairperson",
-    "new chairperson",
-    "chairperson"
-  ],
+"patterns": [
+  "cvsu bacoor department chairperson",
+  "who is the department chair",
+  "department chair of cvsu bacoor",
+  "current department chairperson cvsu",
+  "head of academic department cvsu bacoor",
+  "program chair cvsu bacoor",
+  "cvsu bacoor program head",
+  "chairperson of my program cvsu",
+  "who leads the department cvsu bacoor",
+  "department head cvsu",
+  "cvsu bacoor department leadership",
+  "academic chairperson cvsu bacoor",
+  "ms jovelyn d ocampo",
+  "jovelyn d ocampo mit",
+  "department chairperson jovelyn ocampo"
+],
+
+
   "response": """
 
-<b> JOVELYN D. OCAMPO, MIT </b>
+The current Department Chairperson is <u>Ms. Jovelyn D. Ocampo, MIT </u>. She leads the department in overseeing academic programs, guiding faculty members, and ensuring that the curriculum remains relevant and aligned with university standards. Through her leadership, the department continues to enhance its instructional quality, support student development, and maintain a strong academic environment
 
   """
 },
 
 {
- "patterns": [
-    "current research coordinator",
-    "campus research coordinator ",
-    "bagong research coordinator",
-    "new research coordinator ",
-    "research coordinator"
-  ],
+"patterns": [
+  "cvsu bacoor research coordinator",
+  "who is the research coordinator",
+  "current research coordinator cvsu bacoor",
+  "research head cvsu bacoor",
+  "research coordinator of cvsu",
+  "cvsu bacoor research office head",
+  "who handles research cvsu bacoor",
+  "research program coordinator cvsu",
+  "head of research cvsu bacoor",
+  "research department coordinator cvsu",
+  "who leads research cvsu bacoor",
+  "cvsu bacoor research leader",
+  "ronan m cajigal",
+  "mr ronan cajigal",
+  "research coordinator ronan cajigal"
+],
+
   "response": """
   
-<b> RONAN M. CAJIGAL, MAEd </b>
+The current Research Coordinator of CvSU Bacoor is <u>Mr. Ronan M. Cajigal, MAEd </u>. He is responsible for guiding the campus’ research initiatives, supporting faculty and student researchers, and ensuring that all research activities align with the university’s academic standards and goals. Through his leadership, the research culture of the campus continues to grow and strengthen.
 
 
   """
@@ -501,11 +538,39 @@ Dr. Hernando D. Robles is the former President of Cavite State University (CvSU)
     "new campus admin",
     "admin",
     "administrator",
-    "campus administrator"
-  ],
+    "campus administrator",
+    "cvsu bacoor campus director",
+    "who is campus director",
+    "current campus director cvsu bacoor",
+    "cvsu bacoor director",
+  "who leads cvsu bacoor",
+  "head of cvsu bacoor",
+  "campus head cvsu bacoor",
+  "director of cvsu bacoor campus",
+  "cvsu bacoor administrative head",
+  "who manages cvsu bacoor",
+  "cvsu bacoor leadership",
+  "campus director information",
+  "who is the campus administrator",
+  "who is the campus admin",
+  "who is the campus director",
+  "current campus administrator",
+  "campus admin cvsu bacoor",
+  "cvsu bacoor campus director",
+  "head of campus cvsu bacoor",
+  "campus leader cvsu bacoor",
+  "campus administrator of cvsu",
+  "who leads the campus cvsu bacoor",
+  "campus director role cvsu",
+  "campus admin officer cvsu bacoor",
+  "ms menvyluz s. macalalad",
+  "mba campus director cvsu bacoor",
+  "campus director ms macalalad"
+],
+
   "response": """
   
-<b> MENVYLUZ S. MACALALAD, MBA </b>
+The current Campus Administrator of CvSU Bacoor is <u>Ms. Menvyluz S. Macalalad, MBA </u>. She oversees the overall operations, academic services, and administrative functions of the campus, ensuring that students receive quality education and a supportive learning environment. Under her leadership, the campus continues to improve its programs, facilities, and student services.
 
   """
 },
@@ -514,18 +579,81 @@ Dr. Hernando D. Robles is the former President of Cavite State University (CvSU)
 
 {
   "patterns": [
-    "cvsu bacoor majors",
-    "courses offered bacoor",
-    "courses offered",
-    "major offers",
-    "major offered",
-    "what major cvsu bacoor offers",
-    "cvsu bacoor offers",
-    "courses in cvsu"
+  "available programs cvsu bacoor",
+  "courses offered cvsu bacoor",
+  "cvsu bacoor programs",
+  "list of courses cvsu bacoor",
+  "what courses are available",
+  "degree programs offered",
+  "program offerings cvsu bacoor",
+  "cvsu bacoor academic programs",
+  "courses allowed for enrollment",
+  "what program can i take",
+  "cvsu bacoor course list",
+  "available degrees cvsu bacoor"
   ],
   "response": """
-  CvSU Bacoor offers various majors including Computer Science, Information Technology, Business Administration, Education, Pychology, and Criminology
-  """
+  CvSU offers a variety of course and program this includes the following: <br><br>
+ <table style="width: 100%; border: 1px solid var(--text-color); padding: 30px;">
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Program / Course</th>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Abbreviation</th>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Notes</th>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Society Link</th>
+        </tr>
+      <tbody>
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Bachelor of Secondary Education</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">BSED</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Teacher education — various specializations may be offered.</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSUEDUCSociety" target="_blank" rel="noopener">BSSD Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Bachelor of Science in Computer Science</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">BSCS</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Software, algorithms, and systems.</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSUBacoorDCS" target="_blank" rel="noopener">BSCS Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Bachelor of Science in Criminology</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">BS Crim</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Law enforcement and criminal justice.</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CriminologyBacoorOfficial" target="_blank" rel="noopener">BS Crim Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Bachelor of Science in Hospitality Management</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">BSHM</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Hospitality, hotel & restaurant management (formerly HRM).</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/bshmsocietycvsubacoor" target="_blank" rel="noopener">BSHM Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Bachelor of Science in Information Technology</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">BSIT</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Practical IT skills and systems administration.</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor" target="_blank" rel="noopener">BSIT Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Bachelor of Science in Psychology</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">BS Psych</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Foundations in psychology and counseling.</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor" target="_blank" rel="noopener">CvSU Bacoor Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Bachelor of Science in Business Management</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">BSBM</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);">Business and management fundamentals.</td>
+          <td style="padding: 15px; border-bottom: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor" target="_blank" rel="noopener">CvSU Bacoor Society</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    To stay updated for changes about Courses in CvSU, make sure to follow these reliable sources
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSU.B.Admission">Official CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a>
+
+ 
+   """
 },
 
 {
@@ -538,10 +666,11 @@ Dr. Hernando D. Robles is the former President of Cavite State University (CvSU)
   "response": """
   
 BSCS or BS Computer Science is the study of how computers work and how to create programs, apps, websites, and other technologies by learning coding, problem-solving, and how machines “think.”
-<br>Typical jobs: Programmer, software developer, game developer, web developer, AI engineer.
-<b>Difficulty: Hard – requires strong logic, patience, and a lot of coding practice.
-<b>Passing Rate: No national licensure exam.
-<br>Summary: CS focuses on creating technology through coding and building software.
+
+<br><br><b>Typical jobs:</b> Programmer, software developer, game developer, web developer, AI engineer.
+<br><b>Difficulty:</b> Hard – requires strong logic, patience, and a lot of coding practice.
+<br><b>Passing Rate:</b>: No national licensure exam.
+<br><b>Summary:</b> CS focuses on creating technology through coding and building software.
 
 
   """
@@ -557,10 +686,10 @@ BSCS or BS Computer Science is the study of how computers work and how to create
   "response": """
   
 BSIT or BS Information Technology is about using, managing, and maintaining computer systems, networks, and data to help organizations run smoothly, including fixing technical problems and protecting systems from hackers.
-<br>Typical jobs: IT technician, network administrator, cybersecurity specialist, IT support, system analyst.
-<b>Difficulty: Moderate to Hard – easier than CS but challenging in networking, troubleshooting, and cybersecurity.
-<b>Passing Rate: No national licensure exam.
-<br>Summary: IT focuses on maintaining and supporting technology in real-world workplaces.
+<br><br><b>Typical jobs:</b> IT technician, network administrator, cybersecurity specialist, IT support, system analyst.
+<br><b>Difficulty:</b> Moderate to Hard – easier than CS but challenging in networking, troubleshooting, and cybersecurity.
+<br><b>Passing Rate:</b>: No national licensure exam.
+<br><b>Summary:</b> IT focuses on maintaining and supporting technology in real-world workplaces.
 
   """
 },
@@ -576,10 +705,10 @@ BSIT or BS Information Technology is about using, managing, and maintaining comp
   "response": """
   
 BSBA or BS Business Administration teaches how businesses work and how to manage people, money, operations, and marketing to make an organization successful and efficient.
-<br>Typical jobs: Manager, HR officer, marketing assistant, entrepreneur, business analyst.
-<b>Difficulty: Easy to Moderate – less math-heavy than CS/IT but requires strong communication, analysis, and management skills.
-<b>Passing Rate: No national licensure exam.
-<br>Summary: Business Administration focuses on running and leading a business effectively.
+<br><br><b>Typical jobs:</b> Manager, HR officer, marketing assistant, entrepreneur, business analyst.
+<br><b>Difficulty:</b> Easy to Moderate – less math-heavy than CS/IT but requires strong communication, analysis, and management skills.
+<br><b>Passing Rate:</b>: No national licensure exam.
+<br><b>Summary:</b> Business Administration focuses on running and leading a business effectively.
 
   """
 },
@@ -596,10 +725,10 @@ BSBA or BS Business Administration teaches how businesses work and how to manage
   "response": """
   
 BSEd or BS Education prepares future teachers by teaching them how to handle classrooms, create lessons, guide students, and understand how children learn and grow.
-<br>Typical jobs: Teacher, tutor, school administrator, guidance associate, curriculum developer.
-<b>Difficulty: Moderate – requires patience, communication, and mastery of teaching techniques.
-<b>Passing Rate (CvSU Bacoor): 90% passing rate in the 2025 Licensure Exam for Teachers (LET).
-<br>Summary: Education focuses on training teachers to help students learn well.
+<br><br><b>Typical jobs:</b> Teacher, tutor, school administrator, guidance associate, curriculum developer.
+<br><b>Difficulty:</b> Moderate – requires patience, communication, and mastery of teaching techniques.
+<br><b>Passing Rate:</b> (CvSU Bacoor): 90% passing rate in the 2025 Licensure Exam for Teachers (LET).
+<br><b>Summary:</b> Education focuses on training teachers to help students learn well.
 
   """
 },
@@ -615,10 +744,10 @@ BSEd or BS Education prepares future teachers by teaching them how to handle cla
   "response": """
   
 BSP or BS Psychology studies how people think, feel, and behave, helping explain emotions, actions, personality, relationships, and mental health.
-<br>Typical jobs: Guidance counselor, HR specialist, mental health aide, researcher, psychometrician.
+<br><br><b>Typical jobs:</b> Guidance counselor, HR specialist, mental health aide, researcher, psychometrician.
 <br>Difficulty: Moderate to Hard – involves heavy reading, research, and understanding human behavior.
 <br>Passing Rate: Psychology board exam is only for Psychometricians/Psychologists; no specific CvSU data available.
-<br>Summary: Psychology focuses on understanding the human mind and behavior.
+<br><b>Summary:</b> Psychology focuses on understanding the human mind and behavior.
   """
 },
 
@@ -633,10 +762,10 @@ BSP or BS Psychology studies how people think, feel, and behave, helping explain
   "response": """
   
 Criminology studies crime, how and why it happens, how investigations work, and how police, courts, and forensic experts maintain peace and safety.
-<br>Typical jobs: Police officer, investigator, forensic assistant, crime analyst, corrections officer.
-<b>Difficulty: Moderate – includes law, investigation techniques, physical training, and forensic concepts.
-<b>Passing Rate (CvSU Bacoor): 94% passing rate in the February 2025 Criminology Licensure Exam.
-<br>Summary: Criminology focuses on crime, law enforcement, and keeping communities safe.
+<br><br><b>Typical jobs:</b> Police officer, investigator, forensic assistant, crime analyst, corrections officer.
+<br><b>Difficulty:</b> Moderate – includes law, investigation techniques, physical training, and forensic concepts.
+<br><b>Passing Rate:</b> (CvSU Bacoor): 94% passing rate in the February 2025 Criminology Licensure Exam.
+<br><b>Summary:</b> Criminology focuses on crime, law enforcement, and keeping communities safe.
 """
 },
 
@@ -941,6 +1070,19 @@ IT is more practical and focuses on operating, securing, and managing existing t
   "requirements for cvsu bacoor exam",
   "exam guidelines cvsu bacoor",
   "entrance test info cvsu bacoor"
+
+  "enrollment requirements for new students",
+  "requirements for new enrollees",
+  "new student enrollment requirements",
+  "what do new students need for enrollment",
+  "documents needed for enrollment",
+  "papers required for new students",
+  "cvsu bacoor enrollment requirements",
+  "requirements for freshmen",
+  "first year enrollment requirements",
+  "enrollment document checklist",
+  "requirements before enrolling",
+  "needed documents for enrollment"
    
    
   ],
@@ -1442,8 +1584,23 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
   "cor form valid",
   "cor proof of enrollment",
   "is cor required",
+  "proof of enrollment",
+  "used as proof of enrollment",
+  "can cor can be used as proof of enrollment",
   "what is cog",
   "request certificate of grades",
+  "get certificate of enrollment",
+  "how to request certificate of enrollment",
+  "certificate of enrollment process",
+  "where to get certificate of enrollment",
+  "requesting enrollment certificate",
+  "certificate of enrollment requirements",
+  "how to obtain enrollment certificate",
+  "enrollment verification document",
+  "ask for certificate of enrollment",
+  "coen request",
+  "coen processing",
+  "cvsu bacoor certificate of enrollment",
   "when request certificate of grades"
         ],
         "response": """
@@ -1611,13 +1768,17 @@ For more information about Certification of Grades and Certification of Registra
     </tr>
   </tbody>
 </table>
-<br><br>
+<br>
+Here is the step-by-step process on how to get Student ID:
+<br>
 <table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); margin-top: 20px;">
   <thead>
-    <tr style="background-color:#f2f2f2;">
+    <thead>
+    <tr>
       <th style="padding: 10px; border: 1px solid var(--text-color);">Step</th>
       <th style="padding: 10px; border: 1px solid var(--text-color);">Description</th>
     </tr>
+  </thead>
   </thead>
 
   <tbody>
@@ -1700,14 +1861,25 @@ CvSU offers <strong>free tuition</strong> because it is a state university cover
      },
           {
      "patterns": [
-  "cvsu free tuition",
   "meaning of cvsu logo",
   "cvsu mission",
   "cvsu vision",
   "why logo symbols agriculture science technology",
   "cvsu core values",
   "purpose of vision mission",
-  "logo reflect mission vision"
+  "logo reflect mission vision",
+  "cvsu vision and mission",
+  "vision and mission of cvsu",
+  "what is cvsu vision",
+  "what is cvsu mission",
+  "mission and vision statement cvsu",
+  "cvsu institutional mission",
+  "cvsu institutional vision",
+  "university vision mission cvsu",
+  "purpose of cvsu vision",
+  "purpose of cvsu mission",
+  "explain cvsu vision and mission",
+  "meaning of cvsu vision mission"
 ],
     "response": """ 
 <table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
@@ -1758,9 +1930,12 @@ CvSU offers <strong>free tuition</strong> because it is a state university cover
     </tr>
   </tbody>
 </table>
+
+
+
 """
      },
-     {
+   {
 "patterns": [
   "park anywhere near cvsu bacoor",
   "park in official cvsu bacoor parking",
@@ -1773,8 +1948,20 @@ CvSU offers <strong>free tuition</strong> because it is a state university cover
   "motorcycle parking area",
   "parking during events",
   "overnight parking allowed",
-  "mag park"
-  "cvsu bacoor parking safe"
+  "mag park",
+  "cvsu bacoor parking safe",
+  "where to park in cvsu bacoor",
+  "cvsu bacoor parking",
+  "parking area cvsu bacoor",
+  "vehicle parking cvsu bacoor",
+  "cvsu bacoor parking slots",
+  "parking spaces cvsu bacoor",
+  "can i park my car in cvsu bacoor",
+  "where is parking lot cvsu bacoor",
+  "campus parking cvsu bacoor",
+  "allowed parking cvsu bacoor",
+  "student parking cvsu bacoor",
+  "visitor parking cvsu bacoor"
 ],
      "response": """ 
 
@@ -1869,6 +2056,18 @@ For more information about Parking Area inside CvSU and parking inqueries , make
   "how can i transfer course",
   "switch course",
   "CvSU Bacoor course shift",
+  "change course",
+  "shift program",
+  "how to shift course",
+  "process for changing course",
+  "course shifting requirements",
+  "transfer to another program",
+  "how to switch course",
+  "steps to shift program",
+  "apply for course shifting",
+  "requirements for shifting program",
+  "course change procedure",
+  "cvsu bacoor shifting process",
   "request to shift course"
 ],
      "response": """ 
