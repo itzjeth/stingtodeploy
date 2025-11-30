@@ -1,7 +1,13 @@
-make a pattern keyword of this questions 
+make a pattern keyword of this questions, you can also add questions about this topic 
 
-Are IDs and uniforms strictly required inside the campus
-
+What is the CvSU Hymn?
+CvSU Hymn Lyrics
+CvSU Hymn YouTube Video
+Who composed the CvSU Hymn?
+When do students sing the CvSU Hymn?
+Is the CvSU Hymn required to memorize?
+Is the CvSU Hymn different from the CvSU March?
+Where can I download an MP3 or instrumental version?
 
 this structure :
 "patterns": [
@@ -19,4 +25,40 @@ this structure :
  "keyword of question"
     
   ],
+
+##########################################
+
+
+
+
+
+make one a html table for this topic :
+
+ what is cvsu hymmn
+cvsu hymnn lyrics
+CvSU Hymn Youtube Video
+
+you also add and update questions and answer for that topic, thing you think is most commonly ask about Cvsu hymnn
+
+##########################################
+
+
+can you seperate the question in this table, just give me the question, dont make it on table 
+"
+
+
+
+ "
+
+#########################################
+
+{
+     
+,
+"response": """ 
+
+
+"""
+},
+
 

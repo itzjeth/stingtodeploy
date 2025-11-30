@@ -1412,7 +1412,7 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
     </tr>
   <tr>
       <td style="padding: 10px; border: 1px solid var(--text-color);">Computer Science (BSCS)</td>
-      <td style="padding: 10px; border: 1px solid var(--text-color);">Technical course. <strong>SHS grades of 85+ in Math, Science, and English</strong> recommended. SHS strand must match (STEM or TVL-ICT).</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Technical course. <b>SHS grades of 85+ in Math, Science, and English</b> recommended. SHS strand must match (STEM or TVL-ICT).</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid var(--text-color);">Information Technology (BSIT)</td>
@@ -1424,7 +1424,7 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid var(--text-color);">Education (BSEd / BEEd)</td>
-      <td style="padding: 10px; border: 1px solid var(--text-color);"><strong>Final grade of 85+</strong> in relevant subjects recommended. SHS strand must match campus requirements (GAS, HUMSS, STEM).</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);"><b>Final grade of 85+</b> in relevant subjects recommended. SHS strand must match campus requirements (GAS, HUMSS, STEM).</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid var(--text-color);">Psychology (BS Psychology)</td>
@@ -1471,9 +1471,9 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
       <td style="padding: 10px; border: 1px solid var(--text-color);">Understanding Unit Load</td>
       <td style="padding: 10px; border: 1px solid var(--text-color);">
         <ul>
-          <li><strong>1 unit</strong> = 1 hour of lecture per week or 3 hours of lab/practical per week (may vary by course).</li>
+          <li><b>1 unit</b> = 1 hour of lecture per week or 3 hours of lab/practical per week (may vary by course).</li>
           <li>Each course carries a certain number of units (usually 3–4 units for lecture courses, more for lab-heavy courses like IT, CS, or Engineering).</li>
-          <li>Your <strong>unit load</strong> is the sum of all the units of the courses you are taking in that semester.</li>
+          <li>Your <b>unit load</b> is the sum of all the units of the courses you are taking in that semester.</li>
         </ul>
       </td>
     </tr>
@@ -1481,9 +1481,9 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
       <td style="padding: 10px; border: 1px solid var(--text-color);">Maximum and Minimum Load</td>
       <td style="padding: 10px; border: 1px solid var(--text-color);">
         <ul>
-          <li><strong>Normal load:</strong> 15–21 units per semester (common for most programs).</li>
-          <li><strong>Overload:</strong> Some students may take more than 21 units if approved, usually based on GPA and other requirements.</li>
-          <li><strong>Underload:</strong> Students may take fewer units if there are valid reasons, like health issues or academic probation.</li>
+          <li><b>Normal load:</b> 15–21 units per semester (common for most programs).</li>
+          <li><b>Overload:</b> Some students may take more than 21 units if approved, usually based on GPA and other requirements.</li>
+          <li><b>Underload:</b> Students may take fewer units if there are valid reasons, like health issues or academic probation.</li>
         </ul>
       </td>
     </tr>
@@ -1610,7 +1610,7 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
     <tr>
       <td style="padding: 10px; border: 1px solid var(--text-color);">What is COR?</td>
       <td style="padding: 10px; border: 1px solid var(--text-color);">
-        COR stands for <strong>Certificate of Registration</strong>. It is an official document issued by CvSU that shows a student’s enrolled courses, units, and schedule for a specific semester.
+        COR stands for <b>Certificate of Registration</b>. It is an official document issued by CvSU that shows a student’s enrolled courses, units, and schedule for a specific semester.
       </td>
     </tr>
     <tr>
@@ -1648,7 +1648,7 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
     <tr>
       <td style="padding: 10px; border: 1px solid var(--text-color);">What is COG?</td>
       <td style="padding: 10px; border: 1px solid var(--text-color);">
-        COG stands for <strong>Certificate of Grades</strong>. It shows a student’s academic performance or grades for a specific semester or school year.
+        COG stands for <b>Certificate of Grades</b>. It shows a student’s academic performance or grades for a specific semester or school year.
       </td>
     </tr>
     <tr>
@@ -1855,7 +1855,7 @@ For more information about Student ID announcements and queries , make sure to f
 
 
      "response": """ 
-CvSU offers <strong>free tuition</strong> because it is a state university covered by RA 10931, which provides free tuition and waived school fees for qualified Filipino students taking their <strong>first bachelor’s degree</strong>. You only need to meet CvSU’s admission and academic requirements to stay eligible.
+CvSU offers <b>free tuition</b> because it is a state university covered by RA 10931, which provides free tuition and waived school fees for qualified Filipino students taking their <b>first bachelor’s degree</b>. You only need to meet CvSU’s admission and academic requirements to stay eligible.
 
 """
      },
@@ -2092,7 +2092,7 @@ For more information about Parking Area inside CvSU and parking inqueries , make
     <tr>
       <td style="padding:10px; border:1px solid var(--text-color);">2. Get the Shifting Form</td>
       <td style="padding:10px; border:1px solid var(--text-color);">
-        Obtain the official <strong>Application for Shifting / Change of Program</strong> form from your campus.  
+        Obtain the official <b>Application for Shifting / Change of Program</b> form from your campus.  
         Fill it out with your current program, desired program, and the reason for shifting (if required).
       </td>
     </tr>
@@ -2113,7 +2113,7 @@ For more information about Parking Area inside CvSU and parking inqueries , make
       <td style="padding:10px; border:1px solid var(--text-color);">4. Submit to Registrar</td>
       <td style="padding:10px; border:1px solid var(--text-color);">
         Submit your fully signed shifting form to the Campus Registrar or the office in charge of shiftees.  
-        Submission must be done <strong>before the start of enrollment</strong> since shifting is processed before registration.
+        Submission must be done <b>before the start of enrollment</b> since shifting is processed before registration.
       </td>
     </tr>
 
@@ -2178,52 +2178,52 @@ For more information about Parking Area inside CvSU and parking inqueries , make
   <tbody>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What happens if I fail a subject?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What happens if I fail a subject?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">If you fail a subject, you are required to retake it in the following semester or during the next available offering. Failing a major subject may affect your progression in your program and could delay your graduation, especially if it is a prerequisite to other subjects.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How can I appeal a failing grade?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How can I appeal a failing grade?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">You may file a grade appeal through your instructor and program coordinator. Provide valid reasons such as grade computation errors, missing requirements that you can prove were submitted, or other academic concerns. The department will review your case and decide if your grade can be revised.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How many absences are allowed?</strong></td>
-      <td style="padding:10px; border:1px solid var(--text-color); ">Most subjects allow a maximum of <strong>20% of total class hours</strong> as allowable absences. If you exceed this limit, you may receive a failing grade (FA) or be dropped from the class, depending on the instructor’s policy.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How many absences are allowed?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Most subjects allow a maximum of <b>20% of total class hours</b> as allowable absences. If you exceed this limit, you may receive a failing grade (FA) or be dropped from the class, depending on the instructor’s policy.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I still pass if I fail quizzes or activities?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Can I still pass if I fail quizzes or activities?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Yes, you can still pass if your overall weighted grade meets the passing requirement (typically 75% or 3.00). Performance in finals, major outputs, and class participation can still raise your overall score.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What should I do if I am struggling in a subject?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What should I do if I am struggling in a subject?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Talk to your instructor early, attend consultations, ask for clarifications, and participate in review sessions. Managing your time and organizing your study schedule can also help improve your performance.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What is the difference between “Dropped” and “Failed”?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What is the difference between “Dropped” and “Failed”?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">“Dropped” means you are removed from the subject before the midterm or final cutoff, often due to absences. “Failed” means you completed the course but did not meet the passing requirements.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I retake a subject multiple times?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Can I retake a subject multiple times?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Yes, but repeated failing attempts may require special approval from the dean or department. Retaking subjects increases workload and may delay your graduation.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How can I improve my grades after performing poorly?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How can I improve my grades after performing poorly?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Consistent studying, attending all classes, submitting complete requirements, improving exam preparation, and seeking feedback from instructors can significantly raise your chances of passing.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What happens if my failing grade affects my prerequisites?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What happens if my failing grade affects my prerequisites?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">If the failed subject is a prerequisite, you cannot enroll in the next-level subject until you pass it. This may affect your semester load and graduation timeline.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Does failing a subject affect my scholarship?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Does failing a subject affect my scholarship?</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Yes, many scholarships require maintaining a certain GPA or no failing grades. A failing grade can lead to probation or loss of scholarship benefits.</td>
     </tr>
 
@@ -2264,21 +2264,21 @@ At CvSU, both student IDs and the prescribed school uniform are required inside 
   <tbody>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Student ID</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Student ID</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Must wear the official ID visibly at all times while inside campus.</td>
       <td style="padding:10px; border:1px solid var(--text-color); ">May be denied entry to campus or classrooms; repeated offenses can lead to disciplinary action.</td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Special cases may exist for events or temporary permissions; generally required for all students.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>School Uniform</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>School Uniform</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Must wear the prescribed official uniform on school days.</td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Denied entry to campus or classrooms; repeated non-compliance may result in sanctions.</td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Some campuses may allow exceptions on designated “wash days” or special events.</td>
     </tr>
 
     <tr>
-      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Both ID & Uniform</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Both ID & Uniform</b></td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Required together to fully comply with CvSU’s student conduct policies.</td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Non-compliance with either can result in restricted access or disciplinary measures.</td>
       <td style="padding:10px; border:1px solid var(--text-color); ">Essential whenever a student is considered “on campus duty” (classes, labs, facilities).</td>
@@ -2296,6 +2296,978 @@ For more information make sure to follow these reliable sources :
 
   """
  
+},
+{
+"patterns": [
+  "how to join student organizations",
+  "join student org cvsu",
+  "are student organizations open to all students",
+  "student org eligibility cvsu",
+  "do i need to pay membership fees",
+  "student organization fees cvsu",
+  "list of recognized student organizations cvsu",
+  "where to find student org list cvsu",
+  "when is student org recruitment",
+  "student organization recruitment period",
+  "requirements to join student organization",
+  "can i join multiple organizations cvsu",
+  "benefits of joining student organizations",
+  "are student organizations required",
+  "student organization mandatory or not",
+  "what happens if i become inactive in student org",
+  "inactive member student org rules",
+  "student clubs cvsu",
+  "cvsu bacoor student organizations info",
+  "how to become a member of student organization"
+],
+
+    "response": """ 
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How do I join student organizations in CvSU Bacoor?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You can join any recognized student organization during their recruitment period, usually held at the start of every semester. 
+        Visit their booths during the Student Organization Fair, or follow their official social media pages for announcements. 
+        Most organizations require you to fill out a registration form and attend an orientation.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Are all student organizations open to all students?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Many organizations are open to everyone, but some are <em>program-based</em> (e.g., IT, Business, Education orgs) and accept only students enrolled in those courses. 
+        Interest-based orgs (arts, sports, culture, volunteering) are usually open to all CvSU Bacoor students.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Do I need to pay membership fees?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Some organizations require a small membership fee to support activities, uniforms, or events. 
+        However, many organizations do not require fees, especially academic and volunteer-based groups.
+        Fees (if any) are always announced before joining.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Where can I see the list of recognized student organizations?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The official list is posted at the Office of Student Affairs and Services (OSAS) or on their official Facebook page. 
+        Each academic program also posts updates about their course-based organizations.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>When is the recruitment period?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Recruitment typically happens at the beginning of every semester during the **Student Org Recruitment Week** or **Organization Fair**. 
+        Some orgs also accept mid-semester applicants depending on their activities and membership needs.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What are the requirements to join an organization?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Requirements vary per org, but usually include:
+        <ul>
+          <li>Being an officially enrolled CvSU Bacoor student</li>
+          <li>Filling out a membership form</li>
+          <li>Attending orientation or interview (for some orgs)</li>
+          <li>Commitment to attend meetings and activities</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Can I join multiple organizations?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Students are allowed to join more than one organization, as long as they can manage their time and fulfill the responsibilities of each organization. 
+        Some students join both an academic org and an interest-based org.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What benefits do student organizations provide?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Student orgs offer opportunities such as:
+        <ul>
+          <li>Leadership development</li>
+          <li>Community involvement</li>
+          <li>Skill-building workshops and trainings</li>
+          <li>Access to academic support and networks</li>
+          <li>Participation in events, competitions, and seminars</li>
+        </ul>
+        Being active in orgs also enhances your resume.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Are student organizations required?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        No. Joining student organizations is voluntary. 
+        However, being part of one is highly encouraged because it improves your campus life, builds connections, and helps develop useful skills.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What happens if I become inactive after joining?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Inactive members may lose benefits such as event participation, priority slots, or officer opportunities. 
+        Some orgs may also remove inactive members from their official records. 
+        However, you can usually apply again during the next recruitment period.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<br>
+For more information about Student Organization , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+    
+},
+{
+  "patterns": [
+  "is there free wifi on campus",
+  "cvsu bacoor free wifi",
+  "is cvsu bacoor wifi available for students",
+  "campus wifi for students cvsu",
+  "what is the wifi password cvsu",
+  "where to get latest wifi password cvsu",
+  "cannot connect to campus wifi",
+  "why can't i connect to cvsu wifi",
+  "is the campus wifi fast",
+  "wifi speed cvsu bacoor",
+  "can visitors or parents use the wifi",
+  "guest wifi cvsu",
+  "are mobile hotspots allowed on campus",
+  "personal hotspot policy cvsu",
+  "is there wifi inside classrooms",
+  "classroom wifi availability cvsu",
+  "what to do if i need wifi for academic requirements",
+  "wifi help for students cvsu",
+  "campus internet issues cvsu",
+  "how to access cvsu bacoor wifi"
+],
+"response": """ 
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is there free Wi-Fi on campus?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. CvSU Bacoor provides free Wi-Fi access for enrolled students inside campus. 
+        The signal is strongest near academic buildings, the library, laboratories, and selected hallways.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is CvSU Bacoor campus Wi-Fi available for students?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Students can connect to the official campus Wi-Fi network. 
+        You must be an officially enrolled student to receive access or a login credential (if required).
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What’s the Wi-Fi password?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Wi-Fi passwords are <strong>not publicly posted</strong> for security reasons.  
+        Students may get the password from:
+        <ul>
+          <li>The campus IT Office</li>
+          <li>The Library (front desk)</li>
+          <li>Your class adviser or program office</li>
+        </ul>
+        The password also changes regularly to maintain network security.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Where can I get the latest Wi-Fi password?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Visit the IT Office or Library and present your valid COR/ID. 
+        Some programs also announce updated passwords in official group chats or Facebook pages.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Why can’t I connect to the campus Wi-Fi?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Common reasons include:
+        <ul>
+          <li>Incorrect password</li>
+          <li>Too many connected users (peak hours)</li>
+          <li>Weak signal in your location</li>
+          <li>Your device needs to “forget network” and reconnect</li>
+        </ul>
+        If the issue persists, you may report it to the IT Office.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is the Wi-Fi fast?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Speed varies depending on the time of day, number of users, and location. 
+        Wi-Fi is generally good for research, LMS access, email, and basic browsing. 
+        Heavy downloads and video streaming may be limited during high-traffic hours.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can visitors or parents use the Wi-Fi?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Campus Wi-Fi is reserved for students and staff only.  
+        Guests may request temporary access during official events, but approval depends on campus policy.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Are mobile hotspots allowed on campus?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes, but students are encouraged to use them responsibly. 
+        In some computer labs or testing rooms, personal hotspots may be restricted to avoid interference with school networks.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is there Wi-Fi inside classrooms?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes, but the signal strength depends on the building. 
+        Some rooms have stronger access points than others. 
+        Students usually get better connection near hallways or common areas.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What should I do if I need Wi-Fi for academic requirements?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You may use Wi-Fi–enabled areas like the library, student lounges, or designated study spaces.  
+        These places usually have more reliable signal for online activities and LMS submissions.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+For more information about Wi-Fi in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+  
+},
+{
+     "patterns": [
+  "when is the cvsu bacoor recognition ceremony",
+  "when is the graduation ceremony cvsu bacoor",
+  "cvsu bacoor graduation schedule",
+  "where is the recognition or graduation held",
+  "venue for cvsu bacoor graduation",
+  "who can attend the ceremony cvsu",
+  "attendance rules for recognition graduation",
+  "dress code for cvsu recognition",
+  "graduation attire requirements cvsu",
+  "do we need to pay graduation fees",
+  "recognition fees cvsu bacoor",
+  "am i eligible for graduation cvsu",
+  "how to know graduation eligibility",
+  "am i part of the honor list cvsu recognition",
+  "honor list announcement cvsu",
+  "do i need to attend rehearsals cvsu graduation",
+  "is recognition practice required",
+  "what happens if i miss the ceremony",
+  "missed graduation cvsu",
+  "can i join graduation with pending grades",
+  "pending grades graduation policy cvsu",
+  "can i request digital copy of ceremony",
+  "is there livestream for cvsu recognition",
+  "graduation live stream cvsu bacoor"
+],
+
+"response": """ 
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>When is the CvSU Bacoor Recognition or Graduation ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The schedule varies every academic year.  
+        Recognition (for non-graduating honor students) is usually held <strong>near the end of the 2nd semester</strong> 
+        or <strong>after finals</strong>, while Graduation is usually held <strong>around June–July</strong>.  
+        The official dates are announced on:
+        <ul>
+          <li>CvSU Bacoor Official Facebook Page</li>
+          <li>Registrar’s Office announcements</li>
+          <li>Program or college pages</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Where is the Recognition/Graduation held?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        It is typically held at a designated venue announced by the campus —  
+        common locations include large auditoriums, gyms, or partner event halls.  
+        The venue depends on batch size and availability.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Who is allowed to attend the ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Graduating students or awardees may bring a limited number of guests.  
+        The guest limit is announced per academic year (usually 1–3 guests).  
+        All attendees must follow campus security and dress-code policies.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What is the dress code for Recognition or Graduation?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Students are required to wear <strong>formal attire</strong>.  
+        Common requirements:
+        <ul>
+          <li>White polo or blouse</li>
+          <li>Black pants or skirt</li>
+          <li>Formal shoes</li>
+          <li>Academic sash, hood, or toga (if required for graduation)</li>
+        </ul>
+        Guests are also encouraged to dress formally.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do we need to pay graduation or recognition fees?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Graduation fees typically include the cost of:
+        <ul>
+          <li>Toga rental</li>
+          <li>Diploma jacket</li>
+          <li>Program booklet</li>
+          <li>Venue and event expenses</li>
+        </ul>
+        Recognition may have minimal or no fees depending on the campus.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How do I know if I’m eligible for graduation?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You must complete all academic requirements, pass all subjects, finish OJT (if applicable), 
+        and have no pending balances.  
+        The Registrar’s Office and your program will verify your status during the graduation evaluation.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How do I know if I’m part of the honor list for Recognition?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The Dean’s Office releases the official list of academic awardees.  
+        Students must meet the required GWA, have no failing grades, and comply with university policies.  
+        The final list is posted before the Recognition ceremony.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do I need to attend rehearsals?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Graduation and Recognition rehearsals are <strong>mandatory</strong> for participating students.  
+        Important instructions such as:
+        <ul>
+          <li>Walk sequence</li>
+          <li>Awarding guidelines</li>
+          <li>Dress code check</li>
+          <li>Seating arrangements</li>
+        </ul>
+        are given during rehearsals.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What happens if I miss the ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You can still receive your diploma or certificate from the Registrar’s Office on the scheduled release date.  
+        However, you may not participate in the on-stage awarding or photo sessions.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I still join if I have pending grades?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Students with unresolved INC or pending grades are <strong>not allowed</strong> to join graduation until cleared.  
+        Complete any deficiencies with your instructors before the deadline posted by the Registrar.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I request a digital copy or livestream of the ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Many ceremonies are livestreamed on the official CvSU Bacoor Facebook Page.  
+        Photos and recordings may also be uploaded after the event for students and families to download.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+For more information about Graduation in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+
+""",
+
+},
+{
+"patterns": [
+  "how to apply for deans lister",
+  "application process for deans list cvsu",
+  "minimum grade requirement for deans lister",
+  "grade requirement deans list",
+  "do i need full load for deans lister",
+  "unit load requirement deans list",
+  "does pe or nstp affect deans lister qualification",
+  "pe nstp effect on deans list",
+  "what disqualifies a student from deans list",
+  "deans lister disqualification cvsu",
+  "do transferees qualify for deans lister",
+  "can irregular students be deans lister",
+  "will i receive certificate as deans lister",
+  "deans lister certificate cvsu",
+  "is there cash incentive for deans listers",
+  "scholarship for deans listers cvsu",
+  "how to know if i made it to deans list",
+  "deans list announcement cvsu",
+  "requirements to become deans lister",
+  "eligibility for deans lister cvsu",
+  "am i qualified for deans list",
+  "deans lister rules cvsu",
+  "process for checking deans list results",
+  "where to see deans lister list cvsu"
+],
+"response": """ 
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How do I apply for Dean’s Lister?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        To apply for Dean’s Lister status at CvSU Bacoor:
+        <ul>
+          <li>Wait for the official announcement from your department or the campus Facebook page.</li>
+          <li>Download or get the Dean’s List application form (if required).</li>
+          <li>Submit your grades or Certificate of Grades (COG) to your program’s office for evaluation.</li>
+          <li>Follow additional instructions from your program chair or dean.</li>
+        </ul>
+        Some semesters automatically evaluate students without needing an application.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What is the minimum grade requirement to qualify as a Dean’s Lister?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Requirements may vary slightly by campus or program, but the common rule is:
+        <ul>
+          <li><strong>No grade below 2.0</strong> in any subject.</li>
+          <li><strong>No INC, DROPPED, or FAILED</strong> subjects.</li>
+          <li><strong>GWA of 1.75 or higher</strong> (some colleges require 1.50–1.75).</li>
+          <li>Complete load — must be enrolled in the normal full academic load.</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do I need a full load to qualify?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Most colleges of CvSU require students to be enrolled in a <strong>regular full load</strong> 
+        to be eligible for Dean’s List.  
+        Underloaded students are usually not considered, unless under special cases approved by the Dean.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>If I have PE or NSTP, will it affect Dean’s Lister qualification?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        PE and NSTP subjects are counted.  
+        You must pass them with qualifying grades (no 3.0, no INC, no Fail) to remain eligible.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What disqualifies a student from the Dean’s List?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You will not qualify if you have:
+        <ul>
+          <li>A failing grade (5.0)</li>
+          <li>Grade of 3.0 in some strict programs</li>
+          <li>INC or DROPPED in any subject</li>
+          <li>Conduct violations or disciplinary cases</li>
+          <li>An incomplete academic load</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do transferees or irregular students qualify?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes, as long as:
+        <ul>
+          <li>They are enrolled in a full load for that semester.</li>
+          <li>They meet the GWA and grade requirements.</li>
+          <li>They have no failing or incomplete grades.</li>
+        </ul>
+        Previous school grades are not counted; only current CvSU grades matter.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do I receive a certificate if I become a Dean’s Lister?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Dean’s Listers receive a <strong>Certificate of Academic Excellence</strong>  
+        during Recognition Day or from their department.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is there a cash incentive or scholarship for Dean’s Listers?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Some semesters offer incentives or priority perks (depending on campus policies), such as:
+        <ul>
+          <li>Scholarship priority</li>
+          <li>Discounts or stipends (if funded for that year)</li>
+          <li>Recognition during awards ceremonies</li>
+        </ul>
+        Incentives vary per academic year.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How will I know if I made it to the Dean’s List?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The official list is posted on:
+        <ul>
+          <li>The department bulletin boards</li>
+          <li>CvSU Bacoor Facebook page</li>
+          <li>College or program announcements</li>
+        </ul>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+For more information about Graduation in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+""",
+},
+{
+"patterns": [
+  "what is ojt in cvsu bacoor",
+  "ojt meaning cvsu",
+  "how many ojt hours required",
+  "ojt hours per course cvsu",
+  "when does ojt start",
+  "what year takes ojt cvsu",
+  "requirements for ojt cvsu",
+  "ojt prerequisites cvsu bacoor",
+  "can i choose my own ojt company",
+  "self arranged ojt cvsu",
+  "does cvsu allow online ojt",
+  "online ojt option cvsu",
+  "what happens if i fail ojt",
+  "incomplete ojt hours consequence",
+  "where to get ojt updates cvsu",
+  "ojt announcements cvsu bacoor",
+  "ojt coordinator cvsu bacoor",
+  "ojt guidelines cvsu bacoor",
+  "companies accepted for ojt cvsu",
+  "ojt placement process cvsu"
+],
+
+"response": """ 
+<table border="1" cellpadding="8" cellspacing="0">
+ 
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What is OJT in CvSU Bacoor?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">OJT (On-the-Job Training) is a required internship program for graduating students where they gain real work experience in partner companies or agencies. CvSU Bacoor requires all OJT to be done on-site; <b>online OJT is no longer allowed</b>.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">How many OJT hours are required per course?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">
+            <ul>
+                <li><b>BS Information Technology (BSIT)</b> – 486 hours</li>
+                <li><b>Bachelor of Science in Computer Science (BSCS)</b> – 486 hours</li>
+                <li><b>BS Business Management (HRDM / Marketing)</b> – ~300 hours</li>
+                <li><b>BS Hospitality Management (BSHM)</b> – 600 hours</li>
+                <li><b>BS Office Administration (BSOA)</b> – 300 hours</li>
+                <li><b>BS Psychology (if offered)</b> – 200–300 hours</li>
+            </ul>
+            Note: Hours may slightly vary based on updated campus guidelines, but these are the most common requirements.
+        </td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What year does OJT usually start?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">
+            OJT schedules may vary depending on curriculum changes, but the most common pattern in CvSU Bacoor is:
+            <ul>
+                <li><b>BSIT / BSCS / BSHM</b> – usually during <b>4th year, 2nd semester</b></li>
+                <li><b>BSOA</b> – often during <b>3rd year or 4th year</b> depending on section and curriculum</li>
+                <li><b>Business Management programs</b> – commonly <b>4th year, 1st or 2nd semester</b></li>
+            </ul>
+            Final schedules depend on the released curriculum for your year level, so it’s best to wait for official department announcements.
+        </td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What are the requirements for OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">
+            <ul>
+                <li>Updated Resume</li>
+                <li>Endorsement Letter from Department</li>
+                <li>Parent's Consent</li>
+                <li>MOA (Memorandum of Agreement) with company</li>
+                <li>Medical Certificate (for companies requiring it)</li>
+                <li>School ID & Registration Form</li>
+                <li>Good Moral Certificate (if needed)</li>
+            </ul>
+            All documents must be processed in the department office. <b>Note: Online OJT is no longer accepted.</b>
+        </td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Can I choose my own company for OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Yes. Students can choose their preferred company, but it must be related to their program and must be approved by the department. The company must agree to sign a MOA with CvSU Bacoor.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Does CvSU Bacoor still allow online OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); "><b>No. CvSU Bacoor no longer accepts or provides online OJT.</b> All OJT must be completed on-site.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What happens if I fail or cannot complete my OJT hours?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Failure to complete the required hours or violating company guidelines may result in an incomplete or failing grade. Students must repeat their OJT the next semester to graduate.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Where can I get updates about OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">OJT announcements are posted through your respective departments (IT, CS, HM, BM, BSOA, etc.) and on the official CvSU Bacoor Facebook page. Advisers may also post updates in group chats.</td>
+    </tr>
+
+</table>
+<br>
+For more information about OJT in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+""",
+},
+{
+  "patterns": [
+  "cvsu clearance",
+  "is there clearance in cvsu",
+  "what is clearance cvsu bacoor",
+  "clearance requirements cvsu",
+  "requirements for clearance",
+  "when to process clearance cvsu",
+  "clearance schedule cvsu bacoor",
+  "where to get clearance form",
+  "cvsu clearance form location",
+  "who signs the clearance cvsu",
+  "clearance signatories cvsu bacoor",
+  "can i enroll without clearance cvsu",
+  "enrollment blocked no clearance",
+  "graduating student clearance cvsu",
+  "special clearance for graduates",
+  "how long clearance processing takes",
+  "clearance processing duration cvsu",
+  "can i process clearance with failing grades",
+  "lost clearance form what to do",
+  "replace lost clearance cvsu",
+  "is online clearance available",
+  "cvsu online clearance system",
+  "clearance steps cvsu bacoor",
+  "student clearance cvsu"
+],
+"response": """ 
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+ 
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is there a clearance in CvSU?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Yes. CvSU requires students to complete a <b>Student Clearance</b> at the end of every semester. This ensures the student has no pending obligations such as unpaid fees, unreturned books, missing requirements, or incomplete academic tasks.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What is Clearance in CvSU Bacoor?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">The CvSU Bacoor clearance is a document that needs to be signed by various offices to verify that the student has settled all responsibilities. It is often required for:<br>
+      <ul>
+        <li>Graduation</li>
+        <li>Enrollment for next semester</li>
+        <li>Requesting COG / COR / Grades</li>
+        <li>OJT Applications</li>
+        <li>Claiming school documents (ID, TOR, Certificate, etc.)</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What are the requirements for clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">The usual requirements include:
+      <ul>
+        <li>No unpaid school fees</li>
+        <li>No unreturned library books</li>
+        <li>No pending violations with OSAS</li>
+        <li>Completed academic requirements</li>
+        <li>Signed forms from your department / adviser</li>
+        <li>Receipt (if printing fees apply)</li>
+      </ul>
+      Requirements may change depending on campus announcements.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do students process clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Clearance is usually processed <b>at the end of every semester</b> or <b>before graduation.</b> Some courses require mid-year clearance for OJT and practicum.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Where can I get the clearance form?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">You can get the clearance form from your department office or the Registrar. Some semesters allow downloading a digital form from the campus Facebook page.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Who needs to sign the clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Clearance typically requires signatures from:
+      <ul>
+        <li>Your instructor(s)</li>
+        <li>Department Chairperson</li>
+        <li>Library</li>
+        <li>Cashier</li>
+        <li>Registrar</li>
+        <li>OSAS / Student Affairs</li>
+        <li>Laboratory Custodian (for programs with labs)</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I enroll next semester without clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">No. Students with incomplete clearance from the previous semester usually cannot proceed with enrollment or cannot claim certain documents.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Do graduating students need a special clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Yes. Graduating students must process a <b>Graduation Clearance</b>, which includes additional checks like:<br>
+      <ul>
+        <li>Complete academic records</li>
+        <li>OJT completion (if applicable)</li>
+        <li>Good Moral clearance</li>
+        <li>Final evaluation from Registrar</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How long does clearance processing take?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">It depends on the semester, but usually:
+      <ul>
+        <li>Regular clearance: 1–3 days</li>
+        <li>Graduation clearance: 3–7 days</li>
+      </ul>
+      Delays may occur if offices have long lines or if students have incomplete requirements.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I process clearance even if I have failing grades?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Yes. Clearance focuses on responsibilities (fees, library, documents) not on grades. However, instructors must still sign your academic clearance to verify you completed all academic requirements.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What happens if I lose my clearance form?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">You must request another copy and redo the signatures. Always take a photo of your clearance as backup.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is online clearance available?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Some semesters temporarily offered partial online clearance, but <b>CvSU Bacoor mostly requires on-site signing</b>. Always check the official Facebook page for announcements.</td>
+  </tr>
+</table>
+<br>
+For more information about Clearance in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+"""
+},
+{
+     "patterns": [
+  "cvsu hymn",
+  "what is the cvsu hymn",
+  "cvsu hymn lyrics",
+  "lyrics of cvsu hymn",
+  "cvsu hymn youtube",
+  "cvsu hymn video",
+  "cvsu hymn instrumental",
+  "download cvsu hymn",
+  "cvsu hymn mp3",
+  "who composed the cvsu hymn",
+  "composer of cvsu hymn",
+  "when do students sing the cvsu hymn",
+  "is cvsu hymn required",
+  "memorize cvsu hymn",
+  "cvsu hymn vs cvsu march",
+  "difference between cvsu hymn and cvsu march",
+  "where to find cvsu hymn",
+  "cvsu hymn audio",
+  "cvsu hymn practice",
+  "how to learn cvsu hymn",
+  "cvsu hymn information",
+  "cvsu hymn guide",
+  "official cvsu hymn"
+],
+ "response": """ 
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+
+
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What is the CvSU Hymn?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The CvSU Hymn is the official school song of Cavite State University. It is sung during official events,
+      flag ceremonies, orientations, recognition rites, and graduation ceremonies. The hymn symbolizes unity,
+      discipline, and loyalty to the university.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">CvSU Hymn Lyrics</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      <pre style="white-space: pre-wrap; font-family: inherit;">
+Hail Alma Mater Dear, Cavite State University
+Thy honor we’ll uphold and love
+Wherever we may be.
+
+Thy glory we’ll pursue
+Thy name we shall revere
+We’ll live to make you proud of us
+Through the years.
+
+We’ll keep our paths aglow
+With noble dreams in view
+We’ll strive to reach our goals
+For the glory of God and our country too.
+
+Hail Alma Mater Dear
+Cavite State University
+The love we pledge will never die
+Loyalty we’ll keep to thee.
+      </pre>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Who composed the CvSU Hymn?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The CvSU Hymn was composed specifically for Cavite State University to represent its spirit, 
+      values, and mission. It is traditionally played during major campus events. (Note: Composer 
+      details are not always disclosed in public student documents.)
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do students sing the CvSU Hymn?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students sing the hymn during:
+      <ul>
+        <li>Flag ceremonies</li>
+        <li>University assemblies</li>
+        <li>Recognition and graduation</li>
+        <li>Campus programs and orientations</li>
+        <li>Major university celebrations</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is the CvSU Hymn required to memorize?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. Students are highly encouraged to memorize the CvSU Hymn because it is regularly 
+      performed during important ceremonies and university events.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is the CvSU Hymn different from the CvSU March?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. The CvSU Hymn is the solemn school song, while the CvSU March is an upbeat ceremonial 
+      march often played before events or formal programs.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Where can I download an MP3 or instrumental version?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students may download or access versions through:
+      <ul>
+        <li>Official CvSU YouTube uploads</li>
+        <li>Campus media pages</li>
+        <li>Audio provided during orientations or classes</li>
+      </ul>
+      The school does not officially release MP3 downloads, but videos are publicly accessible.
+    </td>
+  </tr>
+
+</table>
+
+
+<br>
+<table >
+<tr>
+<td>
+This is the CvSU Hymn YouTube Video :
+<br><iframe width="560" height="315" 
+src="https://www.youtube.com/embed/A2fOWAo9jME?si=O1ptwtJvYc-me84N&amp;start=12" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</td>
+</tr>
+
+</table>
+<br><br>
+For more information about CvSU Hymn in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+  """
+
 }
 
 
