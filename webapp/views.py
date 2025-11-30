@@ -576,7 +576,6 @@ The current Campus Administrator of CvSU Bacoor is <u>Ms. Menvyluz S. Macalalad,
 },
 
 ##########################################################################
-
 {
   "patterns": [
   "available programs cvsu bacoor",
@@ -590,7 +589,50 @@ The current Campus Administrator of CvSU Bacoor is <u>Ms. Menvyluz S. Macalalad,
   "courses allowed for enrollment",
   "what program can i take",
   "cvsu bacoor course list",
-  "available degrees cvsu bacoor"
+  "available degrees cvsu bacoor",
+
+  "course group chat cvsu bacoor",
+  "cvsu bacoor gc for courses",
+  "official group chat for course",
+  "program group chat list",
+  "society group chat cvsu bacoor",
+  "course organization gc",
+  "society gc of each course",
+
+  "bsed group chat",
+  "bachelor of secondary education group chat",
+  "bsed society group",
+  "bsed society gc",
+
+  "bscs group chat",
+  "bachelor of science in computer science group chat",
+  "bscs society group",
+  "bscs society gc",
+
+  "bs criminology group chat",
+  "bs criminology society group",
+  "bs crim gc",
+  "criminology society gc",
+
+  "bshm group chat",
+  "hospitality management group chat",
+  "bshm society group",
+  "bshm society gc",
+
+  "bsit group chat",
+  "information technology group chat",
+  "bsit society group",
+  "bsit society gc",
+
+  "bs psychology group chat",
+  "bs psych gc",
+  "psychology society group",
+  "bs psych society gc",
+
+  "bsbm group chat",
+  "business management group chat",
+  "bsbm society group",
+  "bsbm society gc"
   ],
   "response": """
   CvSU offers a variety of course and program this includes the following: <br><br>
@@ -969,9 +1011,8 @@ IT is more practical and focuses on operating, securing, and managing existing t
     Each College shall endeavor to formulate and adopt a uniform method or system of assigning grades to scores and the assignment of weights to different types of test, requirements, laboratory exercises, and the like. This should be forwarded to the Vice President for Academic Affairs for his review and corrections before final adoption of the College concerned.
   """
 },
-
 {
-  "patterns": [
+    "patterns": [
      "admission",
   "admission in",
   "admission at cvsu",
@@ -1070,19 +1111,6 @@ IT is more practical and focuses on operating, securing, and managing existing t
   "requirements for cvsu bacoor exam",
   "exam guidelines cvsu bacoor",
   "entrance test info cvsu bacoor"
-
-  "enrollment requirements for new students",
-  "requirements for new enrollees",
-  "new student enrollment requirements",
-  "what do new students need for enrollment",
-  "documents needed for enrollment",
-  "papers required for new students",
-  "cvsu bacoor enrollment requirements",
-  "requirements for freshmen",
-  "first year enrollment requirements",
-  "enrollment document checklist",
-  "requirements before enrolling",
-  "needed documents for enrollment"
    
    
   ],
@@ -1315,94 +1343,16 @@ the Teacher Education Department (TED) and will not take the admission exam.
 </table>
 
   """
-},
+    },
 
-{
-  "patterns": [
-    "re enrollment subjects",
-    "what happens re enrollment",
-    "reenroll subjects"
-  ],
-  "response": """
-  No student shall be allowed to repeat or re-enroll a subject for more than three (3)  times. <br><br>
-    
-    A student who fails a subject for the third time shall be permanently disqualified from further registration in the University
-  """
-},
-{
-  "patterns": [
-    "prerequisite subjects",
-    "what is prerequisite",
-    "subject prerequisite meaning"
-  ],
-  "response": """ 
-  A student shall not be allowed to register an advanced subject without passing/satisfying the requirements of the prerequisite subject(s) specified in the curriculum. <br>
-    Passing grades obtained in the advanced course without first satisfying the prerequisites shall be considered null and void by the University Registrar
-  """
-},
-{
-  "patterns": [
-    "leave of absence",
-    "what is loa",
-    "meaning leave of absence"
-  ],
-  "response": """ 
-  A student who is granted leave of absence (LOA) within "75%" of the time devoted to a semester/term shall be given a corresponding grade by the instructor concerned for record purposes only but this will not be reflected in his Permanent Record. 
-  """
-},
-{
-  "patterns": [
-    "honorable dismissal",
-    "honor dismissal",
-    "what is honorable dismissal",
-    "meaning honorable dismissal"
-    "honorable dismissal in cvsu",
-    "honor dismissal in cvsu",
-    "what is honorable dismissal in cvsu",
-    "meaning honorable dismissal in cvsu"
-  ],
-  "response": """ 
- Honorable dismissal shall be issued by the University Registrar to a student who stopped schooling in the University provided that he was not found guilty of misdemeanor defined under the University Students' Norm of Conduct. If a student left the University for reasons of misdemeanor and/or academic delinquency, no certification of honorable dismissal shall be issued.
-  """
-},
-{
-  "patterns": [
-    "grade requirements and retention",
-    "grade require and retention",
-    "grade required and retention",
-    "what is grade requirements and retention",
-    "meaning grade requirements and retention"
-    "grade requirements and retention in cvsu",
-    "grade require and retention in cvsu",
-    "grade required and retention in cvsu",
-    "what is grade requirements and retention in cvsu",
-    "meaning grade requirements and retention in cvsu"
-  ],
-  "response": """ 
- In order to qualify for the general comprehensive examination, a student must obtain a GPA of 2.00 ( ~ equivalent to 85% or more) or better for all the courses taken. Courses listed under "others" shall be excluded from the computation but grades in these subjects must be passing.<br><br>
-
-Failure to pass a subject twice shall disqualify the student from the graduate program.<br><br>
-
-Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% ) or better every term in order to qualify to continue with his program
-  """
-},
-
- {
+      {
         "patterns": [
-            "grade requirements", 
-            "grade required", 
-            "grade require", 
-            "grade requirements in cvsu", 
-            "grade requirements for cvsu",
-            "grade required in cvsu", 
-            "grade required for cvsu", 
-            "grade require in cvsu", 
-            "grade require for cvsu"
+            "grade requirements", "grade required", "grade requirements for cvsu",
+            "grade required for cvsu", "grade require", "grade require for cvsu"
         ],
         "response": """
 
         Here’s what’s known per course type, though note: actual acceptance may vary by campus and slot availability.
-        <br>
       <table  style="width: 100%; border: 1px solid var(--text-color); padding: 30px;>
 
     <tr>
@@ -1434,10 +1384,11 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
       <td style="padding: 10px; border: 1px solid var(--text-color);">Criminology (BS Criminology)</td>
       <td style="padding: 10px; border: 1px solid var(--text-color);">Submit SHS report card (Form 138). Admission may include exam, interview, or screening.</td>
     </tr>
-</table>"""
-    },
-    
-     {
+</table>
+
+      """
+        },  
+    {
     "patterns": [
     "unit load",
     "unit load in cvsu",
@@ -1503,8 +1454,8 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
 
     """
     },
-
-        {
+  
+    {
         "patterns": [
             "dress code",
             "dress code in cvsu",
@@ -1518,7 +1469,6 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
             "dress code for events",
             "dress code for research",
             "what to wear",
-            "susuotin",
             "clothes to wear"
 
 
@@ -1569,14 +1519,14 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
   </tbody>
 </table>
 <br>
- To stay updated on dress code announcements, make sure to follow these reliable sources :
+ To stay updated on dress code announcements, make sure to follow these reliable sources
 <br>
 <a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
 <a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
         
         """
     },
-     {
+    {
         "patterns": [
   "what is cor",
   "get certification of registration",
@@ -1602,9 +1552,16 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
   "coen processing",
   "cvsu bacoor certificate of enrollment",
   "when request certificate of grades"
+
         ],
         "response": """
 <table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
+  <thead>
+    <tr>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Question</th>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Answer / Details</th>
+    </tr>
+  </thead>
   <tbody>
    
     <tr>
@@ -1672,7 +1629,8 @@ Similarly, a graduate student must maintain a GPA of 2.00 ( ~ equivalent to 85% 
     <tr>
       <td style="padding: 10px; border: 1px solid var(--text-color);">Can a COG be used as proof of enrollment?</td>
       <td style="padding: 10px; border: 1px solid var(--text-color);">
-        No, COG only shows grades and academic performance. Proof of enrollment requires a COR or school ID.
+          No, COG only shows grades and academic performance. Proof of enrollment requires a COR or school ID.
+      </td>
       </td>
     </tr>
     <tr>
@@ -1692,7 +1650,7 @@ For more information about Certification of Grades and Certification of Registra
         """
 
      },
-     {
+       {
        "patterns": [
   "student id in cvsu bacoor",
   "why no student ids yet",
@@ -1853,13 +1811,12 @@ For more information about Student ID announcements and queries , make sure to f
   "cvsu free tuition"
 ],
 
-
      "response": """ 
 CvSU offers <b>free tuition</b> because it is a state university covered by RA 10931, which provides free tuition and waived school fees for qualified Filipino students taking their <b>first bachelor’s degree</b>. You only need to meet CvSU’s admission and academic requirements to stay eligible.
 
 """
      },
-          {
+     {
      "patterns": [
   "meaning of cvsu logo",
   "cvsu mission",
@@ -1935,7 +1892,7 @@ CvSU offers <b>free tuition</b> because it is a state university covered by RA 1
 
 """
      },
-   {
+{
 "patterns": [
   "park anywhere near cvsu bacoor",
   "park in official cvsu bacoor parking",
@@ -2153,12 +2110,19 @@ For more information about Parking Area inside CvSU and parking inqueries , make
 
   </tbody>
 </table>
+
+<br>
+For more information about Shifting and Changing course , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
 """
 
 },
 { "patterns": [
   "fail subject",
   "failing grade appeal",
+  "recover from failing grade",
   "absences allowed",
   "passing after failing quizzes",
   "struggling in subject",
@@ -2172,8 +2136,6 @@ For more information about Parking Area inside CvSU and parking inqueries , make
 ],
 
  "response": """ 
- 
-
 <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
   <tbody>
 
@@ -2230,11 +2192,17 @@ For more information about Parking Area inside CvSU and parking inqueries , make
   </tbody>
 </table>
 
+<br>
+For more information about failing grade inqueries , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
 
-  """
+
 },
 {
-     "patterns": [
+     "patterns": [ 
   "is ID required",
   "is student ID needed",
   "ID policy inside campus",
@@ -2246,8 +2214,10 @@ For more information about Parking Area inside CvSU and parking inqueries , make
   "ID and uniform rules",
   "what happens without ID",
   "what happens without uniform",
-  "ID or uniform exceptions"
+  "ID or uniform exceptions",
+  "uniform policy cvsu bacoor"
 ],
+
     "response": """ 
 At CvSU, both student IDs and the prescribed school uniform are required inside the campus; according to the Code of Conduct and Dress Code, every enrolled student must wear the official uniform on school days and must also display their official ID card whenever on campus.
 <br><br>
@@ -2295,7 +2265,6 @@ For more information make sure to follow these reliable sources :
 <a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
 
   """
- 
 },
 {
 "patterns": [
@@ -2557,12 +2526,14 @@ For more information about Student Organization , make sure to follow these reli
 
   </tbody>
 </table>
+
 <br>
 For more information about Wi-Fi in CvSU Bacoor , make sure to follow these reliable sources :
 <br>
 <a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
 <a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
 """
+
   
 },
 {
@@ -2726,10 +2697,10 @@ For more information about Graduation in CvSU Bacoor , make sure to follow these
 <a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
 
 
-
 """,
 
 },
+
 {
 "patterns": [
   "how to apply for deans lister",
@@ -2985,6 +2956,7 @@ For more information about OJT in CvSU Bacoor , make sure to follow these reliab
 
 """,
 },
+#XXXXXXXXXXXXXXXXXXXXX
 {
   "patterns": [
   "cvsu clearance",
@@ -3250,7 +3222,7 @@ Loyalty we’ll keep to thee.
 <br>
 <table >
 <tr>
-<td>
+<td style="padding:10px; border:1px solid var(--text-color); ">
 This is the CvSU Hymn YouTube Video :
 <br><iframe width="560" height="315" 
 src="https://www.youtube.com/embed/A2fOWAo9jME?si=O1ptwtJvYc-me84N&amp;start=12" 
@@ -3267,6 +3239,494 @@ For more information about CvSU Hymn in CvSU Bacoor , make sure to follow these 
 <a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
 
   """
+
+},
+#XXXXXXXXXXXXXXXXXXX
+{
+    "patterns": [
+  "old student",
+  "how to enroll as old student",
+  "old student enrollment cvsu",
+  "cvsu bacoor enrollment old students",
+  "process for old student enrollment",
+  "enrollment steps for returning students",
+  "how to enroll as regular student",
+  "regular student enrollment cvsu",
+  "cvsu bacoor regular student process",
+  "requirements for old student enrollment",
+  "where to enroll old students",
+  "old student enrollment guide",
+  "regular student enrollment guide",
+
+  "how much is society fee",
+  "society fee amount",
+  "cvsu society fee",
+  "student organization fee cvsu",
+  "society fee payment",
+  "what is society fee",
+  "meaning of society fee",
+  "purpose of society fee",
+  "why do students pay society fee",
+  "society fee explanation",
+  "society fee details cvsu"
+],
+
+ "response": """ 
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th style="padding:10px; border:1px solid var(--text-color); ">Step</th>
+    <th style="padding:10px; border:1px solid var(--text-color); ">Action</th>
+    <th style="padding:10px; border:1px solid var(--text-color);">Details / Notes</th>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 1</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Pay your society fee as announced by your department.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      <b>The society fee usually cost 100 pesos per student.</b> The <u>Society fee</u> is a mandatory payment for student organizations and student activities. 
+      Check your department announcements or your batch adviser for the exact amount and deadline. 
+      Keep the official receipt for later verification.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 2</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Secure your Curriculum Checklist from your department.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Obtain a printed or digital copy of your curriculum checklist. 
+      This document shows your completed subjects, pending courses, and sequence of enrollment. 
+      It will guide your subject selection during advising.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 3</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Proceed with grade evaluation and subject advising.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Meet with your department adviser for evaluation of your grades and eligibility to enroll in 
+      certain courses. The adviser will suggest subjects based on prerequisites, failed courses, and 
+      your academic standing.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 4</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Obtain your queuing number per program.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Queuing numbers are issued to manage enrollment in an orderly manner. 
+      The number is usually distributed by the Registrar or department office and determines the order 
+      for encoding your subjects.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 5</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Wait for encoding and validation of subjects.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The Registrar’s Office or your department staff will encode your selected subjects in the system. 
+      Validation ensures that prerequisites are met, no schedule conflicts exist, and your enrollment is accurate.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 6</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Settle your payment at the Cashier's Office and keep your receipt.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      After validation, pay your tuition and other fees at the Cashier’s Office. Always keep your official 
+      receipt as proof of payment, which may be required for document processing, ID issuance, or OJT registration.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Additional Notes</td>
+    <td style="padding:10px; border:1px solid var(--text-color);" colspan="2">
+      <ul>
+        <li>Bring your valid Student ID and any required documents (e.g., COR, previous grades, OJT forms) during enrollment.</li>
+        <li>Follow official schedules announced via CvSU Bacoor Facebook page or department notifications.</li>
+        <li>Incomplete or late steps may delay your enrollment, document issuance, or access to certain services.</li>
+      </ul>
+    </td>
+  </tr>
+
+</table>
+
+<br>
+For more information about Regular Student Enrollment , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+"""
+
+
+},
+{
+     "patterns": [
+  "regular student enrollment schedule cvsu",
+  "when do regular students enroll",
+  "irregular student enrollment cvsu",
+  "when do irregular students enroll",
+  "why irregular students enroll later",
+  "regular vs irregular enrollment schedule",
+  "different enrollment schedule cvsu",
+  "how to know enrollment date cvsu",
+  "can irregular students enroll early",
+  "prepare for enrollment irregular student",
+  "advising process regular vs irregular",
+  "cvsu bacoor enrollment timeline"
+],
+"response": """ 
+
+<table border="1" cellspacing="0" cellpadding="8">
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do regular students enroll in CvSU Bacoor?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Regular students are always scheduled to enroll first. Typically, enrollment for regular students starts during the main enrollment month announced by the campus (e.g., July for first semester). They are prioritized because their subjects follow a fixed curriculum flow.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do irregular students enroll?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Irregular students usually enroll **one month after** the regular students.  
+      For example:  
+      <b>If regular students enroll in July, irregular students are scheduled around August.</b>  
+      This delay allows departments to finalize available subjects and remaining slots.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Why do irregular students enroll later than regular students?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Because irregular schedules vary and depend on:  
+      • Available subject slots after regular enrollment  
+      • Prerequisite checks  
+      • Department evaluation  
+      This ensures proper advising and avoids conflicts in schedule.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is the schedule for regular and irregular students always different?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. CvSU Bacoor normally sets separate dates. Regular students follow a standard timeline, while irregular students are given a later date to ensure accurate evaluation and subject availability.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How do I know my exact enrollment date?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Enrollment dates are posted through:  
+      • Official campus Facebook page  
+      • Department announcements  
+      • Program advisers  
+      Always check updates because schedules may change depending on the semester.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can irregular students enroll early?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      No. Irregular students cannot enroll early because they must undergo evaluation first. Departments need to determine which subjects are available and which prerequisites are met.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What should irregular students prepare before their enrollment month?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      • Updated curriculum checklist  
+      • Evaluation form from department  
+      • List of completed and pending subjects  
+      • Accountabilities checked (library, registrar, cashier)  
+      • Always monitor announcements for advising schedules
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Do regular and irregular students have the same advising process?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The process is similar, but regular students have faster advising because their flowchart is fixed. Irregular students undergo detailed evaluation to determine subject availability and prerequisites.
+    </td>
+  </tr>
+</table>
+<br>
+For more information about Schedule of Regular and Irregular Student , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+
+
+     
+},
+{
+"patterns": [
+  "graduation requirements cvsu",
+  "what are the requirements for graduation",
+  "cvsu bacoor graduation requirements",
+  "requirements to graduate",
+  "eligibility for graduation cvsu",
+  "documents needed for graduation",
+  "graduation checklist cvsu",
+  "graduating student requirements",
+  "what students need to graduate cvsu",
+  "how to qualify for graduation",
+  "academic requirements for graduation",
+  "graduation clearance requirements",
+  
+  "when is graduation evaluation",
+  "graduation evaluation schedule cvsu",
+  "uniform requirement during evaluation",
+  "wear uniform for graduation evaluation",
+  "join graduation with incomplete requirements",
+  "incomplete requirements graduation policy",
+  "who announces graduation candidates",
+  "graduation candidates list announcer",
+  "can student graduate with inc",
+  "inc grade effect on graduation"
+],
+
+"response": """ 
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th  style="padding:10px; border:1px solid var(--text-color); >Requirement</th>
+    <th style="padding:10px; border:1px solid var(--text-color); >Details</th>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">1. Complete all academic and non-academic requirements</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students must finish all subjects in their curriculum, including minor and major courses, OJT (if required), research/capstone, and other academic outputs. 
+      Non-academic requirements include attending orientations, seminars, and mandatory institutional activities, depending on the program. 
+      Grades must be officially encoded and passed before the final evaluation.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">2. Have no pending balances</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students must settle all financial obligations at the Cashier’s Office, such as: <br>
+      • Tuition & miscellaneous fees <br>
+      • Library fines <br>
+      • Laboratory payments <br>
+      • Lost ID or replacement fees <br> 
+      • Departmental fees (if applicable) <br><br>
+      A final assessment is usually required to verify that the student has zero outstanding balance before graduation.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">3. Submit clearance forms from all departments</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The clearance process ensures that the student has no liabilities with any office. 
+      Departments included in the clearance are usually: <br>
+      • Library <br>
+      • Laboratory / IT Department <br>
+      • Registrar’s Office <br>
+      • Cashier <br>
+      • Department Chairperson <br>
+      • Property / Equipment Custodian (if program-related) <br><br>
+      Students must secure signatures from all required offices before the deadline.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">4. Attend the graduation rehearsal</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Attendance to graduation rehearsal is mandatory to ensure proper organization during the ceremony.  
+      During rehearsal, students receive instructions about: <br>
+      • Processional and recessional order <br>
+      • Stage entering and exiting <br>
+      • Seating arrangement <br>
+      • Name calling procedure <br>
+      • Dress code for graduation <br><br>
+      Failure to attend may result in exclusion from the ceremony depending on campus rules.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">5. Submit an application for graduation to the Registrar</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students must file their Application for Graduation within the schedule announced by the Registrar’s Office.  
+      The application usually requires: <br>
+      • Accomplished graduation form <br>
+      • Updated curriculum checklist <br>
+      • 2x2 or passport-size photo (depending on the requirement) <br>
+      • Evaluation slip from the department <br>
+      • Latest registration forms & grades <br><br>
+      Late submission may delay processing and affect inclusion in the graduation roster.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Additional Common Questions</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      <b>• When is the graduation evaluation?</b><br>
+      Usually conducted 1–2 months before the ceremony.<br><br>
+
+      <b>• Do students need to wear complete uniform during evaluation?</b><br>
+      No, but proper attire is required when submitting documents.<br><br>
+
+      <b>• Can a student join the graduation ceremony with incomplete requirements?</b><br>
+      No. All requirements must be completed before receiving confirmation of graduation.<br><br>
+
+      <b>• Who announces the list of graduation candidates?</b><br>
+      The Registrar releases the official list after department evaluation.<br><br>
+
+      <b>• Can a student graduate with INC grades?</b><br>
+      No, incomplete grades must be cleared before the deadline.
+    </td>
+  </tr>
+</table>
+
+<br>
+For more information about Requirements for Graduating Students , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+"""
+   
+
+},
+
+{
+"patterns": [
+  "how to request tor",
+  "tor request process cvsu",
+  "transcript of records request",
+  "tor requirements cvsu",
+  "documents needed for tor",
+  "tor processing time",
+  "how long tor processing",
+  "can i request tor while studying",
+  "tor request as current student",
+  "claiming tor by representative",
+  "can someone else claim my tor",
+  "tor unpaid balance issue",
+  "unpaid balance tor restriction",
+  "digital tor request",
+  "electronic tor cvsu",
+  "tor fee cost",
+  "how much is tor",
+  "tor correction process",
+  "what to do if tor has errors",
+  "fix errors in tor",
+  "tor release procedure",
+  "what is tor",
+  "what is transcript of record",
+  "meaning of tor",
+  "can i request an electronic/digital TOR",
+  "tor definition cvsu"
+],
+
+"response": """ 
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What is TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      TOR stands for <b>Transcript of Records</b>.  
+      It is an official document issued by the Registrar that contains your complete academic history in CvSU, including all subjects taken, grades received, number of units, remarks, and GPA (if applicable).  
+      It is required for graduation, employment, transferring schools, and applying for scholarships or further studies.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How to request a Transcript of Records (TOR)?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      To request your TOR at CvSU Bacoor, follow these steps: <br><br>
+      <b>1. Secure your clearance.</b> You must be fully cleared from all departments before TOR processing begins. <br>
+      <b>2. Proceed to the Registrar’s Office.</b> Request the TOR form and fill it out completely. <br>
+      <b>3. Submit required documents.</b> These usually include: valid ID, student ID, and clearance form. <br>
+      <b>4. Pay the TOR processing fee.</b> Payment is made at the Cashier’s Office; keep your receipt. <br>
+      <b>5. Wait for processing.</b> TOR processing typically takes <b>5–15 working days</b> depending on workload and peak season. <br>
+      <b>6. Claim your TOR.</b> Bring your receipt and valid ID when claiming your document.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How long does TOR processing take?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      TOR processing usually takes <b>5 to 15 working days</b>.  
+      During peak seasons such as graduation, enrollment, or mass requests, processing may take longer—up to **3–4 weeks**.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What documents do I need to request a TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Requirements typically include: <br>
+      • Completed clearance <br>
+      • Valid ID or Student ID <br>
+      • TOR request form from the Registrar <br>
+      • Official receipt of payment <br><br>
+      Additional documents may be required depending on your status (e.g., transferee, graduating).
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I request TOR while still studying?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. Students may request a TOR for certain purposes such as scholarship application, transfer, or personal reasons.  
+      However, only completed/encoded subjects will appear in the document.  
+      Some offices may issue a **Certified True Copy of Grades** if a full TOR is not necessary.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can someone else claim my TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes, a representative may claim your TOR as long as they bring: <br>
+      • Authorization letter signed by you <br>
+      • Their valid ID <br>
+      • A photocopy of your valid ID <br>
+      • Official receipt (if required)
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What if I have unpaid balances?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      You cannot request or process your TOR if you have outstanding balances with the school.  
+      All payments must be settled first at the Cashier’s Office before the Registrar can proceed.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I request an electronic/digital TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      CvSU campuses usually release <b>printed TOR only</b>.  
+      For digital copies, you may ask the Registrar if they can provide a scanned copy, but this depends on campus policy and may not always be available.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How much is the TOR fee?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      TOR fees vary by semester and campus.  
+      The typical cost ranges from <b>₱50 to ₱150 per page</b>, plus certification fees and additional charges for rush processing (if offered).
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What should I do if my TOR has errors?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Report any mistakes immediately to the Registrar’s Office.  
+      Bring supporting documents (e.g., class cards, grade slips, evaluation forms) to verify the correct information.  
+      Corrections usually take a few days depending on the error.
+    </td>
+  </tr>
+
+</table>
+
+<br>
+For more information about Transcript of Record , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+"""
 
 }
 

@@ -1,13 +1,14 @@
 make a pattern keyword of this questions, you can also add questions about this topic 
 
-What is the CvSU Hymn?
-CvSU Hymn Lyrics
-CvSU Hymn YouTube Video
-Who composed the CvSU Hymn?
-When do students sing the CvSU Hymn?
-Is the CvSU Hymn required to memorize?
-Is the CvSU Hymn different from the CvSU March?
-Where can I download an MP3 or instrumental version?
+How to request a Transcript of Records (TOR)?
+How long does TOR processing take?
+What documents do I need to request a TOR?
+Can I request TOR while still studying?
+Can someone else claim my TOR?
+What if I have unpaid balances?
+Can I request an electronic/digital TOR?
+How much is the TOR fee?
+What should I do if my TOR has errors?
 
 this structure :
 "patterns": [
@@ -32,21 +33,18 @@ this structure :
 
 
 
-make one a html table for this topic :
 
- what is cvsu hymmn
-cvsu hymnn lyrics
-CvSU Hymn Youtube Video
 
-you also add and update questions and answer for that topic, thing you think is most commonly ask about Cvsu hymnn
+make one a html table with this "
 
+How to request a transcript of records (TOR)?
+
+you also add and update questions and answer for that topic, and you think mostly common question about TOR
 ##########################################
 
 
 can you seperate the question in this table, just give me the question, dont make it on table 
 "
-
-
 
  "
 
@@ -57,6 +55,50 @@ can you seperate the question in this table, just give me the question, dont mak
 ,
 "response": """ 
 
+
+
+make one a html table with all of this data "
+
+1. What are the office hours of CvSU Bacoor Campus? (note: registrar is only open in monday and thursday)
+
+2. Where is CvSU Bacoor Campus located? 
+
+3. How to access the CvSU student portal?
+
+4. How much is the tuition fee per semester?
+What is the Free Tuition Law?
+
+5. does cvsu bacoor offer night classes
+
+where can i pay my school fees
+
+how to get certificate of good moral
+
+can i request my grades online
+
+Can I request my student number online?
+
+What to do if I have incomplete grades?
+Can I enroll while having incomplete grades?
+
+How to get a copy of my curriculum?
+
+Is there a medical clinic in CvSU Bacoor?
+
+Where can I find my class schedule?
+
+How to contact CvSU Bacoor for inquiries?
+
+Where is the Registrar’s Office located?
+Where is the IT office located?
+
+Where can I find the library in CvSU Bacoor?
+How can I borrow books from the library?
+Is there an e-library or online resource?
+
+
+
+you also add and update questions and answer for that topic, and you think mostly common question in each topic
 
 """
 },
