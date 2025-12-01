@@ -1,7 +1,13 @@
 Who is the current president of cvsu           
 Who is the old president of cvsu     
 Who is the department chairperson
+
 Who is the research coordinator
+---------Is there a research office in CvSU Bacoor?
+---------Does CvSU Bacoor have research projects?
+---------How can I participate in university research projects?
+---------Can I publish my research?
+
 Who is the campus administrator / who is the Campus Director of CvSU Bacoor?
 
 What major does cvsu bacoor offers
@@ -30,6 +36,8 @@ Is there a list of program group chats?
 Does CvSU Bacoor have society group chats for courses?
 Is there an organization group chat for my course?
 What is the society group chat for each course?
+---How can I contact my department?
+
 
 
 #admission data
@@ -38,14 +46,29 @@ Is there an entrance exam for CvSU Bacoor
 When is the enrollment schedule?
 What are the enrollment requirements for new students?
 Is there an entrance exam for new students?
+----Where can I submit my admission requirements?
+----Does CvSU Bacoor accept transferees?
+----How can I apply as a transferee?
+
 
 
 What is the difference between computer science and Information technology ##done
           
 Who have authority to suspends classes
+--------Can classes be suspended?
+----------Where can I check class suspension announcements?
+----------What to do during class suspension?
+
 What is program accreditation
-What is academic Lload
+
+*********************************************************************
+--REMOVE ACADEMIC LOAD MEANING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##################################
+**********************************************************************
+
 Do I need to maintain attendance to pass the school year?
+------------Is attendance required for all events?
+------------What if I miss a required school event?
+
 
 What is the grading system of cvsu bacoor
 What is the passing grade of cvsu bacoor
@@ -53,8 +76,12 @@ What is the table of conversion
 What is the passing grade in CvSU?
 
 What happen in re-enrollment of subjects
+
 What is Prerequisite Subjects
+
 What is Leave of Absence
+--Can I take a Leave of Absence (LOA)?
+--How long can I take an LOA?
 
 
 What is Honorable Dismissal
@@ -62,12 +89,24 @@ What is Honorable Dismissal
 What is the Grade Requirements and Retention
 What is the Grade Requirements for CvSU
 What is Unit Load?
+-------------What is academic Load
 What is the minimum and maximum academic load per semester
+------------What is the maximum load per semester?
+------------Can I underload subjects?
+------------Can I overload subjects?
+------------Can I request for a subject overload?
+------------Where can I get a study load summary?
+------------How to verify my academic credentials?
+
 
 What is the dress code of CvSU Bacoor
 Which day usually is wash day
 Which day usually is uniform day
 What is the proper dress code in campus?
+---------------Is there a dress code for online classes?
+-----------Is there a dress code at CvSU Bacoor?
+----------Is there a dress code for students?
+---------Are students allowed to wear civilian clothes?
 
 
 What is COR
@@ -86,6 +125,9 @@ How long is a COG valid
 How to get a Certificate of Enrollment?
 Where can I get my Certificate of Grades?
 How can I get a copy of my registration form?
+How to request a Certificate of Grades (CoG)
+How to request a Certificate of Enrollment (COE)
+Where can I get my Certificate of Registration (COR)
 
 
 Is there an Student ID in CvSU Bacoor
@@ -97,7 +139,8 @@ What should I do if I lose my Student ID
 Do I need to bring my Student ID every day
 Can temporary documents replace a Student ID
 How can I get my Student ID
-Is there a uniform policy in CvSU Bacoor?
+--What should I do if I lost my ID
+--
 
 
 
@@ -120,12 +163,15 @@ Is parking allowed during big events or special activities?
 Is overnight parking allowed?
 Is the CvSU Bacoor parking area safe?
 Where can I park my vehicle in CvSU Bacoor?
+Can students park inside the campus?
 
 
 
 ***
 How can I shift courses
 How to change course or shift program?
+--Can I change my course after being admitted?
+--Can I shift to another CvSU campus?
 ***
 What happens if I fail a subject
 How can I appeal a failing grade
@@ -138,16 +184,21 @@ How can I improve my grades after performing poorly
 What happens if my failing grade affects my prerequisites?
 Does failing a subject affect my scholarship?
 **
-What to do if I failed a subject?
+----What to do if I failed a subject?
+----How can I appeal my grade?
+---How to request for correction of grades?
+----How to appeal for grade correction?
+----
+
 
 
 
 Is there a school uniform at CvSU Bacoor
 *************************
 Are IDs and uniforms strictly required inside the campus
-
-
-
+Is there a uniform policy in CvSU Bacoor?
+-------What is the policy on student ID wearing?
+-------Can I enter campus without my ID?
 
 
 ############### FIRST HALF #######################
@@ -162,6 +213,9 @@ Can I join multiple organizations
 What benefit do student organization provide
 Are student organization required
 What happens if i become inactive after joining
+How can I join a student organization?
+Are student organizations open to all students?
+----------What student organizations are available?
 
 Is there free wifi on campus
 Is CvSU Bacoor campus Wi-Fi available for students?
@@ -173,12 +227,8 @@ Can visitors or parents use the Wi-Fi?
 Are mobile hotspots allowed on campus?
 Is there Wi-Fi inside classrooms?
 What should I do if I need Wi-Fi for academic requirements?
+---Who should I contact for Wi-Fi issues?
 
-XX - Are there domitories available at CvSU Bacoor
-
-XX - Where can i get my official receipt for payments
-
-XX - Can i gradute with academic deficiences
 
 When is the CvSU Bacoor Recognition or Graduation ceremony
 Where is the Recognition/Graduation held?
@@ -192,7 +242,9 @@ What happens if I miss the ceremony?
 Can I still join if I have pending grades?
 Can I request a digital copy or livestream of the ceremony?
 
+
 How do I apply for Dean’s Lister?
+What are the requirements for Dean Lister?
 What is the minimum grade requirement to qualify as a Dean’s Lister?
 Do I need a full load to qualify?
 If I have PE or NSTP, will it affect Dean’s Lister qualification?
@@ -203,6 +255,8 @@ Is there a cash incentive or scholarship for Dean’s Listers?
 How will I know if I made it to the Dean’s List?
 
 
+
+!!!!!!WARNING
 What is OJT in CvSU Bacoor?
 How many OJT hours are required per course?
 What year does OJT usually start?
@@ -211,6 +265,18 @@ Can I choose my own company for OJT?
 Does CvSU Bacoor still allow online OJT?
 What happens if I fail or cannot complete my OJT hours?
 Where can I get updates about OJT?
+--What are the requirements for internship or OJT?
+--Where can I get my OJT endorsement letter?
+--How can I request a recommendation letter?
+--Does CvSU Bacoor have OJT or internship programs?
+--When can I take my OJT?
+--Where can I get my OJT endorsement letter?
+--How to get an OJT Memorandum of Agreement (MOA)?
+--Can I choose my own OJT company?
+--How many OJT hours are required?
+--What should I do after completing my OJT? (Pass a evaluation form in OJT instructor and pass the OJT Narrative Papers)
+--Can I get an OJT certificate from CvSU?
+
 
 
 Is there a clearance in CvSU?
@@ -225,6 +291,9 @@ How long does clearance processing take?
 Can I process clearance even if I have failing grades?
 What happens if I lose my clearance form?
 Is online clearance available?
+Where can I get my school clearance?
+--What is a clearance form?
+
 
 What is the CvSU Hymn?
 CvSU Hymn Lyrics
@@ -239,7 +308,6 @@ How to enroll (Old Student)
 What are society fees?
 How much is society fee
 
-
 When do regular students enroll in CvSU Bacoor?
 When do irregular students enroll?
 Why do irregular students enroll later than regular students?
@@ -248,22 +316,26 @@ How do I know my exact enrollment date?
 Can irregular students enroll early?
 What should irregular students prepare before their enrollment month?
 Do regular and irregular students have the same advising process?
+---When does enrollment start?
 
-
-
-
-
+How to apply for graduation?
 What are the requirements for graduation?
 When is the graduation evaluation?
 Do students need to wear complete uniform during evaluation?
 Can a student join the graduation ceremony with incomplete requirements?
 Who announces the list of graduation candidates?
-Can a student graduate with INC grades?
+-----When can I apply for graduation?
+-----What are the graduation requirements?
+-----Where to get the Application for Graduation form?
+-----Do I need clearance before graduation?
+-----How much is the graduation fee?
+-----What to wear in Graduation
+-----Where to get my toga for graduation? (You need to order- or borrowed)
+-----Can I attend the graduation ceremony without paying the fee?
 
-Can I still enroll after the deadline?
-Who should I contact for enrollment issues?
 
-
+----How to get my diploma?
+----Can someone claim my diploma for me?
 How to request a Transcript of Records (TOR)?
 How long does TOR processing take?
 What documents do I need to request a TOR?
@@ -273,45 +345,284 @@ What if I have unpaid balances?
 Can I request an electronic/digital TOR?
 How much is the TOR fee?
 What should I do if my TOR has errors?
+Can I request a copy of my Transcript of Records (TOR)?
+----Is diploma and TOR different? (if yes, adds another question, whats the different)
+----How to get my Transcript of Records after graduation?
+---ow long does it take to release my TOR?
+
+
+
+
+
+
+Can I still enroll after the deadline?
+Can I enroll late?
+Who should I contact for enrollment issues?
+Where can I get my Certificate of Registration (COR)
+----What happens if I miss the enrollment period?
+
+
+ Are there domitories available at CvSU Bacoor
+
+ Where can i get my official receipt for payments
+
 
 What are the office hours of CvSU Bacoor Campus? (note: registrar is only open in monday and thursday)
 
 Where is CvSU Bacoor Campus located? 
 
 How to access the CvSU student portal?
+What to do if I forgot my Student Portal password?
 
 How much is the tuition fee per semester?
+How much is the tuition fee at CvSU Bacoor?
 What is the Free Tuition Law?
+Are there additional fees aside from tuition?
 
 Group chat in all course
 
+How to enroll in summer class?
+Does CvSU Bacoor offer summer classes?
 does cvsu bacoor offer night classes
 
-where can i pay my school fees
+
 
 how to get certificate of good moral
+How can I request for a Good Moral Certificate?
+How to apply for a Good Moral Certificate?
+Can I request Good Moral for scholarship application?
 
 can i request my grades online
-
 Can I request my student number online?
+How can I check my grades online?
+What to do if my grade is not appearing on the portal?
+How to view my grades online?
 
-What to do if I have incomplete grades?
-Can I enroll while having incomplete grades?
+What happens if I get an INC grade?
+--What to do if I have INC grades?
+--What to do if I have incomplete grades?
+--Can I enroll while having incomplete grades? (Yes)
+--Can I enroll while having INC grades? (Yes)
+--Can a student graduate with INC grades?
+--Can a student graduate with Incomplete grades?
+--Can I still graduate if I have an INC?
+--Can I still graduate if I have an Incomplete grades?
+--Can i gradute with academic deficiences
+--How to complete my INC grade?
 
 How to get a copy of my curriculum?
 
-Is there a medical clinic in CvSU Bacoor?
-
 Where can I find my class schedule?
+Where can I request my class schedule?
+How can I know my class schedule?
+Where can I find my subject schedule?
+What to do if I forgot my schedule?
 
-How to contact CvSU Bacoor for inquiries?
+
 
 Where is the Registrar’s Office located?
-Where is the IT office located?
+where can i pay my school fees?
+Where can I pay my tuition fees?
+How to contact CvSU Bacoor for inquiries?
+Who can I contact for scholarship inquiries?
+------How can I apply for a scholarship? (Scholarship is mostly cover by CHED and other private institutional grants )
+------Who can I contact for scholarship inquiries?
+------How to apply for a scholarship in CvSU Bacoor? (Scholarship is mostly cover by CHED and other private institutional grants )
 
+
+What are the academic departments in CvSU Bacoor?
+
+
+Where is the IT Department located? (The IT Office is temporarily New Building but the original IT office in in Ground Floor main academic building near Registrar Office )
+Where is the IT office located? (CS and IT have the same department)
+Where can I find the IT office?
+Where is the Psychology Department located?
+Where is the Education Department located?
+
+
+
+Where is the clinic located? (the clinic is in ground floor near the end of the exit gate)
+Is there a medical clinic in CvSU Bacoor?
+What services does the clinic offer?
+Is there a medical clinic in CvSU Bacoor?
+How to request a medical certificate from the clinic?
+Where can I submit my medical requirements?
+Can I go to the clinic even without an emergency?
+---Who should I contact in case of an emergency?
+---What to do if I get sick during class?
+
+
+
+Where is the library located?
 Where can I find the library in CvSU Bacoor?
 How can I borrow books from the library?
 Is there an e-library or online resource?
+What are the library hours?
+Can I borrow books from the library?
+How many books can I borrow?
+Can I access online library resources?
+What happens if I lose a library book?
+Can I print or photocopy in the library?
+Is there a Wi-Fi connection in the library?
+How to request a library clearance?
+Can I eat or drink in the library?
+
+What is LMS in CvSU?
+How to access LMS?
+What should I do if my LMS account doesn’t work?
+What to do if my LMS account is not working?
+How to log in to the CvSU LMS (Learning Management System)  (<a href='https://lms.cvsu.edu.ph'>)
+
+
+What is the CvSU email format?
+Can I use my personal email for official transactions?
+How to reset my CvSU email password?
+
+
+Where can I get my student handbook?
+
+What is OSAS?
+
+Can parents claim my documents?
+Can I request documents even if I have unpaid balances? (document issues)
+Can I enroll if I have unpaid balances?
+
+Where can I find lost and found items?
+What to do if I lose something on campus?
+Is there a lost and found section?
+
+Does CvSU Bacoor have a canteen? (note: Yes, but mostly use as waiting area for students)
+Is there a canteen inside CvSU Bacoor?
+What are the canteen hours? (can be use as waiting area for students)
+
+What to do if I feel stressed or anxious?
+Where is the Guidance Office located? (Guidance Office is the Course Department)(if you're IT go to IT Department or Take to your advisor)
+Is there a guidance office in CvSU Bacoor?
+Can I schedule a counseling session?
+Is counseling confidential?
+What services does the Guidance Office offer?
+
+
+Does CvSU Bacoor offer PE classes? (Yes 1st Year and 2nd Year, also depends of course)
+
+Is there a student lounge in CvSU Bacoor? (Yes in Canteen, and Garden Park)
+
+Can I bring visitors to the campus?
+Can visitors enter CvSU Bacoor?
+Are pets allowed inside the campus?
+
+
+What are the safety policies inside the campus?
+
+Is smoking allowed in CvSU Bacoor?
+Is smoking allowed inside CvSU Bacoor?
+
+What should I do if there is an emergency?
+
+How can I report harassment or bullying?
+
+What is the difference between major and minor subjects? -- what is major and minor subject in each course
+
+
+-What happens if I drop a subject?
+-How to drop a subject?
+-What is the deadline for dropping subjects?
+
+
+What is academic calendar 
+Where can I see the list of university holidays? (all about academic calendar) (show image/link)
+
+Can I bring food inside the classroom? (provide also classroom regulations)
+Can I bring food inside classrooms?
+
+Where can I print documents inside CvSU Bacoor? (ground floor of the main academic building)
+
+
+
+What facilities are available at CvSU Bacoor?
+Does CvSU Bacoor have a computer lab?
+How to reserve the computer lab?
+Can I use the laboratory outside class hours? (Laboratory Regulations / guidelines)
+
+What is the official website of CvSU Bacoor?
+
+Can I study part-time at CvSU Bacoor?
+Can I OJT in CvSU Bacoor
+
+When do classes start? (Around august and september)
+
+Is CvSU Bacoor part of CvSU Main Campus?
+
+How to know if im enroll in CvSU Bacoor
+What are the steps for enrollment confirmation?
+
+Can I use my own laptop in class?
+Where can I charge my devices? (All room have plug area that student and teacher can use for presentation, charging etc.)
+
+
+Does CvSU Bacoor have CCTV cameras?
+
+What to do if there’s an earthquake? (Emergency / Natural Disaster)
+What to do if there’s an fire? (Emergency / Natural Disaster)
+Where is the fire exit? (typically at the back of the room)
+Where is the evacuation area? (Outside of CvSU Bacoor school)
+Is there a fire extiguisher in each room (Yes)
+Does CvSU Bacoor conduct fire or earthquake drills?
+What are the emergency hotline in Cavite Bacoor - CvSU Bacoor - (PUT ALL THE HOTLINES YOU KNOW)
+
+How can I contact my professor?
+What should I do if I can’t reach my instructor?
+How can I know who my adviser is?
+What are consultation hours?
+Can I request for academic advising?
+
+What day is Midterm
+What day in Finals
+What month is Midterm
+What month is Finals
+Midterm and Finals Schedule (Spefically 2-3 months after the class started. is the Midterms Exam Month - you the class period starts at july usually september and finals is usually october, november, december)
+Can I request for rechecking of my Midterm exam? (Exam Queries)
+Can I request for rechecking of my Finals exam? (Exam Queries)
+
+What is cross-enrollment
+How to process cross-enrollment?
+Can I take subjects from another CvSU campus?
+
+Who is the Supreme Student Council (SSC)?
+How can I contact the SSC?
+
+What events are organized by CvSU Bacoor?
+When is the Intramurals held? (Specify the month)
+Can I participate in Intramurals? 
+Does CvSU Bacoor celebrate University Week?
+Are there academic competitions?
+How can I volunteer in school events?
+
+
+What should I do if I’m absent from class? (STEP BY STEP PROCESS)
+
+What if my teacher is absent?
+
+Does CvSU Bacoor have an Alumni Association?
+How can I join the Alumni Association?
+Can alumni request documents online?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
