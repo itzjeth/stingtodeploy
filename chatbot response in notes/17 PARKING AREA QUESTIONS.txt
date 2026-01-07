@@ -1,0 +1,108 @@
+{
+"patterns": [
+  "park anywhere near cvsu bacoor",
+  "park in official cvsu bacoor parking",
+  "cvsu parking fee",
+  "parking",
+  "parking area",
+  "park area",
+  "park in cvsu",
+  "students allowed to park inside campus",
+  "motorcycle parking area",
+  "parking during events",
+  "overnight parking allowed",
+  "mag park",
+  "cvsu bacoor parking safe",
+  "where to park in cvsu bacoor",
+  "cvsu bacoor parking",
+  "parking area cvsu bacoor",
+  "vehicle parking cvsu bacoor",
+  "cvsu bacoor parking slots",
+  "parking spaces cvsu bacoor",
+  "can i park my car in cvsu bacoor",
+  "where is parking lot cvsu bacoor",
+  "campus parking cvsu bacoor",
+  "allowed parking cvsu bacoor",
+  "student parking cvsu bacoor",
+  "visitor parking cvsu bacoor"
+],
+     "response": """ 
+
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); margin-top: 20px;">
+  <tbody>
+
+    <!-- Parking near CvSU -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can I park anywhere near CvSU Bacoor?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        No. You can only park in designated areas near the campus. Some nearby streets may prohibit parking or require permission from residents. Always check signages to avoid towing or penalties.
+      </td>
+    </tr>
+
+    <!-- CvSU Parking Area -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can I park in the official CvSU Bacoor parking area?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, CvSU Bacoor has limited parking slots available for students, staff, and visitors. Availability may depend on campus rules, events, or peak hours. Always follow the guard’s instructions upon entering.
+      </td>
+    </tr>
+
+    <!-- Parking Fee -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is there a parking fee?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Typically, parking inside CvSU Bacoor is free, but this may change depending on campus policies or special events. Some nearby private parking areas may charge hourly or daily rates.
+      </td>
+    </tr>
+
+    <!-- Student Parking Rules -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Are students allowed to park inside the campus?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, students may park inside as long as they follow the campus parking rules, present valid identification (ID or COR), and there are available slots. Some terms may vary during busy days.
+      </td>
+    </tr>
+
+    <!-- Motorcycle Parking -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is there a separate parking area for motorcycles?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes. CvSU Bacoor usually provides a designated motorcycle parking zone. Motorcycles must be parked properly within the marked lanes.
+      </td>
+    </tr>
+
+    <!-- Parking During Events -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is parking allowed during big events or special activities?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Parking may be restricted or rerouted during university events such as orientations, performances, or exams. Guards will often guide traffic and advise alternative parking options.
+      </td>
+    </tr>
+
+    <!-- Overnight Parking -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is overnight parking allowed?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        No. Overnight parking is not allowed unless approved by campus administration for official purposes. Unattended vehicles may be reported or ordered to vacate.
+      </td>
+    </tr>
+
+    <!-- Safety & Security -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is the CvSU Bacoor parking area safe?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The parking area is monitored by campus security, but the university is not responsible for lost items or damages. Always lock your vehicle and avoid leaving valuables inside.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+For more information about Parking Area inside CvSU and parking inqueries , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+
+},

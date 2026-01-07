@@ -1,0 +1,43 @@
+{
+  "patterns": [
+  "grade requirements", "grade required", "grade requirements for cvsu",
+  "grade required for cvsu", "grade require", "grade require for cvsu"
+],
+        "response": """
+
+        Here’s what’s known per course type, though note: actual acceptance may vary by campus and slot availability.
+      <table  style="width: 100%; border: 1px solid var(--text-color); padding: 30px;>
+
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);  padding: 5px;></td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);  padding: 5px;">Course</td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);  padding: 5px;">Key Information / Admission Notes</td>
+    </tr>
+  <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Computer Science (BSCS)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Technical course. <b>SHS grades of 85+ in Math, Science, and English</b> recommended. SHS strand must match (STEM or TVL-ICT).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Information Technology (BSIT)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Similar to CS. SHS strand must match (STEM or TVL-ICT). High demand may limit slots.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Business Administration / Management</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">No strict grade requirement. SHS report card is evaluated. Admission is more flexible than technical courses.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Education (BSEd / BEEd)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);"><b>Final grade of 85+</b> in relevant subjects recommended. SHS strand must match campus requirements (GAS, HUMSS, STEM).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Psychology (BS Psychology)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">No strict grade requirement. Submit SHS report card; may include entrance exam or interview.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Criminology (BS Criminology)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Submit SHS report card (Form 138). Admission may include exam, interview, or screening.</td>
+    </tr>
+</table>
+
+      """
+        },  

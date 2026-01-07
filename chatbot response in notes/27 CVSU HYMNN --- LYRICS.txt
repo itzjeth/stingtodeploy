@@ -1,0 +1,143 @@
+{
+     "patterns": [
+  "cvsu hymn",
+  "what is the cvsu hymn",
+  "cvsu hymn lyrics",
+  "lyrics of cvsu hymn",
+  "cvsu hymn youtube",
+  "cvsu hymn video",
+  "cvsu hymn instrumental",
+  "download cvsu hymn",
+  "cvsu hymn mp3",
+  "who composed the cvsu hymn",
+  "composer of cvsu hymn",
+  "when do students sing the cvsu hymn",
+  "is cvsu hymn required",
+  "memorize cvsu hymn",
+  "cvsu hymn vs cvsu march",
+  "difference between cvsu hymn and cvsu march",
+  "where to find cvsu hymn",
+  "cvsu hymn audio",
+  "cvsu hymn practice",
+  "how to learn cvsu hymn",
+  "cvsu hymn information",
+  "cvsu hymn guide",
+  "official cvsu hymn"
+],
+ "response": """ 
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+
+
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What is the CvSU Hymn?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The CvSU Hymn is the official school song of Cavite State University. It is sung during official events,
+      flag ceremonies, orientations, recognition rites, and graduation ceremonies. The hymn symbolizes unity,
+      discipline, and loyalty to the university.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">CvSU Hymn Lyrics</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      <pre style="white-space: pre-wrap; font-family: inherit;">
+Hail Alma Mater Dear, Cavite State University
+Thy honor we’ll uphold and love
+Wherever we may be.
+
+Thy glory we’ll pursue
+Thy name we shall revere
+We’ll live to make you proud of us
+Through the years.
+
+We’ll keep our paths aglow
+With noble dreams in view
+We’ll strive to reach our goals
+For the glory of God and our country too.
+
+Hail Alma Mater Dear
+Cavite State University
+The love we pledge will never die
+Loyalty we’ll keep to thee.
+      </pre>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Who composed the CvSU Hymn?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The CvSU Hymn was composed specifically for Cavite State University to represent its spirit, 
+      values, and mission. It is traditionally played during major campus events. (Note: Composer 
+      details are not always disclosed in public student documents.)
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do students sing the CvSU Hymn?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students sing the hymn during:
+      <ul>
+        <li>Flag ceremonies</li>
+        <li>University assemblies</li>
+        <li>Recognition and graduation</li>
+        <li>Campus programs and orientations</li>
+        <li>Major university celebrations</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is the CvSU Hymn required to memorize?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. Students are highly encouraged to memorize the CvSU Hymn because it is regularly 
+      performed during important ceremonies and university events.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is the CvSU Hymn different from the CvSU March?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. The CvSU Hymn is the solemn school song, while the CvSU March is an upbeat ceremonial 
+      march often played before events or formal programs.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Where can I download an MP3 or instrumental version?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students may download or access versions through:
+      <ul>
+        <li>Official CvSU YouTube uploads</li>
+        <li>Campus media pages</li>
+        <li>Audio provided during orientations or classes</li>
+      </ul>
+      The school does not officially release MP3 downloads, but videos are publicly accessible.
+    </td>
+  </tr>
+
+</table>
+
+
+<br>
+<table >
+<tr>
+<td style="padding:10px; border:1px solid var(--text-color); ">
+This is the CvSU Hymn YouTube Video :
+<br><iframe width="560" height="315" 
+src="https://www.youtube.com/embed/A2fOWAo9jME?si=O1ptwtJvYc-me84N&amp;start=12" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</td>
+</tr>
+
+</table>
+<br><br>
+For more information about CvSU Hymn in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+  """
+
+},

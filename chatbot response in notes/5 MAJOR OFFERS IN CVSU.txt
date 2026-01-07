@@ -1,0 +1,113 @@
+{
+"patterns": [
+  "what major does cvsu bacoor offers",
+  "majors offered cvsu bacoor",
+  "what programs does cvsu bacoor offer",
+  "programs available at cvsu bacoor",
+  "courses offered at cvsu bacoor",
+  "academic programs cvsu bacoor",
+  "degree programs cvsu bacoor",
+  "complete cvsu bacoor course list",
+  "list of courses offered at cvsu bacoor",
+  "what program can i take at cvsu bacoor",
+  "what courses are available for students",
+  "courses allowed for enrollment cvsu bacoor",
+
+  "what is computer science",
+  "what is bs computer science",
+  "what is bs information technology",
+  "what is bs infomation technology",
+  "what is bs business administration",
+  "what is bs education",
+  "what is bs psychology",
+  "what is bs criminology",
+
+"is there a course group chat cvsu bacoor",
+"does cvsu bacoor have group chats for each course",
+"official group chat for my course",
+"list of program group chats",
+"does cvsu bacoor have society group chats",
+"organization group chat for my course",
+"society group chat for each course",
+"course society group cvsu bacoor"
+"group chat",
+"society group",
+"society gc",
+"chat group",
+"chat room",
+"discussion group",
+"messaging group",
+"communication group",
+"collaboration chat",
+"team chat",
+"community chat",
+"social group",
+"online group",
+"chat community",
+"channel",
+"thread"
+
+  ],
+  "response": """
+  CvSU offers a variety of course and program this includes the following: <br><br>
+ <table style="width: 100%; border: 1px solid var(--text-color); padding: 30px;">
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Program / Course</th>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Abbreviation</th>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Notes</th>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Society Link</th>
+        </tr>
+      <tbody>
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Bachelor of Secondary Education</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">BSED</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Teacher education — various specializations may be offered.</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSUEDUCSociety" target="_blank" rel="noopener">BSSD Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Bachelor of Science in Computer Science</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">BSCS</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Software, algorithms, and systems.</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSUBacoorDCS" target="_blank" rel="noopener">BSCS Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Bachelor of Science in Criminology</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">BS Crim</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Law enforcement and criminal justice.</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CriminologyBacoorOfficial" target="_blank" rel="noopener">BS Crim Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Bachelor of Science in Hospitality Management</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">BSHM</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Hospitality, hotel & restaurant management (formerly HRM).</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/bshmsocietycvsubacoor" target="_blank" rel="noopener">BSHM Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Bachelor of Science in Information Technology</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">BSIT</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Practical IT skills and systems administration.</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor" target="_blank" rel="noopener">BSIT Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Bachelor of Science in Psychology</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">BS Psych</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Foundations in psychology and counseling.</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor" target="_blank" rel="noopener">CvSU Bacoor Society</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Bachelor of Science in Business Management</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">BSBM</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);">Business and management fundamentals.</td>
+          <td style="padding: 15px; border: 1px solid var(--text-color);"><a style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor" target="_blank" rel="noopener">CvSU Bacoor Society</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    To stay updated for changes about Courses in CvSU, make sure to follow these reliable sources
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSU.B.Admission">Official CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a>
+
+ 
+   """
+},

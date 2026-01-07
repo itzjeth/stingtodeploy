@@ -1,0 +1,24 @@
+{
+"patterns": [
+  "cvsu bacoor department chairperson",
+  "who is the department chair",
+  "department chair of cvsu bacoor",
+  "current department chairperson cvsu",
+  "head of academic department cvsu bacoor",
+  "program chair cvsu bacoor",
+  "cvsu bacoor program head",
+  "chairperson of my program cvsu",
+  "who leads the department cvsu bacoor",
+  "department head cvsu",
+  "cvsu bacoor department leadership",
+  "academic chairperson cvsu bacoor",
+  "department chairperson"
+],
+
+
+  "response": """
+
+The current Department Chairperson is <u>Ms. Jovelyn D. Ocampo, MIT </u>. She leads the department in overseeing academic programs, guiding faculty members, and ensuring that the curriculum remains relevant and aligned with university standards. Through her leadership, the department continues to enhance its instructional quality, support student development, and maintain a strong academic environment
+
+  """
+},

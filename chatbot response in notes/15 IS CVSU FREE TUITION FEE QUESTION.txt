@@ -1,0 +1,10 @@
+ {
+      "patterns": [
+  "cvsu free tuition"
+],
+
+     "response": """ 
+CvSU offers <b>free tuition</b> because it is a state university covered by RA 10931, which provides free tuition and waived school fees for qualified Filipino students taking their <b>first bachelor’s degree</b>. You only need to meet CvSU’s admission and academic requirements to stay eligible.
+
+"""
+     },

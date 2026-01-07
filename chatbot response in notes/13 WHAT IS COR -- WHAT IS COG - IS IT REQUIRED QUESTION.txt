@@ -1,0 +1,124 @@
+{
+        "patterns": [
+  "what is cor",
+  "get certification of registration",
+  "cor used for",
+  "cor form valid",
+  "cor proof of enrollment",
+  "is cor required",
+  "proof of enrollment",
+  "used as proof of enrollment",
+  "can cor can be used as proof of enrollment",
+  "what is cog",
+  "request certificate of grades",
+  "get certificate of enrollment",
+  "how to request certificate of enrollment",
+  "certificate of enrollment process",
+  "where to get certificate of enrollment",
+  "requesting enrollment certificate",
+  "certificate of enrollment requirements",
+  "how to obtain enrollment certificate",
+  "enrollment verification document",
+  "ask for certificate of enrollment",
+  "coen request",
+  "coen processing",
+  "cvsu bacoor certificate of enrollment",
+  "when request certificate of grades"
+
+        ],
+        "response": """
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
+  <thead>
+    <tr>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Question</th>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Answer / Details</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is COR?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COR stands for <b>Certificate of Registration</b>. It is an official document issued by CvSU that shows a student’s enrolled courses, units, and schedule for a specific semester.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How do I get a COR?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Students can obtain a COR after completing enrollment through the registrar’s office or online student portal. Some campuses require clearance or payment confirmation first.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is a COR used for?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COR is used to verify enrollment, check registered subjects, and for official purposes such as scholarships, clearance, loans, and administrative transactions.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How long is a COR valid?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COR is valid only for the semester it was issued. Students must obtain a new COR for each subsequent semester.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can COR be used as an ID or replace the school ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        No, COR is not an official ID. It cannot replace the school ID, but it can serve as proof of enrollment for specific administrative purposes.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is COR required to bring to school?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Students may be asked to present COR during enrollment, class registration, or certain verification procedures. It is recommended to have a copy on hand for official transactions.
+      </td>
+    </tr>
+
+    <!-- COG Questions -->
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is COG?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COG stands for <b>Certificate of Grades</b>. It shows a student’s academic performance or grades for a specific semester or school year.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How can I request a COG?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Students can request a COG at the registrar’s office or via the official student portal. Some campuses may require a request form or payment of fees.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">When can I request a COG?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        A COG can be requested after grades have been officially released for the semester or academic term. Check the registrar’s schedule for availability.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is a COG used for?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        COG is used to verify academic performance, for scholarship applications, transfer credentials, or other administrative purposes requiring proof of grades.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can a COG be used as proof of enrollment?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+          No, COG only shows grades and academic performance. Proof of enrollment requires a COR or school ID.
+      </td>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How long is a COG valid?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        A COG is valid indefinitely as proof of grades for the specific semester it represents.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+For more information about Certification of Grades and Certification of Registration , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+        """
+
+     },

@@ -1,0 +1,76 @@
+ {
+     "patterns": [
+  "meaning of cvsu logo",
+  "cvsu mission",
+  "cvsu vision",
+  "why logo symbols agriculture science technology",
+  "cvsu core values",
+  "purpose of vision mission",
+  "logo reflect mission vision",
+  "cvsu vision and mission",
+  "vision and mission of cvsu",
+  "what is cvsu vision",
+  "what is cvsu mission",
+  "mission and vision statement cvsu",
+  "cvsu institutional mission",
+  "cvsu institutional vision",
+  "university vision mission cvsu",
+  "purpose of cvsu vision",
+  "purpose of cvsu mission",
+  "explain cvsu vision and mission",
+  "meaning of cvsu vision mission"
+],
+    "response": """ 
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the meaning of the CvSU logo / seal?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The seal presents a number of symbolic elements: a book and torch (representing knowledge and wisdom, symbolizing education and humanities), a coffee twig with berries (representing the agriculture thrust of Cavite and the university’s agricultural programs), an atomic structure (for science and research), and a gear (symbolizing engineering and technology programs). <br>
+        The overall triangular shape refers to the three-fold functions of the university: instruction, research, and extension/services.  <br>
+        The date “1906” on the seal marks the year when the institution first started (as a school), signifying its long history and heritage. 
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the vision of CvSU?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        CvSU’s vision is: <b>“The premier university in historic Cavite globally recognized for excellence in character development, academics, research, innovation and sustainable community engagement.”</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the mission of CvSU?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        CvSU’s mission is <b>"To provide excellent, equitable, and relevant educational opportunities in the arts, sciences and technology through quality instruction and responsive research and development activities. It aims to produce professional, skilled, and morally upright individuals for global competitiveness."</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Why does the logo include symbols like agriculture, science, and gear/technology?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Because CvSU offers a diverse set of programs — from agriculture and agronomy, to science, engineering/technology, and humanities. The logo symbolizes this diversity and reflects the university’s commitment to serve multiple sectors, aligned with its mandate for instruction, research, and extension.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What are the core values of CvSU?</td>
+      <td style="padding:  10px; border: 1px solid var(--text-color);">
+        The core values of CvSU are <b>Truth, Excellence, and Service.</b> 
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What is the purpose of the vision and mission statements?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The vision gives the long-term aspiration of CvSU (what it aims to be globally recognized for). The mission outlines the concrete commitments and actions — offering quality, relevant education, research, and development — to produce competent and morally upright graduates able to compete globally. 
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">How does the logo reflect the mission and vision?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        The elements of the seal (book/torch, agriculture, science, technology) reflect the university’s commitment to a wide range of disciplines — embodying its mission of providing “arts, sciences and technology.” The use of the university’s founding date and the symbolic representation of instruction-research-extension reflects its long history and its aspiration in the vision to be recognized for excellence and holistic development. 
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+"""
+     },

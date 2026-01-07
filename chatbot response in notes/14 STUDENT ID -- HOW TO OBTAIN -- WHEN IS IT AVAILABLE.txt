@@ -1,0 +1,156 @@
+   {
+       "patterns": [
+  "student id in cvsu bacoor",
+  "why no student ids yet",
+  "when student ids available",
+  "lost cor before student id",
+  "student id proof of enrollment",
+  "lost student id",
+  "bring student id everyday",
+  "temporary documents replace student id"
+  "get student id",
+  "how to get student id",
+  "student id requirements",
+  "student id application",
+  "how can i obtain student id",
+  "request student id",
+  "student identification card",
+  "how to apply student id",
+  "getting student id",
+  "student id process",
+  "where to get student id",
+  "student id issuance"
+],
+     "response": """ 
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); text-align: left;">
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Is there a Student ID in CvSU Bacoor?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, CvSU Bacoor issues official Student IDs to enrolled students. The ID is used for identification, library access, campus transactions, and verification purposes.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Why don’t we have our Student IDs yet?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Student IDs are usually processed after enrollment and payment verification. Delays can happen due to printing schedules, administrative processing, or verification requirements.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">When will the Student IDs be available?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        IDs are typically released a few weeks after enrollment. The exact date depends on the registrar’s office and campus printing schedule. Students are advised to follow announcements for distribution dates.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What should I do if I lose my COR before getting my Student ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        You should request a duplicate COR from the registrar. This duplicate can temporarily serve for verification purposes until your Student ID is issued.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can I use my Student ID as proof of enrollment?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, the Student ID can serve as proof of enrollment along with your COR for most campus transactions and verification purposes.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">What should I do if I lose my Student ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Report the loss immediately to the registrar’s office. You will need to request a replacement ID, which may require payment of a replacement fee.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Do I need to bring my Student ID every day?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, it is recommended to carry your Student ID for identification, library access, and any official campus transactions.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Can temporary documents replace a Student ID?</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Yes, in some cases, a COR or temporary enrollment slip can be used until your official Student ID is issued.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+Here is the step-by-step process on how to get Student ID:
+<br>
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); margin-top: 20px;">
+  <thead>
+    <thead>
+    <tr>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Step</th>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Description</th>
+    </tr>
+  </thead>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">1. Complete Your Enrollment</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        You must be officially enrolled in CvSU Bacoor. Your Student ID will only be processed once your name appears in the school system.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">2. Watch for Facebook Announcements</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        All Student ID schedules (picture-taking, processing, releasing) are posted on the official CvSU Bacoor Facebook page. Check regularly for updates about your batch.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">3. Prepare Required Documents</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Bring the required documents, usually:
+        <ul style="margin: 5px 0 0 18px;">
+          <li>Enrollment slip or proof of enrollment</li>
+          <li>A valid ID (if needed)</li>
+          <li>Any additional documents stated in the announcement</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">4. Go to Campus on Your Assigned Date</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Follow the exact schedule posted for your batch. Arrive on time and proceed to the room/building indicated in the Facebook announcement.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">5. Attend Photo-Taking Session (if applicable)</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Some semesters require on-site photo capture. If your batch already submitted photos earlier, you may skip this and move directly to ID claiming.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">6. Claim Your Student ID</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        Go to the designated office, typically the Registrar’s Office or OSAS/Student Affairs Office. Present your documents and claim your official Student ID.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">7. For Late or Missed Schedules</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">
+        If you missed your assigned date, wait for additional announcements. CvSU Bacoor often posts separate instructions for late claimants or alternative schedules.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<br>
+For more information about Student ID announcements and queries , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+    """
+     },

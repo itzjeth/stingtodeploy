@@ -1,0 +1,118 @@
+{
+    "patterns": [
+  "old student",
+  "how to enroll as old student",
+  "old student enrollment cvsu",
+  "cvsu bacoor enrollment old students",
+  "process for old student enrollment",
+  "enrollment steps for returning students",
+  "how to enroll as regular student",
+  "regular student enrollment cvsu",
+  "cvsu bacoor regular student process",
+  "requirements for old student enrollment",
+  "where to enroll old students",
+  "old student enrollment guide",
+  "regular student enrollment guide",
+
+  "how much is society fee",
+  "society fee amount",
+  "cvsu society fee",
+  "student organization fee cvsu",
+  "society fee payment",
+  "what is society fee",
+  "meaning of society fee",
+  "purpose of society fee",
+  "why do students pay society fee",
+  "society fee explanation",
+  "society fee details cvsu"
+],
+
+ "response": """ 
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th style="padding:10px; border:1px solid var(--text-color); ">Step</th>
+    <th style="padding:10px; border:1px solid var(--text-color); ">Action</th>
+    <th style="padding:10px; border:1px solid var(--text-color);">Details / Notes</th>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 1</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Pay your society fee as announced by your department.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      <b>The society fee usually cost 100 pesos per student.</b> The <u>Society fee</u> is a mandatory payment for student organizations and student activities. 
+      Check your department announcements or your batch adviser for the exact amount and deadline. 
+      Keep the official receipt for later verification.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 2</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Secure your Curriculum Checklist from your department.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Obtain a printed or digital copy of your curriculum checklist. 
+      This document shows your completed subjects, pending courses, and sequence of enrollment. 
+      It will guide your subject selection during advising.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 3</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Proceed with grade evaluation and subject advising.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Meet with your department adviser for evaluation of your grades and eligibility to enroll in 
+      certain courses. The adviser will suggest subjects based on prerequisites, failed courses, and 
+      your academic standing.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 4</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Obtain your queuing number per program.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Queuing numbers are issued to manage enrollment in an orderly manner. 
+      The number is usually distributed by the Registrar or department office and determines the order 
+      for encoding your subjects.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 5</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Wait for encoding and validation of subjects.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The Registrar’s Office or your department staff will encode your selected subjects in the system. 
+      Validation ensures that prerequisites are met, no schedule conflicts exist, and your enrollment is accurate.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Step 6</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Settle your payment at the Cashier's Office and keep your receipt.</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      After validation, pay your tuition and other fees at the Cashier’s Office. Always keep your official 
+      receipt as proof of payment, which may be required for document processing, ID issuance, or OJT registration.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Additional Notes</td>
+    <td style="padding:10px; border:1px solid var(--text-color);" colspan="2">
+      <ul>
+        <li>Bring your valid Student ID and any required documents (e.g., COR, previous grades, OJT forms) during enrollment.</li>
+        <li>Follow official schedules announced via CvSU Bacoor Facebook page or department notifications.</li>
+        <li>Incomplete or late steps may delay your enrollment, document issuance, or access to certain services.</li>
+      </ul>
+    </td>
+  </tr>
+
+</table>
+
+<br>
+For more information about Regular Student Enrollment , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+"""
+
+
+},

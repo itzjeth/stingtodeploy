@@ -1,0 +1,165 @@
+{
+ "patterns": [
+    "in computer science",
+    "is computer science ",
+    "computer science",
+    "BSCS"
+  ],
+  "response": """
+  
+BSCS or BS Computer Science is the study of how computers work and how to create programs, apps, websites, and other technologies by learning coding, problem-solving, and how machines “think.”
+
+<br><br><b>Typical jobs:</b> Programmer, software developer, game developer, web developer, AI engineer.
+<br><b>Difficulty:</b> Hard – requires strong logic, patience, and a lot of coding practice.
+<br><b>Passing Rate:</b>: No national licensure exam.
+<br><b>Summary:</b> CS focuses on creating technology through coding and building software.
+
+
+  """
+},
+
+{
+ "patterns": [
+    "in information technology",
+    "is information technology",
+    "information technology",
+    "BSIT"
+  ],
+  "response": """
+  
+BSIT or BS Information Technology is about using, managing, and maintaining computer systems, networks, and data to help organizations run smoothly, including fixing technical problems and protecting systems from hackers.
+<br><br><b>Typical jobs:</b> IT technician, network administrator, cybersecurity specialist, IT support, system analyst.
+<br><b>Difficulty:</b> Moderate to Hard – easier than CS but challenging in networking, troubleshooting, and cybersecurity.
+<br><b>Passing Rate:</b>: No national licensure exam.
+<br><b>Summary:</b> IT focuses on maintaining and supporting technology in real-world workplaces.
+
+  """
+},
+
+{
+ "patterns": [
+    "in business admin",
+    "in business administration",
+    "is business administration",
+    "business administration",
+    "BSBA"
+  ],
+  "response": """
+  
+BSBA or BS Business Administration teaches how businesses work and how to manage people, money, operations, and marketing to make an organization successful and efficient.
+<br><br><b>Typical jobs:</b> Manager, HR officer, marketing assistant, entrepreneur, business analyst.
+<br><b>Difficulty:</b> Easy to Moderate – less math-heavy than CS/IT but requires strong communication, analysis, and management skills.
+<br><b>Passing Rate:</b>: No national licensure exam.
+<br><b>Summary:</b> Business Administration focuses on running and leading a business effectively.
+
+  """
+},
+
+{
+ "patterns": [
+    "in education",
+    "is education",
+    "is educ",
+    "education",
+    "second education",
+    "BSEd"
+  ],
+  "response": """
+  
+BSEd or BS Education prepares future teachers by teaching them how to handle classrooms, create lessons, guide students, and understand how children learn and grow.
+<br><br><b>Typical jobs:</b> Teacher, tutor, school administrator, guidance associate, curriculum developer.
+<br><b>Difficulty:</b> Moderate – requires patience, communication, and mastery of teaching techniques.
+<br><b>Passing Rate:</b> (CvSU Bacoor): 90% passing rate in the 2025 Licensure Exam for Teachers (LET).
+<br><b>Summary:</b> Education focuses on training teachers to help students learn well.
+
+  """
+},
+
+{
+ "patterns": [
+    "in pyschology",
+    "is psychology",
+    "psychology",
+    "psych",
+    "BSP"
+  ],
+  "response": """
+  
+BSP or BS Psychology studies how people think, feel, and behave, helping explain emotions, actions, personality, relationships, and mental health.
+<br><br><b>Typical jobs:</b> Guidance counselor, HR specialist, mental health aide, researcher, psychometrician.
+<br>Difficulty: Moderate to Hard – involves heavy reading, research, and understanding human behavior.
+<br>Passing Rate: Psychology board exam is only for Psychometricians/Psychologists; no specific CvSU data available.
+<br><b>Summary:</b> Psychology focuses on understanding the human mind and behavior.
+  """
+},
+
+{
+ "patterns": [
+    "in criminology",
+    "is criminology",
+    "criminology",
+    "crim",
+    "BSC"
+  ],
+  "response": """
+  
+Criminology studies crime, how and why it happens, how investigations work, and how police, courts, and forensic experts maintain peace and safety.
+<br><br><b>Typical jobs:</b> Police officer, investigator, forensic assistant, crime analyst, corrections officer.
+<br><b>Difficulty:</b> Moderate – includes law, investigation techniques, physical training, and forensic concepts.
+<br><b>Passing Rate:</b> (CvSU Bacoor): 94% passing rate in the February 2025 Criminology Licensure Exam.
+<br><b>Summary:</b> Criminology focuses on crime, law enforcement, and keeping communities safe.
+"""
+},
+
+{
+ "patterns": [
+    "between computer science and IT",
+    "computer science and it",
+    "computer science and information technology",
+    "information technology and computer science",
+    "cs and it",
+    "BSIT and BSCS"
+  ],
+  "response": """
+  
+<b>Computer Science (CS)</b>
+<br>
+Focus: Creating technology.<br>
+What it deals with:
+<br>
+*How computers work internally
+<br>
+*Programming and building software
+<br>
+*Algorithms and problem-solving
+<br>
+*Artificial intelligence, machine learning, data science
+<br>
+*Designing new systems, apps, and advanced tech
+<br><br>
+Typical work: Software developer, programmer, AI engineer, systems architect, researcher.
+<br><br>
+Summary: <br>
+CS is more theoretical and focuses on coding, algorithms, and making new technologies.
+<br><br>
+<b>Information Technology (IT)</b>
+<br>
+Focus: Using technology.<br>
+What it deals with:
+<br>
+*Managing computer systems and networks
+<br>
+*Troubleshooting hardware and software
+<br>
+*Cybersecurity and protecting data
+<br>
+*Maintaining servers, databases, and IT infrastructure
+<br>
+*Ensuring organizations run smoothly using technology
+<br><br>
+*Typical work: IT support specialist, network admin, cybersecurity technician, system analyst.
+<br><br>
+Summary:<br>
+IT is more practical and focuses on operating, securing, and managing existing technology.
+<br>"""
+},

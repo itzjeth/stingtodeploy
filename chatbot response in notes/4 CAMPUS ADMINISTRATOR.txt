@@ -1,0 +1,131 @@
+{
+ "patterns": [
+  "current campus administrator",
+  "campus admin",
+  "bagong campus administrator",
+  "bagong campus admin",
+  "new campus administrator",
+  "new campus admin",
+  "admin",
+  "administrator",
+  "campus administrator",
+  "cvsu bacoor campus director",
+  "who is campus director",
+  "current campus director cvsu bacoor",
+  "cvsu bacoor director",
+  "who leads cvsu bacoor",
+  "head of cvsu bacoor",
+  "campus head cvsu bacoor",
+  "director of cvsu bacoor campus",
+  "cvsu bacoor administrative head",
+  "who manages cvsu bacoor",
+  "cvsu bacoor leadership",
+  "campus director information",
+  "who is the campus administrator",
+  "who is the campus admin",
+  "who is the campus director",
+  "current campus administrator",
+  "campus admin cvsu bacoor",
+  "cvsu bacoor campus director",
+  "head of campus cvsu bacoor",
+  "campus leader cvsu bacoor",
+  "campus administrator of cvsu",
+  "who leads the campus cvsu bacoor",
+  "campus director role cvsu",
+  "campus admin officer cvsu bacoor",
+  "mba campus director cvsu bacoor",
+  "campus director",
+  "campus administrator cvsu bacoor",
+  "campus director cvsu bacoor",
+  "current campus administrator cvsu bacoor",
+  "first campus administrator cvsu bacoor",
+  "who manages cvsu bacoor",
+  "head of cvsu bacoor",
+  "cvsu bacoor administration",
+  "campus administrator role cvsu",
+  "contact campus administrator cvsu bacoor",
+  "cvsu bacoor director",
+  "school head cvsu bacoor",
+  "campus leadership cvsu bacoor"
+],
+
+  "response": """
+  <table style="width: 100%; border: 1px solid var(--text-color); padding: 30px;">
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Who is the Campus Administrator of CvSU Bacoor?
+      </td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        The Campus Administrator of CvSU Bacoor is the official head appointed by Cavite State University to manage and supervise campus operations.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Who is the current Campus Administrator of CvSU Bacoor?
+      </td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+       The current Campus Administrator of CvSU Bacoor is <u>Ms. Menvyluz S. Macalalad, MBA </u>. She oversees the overall operations, academic services, and administrative functions of the campus, ensuring that students receive quality education and a supportive learning environment. Under her leadership, the campus continues to improve its programs, facilities, and student services.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Who was the first Campus Administrator of CvSU Bacoor?
+      </td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        The first Campus Administrator was appointed during the establishment of CvSU Bacoor as a satellite campus to oversee its initial development and operations.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        What is the role of the Campus Administrator?
+      </td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        The Campus Administrator oversees academic programs, faculty and staff coordination, student services, and overall campus management.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Is the Campus Administrator the same as a Campus Director?
+      </td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Yes. The terms Campus Administrator and Campus Director are often used interchangeably at CvSU to refer to the head of a campus.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        How can students contact the Campus Administrator’s office?
+      </td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Students may contact the Campus Administrator’s office through the campus administration office or official CvSU Bacoor communication channels.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Does the Campus Administrator handle student concerns?
+      </td>
+      <td style="padding: 15px; border: 1px solid var(--text-color);">
+        Yes. Major academic and administrative concerns may be elevated to the Campus Administrator through proper campus procedures.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+To stay updated for changes about in CvSU, make sure to follow these reliable sources
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSU.B.Admission">
+  Official CvSU Bacoor
+</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">
+  Central Student Government - CvSU Bacoor
+</a>
+
+  """
+},

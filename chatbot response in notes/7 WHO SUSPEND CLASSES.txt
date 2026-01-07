@@ -1,0 +1,25 @@
+{
+  "patterns": [
+    "who suspends classes",
+    "suspend classes",
+    "suspend class",
+    "to suspend classes",
+    "class suspension",
+    "walang pasok"
+    
+  ],
+  "response": """
+    At CvSU, the University President who has final authority to suspend classes throughout the University including all units or branches.
+    The university president may suspend classes in specific units or campuses for specified periods of units.
+    Suspension of classes does not mean that faculty and employee will not report for duty <br><br>
+  
+    but in emergencies such as typhoons or floods, class suspension may also follow alerts from PAGASA or official orders from the city mayor.
+    <br><br>
+
+    To stay updated on class suspension announcements, make sure to follow these reliable sources
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+    
+  """
+},

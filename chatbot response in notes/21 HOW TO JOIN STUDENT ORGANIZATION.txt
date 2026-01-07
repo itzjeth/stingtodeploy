@@ -1,0 +1,136 @@
+{
+"patterns": [
+  "how to join student organizations",
+  "join student org cvsu",
+  "are student organizations open to all students",
+  "student org eligibility cvsu",
+  "do i need to pay membership fees",
+  "student organization fees cvsu",
+  "list of recognized student organizations cvsu",
+  "where to find student org list cvsu",
+  "when is student org recruitment",
+  "student organization recruitment period",
+  "requirements to join student organization",
+  "can i join multiple organizations cvsu",
+  "benefits of joining student organizations",
+  "are student organizations required",
+  "student organization mandatory or not",
+  "what happens if i become inactive in student org",
+  "inactive member student org rules",
+  "student clubs cvsu",
+  "cvsu bacoor student organizations info",
+  "how to become a member of student organization"
+],
+
+    "response": """ 
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How do I join student organizations in CvSU Bacoor?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You can join any recognized student organization during their recruitment period, usually held at the start of every semester. 
+        Visit their booths during the Student Organization Fair, or follow their official social media pages for announcements. 
+        Most organizations require you to fill out a registration form and attend an orientation.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Are all student organizations open to all students?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Many organizations are open to everyone, but some are <em>program-based</em> (e.g., IT, Business, Education orgs) and accept only students enrolled in those courses. 
+        Interest-based orgs (arts, sports, culture, volunteering) are usually open to all CvSU Bacoor students.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Do I need to pay membership fees?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Some organizations require a small membership fee to support activities, uniforms, or events. 
+        However, many organizations do not require fees, especially academic and volunteer-based groups.
+        Fees (if any) are always announced before joining.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Where can I see the list of recognized student organizations?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The official list is posted at the Office of Student Affairs and Services (OSAS) or on their official Facebook page. 
+        Each academic program also posts updates about their course-based organizations.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>When is the recruitment period?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Recruitment typically happens at the beginning of every semester during the **Student Org Recruitment Week** or **Organization Fair**. 
+        Some orgs also accept mid-semester applicants depending on their activities and membership needs.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What are the requirements to join an organization?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Requirements vary per org, but usually include:
+        <ul>
+          <li>Being an officially enrolled CvSU Bacoor student</li>
+          <li>Filling out a membership form</li>
+          <li>Attending orientation or interview (for some orgs)</li>
+          <li>Commitment to attend meetings and activities</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Can I join multiple organizations?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Students are allowed to join more than one organization, as long as they can manage their time and fulfill the responsibilities of each organization. 
+        Some students join both an academic org and an interest-based org.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What benefits do student organizations provide?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Student orgs offer opportunities such as:
+        <ul>
+          <li>Leadership development</li>
+          <li>Community involvement</li>
+          <li>Skill-building workshops and trainings</li>
+          <li>Access to academic support and networks</li>
+          <li>Participation in events, competitions, and seminars</li>
+        </ul>
+        Being active in orgs also enhances your resume.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Are student organizations required?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        No. Joining student organizations is voluntary. 
+        However, being part of one is highly encouraged because it improves your campus life, builds connections, and helps develop useful skills.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What happens if I become inactive after joining?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Inactive members may lose benefits such as event participation, priority slots, or officer opportunities. 
+        Some orgs may also remove inactive members from their official records. 
+        However, you can usually apply again during the next recruitment period.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<br>
+For more information about Student Organization , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+    
+},

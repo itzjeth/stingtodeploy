@@ -1,0 +1,65 @@
+{
+     "patterns": [ 
+  "is ID required",
+  "is student ID needed",
+  "ID policy inside campus",
+  "are IDs mandatory",
+  "uniform requirement",
+  "is uniform compulsory",
+  "campus ID enforcement",
+  "campus uniform enforcement",
+  "ID and uniform rules",
+  "what happens without ID",
+  "what happens without uniform",
+  "ID or uniform exceptions",
+  "uniform policy cvsu bacoor"
+],
+
+    "response": """ 
+At CvSU, both student IDs and the prescribed school uniform are required inside the campus; according to the Code of Conduct and Dress Code, every enrolled student must wear the official uniform on school days and must also display their official ID card whenever on campus.
+<br><br>
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Requirement</th>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Details</th>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Consequences if Not Followed</th>
+      <th style="padding:10px; border:1px solid var(--text-color); ">Notes / Exceptions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Student ID</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Must wear the official ID visibly at all times while inside campus.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">May be denied entry to campus or classrooms; repeated offenses can lead to disciplinary action.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Special cases may exist for events or temporary permissions; generally required for all students.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>School Uniform</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Must wear the prescribed official uniform on school days.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Denied entry to campus or classrooms; repeated non-compliance may result in sanctions.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Some campuses may allow exceptions on designated “wash days” or special events.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Both ID & Uniform</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Required together to fully comply with CvSU’s student conduct policies.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Non-compliance with either can result in restricted access or disciplinary measures.</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Essential whenever a student is considered “on campus duty” (classes, labs, facilities).</td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+<br>
+For more information make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+  """
+},

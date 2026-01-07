@@ -1,0 +1,119 @@
+{
+     "patterns": [
+  "shift courses",
+  "how to shift course",
+  "changing course",
+  "course transfer",
+  "apply to shift course",
+  "requirements for shifting course",
+  "shifting course process",
+  "course shifting procedure",
+  "how can i transfer course",
+  "switch course",
+  "CvSU Bacoor course shift",
+  "change course",
+  "shift program",
+  "how to shift course",
+  "process for changing course",
+  "course shifting requirements",
+  "transfer to another program",
+  "how to switch course",
+  "steps to shift program",
+  "apply for course shifting",
+  "requirements for shifting program",
+  "course change procedure",
+  "cvsu bacoor shifting process",
+  "request to shift course"
+],
+     "response": """ 
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color); margin-top:20px;">
+  <thead>
+    <tr>
+      <th style="padding:10px; border:1px solid var(--text-color); width:25%;">Step</th>
+      <th style="padding:10px; border:1px solid var(--text-color);">Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">1. Decide & Check Feasibility</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Choose the course you want to shift into and make sure it is offered by CvSU (including your campus).  
+        Check if shifting is allowed from your current program, especially if you are moving from non-degree to degree programs.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">2. Get the Shifting Form</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Obtain the official <b>Application for Shifting / Change of Program</b> form from your campus.  
+        Fill it out with your current program, desired program, and the reason for shifting (if required).
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">3. Get Required Approvals</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Your form must be signed by:
+        <ul style="margin:5px 0 0 18px;">
+          <li>Your current Dean / Program Head (for release)</li>
+          <li>Dean / Program Head of the course you want to shift into (for acceptance)</li>
+        </ul>
+        Some campuses may also require guidance counseling or evaluation.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">4. Submit to Registrar</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Submit your fully signed shifting form to the Campus Registrar or the office in charge of shiftees.  
+        Submission must be done <b>before the start of enrollment</b> since shifting is processed before registration.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">5. Submit Additional Requirements (If Needed)</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        Some programs may require:
+        <ul style="margin:5px 0 0 18px;">
+          <li>Minimum GPA</li>
+          <li>Entrance exam</li>
+          <li>Transcript of Grades / academic records</li>
+          <li>Certificate of Good Moral Character</li>
+        </ul>
+        This depends on the course you want to enter.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color);">6. Wait for Confirmation</td>
+      <td style="padding:10px; border:1px solid var(--text-color);">
+        The Registrar will update your records once your shifting is approved.  
+        After approval, you can enroll under your new program during the next enrollment period.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); ">⚠️ Important Reminders</td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        <ul style="margin:5px 0 0 18px;">
+          <li>Shifting approval depends on slot availability and your academic standing.</li>
+          <li>Some programs have year-level limits for shiftees.</li>
+          <li>Board-related programs may require additional prerequisites.</li>
+          <li>Shifting late in your college years may delay graduation.</li>
+        </ul>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+For more information about Shifting and Changing course , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+
+},

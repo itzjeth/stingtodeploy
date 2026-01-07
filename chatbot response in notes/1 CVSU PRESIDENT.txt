@@ -1,0 +1,105 @@
+{
+  "patterns": [
+  "current president of cvsu",
+  "who is the cvsu president",
+  "cvsu president now",
+  "present president of cavite state university",
+  "old president",
+  "old president of cvsu",
+
+  "immediate past president of cvsu",
+  "previous president of cvsu",
+  "last president of cavite state university",
+
+  "first president of cvsu",
+  "founding president of cavite state university",
+
+  "how many presidents has cvsu had",
+  "number of cvsu presidents",
+  "total presidents of cavite state university",
+
+  "presidents before cvsu became a university",
+  "cvsu leaders before university status",
+
+  "is cvsu president same for all campuses",
+  "cvsu president for bacoor imus naic",
+  "does cvsu have one president for all campuses",
+
+  "cvsu president updates",
+  "cvsu leadership updates",
+  "where to find cvsu president announcements",
+
+  "cvsu administration",
+  "cvsu top officials",
+  "cvsu leadership history"
+],
+
+"response": """
+<table style="width: 100%; border: 1px solid var(--text-color); padding: 30px;">
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">Who is the current President of CvSU?</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">
+      The current President of Cavite State University is Dr. Ma. Agnes P. Nuestro.  
+      She was officially installed as the university’s 4th President following the retirement of her predecessor in 2024. 
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">Who was the immediate past President of CvSU?</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">
+      The immediate past (former) President of CvSU was Dr. Hernando D. Robles, who served until October 2024. 
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">Who was the first President of Cavite State University?</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">
+      The first president of CvSU (after it became a university in 1998) was Dr. Ruperto S. Sangalang.  
+      He served in that role from the university’s elevation until 2008. 
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">How many presidents has CvSU had?</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">
+      Cavite State University has had four official presidents since its elevation to university status in 1998:  
+      <ul>
+        <li>Dr. Ruperto S. Sangalang (1st)</li>
+        <li>Dr. Divinia C. Chavez (2nd)</li>
+        <li>Dr. Hernando D. Robles (3rd)</li>
+        <li>Dr. Ma. Agnes P. Nuestro (4th, current)</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">Who were the presidents before CvSU became a university?</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">
+      Before it was elevated to university status, the institution had heads under different titles (such as President or OIC) including:  
+      <ul>
+        <li>Vicente T. Pinazo – President (1972–1983)</li>
+        <li>Dr. Ruperto S. Sangalang – Later became first official university president</li>
+      </ul> (These were during the college era prior to 1998.) 
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">Is the CvSU President the same for all campuses (Main, Bacoor, Imus, Naic, etc.)?</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">
+      Yes. CvSU has a single university President who oversees all campuses within the university system, including the Main Campus (Indang) and satellite campuses (e.g., Bacoor, Imus, Naic). 
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">Where can I find updates about the CvSU President and leadership?</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);">
+      Official updates are posted on the <a href="https://cvsu.edu.ph">CvSU official website</a> and the respective campus Facebook pages.  
+      Leadership changes, investitures, and strategic directions are often published in university news releases. 
+    </td>
+  </tr>
+
+</table>
+
+
+"""
+},

@@ -1,21 +1,40 @@
 Who is the current president of cvsu  
-
 Who is the old president of cvsu  
 Who is the former president of CvSU Main Campus?  
+Who was the first president of Cavite State University?
 
-------Who was the first president of Cavite State University?
 Who is the department chairperson
 
-Who is the research coordinator
+        -Does CvSU Bacoor have a dedicated research coordinator?
+        -Who is the research coordinator
+        -Who manages research activities at CvSU Bacoor?
+        -Does CvSU Bacoor conduct research projects?
+        -How can students participate in research projects? //
+        -Are students allowed to publish their research?//
+        -What is the CvSU Research Congress?
+        -Does CvSU Bacoor have a student research journal?
+        -Is research required for graduating students?
+        -Can research be done as a group or individually?
+        -Are there research trainings or seminars at CvSU?
+        -Does CvSU provide research funding or support?
+ 
+RAW
 ---------Is there a research office in CvSU Bacoor?
 ---------Does CvSU Bacoor have a research office?
 ---------Does CvSU Bacoor have research projects?
 ---------How can I participate in university research projects?
 ---------Can I publish my research?
 ---------What is the CvSU Research Congress?
+---------Does CvSU Bacoor have an official student research journal?
 
-Who is the campus administrator / who is the Campus Director of CvSU Bacoor?
-----Who is the current Campus Administrator of CvSU Bacoor?
+
+        -Who is the Campus Administrator of CvSU Bacoor?
+        -Who is the current Campus Administrator of CvSU Bacoor?
+        -Who was the first Campus Administrator of CvSU Bacoor?
+        -What is the role of the Campus Administrator?
+        -Is the Campus Administrator the same as a Campus Director?
+        -How can students contact the Campus Administrator’s office?
+        -Does the Campus Administrator handle student concerns?
 
 What major does cvsu bacoor offers
 What is computer science
@@ -88,16 +107,19 @@ What is the passing grade of cvsu bacoor
 What is the table of conversion
 What is the passing grade in CvSU?
 
-What happen in re-enrollment of subjects
+///// -------- ALL - NOT DONE YET 
 
-What is Prerequisite Subjects
+What happen in re-enrollment of subjects //
 
-What is Leave of Absence
---Can I take a Leave of Absence (LOA)?
---How long can I take an LOA?
+What is Prerequisite Subjects //
+
+What is Leave of Absence //
+--Can I take a Leave of Absence (LOA)? //
+--How long can I take an LOA? //
 
 
-What is Honorable Dismissal
+What is Honorable Dismissal //
+
 
 What is the Grade Requirements and Retention
 What is the Grade Requirements for CvSU
@@ -110,16 +132,21 @@ What is the minimum and maximum academic load per semester
 ------------Can I request for a subject overload?
 ------------Where can I get a study load summary?
 ------------How to verify my academic credentials?
+------------What is CvSU Bacoor’s academic reputation?
 
+ /////// --------- STOP
 
 What is the dress code of CvSU Bacoor
 Which day usually is wash day
 Which day usually is uniform day
 What is the proper dress code in campus?
----------------Is there a dress code for online classes?
------------Is there a dress code at CvSU Bacoor?
-----------Is there a dress code for students?
----------Are students allowed to wear civilian clothes?
+---------------//Is there a dress code for online classes?
+-----------//Is there a dress code at CvSU Bacoor?
+----------//Is there a dress code for students?
+---------//Are students allowed to wear civilian clothes? (Yes, in wash day)
+--------//Is there a dress code in CvSU Bacoor?
+--------//What is the standard uniform of CvSU Bacoor students?
+--------//Does CvSU Bacoor allow casual attire? (Yes, in Wash day)
 
 
 What is COR
@@ -145,6 +172,8 @@ Can I request a Certificate of Enrollment for employment?
 
 
 Is there an Student ID in CvSU Bacoor
+--Are CvSU Bacoor students required to wear ID at all times?
+--What is CvSU Bacoor’s school ID design?
 Why don’t we have our Student IDs yet
 When will the Student IDs be available
 What should I do if I lose my COR before getting my Student ID
@@ -155,6 +184,8 @@ Can temporary documents replace a Student ID
 How can I get my Student ID
 --What should I do if I lost my ID
 --What to do if I lose my COR?
+--Where can I request an ID replacement?
+--Can I personalize my CvSU ID?
 
 
 
@@ -172,11 +203,13 @@ What is CvSU Bacoor’s vision?
 What is CvSU Bacoor’s mission?
 -------What is CvSU Bacoor’s vision and mission?
 -------What are the official CvSU colors and motto?
+-------What is the meaning of the CvSU motto 'Truth, Excellence, Service'?
 -------What is the CvSU Bacoor campus motto?
 -------What is the meaning of CvSU’s motto?
 -------What are CvSU’s official colors?
 -------What does the CvSU logo symbolize?
 -------Who designed the CvSU logo?
+-------What is the CvSU Bacoor color theme?
 ************************
 Can i park at anywhere near of CvSU Bacoor
 Can I park in the official CvSU Bacoor parking area?
@@ -189,6 +222,8 @@ Is the CvSU Bacoor parking area safe?
 Where can I park my vehicle in CvSU Bacoor?
 Can students park inside the campus?
 -------Does CvSU Bacoor have a student parking area?
+-------Does CvSU Bacoor provide parking for bicycles?
+-------Does CvSU Bacoor have parking for visitors?
 
 
 
@@ -228,6 +263,7 @@ Is there a uniform policy in CvSU Bacoor?
 
 ############### FIRST HALF #######################
 
+Does CvSU Bacoor have departmental organizations?
 How do I join student organizations
 Are all student organization open to all students
 Do i need to pay membership fees
@@ -244,6 +280,7 @@ Are student organizations open to all students?
 ----------What student organizations are available?
 ----------Does CvSU Bacoor have organizations for each course?
 ----------Does CvSU Bacoor have a student government?
+----------Does CvSU Bacoor have student volunteers?
 
 Is there free wifi on campus
 Is CvSU Bacoor campus Wi-Fi available for students?
@@ -256,8 +293,11 @@ Are mobile hotspots allowed on campus?
 Is there Wi-Fi inside classrooms?
 What should I do if I need Wi-Fi for academic requirements?
 ---Who should I contact for Wi-Fi issues?
+---Does CvSU Bacoor have WiFi access?
+---Where can I connect to WiFi in CvSU Bacoor?
+---Does CvSU Bacoor have Wi-Fi?
 
-
+---Does CvSU Bacoor hold recognition day for organizations?
 When is the CvSU Bacoor Recognition or Graduation ceremony
 Where is the Recognition/Graduation held?
 Who is allowed to attend the ceremony?
@@ -284,6 +324,9 @@ Do I receive a certificate if I become a Dean’s Lister?
 Is there a cash incentive or scholarship for Dean’s Listers?
 How will I know if I made it to the Dean’s List?
 ------What GPA is required for Dean’s Lister?
+------Does CvSU Bacoor have honor students?
+------What GPA qualifies for the Dean’s List at CvSU Bacoor?
+------What GPA qualifies for the President’s List at CvSU Bacoor?
 
 
 
@@ -308,6 +351,11 @@ Where can I get updates about OJT?
 --How many OJT hours are required?
 --What should I do after completing my OJT? (Pass a evaluation form in OJT instructor and pass the OJT Narrative Papers)
 --Can I get an OJT certificate from CvSU?
+--Does CvSU Bacoor offer OJT assistance?
+--Where can I submit my OJT documents?
+--What companies partner with CvSU Bacoor for OJT
+--What are the requirements for OJT in CvSU Bacoor?
+--Where can students get OJT endorsement forms in CvSU Bacoor?
 
 
 
@@ -337,6 +385,7 @@ Is the CvSU Hymn required to memorize?
 Is the CvSU Hymn different from the CvSU March?
 Where can I download an MP3 or instrumental version?
 ----Is there a CvSU Hymn singing during ceremonies?
+----Does CvSU Bacoor have a school hymn?
 
 How to enroll (Old Student)
 What are society fees?
@@ -367,6 +416,7 @@ Who announces the list of graduation candidates?
 -----Where to get my toga for graduation? (You need to order- or borrowed)
 -----Can I attend the graduation ceremony without paying the fee?
 -----Does CvSU Bacoor have a student dress policy for graduation?
+-----Does CvSU Bacoor hold graduation ceremonies on campus?
 
 
 ----How to get my diploma?
@@ -403,6 +453,8 @@ Where can I get my Certificate of Registration (COR)
 
 
 What are the office hours of CvSU Bacoor Campus? (note: registrar is only open in monday and thursday)
+What are the usual office hours at CvSU Bacoor? (note: 8 AM to 5 PM)
+Does CvSU Bacoor open on weekends?
 
 Where is CvSU Bacoor Campus located? (INPUT ALL CVSU UNIVERSITY LOCATIONS)
 What is the main building of CvSU Bacoor called? 
@@ -423,6 +475,8 @@ Group chat in all course
 How to enroll in summer class?
 Does CvSU Bacoor offer summer classes?
 does cvsu bacoor offer night classes
+Does CvSU Bacoor offer evening classes?
+Does CvSU Bacoor have lighting during night classes?
 
 
 
@@ -470,9 +524,10 @@ Who can I contact for scholarship inquiries?
 ------How can I apply for a scholarship? (Scholarship is mostly cover by CHED and other private institutional grants )
 ------Who can I contact for scholarship inquiries?
 ------How to apply for a scholarship in CvSU Bacoor? (Scholarship is mostly cover by CHED and other private institutional grants )
+------What building houses the Registrar’s Office at CvSU Bacoor?
+------Does CvSU Bacoor offer scholarship programs?
 
 
-What are the academic departments in CvSU Bacoor?
 
 
 Where is the IT Department located? (The IT Office is temporarily New Building but the original IT office in in Ground Floor main academic building near Registrar Office )
@@ -497,6 +552,9 @@ Can I go to the clinic even without an emergency?
 ---What to do if I get sick during class?
 ---Does CvSU Bacoor have a clinic?
 ---Where is the CvSU Bacoor clinic located?
+---Does CvSU Bacoor have a school clinic?
+---Does CvSU Bacoor conduct medical check-ups?
+
 
 
 
@@ -514,6 +572,10 @@ Is there a Wi-Fi connection in the library?
 How to request a library clearance?
 Can I eat or drink in the library?
 ------Where is the library located in CvSU Bacoor?
+------Does CvSU Bacoor have a digital library?
+------Can students borrow books from CvSU Bacoor library?
+------How long can students borrow a book from the library?
+------Does CvSU Bacoor library have e-books?
 
 What is LMS in CvSU?
 How to access LMS?
@@ -528,6 +590,7 @@ What is the CvSU email format?
 Can I use my personal email for official transactions?
 How to reset my CvSU email password?
 Can I use my personal email for school?
+What is the official CvSU Bacoor email format?
 
 What is the student handbook?
 Where can I get my student handbook?
@@ -539,9 +602,12 @@ Can I request documents even if I have unpaid balances? (document issues)
 Can I enroll if I have unpaid balances?
 
 --Who handles lost and found items?
+--Does CvSU Bacoor have security guards?
 Where can I find lost and found items?
 What to do if I lose something on campus?
 Is there a lost and found section?
+Does CvSU Bacoor have a lost and found office?
+Does CvSU Bacoor have a lost and found policy?
 
 Does CvSU Bacoor have a canteen? (note: Yes, but mostly use as waiting area for students)
 Is there a canteen inside CvSU Bacoor?
@@ -556,12 +622,17 @@ Does CvSU Bacoor have a Guidance Office?
 Can I schedule a counseling session?
 Is counseling confidential?
 What services does the Guidance Office offer?
+Does CvSU Bacoor have a guidance counselor?
+Who supervises the CvSU Bacoor guidance office?
+Does CvSU Bacoor have guidance counseling?
 
 
 Does CvSU Bacoor offer PE classes? (Yes 1st Year and 2nd Year, also depends of course)
 
 Is there a student lounge in CvSU Bacoor? (Yes in Canteen, and Garden Park)
 Does CvSU Bacoor have a student lounge?
+Does CvSU Bacoor have rest areas?
+
 
 Can I bring visitors to the campus?
 Can visitors enter CvSU Bacoor?
@@ -578,6 +649,7 @@ Is alcohol allowed inside the campus?
 
 What should I do if there is an emergency?
 
+Does CvSU Bacoor have a student complaint office?
 What to do if I experience bullying?
 How can I report harassment or bullying?
 
@@ -592,20 +664,33 @@ What is the difference between major and minor subjects? -- what is major and mi
 What is academic calendar 
 Where can I see the list of university holidays? (all about academic calendar) (show image/link)
 
+What is the typical class size at CvSU Bacoor?
 Can I bring food inside the classroom? (provide also classroom regulations)
 Can I bring food inside classrooms?
+Does CvSU Bacoor allow use of cellphones in class?  
 
 Where can I print documents inside CvSU Bacoor? (ground floor of the main academic building)
-
+Does CvSU Bacoor have printing and photocopy services?
 
 Does CvSU Bacoor have a computer lab?
 How to reserve the computer lab?
 What facilities are available at CvSU Bacoor?
+
+What are the academic departments in CvSU Bacoor?
+Does CvSU Bacoor have a student innovation center?
+Does CvSU Bacoor have an auditorium?
+Does CvSU Bacoor have a prayer room?
+Does CvSU Bacoor have a multimedia room?
+Does CvSU Bacoor have air-conditioned offices? (Only Laboratory Rooms)
+Does CvSU Bacoor have a reading center?
+Does CvSU Bacoor have commemorative walls or plaques?
+Does CvSU Bacoor have a museum or exhibit space?
 Does CvSU Bacoor have a laboratory for Psychology students?
 Where can I report a broken facility or classroom issue?
 What building in CvSU Bacoor has the computer labs?
 How many computer laboratories does CvSU Bacoor have?
 Can I use the laboratory outside class hours? (Laboratory Regulations / guidelines)
+Does CvSU Bacoor have computer laboratories?
 
 Does CvSU Bacoor have an official website?
 What is the official website of CvSU Bacoor?
@@ -626,13 +711,19 @@ Where can I charge my devices? (All room have plug area that student and teacher
 
 
 Does CvSU Bacoor have CCTV cameras?
+Does CvSU Bacoor have CCTV monitoring?
+Does CvSU Bacoor have a CCTV control room?
+Does CvSU Bacoor have CCTV coverage at the gates?
 
 What to do if there’s an earthquake? (Emergency / Natural Disaster)
 What to do if there’s an fire? (Emergency / Natural Disaster)
 Where is the fire exit? (typically at the back of the room)
 Where is the evacuation area? (Outside of CvSU Bacoor school)
 Is there a fire extiguisher in each room (Yes)
+Does CvSU Bacoor have a fire exit plan?
 Does CvSU Bacoor conduct fire or earthquake drills?
+Does CvSU Bacoor have emergency exits?
+Does CvSU Bacoor have a disaster response team?
 What are the emergency hotline in Cavite Bacoor - CvSU Bacoor - (PUT ALL THE HOTLINES YOU KNOW)
 
 How can I contact my professor?
@@ -653,19 +744,26 @@ What is cross-enrollment
 How to process cross-enrollment?
 Can I take subjects from another CvSU campus?
 
+Does CvSU Bacoor have a Supreme Student Council?
 Who is the Supreme Student Council (SSC)?
+How are SSC officers elected at CvSU Bacoor?
 How can I contact the SSC?
 What does the SSC do?
 When are SSC elections held?
 How can I run for SSC position?
+Does CvSU Bacoor offer seminars for leadership development?
 
 ---Does CvSU Bacoor participate in CvSU-wide competitions?
 What are the CvSU-wide events?
+What is the annual IT Week at CvSU Bacoor?
 What events are organized by CvSU Bacoor?
+---Does CvSU Bacoor observe Foundation Day?
 ---When is CvSU Foundation Day celebrated?
 ---Does CvSU Bacoor have its own Foundation Day?
+---Does CvSU Bacoor hold intramurals?
 When is the Intramurals held? (Specify the month)
 Can I participate in Intramurals? 
+---What sports are featured in CvSU Bacoor intramurals?
 Does CvSU Bacoor celebrate University Week?
 Are there academic competitions?
 How can I volunteer in school events?
@@ -673,6 +771,24 @@ How can I volunteer in school events?
 ---Does CvSU Bacoor hold intramurals?
 ---When are intramurals held?
 ---Does CvSU Bacoor celebrate Teacher’s Day?
+---Does CvSU Bacoor celebrate Buwan ng Wika?
+---Does CvSU Bacoor have a Christmas Party?
+---Does CvSU Bacoor celebrate teacher’s day?
+---Does CvSU Bacoor host hackathons or coding competitions?
+---Does CvSU Bacoor participate in city-wide events?
+---Does CvSU Bacoor participate in inter-campus competitions?
+---Does CvSU Bacoor have a pageant?
+---Does CvSU Bacoor have a singing competition?
+---What sports are popular at CvSU Bacoor?
+---Does CvSU Bacoor have an official mascot?
+---Does CvSU Bacoor have emergency exits?
+---Does CvSU Bacoor celebrate Women’s Month?
+---Does CvSU Bacoor celebrate Linggo ng Wika?
+---Does CvSU Bacoor have cultural performances?
+---Does CvSU Bacoor hold seminars on mental health?
+---Does CvSU Bacoor host career seminars?
+---Does CvSU Bacoor invite guest speakers?
+
 
 
 
@@ -683,6 +799,8 @@ What if my teacher is absent?
 Does CvSU Bacoor have an Alumni Association?
 How can I join the Alumni Association?
 Can alumni request documents online?
+Does CvSU Bacoor have an alumni directory?
+Where can I request alumni verification at CvSU Bacoor?
 
 Can working students enroll?
 
@@ -705,17 +823,22 @@ Are there religious activities in CvSU Bacoor?
 Is there a student publication in CvSU Bacoor?
 How can I join the student publication?
 
+Does CvSU Bacoor support community service?
 Does CvSU Bacoor have community extension programs?
 How can I volunteer for community extension?
 Does CvSU Bacoor have an extension program?
 Can students volunteer for extension activities?
+Does CvSU Bacoor offer community service programs
+Does CvSU Bacoor offer extension projects?
 
 What are the campus safety measures?
+What safety policies does CvSU Bacoor implement?
 
 Is there a curfew inside the campus? 
 Can I stay in campus after hours?
 
 How can I give feedback about a teacher or service? (Student Evaluation for Teacher)
+How are CvSU Bacoor instructors evaluated?
 
 Can I update my personal information?
 How can I change my email or contact number?
@@ -723,6 +846,7 @@ How can I change my email or contact number?
 Where can I see CvSU Bacoor’s announcements?
 What are the school’s social media pages?
 Where can I find CvSU Bacoor on social media?
+Does CvSU Bacoor have an official Facebook page?
 
 Does CvSU Bacoor accept senior high school work immersion students?
 
@@ -731,17 +855,31 @@ What makes CvSU Bacoor unique?
 When was Cavite State University established?
 What is CvSU Bacoor known for?
 When was CvSU Bacoor established?
+When was CvSU Bacoor officially inaugurated?
+Who led the establishment of CvSU Bacoor Campus?
+What was CvSU Bacoor’s first offered program?
+Who were the pioneer students of CvSU Bacoor?
+What was CvSU Bacoor’s first building?
+What year did CvSU Bacoor graduate its first batch?
+What symbolizes CvSU Bacoor’s identity?
 
 
-
+Does CvSU Bacoor have an email address?
+Does CvSU Bacoor have a hotline?
 Does CvSU Bacoor have an official email or hotline?
 
 Does CvSU Bacoor offer graduate programs?
+Does CvSU Bacoor have graduate programs?
 
+Does CvSU Bacoor publish newsletters?
 What is CvSU’s student newspaper called?
 Does CvSU Bacoor have its own student publication?
+Does CvSU Bacoor have a student publication?
+What is the student publication of CvSU Bacoor called?
 
 Are there food stalls near CvSU Bacoor?
+Does CvSU Bacoor allow food deliveries?
+Does CvSU Bacoor have vending machines?
 
 Is there a covered court in CvSU Bacoor? (Center of the school)
 
@@ -750,12 +888,65 @@ Where are NSTP classes usually held?
 Who is the NSTP Coordinator?
 
 Does CvSU Bacoor have ROTC?
+Does CvSU Bacoor have ROTC training?
 
 Does CvSU Bacoor have academic excellence awards?
 
 Does CvSU Bacoor hold orientation for new students?
+Does CvSU Bacoor hold orientation for freshmen?
+Does CvSU Bacoor have an annual orientation fair?
 Does CvSU Bacoor hold an acquaintance party?
 
+When is CvSU’s flag ceremony held?
+Does CvSU Bacoor have a flag retreat?
+
+Does CvSU Bacoor have its own HR office?
+
+Does CvSU Bacoor have a baccalaureate mass?
+
+Does CvSU Bacoor hold cleanliness drives?
+What is the CvSU Bacoor cleanliness drive?
+Does CvSU Bacoor conduct clean-up drives?
+What is the CvSU Bacoor cleanliness policy?
+Does CvSU Bacoor promote environmental awareness?
+Does CvSU Bacoor conduct cleanliness inspections?
+
+Does CvSU Bacoor have a public address system?
+
+Does CvSU Bacoor use RFID or manual attendance?
+
+Does CvSU Bacoor provide lockers for students?
+
+Does CvSU Bacoor have a student mentorship program?
+
+Does CvSU Bacoor have a waste segregation policy?
+
+Does CvSU Bacoor have solar panels?
+
+What college manages the IT and Computer Science programs in CvSU Bacoor?
+What college handles the Business-related programs in CvSU Bacoor?
+
+
+Does CvSU Bacoor offer Bachelor of Science in Psychology?
+Does CvSU Bacoor offer Bachelor of Science in Information Technology?
+Does CvSU Bacoor offer Bachelor of Science in Computer Science?
+Does CvSU Bacoor offer Bachelor of Science in Business Management?
+Does CvSU Bacoor offer Bachelor of Science in Hospitality Management?
+Does CvSU Bacoor offer Bachelor of Science in Office Administration?
+Does CvSU Bacoor offer Bachelor of Science in Secondary Education?
+Does CvSU Bacoor offer Bachelor of Science in Criminology
+Does CvSU Bacoor offer BSP
+Does CvSU Bacoor offer BSIT
+Does CvSU Bacoor offer BSCS
+Does CvSU Bacoor offer BSBM
+Does CvSU Bacoor offer BSHM
+Does CvSU Bacoor offer BSOA
+Does CvSU Bacoor offer BSSE 
+Does CvSU Bacoor offer BSC
+
+Does CvSU Bacoor conduct thesis defenses?
+
+Does CvSU Bacoor provide insurance for students?
 
 
 
@@ -763,6 +954,11 @@ Does CvSU Bacoor hold an acquaintance party?
 
 
 
+3470
+
+CMD 
+
+cd XX/Scripts && activate.bat && cd humpalumpamaincurrent/humpalumpawith02(FORTESTINGCHANGES) && python manage.py runserver
 
 
 

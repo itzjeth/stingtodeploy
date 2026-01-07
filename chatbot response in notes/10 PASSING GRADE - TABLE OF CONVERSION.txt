@@ -1,0 +1,85 @@
+{
+  "patterns": [
+    "passing grade cvsu bacoor",
+    "passing grade",
+    "the passing grade",
+    "grading system of cvsu bacoor",
+    "the grading system",
+    "grading system",
+    "table of conversion",
+    "the table of conversion",
+    "cvsu passing grade",
+    "cvsu failing grade",
+    "failing grade",
+    "fail grade",
+    "what is passing grade"
+  ],
+  "response": """
+ All credits earned from other colleges or universities will be evaluated according to the following table of conversion, which reflects the grading system used at CvSU Bacoor. The passing grade is 3.00, while 5.00 is considered failing. Below is the grading system of CvSU Bacoor.<br><br>
+    
+    
+  <table style="width: 100%; border: 1px solid var(--text-color);; padding: 30px;">
+  <tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);  padding: 5px;">Grade</td>
+    <td style="padding: 15px; border: 1px solid var(--text-color);  padding: 5px;">Grade</td>
+  </tr>
+    <tr >
+       <td style="padding: 15px; border: 1px solid var(--text-color);"> 1.00 </td>
+       <td style="border: 1px solid var(--text-color);"> 95%' </td>
+    </tr>
+<tr >
+    <td style="padding: 15px; border: 1px solid var(--text-color);"> 1.25 </td>
+    <td style="border: 1px solid var(--text-color);"> 93%' </td>
+
+   </tr>
+<tr >
+    <td style="padding: 15px; border: 1px solid var(--text-color);"> 1.50 </td>
+    <td style="border: 1px solid var(--text-color);"> 90%' </td>
+   
+ </tr>
+ <tr >
+  <td style="padding: 15px; border: 1px solid var(--text-color);"> 1.75 </td>
+  <td style="border: 1px solid var(--text-color);"> 89%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border: 1px solid var(--text-color);"> 2.00 </td>
+  <td style="border: 1px solid var(--text-color);"> 85%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border: 1px solid var(--text-color);"> 2.25 </td>
+  <td style="border: 1px solid var(--text-color);"> 83%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border: 1px solid var(--text-color);"> 2.50 </td>
+  <td style="border: 1px solid var(--text-color);"> 80%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border: 1px solid var(--text-color);"> 2.75 </td>
+  <td style="border: 1px solid var(--text-color);"> 78%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border: 1px solid var(--text-color);"> 3.00 </td>
+  <td style="border: 1px solid var(--text-color);"> 75%' </td>
+ 
+</tr>
+<tr >
+  <td style="padding: 15px; border: 1px solid var(--text-color);"> 4.00 </td>
+  <td style="border: 1px solid var(--text-color);"> INC/INCOMPLETE' </td>
+
+</tr>
+<tr>
+    <td style="padding: 15px; border: 1px solid var(--text-color);"> 5.00 </td>
+    <td style="border: 1px solid var(--text-color);"> DRP/DROP - The student failed the course. The numberical grade of "5.00" must be written in red ink by the teacher </td>
+</tr>
+    
+    
+    </table><br><br>
+    
+    Each College shall endeavor to formulate and adopt a uniform method or system of assigning grades to scores and the assignment of weights to different types of test, requirements, laboratory exercises, and the like. This should be forwarded to the Vice President for Academic Affairs for his review and corrections before final adoption of the College concerned.
+  """
+},

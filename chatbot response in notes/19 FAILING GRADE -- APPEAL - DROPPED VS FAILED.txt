@@ -1,0 +1,82 @@
+{ "patterns": [
+  "fail subject",
+  "failing grade appeal",
+  "recover from failing grade",
+  "absences allowed",
+  "passing after failing quizzes",
+  "struggling in subject",
+  "dropped vs failed",
+  "retake subject",
+  "improve grades",
+  "failing grade prerequisites",
+  "failing grade scholarship",
+  "grade impact",
+  "subject failure consequences"
+],
+
+ "response": """ 
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What happens if I fail a subject?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">If you fail a subject, you are required to retake it in the following semester or during the next available offering. Failing a major subject may affect your progression in your program and could delay your graduation, especially if it is a prerequisite to other subjects.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How can I appeal a failing grade?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">You may file a grade appeal through your instructor and program coordinator. Provide valid reasons such as grade computation errors, missing requirements that you can prove were submitted, or other academic concerns. The department will review your case and decide if your grade can be revised.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How many absences are allowed?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Most subjects allow a maximum of <b>20% of total class hours</b> as allowable absences. If you exceed this limit, you may receive a failing grade (FA) or be dropped from the class, depending on the instructor’s policy.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Can I still pass if I fail quizzes or activities?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Yes, you can still pass if your overall weighted grade meets the passing requirement (typically 75% or 3.00). Performance in finals, major outputs, and class participation can still raise your overall score.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What should I do if I am struggling in a subject?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Talk to your instructor early, attend consultations, ask for clarifications, and participate in review sessions. Managing your time and organizing your study schedule can also help improve your performance.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What is the difference between “Dropped” and “Failed”?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">“Dropped” means you are removed from the subject before the midterm or final cutoff, often due to absences. “Failed” means you completed the course but did not meet the passing requirements.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Can I retake a subject multiple times?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Yes, but repeated failing attempts may require special approval from the dean or department. Retaking subjects increases workload and may delay your graduation.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>How can I improve my grades after performing poorly?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Consistent studying, attending all classes, submitting complete requirements, improving exam preparation, and seeking feedback from instructors can significantly raise your chances of passing.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>What happens if my failing grade affects my prerequisites?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">If the failed subject is a prerequisite, you cannot enroll in the next-level subject until you pass it. This may affect your semester load and graduation timeline.</td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><b>Does failing a subject affect my scholarship?</b></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">Yes, many scholarships require maintaining a certain GPA or no failing grades. A failing grade can lead to probation or loss of scholarship benefits.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+For more information about failing grade inqueries , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+
+
+},

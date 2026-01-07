@@ -1,0 +1,164 @@
+{
+     "patterns": [
+  "when is the cvsu bacoor recognition ceremony",
+  "when is the graduation ceremony cvsu bacoor",
+  "cvsu bacoor graduation schedule",
+  "where is the recognition or graduation held",
+  "venue for cvsu bacoor graduation",
+  "who can attend the ceremony cvsu",
+  "attendance rules for recognition graduation",
+  "dress code for cvsu recognition",
+  "graduation attire requirements cvsu",
+  "do we need to pay graduation fees",
+  "recognition fees cvsu bacoor",
+  "am i eligible for graduation cvsu",
+  "how to know graduation eligibility",
+  "am i part of the honor list cvsu recognition",
+  "honor list announcement cvsu",
+  "do i need to attend rehearsals cvsu graduation",
+  "is recognition practice required",
+  "what happens if i miss the ceremony",
+  "missed graduation cvsu",
+  "can i join graduation with pending grades",
+  "pending grades graduation policy cvsu",
+  "can i request digital copy of ceremony",
+  "is there livestream for cvsu recognition",
+  "graduation live stream cvsu bacoor"
+],
+
+"response": """ 
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>When is the CvSU Bacoor Recognition or Graduation ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The schedule varies every academic year.  
+        Recognition (for non-graduating honor students) is usually held <strong>near the end of the 2nd semester</strong> 
+        or <strong>after finals</strong>, while Graduation is usually held <strong>around June–July</strong>.  
+        The official dates are announced on:
+        <ul>
+          <li>CvSU Bacoor Official Facebook Page</li>
+          <li>Registrar’s Office announcements</li>
+          <li>Program or college pages</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Where is the Recognition/Graduation held?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        It is typically held at a designated venue announced by the campus —  
+        common locations include large auditoriums, gyms, or partner event halls.  
+        The venue depends on batch size and availability.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Who is allowed to attend the ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Graduating students or awardees may bring a limited number of guests.  
+        The guest limit is announced per academic year (usually 1–3 guests).  
+        All attendees must follow campus security and dress-code policies.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What is the dress code for Recognition or Graduation?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Students are required to wear <strong>formal attire</strong>.  
+        Common requirements:
+        <ul>
+          <li>White polo or blouse</li>
+          <li>Black pants or skirt</li>
+          <li>Formal shoes</li>
+          <li>Academic sash, hood, or toga (if required for graduation)</li>
+        </ul>
+        Guests are also encouraged to dress formally.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do we need to pay graduation or recognition fees?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Graduation fees typically include the cost of:
+        <ul>
+          <li>Toga rental</li>
+          <li>Diploma jacket</li>
+          <li>Program booklet</li>
+          <li>Venue and event expenses</li>
+        </ul>
+        Recognition may have minimal or no fees depending on the campus.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How do I know if I’m eligible for graduation?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You must complete all academic requirements, pass all subjects, finish OJT (if applicable), 
+        and have no pending balances.  
+        The Registrar’s Office and your program will verify your status during the graduation evaluation.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How do I know if I’m part of the honor list for Recognition?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The Dean’s Office releases the official list of academic awardees.  
+        Students must meet the required GWA, have no failing grades, and comply with university policies.  
+        The final list is posted before the Recognition ceremony.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do I need to attend rehearsals?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Graduation and Recognition rehearsals are <strong>mandatory</strong> for participating students.  
+        Important instructions such as:
+        <ul>
+          <li>Walk sequence</li>
+          <li>Awarding guidelines</li>
+          <li>Dress code check</li>
+          <li>Seating arrangements</li>
+        </ul>
+        are given during rehearsals.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What happens if I miss the ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You can still receive your diploma or certificate from the Registrar’s Office on the scheduled release date.  
+        However, you may not participate in the on-stage awarding or photo sessions.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I still join if I have pending grades?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Students with unresolved INC or pending grades are <strong>not allowed</strong> to join graduation until cleared.  
+        Complete any deficiencies with your instructors before the deadline posted by the Registrar.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can I request a digital copy or livestream of the ceremony?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Many ceremonies are livestreamed on the official CvSU Bacoor Facebook Page.  
+        Photos and recordings may also be uploaded after the event for students and families to download.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+For more information about Graduation in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+""",
+
+},

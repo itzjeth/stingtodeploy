@@ -1,0 +1,131 @@
+{
+"patterns": [
+  "graduation requirements cvsu",
+  "what are the requirements for graduation",
+  "cvsu bacoor graduation requirements",
+  "requirements to graduate",
+  "eligibility for graduation cvsu",
+  "documents needed for graduation",
+  "graduation checklist cvsu",
+  "graduating student requirements",
+  "what students need to graduate cvsu",
+  "how to qualify for graduation",
+  "academic requirements for graduation",
+  "graduation clearance requirements",
+  
+  "when is graduation evaluation",
+  "graduation evaluation schedule cvsu",
+  "uniform requirement during evaluation",
+  "wear uniform for graduation evaluation",
+  "join graduation with incomplete requirements",
+  "incomplete requirements graduation policy",
+  "who announces graduation candidates",
+  "graduation candidates list announcer",
+  "can student graduate with inc",
+  "inc grade effect on graduation"
+],
+
+"response": """ 
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th  style="padding:10px; border:1px solid var(--text-color); >Requirement</th>
+    <th style="padding:10px; border:1px solid var(--text-color); >Details</th>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">1. Complete all academic and non-academic requirements</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students must finish all subjects in their curriculum, including minor and major courses, OJT (if required), research/capstone, and other academic outputs. 
+      Non-academic requirements include attending orientations, seminars, and mandatory institutional activities, depending on the program. 
+      Grades must be officially encoded and passed before the final evaluation.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">2. Have no pending balances</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students must settle all financial obligations at the Cashier’s Office, such as: <br>
+      • Tuition & miscellaneous fees <br>
+      • Library fines <br>
+      • Laboratory payments <br>
+      • Lost ID or replacement fees <br> 
+      • Departmental fees (if applicable) <br><br>
+      A final assessment is usually required to verify that the student has zero outstanding balance before graduation.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">3. Submit clearance forms from all departments</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The clearance process ensures that the student has no liabilities with any office. 
+      Departments included in the clearance are usually: <br>
+      • Library <br>
+      • Laboratory / IT Department <br>
+      • Registrar’s Office <br>
+      • Cashier <br>
+      • Department Chairperson <br>
+      • Property / Equipment Custodian (if program-related) <br><br>
+      Students must secure signatures from all required offices before the deadline.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">4. Attend the graduation rehearsal</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Attendance to graduation rehearsal is mandatory to ensure proper organization during the ceremony.  
+      During rehearsal, students receive instructions about: <br>
+      • Processional and recessional order <br>
+      • Stage entering and exiting <br>
+      • Seating arrangement <br>
+      • Name calling procedure <br>
+      • Dress code for graduation <br><br>
+      Failure to attend may result in exclusion from the ceremony depending on campus rules.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">5. Submit an application for graduation to the Registrar</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Students must file their Application for Graduation within the schedule announced by the Registrar’s Office.  
+      The application usually requires: <br>
+      • Accomplished graduation form <br>
+      • Updated curriculum checklist <br>
+      • 2x2 or passport-size photo (depending on the requirement) <br>
+      • Evaluation slip from the department <br>
+      • Latest registration forms & grades <br><br>
+      Late submission may delay processing and affect inclusion in the graduation roster.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Additional Common Questions</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      <b>• When is the graduation evaluation?</b><br>
+      Usually conducted 1–2 months before the ceremony.<br><br>
+
+      <b>• Do students need to wear complete uniform during evaluation?</b><br>
+      No, but proper attire is required when submitting documents.<br><br>
+
+      <b>• Can a student join the graduation ceremony with incomplete requirements?</b><br>
+      No. All requirements must be completed before receiving confirmation of graduation.<br><br>
+
+      <b>• Who announces the list of graduation candidates?</b><br>
+      The Registrar releases the official list after department evaluation.<br><br>
+
+      <b>• Can a student graduate with INC grades?</b><br>
+      No, incomplete grades must be cleared before the deadline.
+    </td>
+  </tr>
+</table>
+
+<br>
+For more information about Requirements for Graduating Students , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+"""
+   
+
+},

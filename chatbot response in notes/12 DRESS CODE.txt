@@ -1,0 +1,71 @@
+ {
+        "patterns": [
+            "dress code",
+            "dress code in cvsu",
+            "wash day",
+            "wash day in cvsu",
+            "uniform day",
+            "uniform day in cvsu",
+            "what is the dress code of cvsu",
+            "which day usually is wash day",
+            "which day usually is uniform day",
+            "dress code for events",
+            "dress code for research",
+            "what to wear",
+            "clothes to wear"
+
+
+            
+        ],
+        "response": """
+        
+<table style="width:100%; border-collapse: collapse; border: 1px solid var(--text-color);">
+  <thead>
+    <tr>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Day / Event</th>
+      <th style="padding: 10px; border: 1px solid var(--text-color);">Dress Requirement / Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Monday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day – Students are expected to wear their official CvSU uniform.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Tuesday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Wednesday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Wash Day – Students may wear casual/alternate attire as permitted.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Thursday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Friday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Uniform Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Saturday</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Wash Day</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Special Events / Ceremonies</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Students are required to wear the official uniform or formal attire as directed by the event organizers.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Research Defense / Academic Presentations</td>
+      <td style="padding: 10px; border: 1px solid var(--text-color);">Students must wear formal clothing, such as a blouse/shirt with slacks or skirt, or business attire, as required by the faculty and department guidelines.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+ To stay updated on dress code announcements, make sure to follow these reliable sources
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+        
+        """
+    },

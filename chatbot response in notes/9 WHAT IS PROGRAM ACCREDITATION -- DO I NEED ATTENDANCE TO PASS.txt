@@ -1,0 +1,25 @@
+{
+  "patterns": [
+    "program accreditation",
+    "what is accreditation",
+    "meaning of program accreditation"
+  ],
+  "response": """
+ The university shall as much as possible, submit all programs for accreditation particularly by Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) or any accrediting agency prescribed by CHED and the Philippine Association of State Universities and Colleges
+  """
+},
+
+{
+  "patterns": [
+    "do i need attendance to pass",
+    "maintain attendance to pass",
+    "attendance to pass",
+    "attendance requirement",
+    "attendance important",
+    "attendance"
+    
+  ],
+  "response": """
+    Pupils/Students are required to attend their classes and campus events promptly and regularly. Attendance alone does not guarantee passing; students must also complete and pass the projects, activities, and requirements given by the instructor. If a university student accumulates absences equivalent to 20% or more of the total class hours without an excusable reason, they may be dropped from the roll. Additionally, if a student’s academic performance is poor, they may receive a failing grade of 5.0.
+  """
+},

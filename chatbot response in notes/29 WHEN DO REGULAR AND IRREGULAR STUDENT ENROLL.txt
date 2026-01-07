@@ -1,0 +1,100 @@
+{
+     "patterns": [
+  "regular student enrollment schedule cvsu",
+  "when do regular students enroll",
+  "irregular student enrollment cvsu",
+  "when do irregular students enroll",
+  "why irregular students enroll later",
+  "regular vs irregular enrollment schedule",
+  "different enrollment schedule cvsu",
+  "how to know enrollment date cvsu",
+  "can irregular students enroll early",
+  "prepare for enrollment irregular student",
+  "advising process regular vs irregular",
+  "cvsu bacoor enrollment timeline"
+],
+"response": """ 
+
+<table border="1" cellspacing="0" cellpadding="8">
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do regular students enroll in CvSU Bacoor?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Regular students are always scheduled to enroll first. Typically, enrollment for regular students starts during the main enrollment month announced by the campus (e.g., July for first semester). They are prioritized because their subjects follow a fixed curriculum flow.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do irregular students enroll?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Irregular students usually enroll **one month after** the regular students.  
+      For example:  
+      <b>If regular students enroll in July, irregular students are scheduled around August.</b>  
+      This delay allows departments to finalize available subjects and remaining slots.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Why do irregular students enroll later than regular students?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Because irregular schedules vary and depend on:  
+      • Available subject slots after regular enrollment  
+      • Prerequisite checks  
+      • Department evaluation  
+      This ensures proper advising and avoids conflicts in schedule.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is the schedule for regular and irregular students always different?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. CvSU Bacoor normally sets separate dates. Regular students follow a standard timeline, while irregular students are given a later date to ensure accurate evaluation and subject availability.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How do I know my exact enrollment date?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Enrollment dates are posted through:  
+      • Official campus Facebook page  
+      • Department announcements  
+      • Program advisers  
+      Always check updates because schedules may change depending on the semester.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can irregular students enroll early?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      No. Irregular students cannot enroll early because they must undergo evaluation first. Departments need to determine which subjects are available and which prerequisites are met.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What should irregular students prepare before their enrollment month?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      • Updated curriculum checklist  
+      • Evaluation form from department  
+      • List of completed and pending subjects  
+      • Accountabilities checked (library, registrar, cashier)  
+      • Always monitor announcements for advising schedules
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Do regular and irregular students have the same advising process?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      The process is similar, but regular students have faster advising because their flowchart is fixed. Irregular students undergo detailed evaluation to determine subject availability and prerequisites.
+    </td>
+  </tr>
+</table>
+<br>
+For more information about Schedule of Regular and Irregular Student , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+
+
+     
+},

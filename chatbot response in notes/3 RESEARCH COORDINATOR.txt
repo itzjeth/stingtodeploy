@@ -1,0 +1,91 @@
+{
+"patterns": [
+  "does cvsu bacoor have a research coordinator",
+  "who is the research coordinator",
+  "research coordinator cvsu bacoor",
+  "who manages research activities at cvsu bacoor",
+  "cvsu bacoor research office",
+  "research head cvsu bacoor",
+  "does cvsu bacoor conduct research projects",
+  "research projects in cvsu bacoor",
+  "how can students participate in research projects",
+  "student research participation cvsu",
+  "are students allowed to publish their research",
+  "student research publication cvsu",
+  "what is the cvsu research congress",
+  "cvsu research congress details",
+  "does cvsu bacoor have a student research journal",
+  "student research journal cvsu",
+  "is research required for graduating students",
+  "graduation research requirement cvsu",
+  "can research be done as a group or individually",
+  "group research or individual research cvsu",
+  "are there research trainings or seminars at cvsu",
+  "research seminars cvsu bacoor",
+  "does cvsu provide research funding or support",
+  "research funding support cvsu"
+],
+  "response": """
+  <table style="width: 100%; border: 1px solid var(--text-color); padding: 30px;">
+  <tbody>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Does CvSU Bacoor have a dedicated research coordinator?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Yes. CvSU Bacoor has a designated research coordinator who oversees and facilitates research-related activities at the campus level.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Who is the current Research Coordinator</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">The current Research Coordinator of CvSU Bacoor is <u>Mr. Ronan M. Cajigal, MAEd </u>. He is responsible for guiding the campus’ research initiatives, supporting faculty and student researchers, and ensuring that all research activities align with the university’s academic standards and goals. Through his leadership, the research culture of the campus continues to grow and strengthen</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Who manages research activities at CvSU Bacoor?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Research activities are managed by the campus research coordinator in coordination with the CvSU Research and Extension Office.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Is there a research office in CvSU Bacoor?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">CvSU Bacoor operates under the university’s central research office, which supports and monitors research initiatives.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Does CvSU Bacoor conduct research projects?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Yes. Faculty members and students conduct approved research projects aligned with the university’s research agenda.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">How can students participate in university research projects?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Students may participate by coordinating with faculty advisers, joining ongoing research, or conducting approved undergraduate studies.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Can students publish their research?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Yes. Students are encouraged to publish their research through conferences, institutional journals, and university-recognized publications.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">What is the CvSU Research Congress?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">The CvSU Research Congress is an annual academic event where faculty and students present completed research studies.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Does CvSU Bacoor have an official student research journal?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">CvSU supports student research publication through institutional and university-affiliated research journals.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Is research required for graduating students?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Yes. Most academic programs require a research or thesis component prior to graduation.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Can research be done individually or by group?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Research may be conducted individually or in groups depending on program guidelines and faculty approval.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Are research seminars or trainings available?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Yes. CvSU regularly conducts seminars, workshops, and trainings to enhance research skills.</td>
+    </tr>
+    <tr>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">Does CvSU provide research support or funding?</td>
+       <td style="padding: 15px; border: 1px solid var(--text-color);">The university may provide funding, technical assistance, and mentoring for approved research proposals.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+    To stay updated for changes about in CvSU, make sure to follow these reliable sources
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CvSU.B.Admission">Official CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a>"
+  """
+},

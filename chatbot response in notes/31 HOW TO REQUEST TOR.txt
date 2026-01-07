@@ -1,0 +1,137 @@
+{
+"patterns": [
+  "how to request tor",
+  "tor request process cvsu",
+  "transcript of records request",
+  "tor requirements cvsu",
+  "documents needed for tor",
+  "tor processing time",
+  "how long tor processing",
+  "can i request tor while studying",
+  "tor request as current student",
+  "claiming tor by representative",
+  "can someone else claim my tor",
+  "tor unpaid balance issue",
+  "unpaid balance tor restriction",
+  "digital tor request",
+  "electronic tor cvsu",
+  "tor fee cost",
+  "how much is tor",
+  "tor correction process",
+  "what to do if tor has errors",
+  "fix errors in tor",
+  "tor release procedure",
+  "what is tor",
+  "what is transcript of record",
+  "meaning of tor",
+  "can i request an electronic/digital TOR",
+  "tor definition cvsu"
+],
+
+"response": """ 
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What is TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      TOR stands for <b>Transcript of Records</b>.  
+      It is an official document issued by the Registrar that contains your complete academic history in CvSU, including all subjects taken, grades received, number of units, remarks, and GPA (if applicable).  
+      It is required for graduation, employment, transferring schools, and applying for scholarships or further studies.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How to request a Transcript of Records (TOR)?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      To request your TOR at CvSU Bacoor, follow these steps: <br><br>
+      <b>1. Secure your clearance.</b> You must be fully cleared from all departments before TOR processing begins. <br>
+      <b>2. Proceed to the Registrar’s Office.</b> Request the TOR form and fill it out completely. <br>
+      <b>3. Submit required documents.</b> These usually include: valid ID, student ID, and clearance form. <br>
+      <b>4. Pay the TOR processing fee.</b> Payment is made at the Cashier’s Office; keep your receipt. <br>
+      <b>5. Wait for processing.</b> TOR processing typically takes <b>5–15 working days</b> depending on workload and peak season. <br>
+      <b>6. Claim your TOR.</b> Bring your receipt and valid ID when claiming your document.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How long does TOR processing take?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      TOR processing usually takes <b>5 to 15 working days</b>.  
+      During peak seasons such as graduation, enrollment, or mass requests, processing may take longer—up to **3–4 weeks**.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What documents do I need to request a TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Requirements typically include: <br>
+      • Completed clearance <br>
+      • Valid ID or Student ID <br>
+      • TOR request form from the Registrar <br>
+      • Official receipt of payment <br><br>
+      Additional documents may be required depending on your status (e.g., transferee, graduating).
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I request TOR while still studying?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes. Students may request a TOR for certain purposes such as scholarship application, transfer, or personal reasons.  
+      However, only completed/encoded subjects will appear in the document.  
+      Some offices may issue a **Certified True Copy of Grades** if a full TOR is not necessary.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can someone else claim my TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Yes, a representative may claim your TOR as long as they bring: <br>
+      • Authorization letter signed by you <br>
+      • Their valid ID <br>
+      • A photocopy of your valid ID <br>
+      • Official receipt (if required)
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What if I have unpaid balances?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      You cannot request or process your TOR if you have outstanding balances with the school.  
+      All payments must be settled first at the Cashier’s Office before the Registrar can proceed.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I request an electronic/digital TOR?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      CvSU campuses usually release <b>printed TOR only</b>.  
+      For digital copies, you may ask the Registrar if they can provide a scanned copy, but this depends on campus policy and may not always be available.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How much is the TOR fee?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      TOR fees vary by semester and campus.  
+      The typical cost ranges from <b>₱50 to ₱150 per page</b>, plus certification fees and additional charges for rush processing (if offered).
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What should I do if my TOR has errors?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">
+      Report any mistakes immediately to the Registrar’s Office.  
+      Bring supporting documents (e.g., class cards, grade slips, evaluation forms) to verify the correct information.  
+      Corrections usually take a few days depending on the error.
+    </td>
+  </tr>
+
+</table>
+
+<br>
+For more information about Transcript of Record , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+"""
+
+}

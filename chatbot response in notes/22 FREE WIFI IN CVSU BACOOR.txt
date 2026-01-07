@@ -1,0 +1,134 @@
+{
+  "patterns": [
+  "is there free wifi on campus",
+  "cvsu bacoor free wifi",
+  "is cvsu bacoor wifi available for students",
+  "campus wifi for students cvsu",
+  "what is the wifi password cvsu",
+  "where to get latest wifi password cvsu",
+  "cannot connect to campus wifi",
+  "why can't i connect to cvsu wifi",
+  "is the campus wifi fast",
+  "wifi speed cvsu bacoor",
+  "can visitors or parents use the wifi",
+  "guest wifi cvsu",
+  "are mobile hotspots allowed on campus",
+  "personal hotspot policy cvsu",
+  "is there wifi inside classrooms",
+  "classroom wifi availability cvsu",
+  "what to do if i need wifi for academic requirements",
+  "wifi help for students cvsu",
+  "campus internet issues cvsu",
+  "how to access cvsu bacoor wifi"
+],
+"response": """ 
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is there free Wi-Fi on campus?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. CvSU Bacoor provides free Wi-Fi access for enrolled students inside campus. 
+        The signal is strongest near academic buildings, the library, laboratories, and selected hallways.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is CvSU Bacoor campus Wi-Fi available for students?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Students can connect to the official campus Wi-Fi network. 
+        You must be an officially enrolled student to receive access or a login credential (if required).
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What’s the Wi-Fi password?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Wi-Fi passwords are <strong>not publicly posted</strong> for security reasons.  
+        Students may get the password from:
+        <ul>
+          <li>The campus IT Office</li>
+          <li>The Library (front desk)</li>
+          <li>Your class adviser or program office</li>
+        </ul>
+        The password also changes regularly to maintain network security.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Where can I get the latest Wi-Fi password?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Visit the IT Office or Library and present your valid COR/ID. 
+        Some programs also announce updated passwords in official group chats or Facebook pages.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Why can’t I connect to the campus Wi-Fi?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Common reasons include:
+        <ul>
+          <li>Incorrect password</li>
+          <li>Too many connected users (peak hours)</li>
+          <li>Weak signal in your location</li>
+          <li>Your device needs to “forget network” and reconnect</li>
+        </ul>
+        If the issue persists, you may report it to the IT Office.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is the Wi-Fi fast?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Speed varies depending on the time of day, number of users, and location. 
+        Wi-Fi is generally good for research, LMS access, email, and basic browsing. 
+        Heavy downloads and video streaming may be limited during high-traffic hours.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Can visitors or parents use the Wi-Fi?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Campus Wi-Fi is reserved for students and staff only.  
+        Guests may request temporary access during official events, but approval depends on campus policy.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Are mobile hotspots allowed on campus?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes, but students are encouraged to use them responsibly. 
+        In some computer labs or testing rooms, personal hotspots may be restricted to avoid interference with school networks.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is there Wi-Fi inside classrooms?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes, but the signal strength depends on the building. 
+        Some rooms have stronger access points than others. 
+        Students usually get better connection near hallways or common areas.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What should I do if I need Wi-Fi for academic requirements?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You may use Wi-Fi–enabled areas like the library, student lounges, or designated study spaces.  
+        These places usually have more reliable signal for online activities and LMS submissions.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+For more information about Wi-Fi in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+"""
+
+  
+},

@@ -1,0 +1,148 @@
+{
+"patterns": [
+  "how to apply for deans lister",
+  "application process for deans list cvsu",
+  "minimum grade requirement for deans lister",
+  "grade requirement deans list",
+  "do i need full load for deans lister",
+  "unit load requirement deans list",
+  "does pe or nstp affect deans lister qualification",
+  "pe nstp effect on deans list",
+  "what disqualifies a student from deans list",
+  "deans lister disqualification cvsu",
+  "do transferees qualify for deans lister",
+  "can irregular students be deans lister",
+  "will i receive certificate as deans lister",
+  "deans lister certificate cvsu",
+  "is there cash incentive for deans listers",
+  "scholarship for deans listers cvsu",
+  "how to know if i made it to deans list",
+  "deans list announcement cvsu",
+  "requirements to become deans lister",
+  "eligibility for deans lister cvsu",
+  "am i qualified for deans list",
+  "deans lister rules cvsu",
+  "process for checking deans list results",
+  "where to see deans lister list cvsu"
+],
+"response": """ 
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+
+  <tbody>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How do I apply for Dean’s Lister?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        To apply for Dean’s Lister status at CvSU Bacoor:
+        <ul>
+          <li>Wait for the official announcement from your department or the campus Facebook page.</li>
+          <li>Download or get the Dean’s List application form (if required).</li>
+          <li>Submit your grades or Certificate of Grades (COG) to your program’s office for evaluation.</li>
+          <li>Follow additional instructions from your program chair or dean.</li>
+        </ul>
+        Some semesters automatically evaluate students without needing an application.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What is the minimum grade requirement to qualify as a Dean’s Lister?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Requirements may vary slightly by campus or program, but the common rule is:
+        <ul>
+          <li><strong>No grade below 2.0</strong> in any subject.</li>
+          <li><strong>No INC, DROPPED, or FAILED</strong> subjects.</li>
+          <li><strong>GWA of 1.75 or higher</strong> (some colleges require 1.50–1.75).</li>
+          <li>Complete load — must be enrolled in the normal full academic load.</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do I need a full load to qualify?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Most colleges of CvSU require students to be enrolled in a <strong>regular full load</strong> 
+        to be eligible for Dean’s List.  
+        Underloaded students are usually not considered, unless under special cases approved by the Dean.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>If I have PE or NSTP, will it affect Dean’s Lister qualification?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        PE and NSTP subjects are counted.  
+        You must pass them with qualifying grades (no 3.0, no INC, no Fail) to remain eligible.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>What disqualifies a student from the Dean’s List?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        You will not qualify if you have:
+        <ul>
+          <li>A failing grade (5.0)</li>
+          <li>Grade of 3.0 in some strict programs</li>
+          <li>INC or DROPPED in any subject</li>
+          <li>Conduct violations or disciplinary cases</li>
+          <li>An incomplete academic load</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do transferees or irregular students qualify?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes, as long as:
+        <ul>
+          <li>They are enrolled in a full load for that semester.</li>
+          <li>They meet the GWA and grade requirements.</li>
+          <li>They have no failing or incomplete grades.</li>
+        </ul>
+        Previous school grades are not counted; only current CvSU grades matter.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Do I receive a certificate if I become a Dean’s Lister?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Yes. Dean’s Listers receive a <strong>Certificate of Academic Excellence</strong>  
+        during Recognition Day or from their department.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>Is there a cash incentive or scholarship for Dean’s Listers?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        Some semesters offer incentives or priority perks (depending on campus policies), such as:
+        <ul>
+          <li>Scholarship priority</li>
+          <li>Discounts or stipends (if funded for that year)</li>
+          <li>Recognition during awards ceremonies</li>
+        </ul>
+        Incentives vary per academic year.
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px; border:1px solid var(--text-color); "><strong>How will I know if I made it to the Dean’s List?</strong></td>
+      <td style="padding:10px; border:1px solid var(--text-color); ">
+        The official list is posted on:
+        <ul>
+          <li>The department bulletin boards</li>
+          <li>CvSU Bacoor Facebook page</li>
+          <li>College or program announcements</li>
+        </ul>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+For more information about Graduation in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+""",
+},

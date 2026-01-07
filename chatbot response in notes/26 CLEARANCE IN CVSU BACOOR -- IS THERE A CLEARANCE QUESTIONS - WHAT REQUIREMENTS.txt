@@ -1,0 +1,142 @@
+#XXXXXXXXXXXXXXXXXXXXX
+{
+  "patterns": [
+  "cvsu clearance",
+  "is there clearance in cvsu",
+  "what is clearance cvsu bacoor",
+  "clearance requirements cvsu",
+  "requirements for clearance",
+  "when to process clearance cvsu",
+  "clearance schedule cvsu bacoor",
+  "where to get clearance form",
+  "cvsu clearance form location",
+  "who signs the clearance cvsu",
+  "clearance signatories cvsu bacoor",
+  "can i enroll without clearance cvsu",
+  "enrollment blocked no clearance",
+  "graduating student clearance cvsu",
+  "special clearance for graduates",
+  "how long clearance processing takes",
+  "clearance processing duration cvsu",
+  "can i process clearance with failing grades",
+  "lost clearance form what to do",
+  "replace lost clearance cvsu",
+  "is online clearance available",
+  "cvsu online clearance system",
+  "clearance steps cvsu bacoor",
+  "student clearance cvsu"
+],
+"response": """ 
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+ 
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is there a clearance in CvSU?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Yes. CvSU requires students to complete a <b>Student Clearance</b> at the end of every semester. This ensures the student has no pending obligations such as unpaid fees, unreturned books, missing requirements, or incomplete academic tasks.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What is Clearance in CvSU Bacoor?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">The CvSU Bacoor clearance is a document that needs to be signed by various offices to verify that the student has settled all responsibilities. It is often required for:<br>
+      <ul>
+        <li>Graduation</li>
+        <li>Enrollment for next semester</li>
+        <li>Requesting COG / COR / Grades</li>
+        <li>OJT Applications</li>
+        <li>Claiming school documents (ID, TOR, Certificate, etc.)</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What are the requirements for clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">The usual requirements include:
+      <ul>
+        <li>No unpaid school fees</li>
+        <li>No unreturned library books</li>
+        <li>No pending violations with OSAS</li>
+        <li>Completed academic requirements</li>
+        <li>Signed forms from your department / adviser</li>
+        <li>Receipt (if printing fees apply)</li>
+      </ul>
+      Requirements may change depending on campus announcements.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">When do students process clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Clearance is usually processed <b>at the end of every semester</b> or <b>before graduation.</b> Some courses require mid-year clearance for OJT and practicum.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Where can I get the clearance form?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">You can get the clearance form from your department office or the Registrar. Some semesters allow downloading a digital form from the campus Facebook page.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Who needs to sign the clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Clearance typically requires signatures from:
+      <ul>
+        <li>Your instructor(s)</li>
+        <li>Department Chairperson</li>
+        <li>Library</li>
+        <li>Cashier</li>
+        <li>Registrar</li>
+        <li>OSAS / Student Affairs</li>
+        <li>Laboratory Custodian (for programs with labs)</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I enroll next semester without clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">No. Students with incomplete clearance from the previous semester usually cannot proceed with enrollment or cannot claim certain documents.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Do graduating students need a special clearance?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Yes. Graduating students must process a <b>Graduation Clearance</b>, which includes additional checks like:<br>
+      <ul>
+        <li>Complete academic records</li>
+        <li>OJT completion (if applicable)</li>
+        <li>Good Moral clearance</li>
+        <li>Final evaluation from Registrar</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">How long does clearance processing take?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">It depends on the semester, but usually:
+      <ul>
+        <li>Regular clearance: 1–3 days</li>
+        <li>Graduation clearance: 3–7 days</li>
+      </ul>
+      Delays may occur if offices have long lines or if students have incomplete requirements.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Can I process clearance even if I have failing grades?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Yes. Clearance focuses on responsibilities (fees, library, documents) not on grades. However, instructors must still sign your academic clearance to verify you completed all academic requirements.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">What happens if I lose my clearance form?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">You must request another copy and redo the signatures. Always take a photo of your clearance as backup.</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Is online clearance available?</td>
+    <td style="padding:10px; border:1px solid var(--text-color); ">Some semesters temporarily offered partial online clearance, but <b>CvSU Bacoor mostly requires on-site signing</b>. Always check the official Facebook page for announcements.</td>
+  </tr>
+</table>
+<br>
+For more information about Clearance in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+"""
+},

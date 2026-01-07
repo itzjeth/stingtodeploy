@@ -1,0 +1,107 @@
+{
+"patterns": [
+  "what is ojt in cvsu bacoor",
+  "ojt meaning cvsu",
+  "how many ojt hours required",
+  "ojt hours per course cvsu",
+  "when does ojt start",
+  "what year takes ojt cvsu",
+  "requirements for ojt cvsu",
+  "ojt prerequisites cvsu bacoor",
+  "can i choose my own ojt company",
+  "self arranged ojt cvsu",
+  "does cvsu allow online ojt",
+  "online ojt option cvsu",
+  "what happens if i fail ojt",
+  "incomplete ojt hours consequence",
+  "where to get ojt updates cvsu",
+  "ojt announcements cvsu bacoor",
+  "ojt coordinator cvsu bacoor",
+  "ojt guidelines cvsu bacoor",
+  "companies accepted for ojt cvsu",
+  "ojt placement process cvsu"
+],
+
+"response": """ 
+<table border="1" cellpadding="8" cellspacing="0">
+ 
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What is OJT in CvSU Bacoor?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">OJT (On-the-Job Training) is a required internship program for graduating students where they gain real work experience in partner companies or agencies. CvSU Bacoor requires all OJT to be done on-site; <b>online OJT is no longer allowed</b>.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">How many OJT hours are required per course?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">
+            <ul>
+                <li><b>BS Information Technology (BSIT)</b> – 486 hours</li>
+                <li><b>Bachelor of Science in Computer Science (BSCS)</b> – 486 hours</li>
+                <li><b>BS Business Management (HRDM / Marketing)</b> – ~300 hours</li>
+                <li><b>BS Hospitality Management (BSHM)</b> – 600 hours</li>
+                <li><b>BS Office Administration (BSOA)</b> – 300 hours</li>
+                <li><b>BS Psychology (if offered)</b> – 200–300 hours</li>
+            </ul>
+            Note: Hours may slightly vary based on updated campus guidelines, but these are the most common requirements.
+        </td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What year does OJT usually start?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">
+            OJT schedules may vary depending on curriculum changes, but the most common pattern in CvSU Bacoor is:
+            <ul>
+                <li><b>BSIT / BSCS / BSHM</b> – usually during <b>4th year, 2nd semester</b></li>
+                <li><b>BSOA</b> – often during <b>3rd year or 4th year</b> depending on section and curriculum</li>
+                <li><b>Business Management programs</b> – commonly <b>4th year, 1st or 2nd semester</b></li>
+            </ul>
+            Final schedules depend on the released curriculum for your year level, so it’s best to wait for official department announcements.
+        </td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What are the requirements for OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">
+            <ul>
+                <li>Updated Resume</li>
+                <li>Endorsement Letter from Department</li>
+                <li>Parent's Consent</li>
+                <li>MOA (Memorandum of Agreement) with company</li>
+                <li>Medical Certificate (for companies requiring it)</li>
+                <li>School ID & Registration Form</li>
+                <li>Good Moral Certificate (if needed)</li>
+            </ul>
+            All documents must be processed in the department office. <b>Note: Online OJT is no longer accepted.</b>
+        </td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Can I choose my own company for OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Yes. Students can choose their preferred company, but it must be related to their program and must be approved by the department. The company must agree to sign a MOA with CvSU Bacoor.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Does CvSU Bacoor still allow online OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); "><b>No. CvSU Bacoor no longer accepts or provides online OJT.</b> All OJT must be completed on-site.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">What happens if I fail or cannot complete my OJT hours?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Failure to complete the required hours or violating company guidelines may result in an incomplete or failing grade. Students must repeat their OJT the next semester to graduate.</td>
+    </tr>
+
+    <tr>
+        <td style="padding:10px; border:1px solid var(--text-color); ">Where can I get updates about OJT?</td>
+        <td style="padding:10px; border:1px solid var(--text-color); ">OJT announcements are posted through your respective departments (IT, CS, HM, BM, BSOA, etc.) and on the official CvSU Bacoor Facebook page. Advisers may also post updates in group chats.</td>
+    </tr>
+
+</table>
+<br>
+For more information about OJT in CvSU Bacoor , make sure to follow these reliable sources :
+<br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/CSGBacoor">Central Student Government - CvSU Bacoor</a><br>
+<a target="_blank" style="background: var(--sidebar-color); color: var(--text-color);" href="https://www.facebook.com/its.cvsubacoor">CvSU Bacoor Society</a>
+
+
+""",
+},
