@@ -4047,7 +4047,7 @@ QA_DATA = [
     "Can I join a student organization in CvSU Bacoor?"
     
   ],
-  "responses": 
+  "response": 
     "🤝 Student Organization Membership Procedure<br><br><br><br>Students who wish to join a student organization may apply through accredited organizations during their recruitment activities.<br><br><br><br>Procedure:<br><br><br><br>* Watch for recruitment periods, organization fairs, and membership drives conducted by accredited student organizations.<br><br>* Choose the organization that matches your interests, skills, and academic goals.<br><br>* Inquire about the organization's membership requirements and application process.<br><br>* Complete and submit the required application forms and supporting documents, if applicable.<br><br>* Participate in interviews, orientations, screenings, or other membership activities required by the organization.<br><br>* Wait for the evaluation and approval of your application.<br><br>* Attend the organization's orientation and official activities upon acceptance.<br><br><br><br>Please note that membership requirements and application procedures may vary depending on the organization. For further information and assistance, students may coordinate with the Office of Student Affairs and Services (OSAS)."
 },
 
@@ -4856,7 +4856,7 @@ QA_DATA = [
     "How long can I use my COR",
     "When do I need a new COR?"
   ],
-  "responses": 
+  "response": 
     "The Certificate of Registration (COR) is valid only for the semester in which it was issued.<br><br>Students must obtain a new COR for each subsequent semester or once enrollment for the next semester begins. A COR from a previous semester cannot be used as a current enrollment document."
   },
 {
@@ -5258,7 +5258,7 @@ QA_DATA = [
     "Are there rules for taking exams in CvSU Bacoor?",
     "What are the examination policies?"
   ],
-  "responses": 
+  "response": 
     "📚 Examination Rules and Regulations<br><br><br><br>To ensure a fair and orderly examination process, all students are expected to observe the following rules:<br><br><br><br>* Arrive at the examination room on time.<br><br>* Present your valid student ID when required.<br><br>* Bring only the materials permitted by your instructor.<br><br>* Keep mobile phones and other electronic devices switched off and stored away during the examination.<br><br>* Maintain silence and avoid disturbing other examinees.<br><br>* Do not communicate, share answers, or engage in any form of cheating.<br><br>* Follow all instructions given by the proctor or instructor.<br><br>* Submit your examination papers and materials before leaving the room.<br><br>* Any form of academic dishonesty may result in disciplinary action in accordance with CvSU Bacoor policies.<br><br><br><br>For specific examination guidelines, students are encouraged to consult their instructors or the campus administration."
   },
 {
@@ -5270,7 +5270,7 @@ QA_DATA = [
     "What are the campus regulations?",
     "What are the general rules for students?"
   ],
-  "responses": 
+  "response": 
     "🏫 CvSU Bacoor Student Rules and Regulations<br><br><br><br>All students are expected to uphold the values and standards of Cavite State University - Bacoor Campus by following these guidelines:<br><br><br><br>* Wear the prescribed school uniform and identification card when required.<br><br>* Show respect and courtesy to fellow students, faculty members, staff, and visitors.<br><br>* Maintain proper conduct within the campus premises.<br><br>* Keep the campus clean and dispose of waste properly.<br><br>* Protect and properly use university facilities, equipment, and resources.<br><br>* Observe classroom policies and attend classes regularly.<br><br>* Refrain from engaging in bullying, harassment, discrimination, or disruptive behavior.<br><br>* Follow all university policies regarding academic integrity and student discipline.<br><br>* Comply with campus safety and security regulations.<br><br>* Participate responsibly in university activities and programs.<br><br><br><br>Students are encouraged to refer to the official Student Handbook for the complete list of university rules, regulations, and disciplinary procedures."
   },
 {
@@ -5287,7 +5287,7 @@ QA_DATA = [
     "What is the school's policy on smoking?",
     "Are tobacco products allowed on campus?"
   ],
-  "responses": 
+  "response": 
     "🚭 Smoking, Vaping, and Alcohol Policy<br><br><br><br>To maintain a safe, healthy, and conducive learning environment, the following rules are observed within the campus:<br><br><br><br>* Smoking is strictly prohibited within the campus premises.<br><br>* The use of electronic cigarettes (e-cigarettes), vapes, and similar devices is not allowed on campus.<br><br>* Possession, consumption, or distribution of alcoholic beverages within the university premises is prohibited unless specifically authorized for official purposes.<br><br>* Students must not report to school under the influence of alcohol or prohibited substances.<br><br>* Bringing illegal drugs, dangerous substances, or drug paraphernalia into the campus is strictly prohibited.<br><br>* Students are expected to comply with all university health, safety, and disciplinary regulations.<br><br>* Violations of these policies may result in disciplinary action in accordance with university rules and regulations.<br><br><br><br>For complete information regarding student conduct and disciplinary policies, please refer to the official CvSU Student Handbook or contact the campus administration."
   },
 {
@@ -5299,7 +5299,7 @@ QA_DATA = [
     "What can get me into trouble in school?",
     "What actions are not allowed in the university?"
   ],
-  "responses": 
+  "response": 
     "⚠️ Prohibited Activities on Campus<br><br><br><br>Students are expected to maintain proper conduct and avoid activities that may disrupt the learning environment. The following are generally prohibited:<br><br><br><br>* Smoking and vaping within the campus premises.<br><br>* Possession or consumption of alcoholic beverages without proper authorization.<br><br>* Possession, use, or distribution of illegal drugs and dangerous substances.<br><br>* Cheating, plagiarism, and other forms of academic dishonesty.<br><br>* Bullying, harassment, discrimination, and acts of violence.<br><br>* Damaging, vandalizing, or misusing university property.<br><br>* Possession of weapons or dangerous items that may threaten campus safety.<br><br>* Disruptive behavior during classes, examinations, or university activities.<br><br>* Unauthorized use of university facilities, equipment, or resources.<br><br>* Any action that violates university policies, rules, and regulations.<br><br><br><br>Students are encouraged to review the official CvSU Student Handbook for detailed policies and disciplinary procedures."
   },
 {
@@ -5311,7 +5311,7 @@ QA_DATA = [
     "What items are prohibited in school?",
     "What things are not allowed inside the campus?"
   ],
-  "responses": 
+  "response": 
     "🎒 Prohibited Items on Campus<br><br><br><br>For the safety and well-being of the university community, students should avoid bringing prohibited items to campus, including:<br><br><br><br>* Cigarettes, tobacco products, and vaping devices for use within the campus.<br><br>* Alcoholic beverages and intoxicating substances.<br><br>* Illegal drugs and drug-related paraphernalia.<br><br>* Weapons, explosives, or other dangerous items.<br><br>* Materials that may disrupt classes, university activities, or campus operations.<br><br><br><br>Students found in possession of prohibited items may be subject to disciplinary action based on university policies and regulations."
   },
 {
@@ -5328,7 +5328,7 @@ QA_DATA = [
     "What is the school's policy on smoking?",
     "Are tobacco products allowed on campus?"
   ],
-  "responses": 
+  "response": 
     "🚭 Smoking, Vaping, and Alcohol Policy<br><br><br><br>To maintain a safe, healthy, and conducive learning environment, the following rules are observed within the campus:<br><br><br><br>* Smoking is strictly prohibited within the campus premises.<br><br>* The use of electronic cigarettes (e-cigarettes), vapes, and similar devices is not allowed on campus.<br><br>* Possession, consumption, or distribution of alcoholic beverages within the university premises is prohibited unless specifically authorized for official purposes.<br><br>* Students must not report to school under the influence of alcohol or prohibited substances.<br><br>* Bringing illegal drugs, dangerous substances, or drug paraphernalia into the campus is strictly prohibited.<br><br>* Students are expected to comply with all university health, safety, and disciplinary regulations.<br><br>* Violations of these policies may result in disciplinary action in accordance with university rules and regulations.<br><br><br><br>For complete information regarding student conduct and disciplinary policies, please refer to the official CvSU Student Handbook or contact the campus administration."
   },
 {
@@ -5340,7 +5340,7 @@ QA_DATA = [
     "What can get me into trouble in school?",
     "What actions are not allowed in the university?"
   ],
-  "responses": 
+  "response": 
     "⚠️ Prohibited Activities on Campus<br><br><br><br>Students are expected to maintain proper conduct and avoid activities that may disrupt the learning environment. The following are generally prohibited:<br><br><br><br>* Smoking and vaping within the campus premises.<br><br>* Possession or consumption of alcoholic beverages without proper authorization.<br><br>* Possession, use, or distribution of illegal drugs and dangerous substances.<br><br>* Cheating, plagiarism, and other forms of academic dishonesty.<br><br>* Bullying, harassment, discrimination, and acts of violence.<br><br>* Damaging, vandalizing, or misusing university property.<br><br>* Possession of weapons or dangerous items that may threaten campus safety.<br><br>* Disruptive behavior during classes, examinations, or university activities.<br><br>* Unauthorized use of university facilities, equipment, or resources.<br><br>* Any action that violates university policies, rules, and regulations.<br><br><br><br>Students are encouraged to review the official CvSU Student Handbook for detailed policies and disciplinary procedures."
   },
   {
@@ -5351,7 +5351,7 @@ QA_DATA = [
     "What items are prohibited in school?",
     "What things are not allowed inside the campus?"
   ],
-  "responses": 
+  "response": 
     "🎒 Prohibited Items on Campus<br><br><br><br>For the safety and well-being of the university community, students should avoid bringing prohibited items to campus, including:<br><br><br><br>* Cigarettes, tobacco products, and vaping devices for use within the campus.<br><br>* Alcoholic beverages and intoxicating substances.<br><br>* Illegal drugs and drug-related paraphernalia.<br><br>* Weapons, explosives, or other dangerous items.<br><br>* Materials that may disrupt classes, university activities, or campus operations.<br><br><br><br>Students found in possession of prohibited items may be subject to disciplinary action based on university policies and regulations."
 },
 {
@@ -5362,7 +5362,7 @@ QA_DATA = [
     "Can I take a make-up exam?",
     "What are the requirements for a special examination?"
   ],
-  "responses": 
+  "response": 
     "📝 Make-Up Examination / Special Examination Procedure<br><br><br><br>Students who are unable to take a scheduled examination due to valid and documented circumstances may request a make-up or special examination, subject to university policies and approval.<br><br><br><br>Procedure:<br><br><br><br>* Inform your instructor as soon as possible regarding your absence from the examination.<br><br>* Prepare and submit the necessary supporting documents that justify your absence (e.g., medical certificate, official letter, or other relevant documents).<br><br>* Submit a formal request for a make-up or special examination following the prescribed university procedures.<br><br>* Obtain the approval of your instructor and the appropriate university authorities.<br><br>* Once approved, coordinate with your instructor regarding the schedule and venue of the examination.<br><br>* Take the make-up or special examination on the approved date and time.<br><br><br><br>Please note that make-up or special examinations are granted only under valid and documented circumstances and are subject to the university's rules and regulations."
   
 },
@@ -5374,7 +5374,7 @@ QA_DATA = [
     "What is the purpose of NSTP?",
     "Why do students take NSTP?"
   ],
-  "responses": 
+  "response": 
     "🎓 National Service Training Program (NSTP)<br><br><br><br>The National Service Training Program (NSTP) is a program mandated by Republic Act No. 9163 for tertiary-level students in the Philippines. It aims to develop civic consciousness, leadership, patriotism, and social responsibility among students through community service and nation-building activities.<br><br><br><br>NSTP helps students become active contributors to society by encouraging volunteerism, community involvement, disaster preparedness, and values formation.<br><br><br><br>Students typically complete two semesters of NSTP as part of their academic requirements. Depending on the institution, students may choose from different NSTP components such as ROTC or CWTS.<br><br><br><br>Through NSTP, students gain valuable experiences that promote personal growth, community engagement, and responsible citizenship."
   
 },
@@ -5386,7 +5386,7 @@ QA_DATA = [
     "What is the purpose of ROTC?",
     "What happens in ROTC?"
   ],
-  "responses": 
+  "response": 
     "🪖 Reserve Officers' Training Corps (ROTC)<br><br><br><br>The Reserve Officers' Training Corps (ROTC) is one of the components of the National Service Training Program (NSTP). It is designed to provide students with military-oriented training that promotes discipline, leadership, patriotism, and preparedness for national defense.<br><br><br><br>ROTC activities may include:<br><br><br><br>* Leadership and teamwork training<br><br>* Military customs and courtesies<br><br>* Basic military instruction<br><br>* Physical fitness activities<br><br>* Disaster preparedness and emergency response training<br><br>* Citizenship and nation-building programs<br><br><br><br>The program aims to develop responsible citizens who are prepared to contribute to national security, public service, and community development. ROTC also helps students strengthen their confidence, discipline, and leadership skills that can be applied in both academic and professional settings."
   
 },
@@ -5399,7 +5399,7 @@ QA_DATA = [
     "What is NSTP ROTC?",
     "Explain NSTP and ROTC"
   ],
-  "responses": 
+  "response": 
     "📚 Difference Between NSTP and ROTC<br><br><br><br>NSTP (National Service Training Program) is the overall program required for college students to promote civic responsibility, leadership, and nation-building.<br><br><br><br>ROTC (Reserve Officers' Training Corps) is one of the components or options under NSTP that focuses on military training, discipline, leadership, and national defense preparedness.<br><br><br><br>In simple terms:<br><br><br><br>* NSTP is the program.<br><br>* ROTC is one of the NSTP components.<br><br><br><br>Students who choose ROTC fulfill their NSTP requirement through military-oriented training and related activities."
   
 }
