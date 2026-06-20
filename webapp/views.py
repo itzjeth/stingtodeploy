@@ -4756,7 +4756,7 @@ QA_DATA = [
   },
 {
 
-  "utterances": [
+  "patterns": [
     "How long is COR valid?",
     "How long is the COR valid?",
     "Is my COR still valid?",
@@ -5076,7 +5076,93 @@ QA_DATA = [
   ],
   "response": 
     "The University Clinic provides basic health services to students, faculty members, employees, and other authorized individuals.<br><br>Services may include health consultations, medical assessments, first aid, referrals, and other health-related assistance in accordance with University policies."
-  }
+  },
+{
+
+  "patterns": [
+    "What happens during emergency class suspension",
+    "How are emergency class suspensions announced",
+    "Will classes be suspended during emergencies",
+    "Emergency suspension policy",
+    "How does the University suspend classes during emergencies"
+  ],
+  "response": 
+    "The University may suspend classes during emergencies, disasters, severe weather conditions, public health concerns, or other situations that may endanger the safety and welfare of students and personnel.<br><br>Official announcements regarding class suspensions are released through authorized University communication channels."
+  },
+{
+
+  "patterns": [
+    "Where can I find official announcements",
+    "How do I get University updates",
+    "Where are announcements posted",
+    "Official school announcements",
+    "How can I stay updated"
+  ],
+  "response": 
+    "Students are encouraged to monitor official University communication channels for announcements, advisories, schedules, academic updates, enrollment information, and other important notices.<br><br>Official announcements may be released through the University's website, social media pages, campus bulletin boards, and authorized offices."
+  },
+{
+
+  "patterns": [
+    "What services does the Registrar's Office provide",
+    "Registrar Office services",
+    "What can I request from the Registrar",
+    "What does the Registrar handle",
+    "Registrar information"
+  ],
+  "response": 
+    "The Registrar's Office is responsible for maintaining student academic records and processing official academic documents.<br><br>Services may include enrollment assistance, record verification, issuance of certifications, transcript requests, graduation evaluation, and other academic record-related transactions."
+  },
+{
+
+  "patterns": [
+    "What does the Admissions Office do",
+    "Admissions Office services",
+    "Who handles admission applications",
+    "Admission concerns",
+    "What services are provided by the Admissions Office"
+  ],
+  "response": 
+    "The Admissions Office manages the admission process for prospective students.<br><br>Its responsibilities may include application processing, evaluation of admission requirements, entrance examination coordination, applicant verification, and dissemination of admission-related information."
+  },
+
+{
+
+  "patterns": [
+    "What are the enrollment requirements",
+    "Requirements for enrollment",
+    "What documents do I need for enrollment",
+    "How can I enroll",
+    "Enrollment document requirements"
+  ],
+  "response": 
+    "Students must submit all required enrollment documents and comply with University procedures before registration can be completed.<br><br>Requirements may vary depending on the applicant category, such as freshman, transferee, returnee, or graduate student.<br><br>Applicants are advised to follow official enrollment announcements for the complete and updated list of requirements."
+  },
+
+{
+
+  "patterns": [
+    "What languages can the chatbot understand",
+    "Can the chatbot understand Filipino",
+    "Does the chatbot support English",
+    "What languages are supported",
+    "Can I ask questions in Filipino and English"
+  ],
+  "response": 
+    "The chatbot can understand and respond to inquiries in both English and Filipino.<br><br>Users may communicate using either language when asking questions related to University information, services, policies, admissions, enrollment, and student concerns."
+  },
+{
+  "patterns": [
+    "Tell me about CvSU Bacoor",
+    "What is CvSU Bacoor",
+    "Information about CvSU Bacoor",
+    "Introduce CvSU Bacoor",
+    "What should I know about the campus"
+  ],
+  "response": 
+    "CvSU Bacoor is one of the campuses of Cavite State University dedicated to providing quality education, research, extension, and community service.<br><br>The campus offers academic programs designed to develop competent, responsible, and globally competitive graduates while supporting the University's mission of excellence in instruction, research, extension, and production."
+  
+}
 
 ]    
 
