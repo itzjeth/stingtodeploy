@@ -1910,7 +1910,3173 @@ QA_DATA = [
 ],
 "response": 
 "The 5S Focal Person is Ryan Angelo G. Mojica."
-}
+},
+{
+
+"patterns": [
+"Who is the MIS coordinator?",
+"Who manages the Management Information System?",
+"Who handles MIS concerns?",
+"Who is responsible for the MIS office?",
+"Can you tell me the MIS coordinator?"
+],
+"response": 
+"The Coordinator of the Management Information System (MIS) is Danilo C. Borreros."
+},
+{
+
+"patterns": [
+"Who is the campus canvasser?",
+"Who handles canvassing for procurement?",
+"Who works as the campus canvasser?",
+"Who assists the Procurement Office with canvassing?",
+"Can you tell me the campus canvasser?"
+],
+"response": 
+"The Campus Canvasser of the Procurement Office is Jayson L. Gorospe."
+},
+{
+
+"patterns": [
+"Who is the Cash and Disbursement Officer?",
+"Who handles cash disbursements?",
+"Who manages cash transactions?",
+"Who is responsible for disbursement services?",
+"Can you tell me the Cash and Disbursement Officer?"
+],
+"response": 
+"The Cash and Disbursement Officer is Sherryl Anne R. Saliba."
+},
+{
+
+"patterns": [
+"Who is in charge of Special Projects?",
+"Who handles special projects?",
+"Who manages special project activities?",
+"Who is responsible for special projects?",
+"Can you tell me who is in charge of Special Projects?"
+],
+"response": 
+"Ma. Christie B. Taco is in charge of Special Projects."
+},
+{
+
+"patterns": [
+"Who is in charge of the Supply Office?",
+"Who manages the Supply Office?",
+"Who handles supply concerns?",
+"Who is responsible for supply management?",
+"Can you tell me who is in charge of the Supply Office?"
+],
+"response": 
+"Gilbert E. Magano is in charge of the Supply Office."
+},
+{
+
+"patterns": [
+"Who is the campus inspector?",
+"Who conducts campus inspections?",
+"Who is responsible for inspection activities?",
+"Who handles campus inspection concerns?",
+"Can you tell me the campus inspector?"
+],
+"response": 
+"The Campus Inspector is Gilbert E. Magano."
+},
+{
+
+"patterns": [
+"Who is the campus liaison officer?",
+"Who handles liaison activities?",
+"Who serves as the campus driver?",
+"Who is responsible for liaison services?",
+"Can you tell me the campus liaison officer?"
+],
+"response": 
+"The Campus Liaison Officer and Driver is Dante R. Español."
+},
+{
+
+"patterns": [
+"Who is the Vice President for Academic Affairs?",
+"Who oversees academic affairs?",
+"Who manages academic programs at the university?",
+"Who is responsible for academic affairs?",
+"Can you tell me the Vice President for Academic Affairs?"
+],
+"response": 
+"The Vice President for Academic Affairs is Cristina M. Signo."
+},
+
+{
+ 
+  "patterns": [
+    "How do I join a student organization?",
+    "Can I join multiple organizations?",
+    "Are organizations open to all students?",
+    "Do student organizations charge fees?",
+    "What are the benefits of joining organizations?",
+    "What student organizations are available?",
+    "List of student organizations",
+    "Recognized student organizations",
+    "What organizations can I join?",
+    "Student clubs in CvSU Bacoor",
+    "List all organizations",
+    "Available organizations",
+    "What are the campus organizations?",
+    "Student organizations in CvSU Bacoor",
+    "Organizations and clubs",
+    "what are student org",
+    "student org",
+    "Are there student organizations in CvSU?",
+    "Can I join a student organization?",
+    "Student clubs and organizations",
+    "How can I join a campus organization?",
+    "What clubs can I join?",
+    "Are there student organizations in the university?",
+    "Can you list student organizations?",
+    "What extracurricular organizations are available?",
+    "What student groups exist in CvSU?",
+    "What organizations are recognized by the university?",
+    "Do you have academic organizations?",
+    "Are there leadership organizations in CvSU?",
+    "What campus clubs are available?",
+    "Tell me about student organizations",
+    "What are the active student organizations?",
+    "What groups can students join?",
+    "Are there any university clubs?",
+    "Can freshmen join organizations?",
+    "What extracurricular activities are offered?"
+  ],
+  "response": 
+    "CvSU Bacoor offers various recognized student organizations. Students may join organizations during recruitment periods, and membership requirements vary by organization. Joining organizations helps develop leadership, networking, and academic skills.<br><br>The recognized student organizations for A.Y. 2025-2026 are:<br><br>ACADEMIC ORGANIZATIONS<br>• Le Managers Societè<br>• IT Society<br>• Alliance of Computer Scientists<br>• HM Society<br>• La Ciencia de Crimines Sociedad<br>• Teacher Education Society<br>• La Liga Psicologia<br>• Societas Humana Resource<br><br>NON-ACADEMIC ORGANIZATIONS<br>• Education, Sports Promotion and Anti-Delinquency Association (ESPADA)<br>• COMSELEC<br><br>PERFORMING ARTS ORGANIZATIONS<br>• ConAces Dance Tribe<br>• CvSU-Bacoor Teatrong Padayon<br>• Harmonic Voices Chorale<br><br>RELIGIOUS STUDENT ORGANIZATION<br>• Christian Brotherhood International<br><br>STUDENT COUNCIL<br>• Central Student Government<br><br>STUDENT PUBLICATION<br>• The Cornerstone<br><br>Students may inquire with the Office of Student Affairs and Services (OSAS) for additional information regarding membership, activities, and recruitment schedules. For information about a specific organization, you may ask for its adviser, activities, or purpose."
+  },
+{
+
+  "patterns": [
+    "Who are the organization advisers?",
+    "List all organization advisers",
+    "Student organization advisers",
+    "Who advises the student organizations?",
+    "Organization adviser list"
+  ],
+  "response": 
+    "The advisers of recognized student organizations are:<br><br>• Le Managers Societè — Janice A. Nealega<br>• IT Society — Jovelyn D. Ocampo<br>• Alliance of Computer Scientists — Steffanie M. Bato<br>• HM Society — Ryan S. Acojedo<br>• La Ciencia de Crimines Sociedad — Michael John C. Sullano<br>• Teacher Education Society — Jolina Razell M. Mindoro<br>• La Liga Psicologia — Kathy J. Gumboc<br>• Societas Humana Resource — Janice A. Nealega<br>• ESPADA — James E. Dalis<br>• COMSELEC — Kathy J. Gumboc<br>• ConAces Dance Tribe — Ana Rose M. Rupido<br>• CvSU-Bacoor Teatrong Padayon — Steffanie M. Bato<br>• Harmonic Voices Chorale — Zannie I. Gamuyao<br>• Christian Brotherhood International — Donnalyn B. Montallana<br>• Central Student Government — Zannie I. Gamuyao<br>• The Cornerstone — Jolina Razell M. Mindoro"
+  },
+
+{
+
+  "patterns": [
+    "What are the academic organizations?",
+    "List academic student organizations",
+    "What academic clubs are available?",
+    "What organizations can I join for my program?",
+    "Show me the academic organizations"
+  ],
+  "response": 
+    "The recognized academic organizations are Le Managers Societe, IT Society, Alliance of Computer Scientists, HM Society, La Ciencia de Crimines Sociedad, Teacher Education Society, La Liga Psicologia, and Societas Humana Resource."
+  },
+{
+ 
+  "patterns": [
+    "What student organizations are available?",
+    "List all student organizations",
+    "What organizations can students join?",
+    "Show all recognized student organizations",
+    "What clubs are recognized by the campus?"
+  ],
+  "response": 
+    "CvSU Bacoor recognizes academic organizations, non-academic organizations, performing arts organizations, religious organizations, the Central Student Government, and the student publication."
+  },
+
+{
+
+"patterns": [
+"How do I join a student organization?",
+"How can I become a member of an organization?",
+"What is the process for joining a student club?",
+"Can I join a student organization?",
+"How do I apply for membership?"
+],
+"response": 
+"Students who wish to join a recognized student organization may contact the organization's officers, adviser, or the Office of Student Affairs and Services (OSAS). Membership requirements and application procedures may vary depending on the organization."
+},
+{
+
+"patterns": [
+"Why should I join a student organization?",
+"What are the benefits of joining a student organization?",
+"How can organizations help students?",
+"What do I gain from joining a club?",
+"Why join a campus organization?"
+],
+"response": 
+"Joining a student organization helps students develop leadership skills, teamwork, communication abilities, professional networks, and valuable experiences through academic, cultural, social, and community activities."
+},
+{
+
+"patterns": [
+"What are student organizations?",
+"What is the purpose of student organizations?",
+"Why are student organizations important?",
+"What do student organizations do?",
+"Tell me about student organizations."
+],
+"response": 
+"Student organizations are campus-based groups that promote academic excellence, leadership development, community involvement, cultural awareness, and student engagement through various programs, projects, and activities."
+},
+
+{
+
+"patterns": [
+"What is IT Society?",
+"What does IT Society do?",
+"Tell me about IT Society.",
+"What is the purpose of IT Society?",
+"What activities does IT Society conduct?"
+],
+"response": 
+"IT Society is the recognized academic organization for Information Technology students. It promotes technological skills, professional development, leadership, collaboration, and participation in IT-related activities and events."
+},
+{
+
+"patterns": [
+"What is Alliance of Computer Scientists?",
+"Tell me about ACS.",
+"What does ACS do?",
+"What is the purpose of Alliance of Computer Scientists?",
+"What activities does ACS conduct?"
+],
+"response": 
+"Alliance of Computer Scientists is the recognized academic organization for Computer Science students. It supports learning, innovation, programming, research, and professional growth through various academic and technology-related activities."
+},
+{
+
+"patterns": [
+"What is HM Society?",
+"Tell me about HM Society.",
+"What does HM Society do?",
+"What is the purpose of HM Society?",
+"What activities does HM Society conduct?"
+],
+"response": 
+"HM Society is the recognized academic organization for Hospitality Management students. It promotes hospitality excellence, leadership, professionalism, and practical learning experiences through various hospitality-related activities and programs."
+},
+{
+
+"patterns": [
+"What is Teacher Education Society?",
+"Tell me about Teacher Education Society.",
+"What does TES do?",
+"What is the purpose of Teacher Education Society?",
+"What activities does Teacher Education Society conduct?"
+],
+"response": 
+"Teacher Education Society is the recognized academic organization for education students. It supports professional growth, teaching excellence, leadership development, and participation in educational programs and community activities."
+},
+{
+"patterns": [
+"What is the Central Student Government?",
+"Tell me about CSG.",
+"What does the student government do?",
+"What is the purpose of CSG?",
+"What are the responsibilities of CSG?"
+],
+"response": 
+"The Central Student Government (CSG) is the official student governing body that represents the interests and welfare of students, organizes campus activities, and serves as a bridge between the student body and university administration."
+},
+
+
+
+  {
+   
+    "patterns": [
+      "When is wash day in CvSU Bacoor?",
+      "What are the wash days?",
+      "Schedule for wearing civilian clothes",
+      "What days can we wear non-uniform?"
+    ],
+    "response": 
+      "At Cavite State University – CvSU Bacoor, the designated wash days are Wednesday and Saturday.<br>On these days, students are allowed to wear civilian clothes instead of the regular school uniform.<br>However, students are still expected to wear decent and appropriate clothing that follows the university’s dress code and campus regulations."
+},
+  {
+    "patterns": [
+      "When is uniform day in CvSU Bacoor?",
+      "What days are we required to wear uniform?",
+      "Schedule of uniform days",
+      "Uniform policy schedule"
+    ],
+    "response": 
+      "At Cavite State University – CvSU Bacoor, the official uniform days are Monday, Tuesday, Thursday, and Friday.<br>During these days, students are expected to wear their complete and proper school uniform while attending classes and entering the campus.<br>Wearing the prescribed uniform helps promote discipline, professionalism, and unity among students."
+},
+  {
+   
+    "patterns": [
+      "What is the dress code in CvSU?",
+      "Proper attire in campus",
+      "What should I wear to school?",
+      "Dress code policy"
+    ],
+    "response": 
+      "The dress code in Cavite State University – CvSU Bacoor requires students to wear their proper school uniform during uniform days.<br>Students usually wear the official yellowish CvSU uniform paired with black pants, along with black shoes.<br>Wearing the proper uniform helps maintain discipline, professionalism, and proper student identification inside the campus.<br>Students are also encouraged to follow the university’s guidelines regarding proper grooming and appropriate attire at all times."
+},
+  {
+   
+    "patterns": [
+      "What courses are offered in CvSU Bacoor?",
+      "List of undergraduate programs",
+      "What degrees are available here?",
+      "Programs offered"
+    ],
+    "response": 
+      "Cavite State University – CvSU Bacoor offers several undergraduate programs for students pursuing different career paths:<br>*Bachelor of Secondary Education (BSEd)<br>*Bachelor of Science in Business Management (BSBM)<br>*Bachelor of Science in Computer Science (BSCS)<br>*Bachelor of Science in Criminology (BSCrim)<br>*Bachelor of Science in Hospitality Management (BSHM), formerly known as BS Hotel and Restaurant Management (BSHRM)<br>*Bachelor of Science in Information Technology (BSIT)<br>*Bachelor of Science in Psychology (BSPsych)<br><br>These programs are designed to help students gain knowledge, practical skills, and professional experience needed <br>for their future careers and chosen industries."
+},
+  {
+    
+    "patterns": [
+      "What is the official logo of CvSU?",
+      "Meaning of the CvSU logo",
+      "What do the colors in the logo mean?",
+      "Describe the university logo"
+    ],
+    "response": 
+      "The official logo of Cavite State University mainly features the colors green, gold, white, and yellow.<br>The green color represents growth, life, and progress, while gold and yellow symbolize excellence, honor, and quality education.<br>The logo also contains important symbols related to knowledge, leadership, and service which reflect the mission and vision of the university.<br>The CvSU logo serves as the official identity of the institution and represents pride, unity, and academic excellence among students, faculty, and alumni."
+},
+  {
+   
+    "patterns": [
+      "What are the core values of CvSU?",
+      "CvSU core values",
+      "What principles does the university follow?",
+      "University values"
+    ],
+    "response": 
+      "The core values of Cavite State University are Truth, Integrity, Excellence, and Service.<br>These values guide the students, faculty, and staff in their academic and personal lives.<br>Truth encourages honesty and transparency, Integrity promotes strong moral principles and accountability, Excellence inspires everyone to give their best in all aspects of learning and service, while Service emphasizes helping the community and contributing positively to society.<br>These core values are expected to be practiced by every CvSU student and employee both inside and outside the university."
+},
+  {
+   
+    "patterns": [
+      "What type of institution is CvSU Bacoor?",
+      "Is CvSU a public or private school?",
+      "Information about CvSU Bacoor",
+      "What kind of university is CvSU?"
+    ],
+    "response": 
+      "Cavite State University – CvSU Bacoor is a public state university and one of the satellite campuses of Cavite State University.<br>It provides affordable and quality higher education for students in Bacoor and nearby areas.<br>The campus offers different undergraduate programs focused on academic excellence, professional development, and community service.<br>CvSU Bacoor aims to produce competent, responsible, and globally competitive graduates through quality instruction and student-centered learning."
+},
+  {
+    
+    "patterns": [
+      "What are the lyrics to the CvSU hymn?",
+      "Can you provide the CvSU hymn lyrics?",
+      "Lyrics of the school hymn",
+      "How does the CvSU hymn go?"
+    ],
+    "response": 
+      "Sorry—I can’t provide the full CvSU Hymn lyrics.<br>But I can help with a summary instead:<br><br>The CvSU Hymn of Cavite State University is a patriotic and inspirational song that expresses pride in being part of the university.<br>It highlights the values of excellence, integrity, service, and unity among students, faculty, and alumni.<br>The hymn also reflects gratitude toward the institution for providing quality education and shaping students into responsible and globally competitive individuals.<br>It is commonly sung during official ceremonies like flag ceremonies, graduations, and university events as a sign of respect and school spirit."
+},
+  {
+    
+    "patterns": [
+      "What is the CvSU hymn?",
+      "Meaning of the school hymn",
+      "Why do we sing the CvSU hymn?",
+      "Information about the university hymn"
+    ],
+    "response": 
+      "The CvSU Hymn is the official school song of Cavite State University.<br>It is sung during official university events, ceremonies, and gatherings as a symbol of unity, pride, and identity among students, faculty, and alumni.<br>The hymn expresses the university’s values, mission, and commitment to excellence in education, service, and character formation.<br>It also highlights pride in being part of CvSU and encourages everyone to uphold integrity, discipline, and dedication in their academic journey.<br>It is usually performed during flag ceremonies, graduation rites, and other important school occasions."
+},
+  {
+  
+    "patterns": [
+      "What happens if I cannot complete my OJT hours?",
+      "Failing to finish OJT",
+      "Incomplete OJT hours penalty",
+      "What if I lack internship hours?"
+    ],
+    "response": 
+      "Failure to complete the required hours or violating company guidelines may result in an incomplete or failing grade. Students must repeat their OJT the next semester to graduate."
+},
+  {
+ 
+    "patterns": [
+      "Is online OJT allowed?",
+      "Can we do work from home internship?",
+      "Are remote OJTs accepted?",
+      "Online internship policy"
+    ],
+    "response": 
+      "No.<br>Cavite State University – CvSU Bacoor no longer accepts or provides online OJT.<br>All students are required to complete their On-the-Job Training (OJT) in an on-site or face-to-face setup.<br>This means you must be physically present and deployed to an approved partner company or institution to complete the required training hours, as online or remote OJT arrangements are not permitted anymore."
+},
+{
+ 
+  "patterns": [
+    "What is OJT",
+    "What is internship",
+    "How does on-the-job training work",
+    "Do students need internship",
+    "Explain OJT requirements"
+  ],
+  "response": 
+    "On-the-Job Training (OJT) or internship is a supervised learning experience that allows students to apply classroom knowledge in an actual work environment.<br><br>Students assigned to OJT must comply with the requirements established by their academic program, host institution, and the University."
+  },
+  {
+    
+    "patterns": [
+      "What are the requirements for OJT?",
+      "Documents needed for internship",
+      "OJT paperwork checklist",
+      "What do I need to prepare for my OJT?"
+    ],
+    "response": 
+      "To complete your OJT requirements, you will need to prepare the following documents:<br><br>Updated Resume<br>Endorsement Letter from Department<br>Parent’s Consent<br>MOA (Memorandum of Agreement) with the company<br>Medical Certificate (if required by the company)<br>School ID &amp;<br>Registration Form<br>Good Moral Certificate (if needed)<br><br>All documents must be processed in the department office.<br>Note: Online OJT is no longer accepted."
+},
+  {
+    
+    "patterns": [
+      "What is the COR used for?",
+      "Why do I need a COR?",
+      "Purpose of Certificate of Registration",
+      "Where is the COR required?"
+    ],
+    "response": 
+      "COR is used to verify enrollment, check registered subjects, and for official purposes such as scholarships, clearance, loans, and administrative transactions."
+},
+  {
+  
+    "patterns": [
+      "How can I get a COR?",
+      "Where do I claim my Certificate of Registration?",
+      "Steps to get my COR",
+      "Getting a copy of COR"
+    ],
+    "response": 
+      "Students can obtain a COR after completing enrollment through the registrar’s office or online student portal. Some campuses require <br>clearance or payment confirmation first."
+},
+ {
+ 
+  "patterns": [
+    "What is COG?",
+    "Meaning of COG",
+    "What is Certificate of Grades?",
+    "What does COG stand for?",
+    "Certificate of Grades",
+    "Explain COG",
+    "COG definition"
+  ],
+  "response": 
+    "COG stands for Certificate of Grades. At Cavite State University, it is an official record of your academic performance.<br><br>It contains the grades you have received in your subjects for a specific semester, term, or school year. This document is commonly requested for scholarships, applications, transferring to another school, and other academic purposes."
+  },
+{
+
+  "patterns": [
+    "What is COR?",
+    "What is COR",
+    "Meaning of COR",
+    "What does COR mean",
+    "What does COR stand for?",
+    "What is a Certificate of Registration",
+    "What is Certificate of Registration?",
+    "Explain COR",
+    "What is certification of registration"
+  ],
+  "response": 
+    "COR stands for Certificate of Registration. At Cavite State University, it is an official document that confirms a student is enrolled.<br><br>It shows the subjects you are currently enrolled in for the semester, including your schedule, section, and other enrollment details.<br><br>You usually receive your COR after successfully completing enrollment, and it is commonly required for verification, scholarships, applications, and other school-related transactions. It is also known as a Certificate of Enrollment or Proof of School Enrollment."
+  },
+  {
+  
+    "patterns": [
+      "What is wash day?",
+      "Wash day rules",
+      "Can I wear civilian clothes on wash day?",
+      "What to wear during wash day?"
+    ],
+    "response": 
+      "At Cavite State University – CvSU Bacoor, students are allowed to wear civilian clothes during wash days.<br>The designated wash days are Wednesday and Saturday, so you don’t need to wear your school uniform on those days.<br>However, make sure your outfit is still decent and follows the campus dress code guidelines."
+},
+  {
+   
+    "patterns": [
+      "Does attendance guarantee passing?",
+      "How many absences are allowed?",
+      "Attendance policy to pass a subject",
+      "What happens if I have too many absences?"
+    ],
+    "response": 
+      "Pupils/Students are required to attend their classes and campus events promptly and regularly.<br>Attendance alone does not guarantee passing; students must also complete and pass the projects, activities, and requirements given by the instructor.<br>If a university student accumulates absences equivalent to 20% or more of the total class hours without an excusable reason, they may be dropped from the roll.<br>Additionally, if a student’s academic performance is poor, they may receive a failing grade of 5.0."
+},
+  {
+ 
+  "patterns": [
+    "What is the minimum and maximum academic load per semester",
+    "How many units can I take per semester",
+    "What is the allowed academic load",
+    "Minimum academic units",
+    "Maximum academic units"
+  ],
+  "response": 
+    "The number of academic units a student may enroll in depends on the curriculum year and academic standing.<br><br>Typically, students may enroll between 18 and 24 units per semester.<br><br>Students in good academic standing generally take the standard curriculum load, while students with academic deficiencies may be assigned a lighter load.<br><br>Graduating students may be allowed to take an overload of units if they meet the necessary requirements and receive approval from the appropriate academic authorities.<br><br>Students are encouraged to consult their academic adviser or program coordinator before enrollment."
+  },
+  {
+    "patterns": [
+      "What is program accreditation?",
+      "AACCUP accreditation in CvSU",
+      "Are the programs accredited?",
+      "Accreditation of degree courses"
+    ],
+    "response": 
+      "The university shall as much as possible, submit all programs for accreditation particularly by Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) or any accrediting agency prescribed by CHED and the Philippine Association of State Universities and Colleges"
+},
+  {
+   
+    "patterns": [
+      "Who can suspend classes?",
+      "When are classes suspended?",
+      "Rules on class suspension",
+      "Class suspension authority"
+    ],
+    "response": 
+      "At CvSU, the University President who has final authority to suspend classes throughout the University including all units or branches.<br>The university president may suspend classes in specific units or campuses for specified periods of units.<br>Suspension of classes does not mean that faculty and employee will not report for duty<br><br>but in emergencies such as typhoons or floods, class suspension may also follow alerts from PAGASA or official orders from the city mayor."
+},
+  {
+    
+    "patterns": [
+      "What college program can I take based on my SHS strand?",
+      "Courses for STEM students",
+      "Courses for ABM students",
+      "Which degrees fit my senior high strand?"
+    ],
+    "response": 
+      "At Cavite State University, the college program you can take usually depends on your SHS strand.<br>If you are from the STEM strand, you can pursue programs like BS Computer Science, BS Information Technology, BS Information Systems, various Engineering courses such as Civil or Electrical Engineering, as well as BS Biology, BS Mathematics, and BS Psychology.<br>If your strand is ABM, you can take business-related courses such as BS Accountancy, BS Business Administration with majors like Marketing or Financial Management, BS Entrepreneurship, and BS Management Accounting.<br>For HUMSS students, suitable programs include BA Communication or Journalism, BS Psychology, BA Political Science, and BA English Language Studies.<br>If you are from the GAS strand, you have more flexibility and can choose programs from different fields like Education, Business, IT, or Psychology depending on your interest.<br>For TVL students, you can take more skill-based and technical programs such as BS Industrial Technology, BS Hospitality Management, BS Tourism Management, or other related courses aligned with your specialization.<br>Keep in mind that some programs may require additional requirements like entrance exams or bridging subjects, and availability may vary depending on the CvSU campus."
+},
+  
+  {
+    
+    "patterns": [
+      "What is the grading system?",
+      "How are grades calculated?",
+      "CvSU grading scale",
+      "What does a grade of 1.00 mean?"
+    ],
+    "response": 
+    "The University adopts a numerical grading system from 1.00 to 5.00, where 1.00 is the highest grade and 5.00 is a failing grade.<br><br>Grade Equivalents:<br>1.00 - Excellent (Highest Grade)<br>1.50 - Very Good<br>2.00 - Good<br>2.50 - Satisfactory<br>3.00 - Passing Grade<br>4.00 - Conditional Grade. This must be removed through a removal examination to obtain a grade of 3.00 or become 5.00.<br>INC - Incomplete. The student is passing but has not completed other course requirements.<br>5.00 - Failed.<br><br>Each college may establish its own grading procedures and weight distributions for examinations, laboratory work, and other requirements, subject to review and approval by the Vice President for Academic Affairs."
+  },
+  {
+   
+    "patterns": [
+      "Who are you?",
+      "What is your identity?",
+      "Are you a stingray?",
+      "What is Sting?"
+    ],
+    "response": 
+      "You are not other animals from other satellite school, you are STING a Stingray represent the soul, the body, the spirit, and the mind of Cavite State University Bacoor City Campus."
+},
+  {
+    
+    "patterns": [
+      "What is the CvSU website?",
+      "Official Bacoor campus website URL",
+      "Where can I find announcements online?",
+      "Website link of CvSU Bacoor",
+      "cvsu website",
+      "cavite state university website"
+    ],
+    "response": 
+      "https://cvsu.edu.ph/bacoor/<br><br>can access important announcements, events, and downloads."
+},
+  {
+  
+    "patterns": [
+      "What is the campus Facebook page?",
+      "CvSU Bacoor FB page link",
+      "Where is the official Facebook account?",
+      "Do you have a Facebook page?",
+      "cvsu bacoor facebook",
+      "cvsu bacoor page",
+      "cavite state university facebook"
+    ],
+    "response": 
+      "https://www.facebook.com/CvSUBacoorCityCampus"
+},
+  {
+  
+    "patterns": [
+      "What is the campus YouTube channel?",
+      "CvSU Bacoor YouTube link",
+      "Does the school have a YouTube account?",
+      "Official YouTube channel"
+    ],
+    "response": 
+      "https://www.youtube.com/channel/UCM7bcOjhtVVbBXMlS2ZwIxA"
+},
+{
+
+"patterns": [
+"Important links",
+"Useful links",
+"Official links",
+"Website links",
+"CvSU Bacoor links",
+"Online services",
+"Official resources",
+"Where can I find official information?",
+"Student resources",
+"Campus links"
+],
+"response": 
+"Here are the official online resources of CvSU Bacoor:<br><br>🌐 Official CvSU Bacoor Website<br>https://cvsu.edu.ph/bacoor/<br><br>👥 Campus Officials<br>https://cvsu.edu.ph/bacoor-campus-officials/<br><br>📄 Downloadable Forms<br>https://cvsu.edu.ph/downloadable-forms/<br><br>📞 Contact Information<br>https://cvsu.edu.ph/contact-us/<br><br>💻 CvSU e-Learning Portal<br>https://elearning.cvsu.edu.ph/<br><br>🏛️ CvSU Main Website<br>https://cvsu.edu.ph/<br><br>🎥 CvSU Bacoor Virtual Tour<br>https://[www.youtube.com/watch?v=bzDx6Q9KUOc<br><br>📚](http://www.youtube.com/watch?v=bzDx6Q9KUOc<br><br>📚) Academic Programs and Campus Information<br>https://cvsu.edu.ph/bacoor/<br><br>If you are looking for a specific service such as admissions, enrollment, forms, courses, student organizations, scholarships, or contact information, feel free to ask."
+},
+{
+
+  "patterns": [
+    "I need a link",
+    "Where can I find it?",
+    "Website resources",
+    "Official website",
+    "Useful websites",
+    "Online services"
+  ],
+  "response": 
+    "What information are you looking for?<br><br>• Admissions<br>• Enrollment<br>• Student Organizations<br>• Courses Offered<br>• Downloadable Forms<br>• Campus Officials<br>• Contact Information<br>• e-Learning Portal<br>• Virtual Tour<br><br>I can provide the appropriate official link for any of these services."
+  },
+{
+  
+  "patterns": [
+    "Admission link",
+    "Admission website",
+    "Where do I apply?",
+    "Application form",
+    "College application",
+    "Admission requirements",
+    "Apply to CvSU Bacoor"
+  ],
+  "response": 
+    "For admission announcements and application procedures, please visit:<br>https://cvsu.edu.ph/bacoor/<br><br>You may also check the official admissions information page and announcements posted by CvSU Bacoor."
+  },
+{
+ 
+  "patterns": [
+    "Student portal",
+    "Portal link",
+    "Login portal",
+    "Access my portal",
+    "Student account",
+    "Portal website"
+  ],
+  "response": 
+    "You may access the CvSU Bacoor Student Portal here:<br>https://studentportal.cvsu-bacoor.com/<br><br>If you are a new student, register through:<br>https://studentportal.cvsu-bacoor.com/sign-up"
+  },
+{
+  
+  "patterns": [
+    "Download forms",
+    "Student forms",
+    "Registrar forms",
+    "Pre-registration form",
+    "Add drop form",
+    "Download documents"
+  ],
+  "response": 
+    "Official CvSU downloadable forms can be accessed here:<br>https://cvsu.edu.ph/downloadable-forms/"
+  },
+{
+
+  "patterns": [
+    "Contact information",
+    "Email address",
+    "Phone number",
+    "How do I contact CvSU Bacoor?",
+    "Campus contact"
+  ],
+  "response": 
+    "CvSU Bacoor Campus<br>📍 Soldiers Hills IV, Molino VI, Bacoor City, Cavite<br>📞 (046) 476-5029<br>📧 cvsubacoor@cvsu.edu.ph<br><br>More contacts:<br>https://cvsu.edu.ph/contact-us/"
+  },
+{
+ 
+  "patterns": [
+    "Virtual tour",
+    "Campus tour",
+    "Show me the campus",
+    "Campus video",
+    "Explore the campus"
+  ],
+  "response": 
+    "You can view the official CvSU Bacoor virtual tour on the campus website:<br>https://cvsu.edu.ph/bacoor/"
+  },
+
+
+  {
+  
+    "patterns": [
+      "What courses are offered?",
+      "List of undergraduate courses",
+      "Available programs in campus",
+      "Degrees to choose from"
+    ],
+    "response": 
+      "Bachelor of Secondary Education<br>BS Business Management<br>BS Computer Science<br>BS Criminology<br>BS Hospitality Management (formerly BS Hotel and Restaurant Management)<br>BS Information Technology<br>BS Psychology"
+},
+  {
+    
+    "patterns": [
+      "What are the university mandates?",
+      "Mandates of Cavite State University",
+      "What is the purpose of the university?",
+      "University goals and mandates"
+    ],
+    "response": 
+      "To provide a general education program promoting national identity;<br>train the nation's manpower in skills required for national development; develop professions that provide leadership for the nation;<br>and advance knowledge through research to improve quality of human life and respond to changing societal needs."
+},
+  {
+   
+    "patterns": [
+      "What are the eligibility conditions for honors?",
+      "How to qualify for cum laude?",
+      "Can I get honors with a 4.00 grade?",
+      "Honors disqualification rules"
+    ],
+    "response": 
+      "A grade of 4.00 (conditional) in any subject disqualifies a student from honors.<br>Students with failing grades or disciplinary records are also disqualified.<br>Transferees must have taken 75% of required units at CvSU and must not have received grades of 5.00 4.00 or below the minimum thresholds from their previous school."
+},
+  {
+   
+    "patterns": [
+      "Who governs the university?",
+      "What is the Board of Regents?",
+      "Who makes major policies in CvSU?",
+      "University governance structure"
+    ],
+    "response": 
+      "The University is governed by the Board of Regents (BOR) which serves as the approving authority for rules scholarships curriculum revisions major policies and other university-wide matters."
+},
+  {
+    
+    "patterns": [
+      "What does the Office of Student Affairs do?",
+      "Units under OSAS",
+      "What services are under Student Affairs?",
+      "Functions of OSA"
+    ],
+    "response": 
+      "The Office of Student Affairs (OSA) supports student services under the Vice President for Academic Affairs.<br>Its units include: Financial Assistance Unit Student Organizations and Socio-Cultural Affairs Unit Guidance Services Student Publication and Student Discipline Unit."
+},
+  {
+   
+    "patterns": [
+      "What are the academic units of the university?",
+      "List of branch campuses",
+      "What colleges are in CvSU?",
+      "Does CvSU have a Science High School?"
+    ],
+    "response": 
+      "Major academic units include colleges offering degree and non-degree programs the Science High School (SHS) and the Graduate School-Open Learning College (GS-OLC) with branch campuses in Naic Rosario Cavite City Carmona Imus Trece Martires Silang Tanza and Bacoor."
+},
+  {
+   
+    "patterns": [
+      "What is the definition of a university student?",
+      "Who is considered a student of CvSU?",
+      "University student classification",
+      "Am I an official student?"
+    ],
+    "response": 
+      "Those enrolled in and regularly attending graduate degree non-degree high school or any other level program of the University including those in the distance education program."
+},
+  {
+  
+    "patterns": [
+      "What is a full-time student?",
+      "Definition of full-time enrollment",
+      "How many units make me a full-time student?",
+      "Full load student meaning"
+    ],
+    "response": 
+      "A full-time student is one who is registered for formal academic credit units and carries <br>the full load for a given semester under the curriculum in which they are enrolled including graduating students who may carry less than the full load to complete current semester requirements."
+},
+  {
+   
+    "patterns": [
+      "What is a part-time student?",
+      "Definition of part-time enrollment",
+      "Am I a part-time student?",
+      "Taking less than full load"
+    ],
+    "response": 
+      "A part-time student is one who is registered for formal credits but carries less than the full load for a given semester."
+},
+  {
+   
+    "patterns": [
+      "What is a transfer student?",
+      "Rules for transferees",
+      "Can I transfer during my last year?",
+      "Transfer student definition"
+    ],
+    "response": 
+      "A transfer student comes from another college/university and is now registered in CvSU after fulfilling all transfer requirements.<br>Transferees during the last semester of the last year of a curriculum are discouraged."
+},
+  {
+   
+    "patterns": [
+      "What is a student assistant?",
+      "Requirements to be a student assistant",
+      "Working hours for student assistants",
+      "Maximum academic load for student assistant"
+    ],
+    "response": 
+      "A student assistant is one who is employed on a full-time basis at the University rendering service of at least 100 hours a month with a maximum academic load of 18 units."
+},
+  {
+    
+    "patterns": [
+      "Who handles foreign students?",
+      "Foreign student definition",
+      "Rules for international students",
+      "Adviser for foreign students"
+    ],
+    "response": 
+      "A University student who is not a citizen of the Philippines.<br>If there are more than five foreign students an adviser is designated for them.<br>If five or fewer the Dean of Student Affairs handles their advisorship."
+},
+  {
+   
+    "patterns": [
+      "What is curricular classification?",
+      "How do I know if I am a sophomore or junior?",
+      "Classification of year level",
+      "Determining curricular year"
+    ],
+    "response": 
+      "Classification is based on the actual number of academic units completed as required for a particular curricular year (Freshman Sophomore Junior Senior) as determined by the University Registrar."
+},
+  {
+  
+    "patterns": [
+      "What types of scholarships are available?",
+      "List of scholarships in CvSU",
+      "Does the school offer financial assistance?",
+      "What scholarships can I apply for?"
+    ],
+    "response": 
+      "Available scholarships include: Entrance Scholarship University/Full Scholarship College/Partial Scholarship CvSU State Scholarship Honorific or Academic Scholarship Private Scholarship Endowed Scholarship Job Experience Program (formerly Work for Tuition) Student Assistantship Government Scholarship CvSU Scholarship Privilege and Service Scholarship."
+},
+  {
+    
+    "patterns": [
+      "Who qualifies for the entrance scholarship?",
+      "Benefits of entrance scholarship",
+      "Are valedictorians exempted from tuition?",
+      "High school honors scholarship"
+    ],
+    "response": 
+      "Valedictorians salutatorians and honor students from recognized public/private high schools with graduating classes of at least 30 students qualify.<br>Benefits include free tuition for the first semester only and exemption from the University entrance examination and regular University fees except miscellaneous fees."
+},
+  {
+   
+    "patterns": [
+      "What is the GPA requirement for full scholarship?",
+      "Grades needed for university scholarship",
+      "Full scholarship maintaining grades",
+      "Undergraduate full scholarship GPA"
+    ],
+    "response": 
+      "Undergraduate students need a GPA of 1.50 or better with no grade lower than 2.50.<br>Graduate students need a GPA of 1.25 or better."
+},
+  {
+   
+    "patterns": [
+      "What is the GPA requirement for partial scholarship?",
+      "Grades needed for college scholarship",
+      "Partial scholarship maintaining grades",
+      "Undergraduate partial scholarship GPA"
+    ],
+    "response": 
+      "Undergraduate students need a GPA of 1.75 or better with no grade lower than 2.50.<br>Graduate students need a GPA of 1.50 or better."
+},
+  {
+   
+    "patterns": [
+      "How long is a scholarship valid?",
+      "Scholarship renewal conditions",
+      "Can I have two scholarships?",
+      "Validity of financial aid"
+    ],
+    "response": 
+      "A scholarship is valid for one semester only but is renewable for the succeeding semester if the student meets the prescribed conditions.<br>Students supported by another agency are not eligible for University scholarships."
+},
+  {
+    
+    "patterns": [
+      "Who has the authority to suspend classes?",
+      "Who decides class suspensions?",
+      "Final authority on class cancellations",
+      "Class suspension policy"
+    ],
+    "response": 
+      "The University President has the final authority to suspend classes.<br>In the President's absence the next person in the hierarchy of command succession decides."
+},
+  {
+   
+    "patterns": [
+      "What are the grounds for class suspension?",
+      "Reasons to cancel classes",
+      "Can a bomb threat suspend classes?",
+      "Suspension due to force majeure"
+    ],
+    "response": 
+      "Classes may be suspended due to typhoons earthquakes tsunamis fires epidemics bomb threats and other force majeure or fortuitous events.<br>Classes may also be suspended for pre-scheduled University convocations or special gatherings."
+},
+  {
+  
+    "patterns": [
+      "What are the typhoon signal suspension rules?",
+      "Is college suspended at Signal No. 2?",
+      "What signal number suspends collegiate classes?",
+      "Typhoon class cancellation rules"
+    ],
+    "response": 
+      "Typhoon Signal No. 2 automatically suspends elementary classes.<br>Signal No. 3 suspends all levels including high school and collegiate.<br>The President may suspend classes even below Signal 3 if accompanied by unabated torrential rains causing heavy floods and/or landslides."
+},
+  {
+   
+    "patterns": [
+      "What are the rules for earthquake suspension?",
+      "Will classes be suspended after an earthquake?",
+      "Earthquake intensity for class cancellation",
+      "Post-earthquake suspension policy"
+    ],
+    "response": 
+      "Classes are suspended for 24 hours when earthquake intensity reaches Level V or higher."
+},
+  {
+   
+    "patterns": [
+      "Do faculty members report during class suspension?",
+      "Are offices open when classes are suspended?",
+      "Employee attendance during suspensions",
+      "Faculty duty on cancelled classes"
+    ],
+    "response": 
+      "Suspension of classes does not mean faculty and employees will not report for duty.<br>They are still required to report to work."
+},
+  {
+   
+    "patterns": [
+      "What are the guidelines for curriculum revision?",
+      "How are minor revisions approved?",
+      "Requirements for major curriculum revision",
+      "CHED rules on curriculum changes"
+    ],
+    "response": 
+      "Requirements and guidelines set by CHED per Memorandum Letter dated 23 May 2001 are followed.<br>Minor revisions require a resolution of the Academic Council and implementation scheme.<br>Major revisions additionally require a Feasibility Study or End-User Survey and a copy furnished to the CHED Regional Office."
+},
+  {
+   
+    "patterns": [
+      "What is the university's accreditation agency?",
+      "AACCUP in CvSU",
+      "Who heads the accrediting body?",
+      "Accreditation recognition"
+    ],
+    "response": 
+      "The Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) or any accrediting agency prescribed by CHED and PASUC is recognized.<br>The Director for Quality Assurance and Accreditation heads the university-wide accrediting body."
+},
+  {
+   
+    "patterns": [
+      "What are the admission requirements for SHS?",
+      "How to apply for Science High School?",
+      "Exams needed for SHS admission",
+      "Requirements for high school enrollment"
+    ],
+    "response": 
+      "Admission to the Science High School requires: Form 138 (Report Card) certification of good moral character certification of physical and mental fitness from the University Physician payment of ₱100.00 entrance examination fee and passing the Mental Ability Test (MAT) Science and Math Aptitude Test (SMAT) and Essay/Communication Test."
+},
+  {
+
+    "patterns": [
+      "What are the SHS retention requirements?",
+      "Grades needed to stay in Science High School",
+      "GPA requirement for SHS",
+      "Failing grades in SHS policy"
+    ],
+    "response": 
+      "Students must maintain a GPA of not lower than 78% with a weighted average in Mathematics Science and Scientific Research of not lower than 78% and no failing grades in any subject."
+},
+  {
+   
+    "patterns": [
+      "Requirements for SHS full scholarship",
+      "Benefits of SHS scholarship",
+      "Science High School stipend amount",
+      "How to get a scholarship in SHS?"
+    ],
+    "response": 
+      "SHS full scholarship requires a <br>GPA of 90% or better in all academic subjects and a weighted average of 90% or better in Science Mathematics and Scientific Research.<br>Benefits include a ₱500.00 monthly stipend and ₱500.00 yearly book allowance."
+},
+  {
+  
+    "patterns": [
+      "What are the SHS honors requirements?",
+      "How to graduate with honors in SHS?",
+      "GPA needed for high school honors",
+      "Conduct requirements for SHS graduation honors"
+    ],
+    "response": 
+      "For non-graduating students (1st-3rd year): weighted average of not lower than 88% in Science Math and Research GPA of not lower than 85% no grade lower than 83% in any subject.<br>For graduating students: completed curriculum in four years GPA of not lower than 85% from 1st to 4th year no grade lower than 83% and conduct in conformity with the Student Norm of Conduct."
+},
+  {
+   
+    "patterns": [
+      "What are the freshman admission requirements?",
+      "How to apply as a freshman?",
+      "Documents needed for new students",
+      "Entrance exam fee for freshmen"
+    ],
+    "response": 
+      "Freshman applicants must be a graduate of any public or DECS-recognized private high school physically and mentally fit possess good moral character as certified by the High School Principal pay the ₱150.00 entrance examination fee and pass the entrance examination."
+},
+  {
+
+    "patterns": [
+      "What are the requirements for transfer students?",
+      "Documents needed to transfer to CvSU",
+      "GPA requirement for transferees",
+      "Transfer student admissions process"
+    ],
+    "response": 
+      "Transfer students must submit: certified true copy of Transcript of Records (GPA of 2.00 or better for programs with board exams) Honorable Dismissal two <br>copies of 1x1 ID pictures Certificate of Good Moral Character NBI Clearance and must pass the required entrance examination."
+},
+  {
+   
+    "patterns": [
+      "How do I shift courses?",
+      "Process for changing degree programs",
+      "When is the deadline to shift?",
+      "Forms needed for shifting"
+    ],
+    "response": 
+      "Students must accomplish a prescribed form approved by the Dean of the College they wish to shift to not later than 10 working days before the start of the regular registration period.<br>A copy must be forwarded to the University Registrar's Office."
+},
+  {
+   
+    "patterns": [
+      "What is the registration schedule?",
+      "Fine for late registration",
+      "How many days is late registration allowed?",
+      "Can I register late for summer classes?"
+    ],
+    "response": 
+      "Regular registration occurs as scheduled by the University Registrar.<br>Late registration is allowed within seven school days after the regular registration schedule with a fine of ₱100.00 regardless of the number of days delayed or units carried.<br>No late registration is allowed for summer."
+},
+  {
+
+    "patterns": [
+      "What is the normal academic load?",
+      "Can graduating students take more units?",
+      "Maximum units per semester",
+      "Academic load regulations"
+    ],
+    "response": 
+      "Normal academic load is the full load prescribed in the curriculum.<br>Graduating students may take up to 26 units in the last two semesters with a GPA of 2.50 or better certified by the University Registrar."
+},
+  {
+   
+    "patterns": [
+      "How do I add a subject?",
+      "Deadline for adding subjects",
+      "Who needs to approve subject changes?",
+      "Process for adding classes"
+    ],
+    "response": 
+      "Adding or changing subjects must be done within three (3) weeks of regular classes with consent of the registration adviser and instructor and approved by the College Dean."
+},
+  {
+   
+    "patterns": [
+      "How do I drop a subject?",
+      "Deadline for dropping subjects",
+      "Can I drop a class after midterms?",
+      "Process for officially dropping"
+    ],
+    "response": 
+      "Dropping subjects requires filing a prescribed form at the Office of the College Registrar within six weeks after the start of regular classes with consent of the instructor and Dean.<br>Dropping after the midterm examination is not allowed except due to illness or change of residence."
+},
+  {
+   
+    "patterns": [
+      "What grade will I get if I drop a subject?",
+      "Dropping after 75% of hours elapsed",
+      "What happens if I stop attending without dropping?",
+      "Unofficially dropped penalty"
+    ],
+    "response": 
+      "The word Dropped is reflected if dropped before 75% of prescribed hours have elapsed.<br>If dropped after 75% a corresponding performance grade is given.<br>Students who stop attending without officially dropping may receive a grade of 5.00."
+},
+  {
+    
+    "patterns": [
+      "What are the school fees?",
+      "Which fees are refundable?",
+      "Non-refundable university fees",
+      "Breakdown of student fees"
+    ],
+    "response": 
+      "Refundable fees include: tuition laboratory fee student resources fund student facilities development fund library fee college publication fee guidance fee SCUAA/athletic fee student handbook fee cultural fee and student publication fee.<br>Non-refundable fees include: identification card medical and dental registration insurance and mutual aid."
+},
+  {
+   
+    "patterns": [
+      "Can I pay in installment?",
+      "Installment payment schedule",
+      "How much to pay during midterms?",
+      "Payment terms for tuition"
+    ],
+    "response": 
+      "Fees may be paid in installment: 50% upon registration 25% two weeks before midterm examination and 25% two weeks before the final examination."
+},
+  {
+   
+    "patterns": [
+      "What is the refund policy?",
+      "Can I get a refund if I withdraw?",
+      "Deadline for tuition fee refund",
+      "Where to file a refund request?"
+    ],
+    "response": 
+      "Students who withdraw within three weeks or 15 school days from the start of regular classes shall be refunded in full except medical and dental fees.<br>No refund is given to those who withdraw after this period.<br>Refund requests must be filed at the Accounting Section within the refund period."
+},
+  {
+   
+    "patterns": [
+      "What is the class attendance policy?",
+      "Maximum allowable absences",
+      "Penalty for exceeding absences limit",
+      "Grade for poor attendance"
+    ],
+    "response": 
+      "The maximum number of allowable absences is 20% of the total number of hours scheduled for the class.<br>If absences exceed 20% the student shall be dropped from the rolls.<br>If the majority of absences are unexcused and performance is poor the student receives a grade of 5.00."
+},
+  {
+    
+    "patterns": [
+      "Are excused absences counted in the limit?",
+      "How to get an excuse slip?",
+      "Maximum hours for excused absences",
+      "Process for consecutive absences"
+    ],
+    "response": 
+      "Excused absences (not to exceed 10 lecture hours or 9 laboratory hours) count toward the 20% limit.<br>An excuse slip from the Office of Student Affairs is required upon return to class after at least two consecutive absences. <br><br>If a student's absences exceed this limit, the instructor or University administration may drop the student from the course.<br><br>Students who encounter unavoidable circumstances should immediately communicate with their instructors and provide any necessary supporting documentation"
+},
+  {
+   
+    "patterns": [
+      "What are the rules for classroom conduct?",
+      "Can a teacher kick me out of class?",
+      "Rules on noise and discipline",
+      "Classroom behavior policies"
+    ],
+    "response": 
+      "Students must attend promptly and regularly refrain from making unnecessary noise and comply with all dress code ID and conduct rules.<br>A teacher may exclude a student for ungentlemanly conduct and must immediately report the action to the Dean."
+},
+  {
+  
+    "patterns": [
+      "When do I wear the school uniform?",
+      "Exceptions to wearing uniform",
+      "Uniform policy guidelines",
+      "Is uniform required every day?"
+    ],
+    "response": 
+      "All students must wear the prescribed school uniform during school days except on designated wash day or declared field/special days."
+},
+  {
+ 
+    "patterns": [
+      "What is the ID card policy?",
+      "Do I need to wear my ID?",
+      "Entering campus without ID",
+      "Rules on wearing identification cards"
+    ],
+    "response": 
+      "ID cards shall be worn by students upon entry and whenever they are within University premises.<br>Students shall not be allowed to enter or use any facilities or services without an ID card."
+},
+  {
+  
+    "patterns": [
+      "What is the mobile phone policy?",
+      "Can I use my cellphone in class?",
+      "Penalty for unauthorized phone use",
+      "Rules on phones during lectures"
+    ],
+    "response": 
+      "The University discourages bringing cellphones into classrooms.<br>Unauthorized use during class is a punishable offense — reprimand for the first offense and exclusion for subsequent offenses."
+},
+  {
+  
+    "patterns": [
+      "What are the types of examinations?",
+      "What tests are conducted in CvSU?",
+      "Special removal examinations",
+      "Midterm and final exams"
+    ],
+    "response": 
+      "Examinations conducted include regular class examinations midterm examinations final examinations and special removal examinations for grades of 4.00 and INC."
+},
+  {
+ 
+    "patterns": [
+      "How to apply for a special examination?",
+      "Fee for special removal exam",
+      "Process for missing an exam",
+      "Steps to take a makeup test"
+    ],
+    "response": 
+      "To apply for a special removal examination a student must file a request form from the University Registrar's Office addressed to the College Dean state the reason for missing the exam have it endorsed by the registration adviser and approved by the Dean then pay the special examination fee of ₱10.00 per unit."
+},
+  {
+   
+    "patterns": [
+      "What does an Incomplete (INC) grade mean?",
+      "Deadline to complete an INC grade",
+      "What happens if I don't finish my INC?",
+      "How to convert INC to a passing grade"
+    ],
+    "response": 
+      "INC means Incomplete — the student <br>is passing but has not completed all course requirements. The student must complete the INC within one (1) year from when the grade was incurred or it is automatically converted to 5.00 by the University Registrar."
+},
+  {
+   
+    "patterns": [
+      "What are considered minor offenses?",
+      "Examples of minor disciplinary violations",
+      "Is smoking on campus a minor offense?",
+      "Penalties for littering and loitering"
+    ],
+    "response": 
+      "Minor offenses include: non-wearing of ID/prescribed uniform use of another student's ID unauthorized cellphone use during class using a fictitious name smoking on campus cursing/derogatory remarks indecent acts littering loitering in corridors during class hours violations of traffic/posted signs and unauthorized raising of animals on campus."
+},
+  {
+  
+    "patterns": [
+      "What are considered major offenses?",
+      "Examples of severe disciplinary violations",
+      "Is hacking a major offense?",
+      "Rules against physical violence and drugs"
+    ],
+    "response": 
+      "Major offenses include: fighting/physical violence possession/selling of regulated drugs or paraphernalia unauthorized possession or use of deadly weapons <br>hacking cheating in examinations plagiarism fabrication of data sexual assault serious/less serious/slight physical injury trespassing unauthorized assembly violation of curfew production of seditious/libelous materials and being accused in a criminal case."
+},
+  {
+  
+    "patterns": [
+      "What counts as academic dishonesty?",
+      "Plagiarism rules for graduating students",
+      "Cheating and fabrication of data",
+      "Consequences of stealing someone's work"
+    ],
+    "response": 
+      "Academic dishonesty includes cheating in any test or examination plagiarism (copying lifting stealing or illegal use of another's work) and fabrication of data.<br>A graduating student found guilty of plagiarism will not be allowed to graduate."
+},
+  {
+   
+    "patterns": [
+      "What is the penalty for cheating?",
+      "First offense for cheating in an exam",
+      "Subsequent cheating offenses",
+      "Will I fail if I cheat?"
+    ],
+    "response": 
+      "First offense: Disciplinary Sanction and a grade of 0 or no grade in the subject.<br>Subsequent offense: Exclusion for not more than one semester and a grade of 5 in the subject."
+},
+  {
+  
+    "patterns": [
+      "Who handles disciplinary cases?",
+      "What is the Board of Student Discipline?",
+      "Role of the Committee on Misdemeanor",
+      "Who chairs the disciplinary bodies?"
+    ],
+    "response": 
+      "Two disciplinary bodies exist: (1) Committee on Misdemeanor handles offenses with penalties of exclusion for not more than one semester chaired by the Dean of Student Affairs.<br>(2) Board of Student Discipline handles offenses with penalties of exclusion for not less than one semester chaired by the Vice President for Administrative and Support Services."
+},
+  {
+ 
+    "patterns": [
+      "What is the disciplinary due process?",
+      "Right to a hearing in disciplinary cases",
+      "Appealing a suspension or expulsion decision",
+      "How long do I have to answer a complaint?"
+    ],
+    "response": 
+      "Students receive a copy of the complaint must file an answer within 72 hours are entitled to a hearing and may be represented by a counsel or representative.<br>Decisions can be appealed. Cases involving exclusion of more than one semester or expulsion are elevated to the University President whose decision is final 15 days after receipt."
+},
+  {
+  
+    "patterns": [
+      "How to get a student organization recognized?",
+      "Requirements to form a campus club",
+      "Submitting documents to the Dean of Student Affairs",
+      "Faculty adviser requirement for organizations"
+    ],
+    "response": 
+      "Organizations must submit a letter of request and required documents to the Dean of Student Affairs.<br>Requirements include: constitution and by-laws list of members and officers bio-data of the head work plan accomplishment report financial statement and letters of acceptance from at least two regular faculty members."
+},
+  {
+   
+    "patterns": [
+      "What are the qualifications to be an organization officer?",
+      "Can I have failing grades if I am an officer?",
+      "Holding positions in multiple organizations",
+      "Rules for student leaders"
+    ],
+    "response": 
+      "Officers must have no failing grades in any subject in the previous semester and while in office and must not have been involved in any disciplinary case.<br>A student may hold a major position (President or Vice President) in one organization and a minor position in another — maximum of two organizations."
+},
+  {
+  
+    "patterns": [
+      "What are the financial rules for student organizations?",
+      "Collecting membership fees",
+      "Where should organizations open a bank account?",
+      "Submitting financial reports to SOSCA"
+    ],
+    "response": 
+      "Organizations may collect a reasonable semestral/annual membership fee covered by official receipts.<br>Organizations with funds exceeding ₱1000.00 must open a bank account at CvSU Cooperative Bank Inc. A financial report must be submitted to SOSCA within one week after each activity."
+},
+  {
+   
+    "patterns": [
+      "What are the graduation requirements?",
+      "Residence requirement for graduation",
+      "Do I need to complete NSTP to graduate?",
+      "Clearance of deficiencies for graduation",
+       "What are the requirements for graduation",
+    "How do I qualify for graduation",
+    "Graduation requirements",
+    "What do I need before graduating",
+    "How can I graduate from CvSU"
+    ],
+     "response": 
+    "To qualify for graduation, a student must successfully complete all academic, curricular, and institutional requirements prescribed by the University.<br><br>Requirements generally include:<br>- Completion of all required courses and units<br>- Passing grades in all subjects<br>- Completion of practicum, internship, thesis, or capstone requirements when applicable<br>- Settlement of financial and administrative obligations<br>- Submission of all required graduation documents<br><br>Students should coordinate with their academic department and the Registrar's Office for graduation evaluation."
+  },
+{
+  
+  "patterns": [
+    "How do I apply for graduation?",
+    "How to apply for graduation?",
+    "What are the requirements for graduation?",
+    "When should I file my graduation application?",
+    "How can I check if I am eligible to graduate?",
+    "When is the tentative list of candidates published?",
+    "Can I graduate with an INC grade?",
+    "Who certifies graduation eligibility?"
+  ],
+  "response": 
+    "Students who intend to graduate must submit an Application for Graduation form and complete all academic and administrative requirements before the prescribed deadline.<br><br>The College Dean submits the list of tentative candidates two weeks after second semester registration. The Registrar publishes the qualified list ten weeks before the end of the semester.<br><br>The University Registrar certifies graduation eligibility in consultation with the Deans concerned. Students with INC (Incomplete) grades cannot graduate.<br><br>For verification of graduation eligibility and requirements, students should coordinate with their Program Adviser and the Registrar's Office."
+  },
+  {
+    
+    "patterns": [
+      "What are the academic honors awarded?",
+      "GPA requirement for Summa Cum Laude",
+      "GPA needed for Magna Cum Laude and Cum Laude",
+      "Are NSTP grades included in honors evaluation?"
+    ],
+    "response": 
+      "Academic honors awarded at graduation are: Summa Cum Laude (GPA 1.00–1.21 no grade lower than 2.00) Magna Cum Laude (GPA 1.22–1.45 no grade lower than 2.25) and Cum Laude (GPA 1.46–1.75 no grade lower than 2.50).<br>NSTP grades are included in the evaluation."
+},
+  {
+
+    "patterns": [
+      "What is the residency requirement for honors?",
+      "Time limit to complete degree for honors",
+      "Exceptions to honors residency rules",
+      "Can a working student still get academic honors?"
+    ],
+    "response": 
+      "Candidates must complete all academic requirements within the prescribed period: 4 years for a 4-year course 5 years for a 5-year course 6 years for a 6-year course.<br>Exceptions may be granted for health reasons working students or force majeure with proper documentation."
+},
+
+  
+
+{
+
+"patterns": [
+"When is the enrollment deadline?",
+"What is the last day of enrollment?",
+"Until when can I enroll?",
+"When does enrollment end?"
+],
+"response": 
+"Enrollment deadlines vary every semester and academic year. Please refer to the official announcements from CvSU Bacoor Campus or the Registrar's Office for the latest enrollment schedule. Students are encouraged to complete their enrollment before the deadline to avoid delays or additional requirements."
+},
+
+{
+
+"patterns": [
+"How can I check my enrollment status?",
+"Am I already enrolled?",
+"Can I verify my enrollment?",
+"How do I know if my enrollment is approved?"
+],
+"response": 
+"You may check your enrollment status through the official student portal or by contacting the Registrar's Office. Please prepare your student number for verification. If your enrollment is still being processed, kindly wait for further updates."
+},
+
+{
+
+"patterns": [
+"Can I still enroll after the deadline?",
+"What is the process for late enrollment?",
+"I missed the enrollment period, what should I do?",
+"Is late enrollment allowed?"
+],
+"response": 
+"Late enrollment may be permitted only under special circumstances and subject to approval by university authorities. Students requesting late enrollment may need to submit additional documents and secure approval from the appropriate offices. Please contact the Registrar's Office immediately for assistance."
+},
+
+{
+
+"patterns": [
+"What are the requirements for re-enrollment?",
+"How do I re-enroll?",
+"What documents do I need for re-enrollment?",
+"I am a returning student, what are the requirements?"
+],
+"response": 
+"Students applying for re-enrollment may be required to submit a re-enrollment or readmission form, clearance from concerned offices, and other supporting documents. Requirements may vary depending on the student's academic standing. Please coordinate with the Registrar's Office for complete details."
+},
+
+{
+
+"patterns": [
+"What is cross enrollment?",
+"Can I take subjects in another school?",
+"How do I apply for cross enrollment?",
+"Am I allowed to cross enroll?",
+ "Can I enroll in another school while studying at CvSU",
+    "How does cross enrollment work",
+     "Explain cross enrollment"
+],
+"response": 
+"Cross enrollment allows a student to take approved subjects in another institution while remaining enrolled at CvSU Bacoor Campus. Prior approval from the College Dean, Registrar, and other authorized officials is required before processing a cross-enrollment request."
+},
+
+{
+
+"patterns": [
+"Why can't I enroll in a subject?",
+"What are subject prerequisites?",
+"Do I need to complete another subject first?",
+"Why is my subject enrollment restricted?"
+],
+"response": 
+"Some courses require prerequisite subjects to be completed before enrollment is allowed. If you have not yet passed the required prerequisite course, the enrollment system may restrict your registration. Please consult your Program Adviser or Department Chairperson for assistance."
+},
+
+{
+
+"patterns": [
+"What does waitlisted mean?",
+"Why am I waitlisted?",
+"How do waitlisted subjects work?",
+"Can I still get a slot if I am waitlisted?"
+],
+"response": 
+"A waitlisted subject means that the section has reached its maximum capacity and you are currently waiting for an available slot. Additional slots may become available if enrolled students drop the course or if the department opens more slots. Please monitor official announcements for updates."
+},
+
+{
+
+"patterns": [
+"How can I change my section?",
+"Can I transfer to another section?",
+"What is the process for section changing?",
+"How do I request a section change?"
+],
+"response": 
+"Section changes may be requested during the designated adding, dropping, and changing period. Approval from the appropriate academic officials may be required, and requests are subject to slot availability in the preferred section."
+},
+
+{
+
+"patterns": [
+"How do I verify my enrollment?",
+"How can I confirm that I am enrolled?",
+"Where can I get proof of enrollment?",
+"How do I know if my enrollment is official?"
+],
+"response": 
+"You may verify your enrollment through your Certificate of Registration (COR), student portal, or official records from the Registrar's Office. If your enrolled subjects are reflected in your records and your registration has been approved, you are officially enrolled."
+},
+
+
+
+{
+ 
+  "patterns": [
+    "What are the requirements for the Dean's List?",
+    "How can I qualify for the Dean's List?",
+    "What grades do I need to be on the Dean's List?",
+    "Am I eligible for the Dean's List?",
+    "Who can become a Dean's Lister?",
+    "What is the minimum GPA for the Dean's List?",
+    "How do I become a Dean's Lister?",
+    "Dean's List qualifications",
+    "What GPA is needed for Dean's List?",
+    "What are the qualifications for Dean's List?",
+    "Can I qualify for the Dean's List?",
+    "How do I know if I'm a Dean's Lister?",
+    "What academic standing is required for Dean's List?",
+    "What average do I need for Dean's List?",
+    "How is Dean's List eligibility determined?",
+    "Who is eligible for academic honors?",
+    "What are the criteria for Dean's List?",
+    "Can freshmen qualify for the Dean's List?",
+    "How many units are required for Dean's List?",
+    "Do I need a certain GPA to be a Dean's Lister?"
+  ],
+  "response": 
+    "To qualify for the Dean's List, a student must meet the academic requirements established by the University and their respective college. Students are generally expected to maintain a high academic average, complete the prescribed academic load, and have no failing grades, incomplete grades, or disciplinary sanctions during the evaluation period. Specific qualifications may vary by college or academic unit. For the most accurate and updated requirements, please refer to the Student Handbook or consult your College Dean's Office."
+  },
+
+{
+
+"patterns": [
+"How are Latin honors computed?",
+"What GPA is needed for Latin honors?",
+"How do I qualify for Cum Laude?",
+"What are the requirements for Magna Cum Laude?",
+"Can I still qualify for Latin honors?",
+"How is my General Weighted Average calculated for honors?"
+],
+"response": 
+"Latin honors are awarded based on the student's General Weighted Average (GWA) and compliance with university policies. Eligibility may also depend on academic standing, residency requirements, and the absence of disqualifying grades or disciplinary records. Please consult the Student Handbook or Registrar's Office for the official guidelines."
+},
+
+{
+
+"patterns": [
+"What is academic probation?",
+"Why was I placed on academic probation?",
+"How can I remove my academic probation status?",
+"What happens if I fail several subjects?",
+"What are the consequences of academic probation?",
+"How do I know if I am on probation?"
+],
+"response": 
+"Academic probation is a status assigned to students whose academic performance falls below the university's required standard. Students under probation are encouraged to improve their academic standing and may be subject to certain enrollment conditions. Please consult your academic adviser or department for guidance regarding your status."
+},
+
+{
+
+"patterns": [
+"Where can I find the academic calendar?",
+"What is the academic calendar?",
+"When does the semester start?",
+"When are the important school dates?",
+"What are the university's academic schedules?",
+"When does the current semester end?"
+],
+"response": 
+"The Academic Calendar contains important dates such as enrollment periods, start and end of classes, examinations, holidays, and other academic activities. Students are advised to regularly check official university announcements for the latest academic calendar."
+},
+
+{
+
+"patterns": [
+"When are the examinations?",
+"What is the examination schedule?",
+"When is the midterm exam?",
+"When is the final exam?",
+"Where can I find the exam schedule?",
+"What are the dates of our examinations?"
+],
+"response": 
+"Examination schedules are released by the university and may vary depending on the academic calendar. Students should regularly check official announcements from their college, department, or instructors for the latest examination schedules."
+},
+
+{
+
+"patterns": [
+"What are the requirements for midterm examinations?",
+"Can I take the midterm exam?",
+"What should I bring during midterms?",
+"Do I need a permit for the midterm exam?",
+"What are the midterm examination guidelines?",
+"How do I prepare for my midterm exam?"
+],
+"response": 
+"Requirements for midterm examinations may vary depending on university policies and instructor guidelines. Students are advised to complete all academic requirements and follow instructions provided by their instructors before taking the examination."
+},
+
+{
+
+"patterns": [
+"What are the rules for final examinations?",
+"Can I take the final exam without completing requirements?",
+"What should I know about final exams?",
+"Are there guidelines for final examinations?",
+"What are the university policies for final exams?",
+"What happens if I miss the final examination?"
+],
+"response": 
+"Students taking final examinations are expected to comply with university policies and instructor guidelines. Requirements, examination permits, and other conditions may be imposed depending on the course and academic regulations. Please consult your instructor or department for specific details."
+},
+
+{
+
+"patterns": [
+"Can I take a make-up examination?",
+"What is the process for a make-up exam?",
+"I missed my examination, what should I do?",
+"Are make-up exams allowed?",
+"How do I request a special examination?",
+"Can I retake a missed exam?"
+],
+"response": 
+"Make-up examinations may be granted under valid and documented circumstances, subject to approval by the instructor and university authorities. Students must submit the necessary supporting documents and follow the prescribed procedures to request a make-up examination."
+},
+
+{
+
+"patterns": [
+"What are special classes?",
+"How can I request a special class?",
+"Are special classes available?",
+"Who qualifies for special classes?",
+"Can I take a subject through a special class?",
+"What is the procedure for opening a special class?"
+],
+"response": 
+"Special classes may be offered to qualified students who need specific subjects to complete academic requirements. The availability of special classes depends on university policies, faculty availability, and approval from the concerned academic offices."
+},
+
+{
+
+"patterns": [
+"Are summer classes available?",
+"What subjects are offered during summer?",
+"How do I enroll in summer classes?",
+"When is the summer term?",
+"Can I take subjects during summer?",
+"What are the requirements for summer enrollment?",
+"Is there a summer semester at CvSU Bacoor?",
+ "Does CvSU offer summer classes",
+    "Are summer classes available",
+    "Can I enroll during summer",
+        "How do summer classes work"
+],
+"response": 
+"Summer classes may be offered depending on university policies, student demand, and faculty availability. The list of available subjects, enrollment schedules, and requirements are announced before the start of the summer term. Students are encouraged to coordinate with their department for details."
+},
+
+{
+
+"patterns": [
+"How can I request my transcript of records?",
+"How do I get my TOR?",
+"What are the requirements for a transcript request?",
+"Can I request my transcript online?",
+"Where do I request my Transcript of Records?",
+"How long does it take to process a transcript request?"
+],
+"response": 
+"Students and alumni may request a Transcript of Records (TOR) through the Registrar's Office. Applicants may be required to submit a request form, valid identification, and other supporting documents. Processing time and applicable fees may vary depending on the nature of the request."
+},
+
+{
+
+"patterns": [
+"How can I claim my diploma?",
+"When can I get my diploma?",
+"Is my diploma ready for claiming?",
+"What are the requirements for diploma claiming?",
+"Where do I claim my diploma?",
+"Can someone claim my diploma on my behalf?"
+],
+"response": 
+"Graduates may claim their diploma from the Registrar's Office after completing all graduation requirements and clearance procedures. Please bring a valid ID and comply with any additional requirements specified by the university before claiming your diploma."
+},
+
+{
+
+"patterns": [
+"How do I request authentication of documents?",
+"Can my school documents be authenticated?",
+"What is the process for document authentication?",
+"How can I get my records certified?",
+"Where can I request authenticated documents?",
+"Can I authenticate my TOR or diploma?"
+],
+"response": 
+"Authentication requests for academic documents may be processed through the Registrar's Office. Students or alumni must submit the original or requested documents along with any required forms and fees. Processing procedures may vary depending on the document being authenticated."
+},
+
+{
+
+  "patterns": [
+    "How can I request my student records",
+    "How do I get my academic records",
+    "Where can I request school records",
+    "How can I obtain my records",
+    "What is the process for requesting records"
+  ],
+  "response": 
+    "Students may request official academic records through the Registrar's Office.<br><br>Requested records may include transcripts, certificates, certifications, and other academic documents.<br><br>Applicants may be required to complete a request form, present valid identification, settle applicable fees, and comply with University requirements before records are released."
+  },
+
+
+{
+
+"patterns": [
+"How long does document processing take?",
+"When will my requested document be released?",
+"How many days does it take to process school documents?",
+"What is the processing time for certificates?",
+"How long will my TOR request take?",
+"When can I claim my requested document?"
+],
+"response": 
+"Document processing times vary depending on the type of document requested, the volume of requests being handled, and university procedures. For the most accurate processing timeline, please contact the Registrar's Office directly."
+},
+
+{
+
+"patterns": [
+"Can alumni request school records?",
+"How do I access my alumni records?",
+"I graduated years ago, can I still request documents?",
+"How can alumni obtain academic records?",
+"Can former students request records?",
+"Where can alumni request school documents?"
+],
+"response": 
+"Alumni may request academic records such as transcripts, certifications, and other official documents through the Registrar's Office. Valid identification and supporting documents may be required for verification purposes."
+},
+
+{
+
+"patterns": [
+"How do I get my clearance?",
+"What is a student clearance?",
+"What are the requirements for clearance?",
+"How can I process my clearance?",
+"Do I need a clearance before graduation?",
+"Why is my clearance important?",
+    "What is the purpose of student clearance",
+    "Explain student clearance",
+     "Why do I need clearance"
+
+
+],
+ "response": 
+    "Student clearance is an official verification process confirming that a student has fulfilled academic, administrative, financial, and institutional obligations.<br><br>Clearance may be required for graduation, transfer, release of records, scholarship processing, and other official transactions.<br><br>Students must secure approval from the designated offices before their clearance can be considered complete."
+  },
+
+{
+
+"patterns": [
+"I lost my school ID.",
+"What should I do if my ID is lost?",
+"How do I report a lost student ID?",
+"Can I still enter the campus without my ID?",
+"What are the requirements for reporting a lost ID?",
+"Who should I contact regarding my lost ID?"
+],
+"response": 
+"Students who lose their school ID should immediately report the incident to the appropriate university office. Additional requirements such as an affidavit of loss, valid identification, or other supporting documents may be required depending on university policy."
+},
+
+{
+
+"patterns": [
+"How can I replace my school ID?",
+"What are the requirements for ID replacement?",
+"Can I request a new ID?",
+"My ID is damaged, how do I replace it?",
+"How much is the ID replacement fee?",
+"Where do I apply for ID replacement?"
+],
+"response": 
+"Students requesting a replacement ID may be required to submit the necessary documents and pay the applicable replacement fee. Requirements may vary depending on whether the ID was lost, stolen, or damaged. Please contact the designated university office for complete instructions."
+},
+
+{
+
+"patterns": [
+"How can I change my personal information?",
+"How do I correct my name in the records?",
+"Can I update my personal details?",
+"How do I request correction of my records?",
+"My birth date is incorrect, how can I update it?",
+"What documents are needed to change personal information?"
+],
+"response": 
+"Students who need to update or correct personal information in university records must submit a formal request along with supporting legal documents. Requests are subject to verification and approval by the Registrar's Office."
+},
+
+{
+
+"patterns": [
+"How do I request a certificate?",
+"Can I get a Certificate of Enrollment?",
+"How do I obtain a Certificate of Registration?",
+"What certificates can the university issue?",
+"How can I request a Certificate of Good Moral Character?",
+"Where do I request school certificates?",
+"Can I request a certification for scholarship purposes?"
+],
+"response": 
+"Students and alumni may request various certifications, such as a Certificate of Enrollment, Certificate of Registration, or other official certifications, through the appropriate university office. Processing requirements and release schedules may vary depending on the type of certificate requested."
+},
+
+{
+
+"patterns": [
+"How can I access the campus WiFi?",
+"What is the campus WiFi password?",
+"Is there free WiFi on campus?",
+"How do I connect to the university WiFi?",
+"Can students use the campus internet?",
+"Who can access the campus WiFi?",
+    "What is the WiFi password?",
+    "Why can't I connect to the WiFi?",
+    "Can visitors use the WiFi?"
+],
+"response": 
+"Students, faculty, and staff may access the campus WiFi subject to university policies. Connection procedures, login credentials, and access requirements are provided by the university's Information and Communications Technology Office. Please contact the ICT Office for assistance with connectivity concerns."
+},
+
+{
+
+"patterns": [
+"Where can I park on campus?",
+"Are there parking spaces for students?",
+"What are the campus parking rules?",
+"Can visitors park inside the campus?",
+"Do I need a parking permit?",
+"What are the parking guidelines?"
+],
+"response": 
+"Students, employees, and visitors are expected to follow campus parking regulations. Parking is only permitted in designated areas and may be subject to university policies. Please coordinate with the Security Office for parking-related concerns and updated guidelines."
+},
+
+{
+
+  "patterns": [
+    "Who handles campus security",
+    "Campus security services",
+    "How is campus safety maintained",
+    "What should I do during emergencies",
+    "Security personnel information",
+    "How can I contact campus security?",
+    "What should I do if I notice a security concern?",
+    "Is there campus security available?",
+    "Who handles security issues on campus?",
+    "How do I report suspicious activity?",
+    "What security services are available?"
+  ],
+  "response": 
+    "The Campus Security Office is responsible for maintaining safety, order, and security within the university premises.<br><br>Campus security personnel assist students, employees, and visitors in emergencies, safety concerns, and security-related matters.<br><br>Students are encouraged to cooperate with security personnel and immediately report suspicious activities, emergencies, or any security concerns to the designated university office."
+  },
+
+{
+
+"patterns": [
+"What should I do during an emergency?",
+"What are the university's emergency procedures?",
+"How do I respond to a campus emergency?",
+"What happens during an emergency situation?",
+"Where can I find emergency guidelines?",
+"What are the emergency response protocols?"
+],
+"response": 
+"In case of an emergency, remain calm and follow the instructions of university officials, faculty members, and emergency responders. Students should familiarize themselves with evacuation routes, emergency exits, and campus safety procedures to ensure their safety."
+},
+
+{
+
+"patterns": [
+"What is the fire evacuation plan?",
+"Where are the fire exits located?",
+"What should I do during a fire emergency?",
+"How do I evacuate during a fire drill?",
+"Where is the evacuation area?",
+"What are the fire safety procedures?"
+],
+"response": 
+"During a fire emergency or drill, immediately proceed to the nearest designated exit and move to the assigned evacuation area. Follow instructions from university personnel and avoid using elevators if applicable. Students are encouraged to familiarize themselves with campus evacuation routes and fire safety procedures."
+},
+
+{
+
+"patterns": [
+"Is first aid available on campus?",
+"Where can I get medical assistance?",
+"What should I do if I get injured?",
+"Does the university have a clinic?",
+"Where is the first aid station?",
+"Who can help during a medical emergency?"
+],
+"response": 
+"Basic first aid and medical assistance may be available through the university clinic or designated health personnel. Students who require medical attention should immediately seek assistance from the clinic, faculty members, or campus security personnel."
+},
+
+{
+
+"patterns": [
+"Does the university provide mental health support?",
+"Where can I get help for stress or anxiety?",
+"Are there mental health programs for students?",
+"How can I access mental health services?",
+"Who can I talk to about personal struggles?",
+"Is mental health assistance available on campus?"
+],
+"response": 
+"The university supports student well-being through mental health programs, counseling services, and student support initiatives. Students experiencing emotional, psychological, or personal concerns are encouraged to seek assistance from the Guidance and Counseling Office."
+},
+
+{
+
+"patterns": [
+"How can I schedule a counseling session?",
+"Does the university offer counseling services?",
+"Can I talk to a counselor?",
+"Where is the Guidance and Counseling Office?",
+"Are counseling services confidential?",
+"How do I get counseling support?"
+],
+"response": 
+"The Guidance and Counseling Office provides counseling services to students for academic, personal, career, and emotional concerns. Students may contact the office directly to inquire about appointments, schedules, and available support services."
+},
+
+{
+
+"patterns": [
+"Where can I study on campus?",
+"Are there designated study areas?",
+"What are the best places to study in the university?",
+"Can I use the library for studying?",
+"Is there a quiet study area available?",
+"Where can students review between classes?"
+],
+"response": 
+"Students may use designated study areas such as the library, learning resource centers, and other approved academic spaces within the campus. Availability of study areas may vary depending on operating hours and university policies."
+},
+
+{
+
+  "patterns": [
+    "Where is CvSU Bacoor located?",
+    "What is the address of CvSU Bacoor?",
+    "How can I get to CvSU Bacoor?",
+    "Where is Cavite State University Bacoor Campus?",
+    "What is the exact location of CvSU Bacoor?",
+    "Can you give me directions to CvSU Bacoor?",
+    "What barangay is CvSU Bacoor in?",
+    "Where can I find CvSU Bacoor Campus?"
+  ],
+  "response": 
+    "Cavite State University - Bacoor Campus is located at Soldiers Hills IV, Molino VI, Bacoor City, Cavite, Philippines. The campus is accessible through major transportation routes within Bacoor City. For updated directions, transportation options, and campus maps, students and visitors may contact the campus administration or visit the university's official website."
+  },
+
+{
+
+"patterns": [
+"How much is the tuition fee in CvSU?",
+"What is the tuition fee per semester?",
+"How much do I need to pay for tuition?",
+"What are the school fees in CvSU?",
+"How much does it cost to study in CvSU?",
+"Is CvSU expensive?"
+],
+"response": 
+"Qualified undergraduate students of Cavite State University may avail of free tuition and other school fee subsidies under the Universal Access to Quality Tertiary Education Act (Republic Act No. 10931), subject to government and university policies. Additional fees may apply for certain services, documents, or special programs."
+},
+
+{
+
+  "patterns": [
+    "Is CvSU tuition free?",
+    "Why is CvSU free?",
+    "Do students pay tuition?",
+    "What is RA 10931?",
+    "Am I eligible for free tuition?",
+    "Is tuition free in CvSU?",
+    "Do students pay tuition fees?",
+    "Is CvSU free?",
+    "Can I study in CvSU for free?",
+    "Does CvSU have free education?",
+    "Who qualifies for free tuition?",
+    "Does CvSU offer free tuition",
+    "Is tuition free at CvSU",
+    "What is the free tuition policy",
+    "Is CvSU covered by free tuition"
+  ],
+  "response": 
+    "Yes. Qualified undergraduate students enrolled at Cavite State University may enjoy free tuition and exemption from other mandatory fees under Republic Act No. 10931, also known as the Universal Access to Quality Tertiary Education Act.<br><br>This applies to qualified Filipino students pursuing their first bachelor's degree, subject to existing government and university regulations."
+  },
+
+
+{
+
+  "patterns": [
+    "How do I join a student organization?",
+    "Can I join a club in CvSU?",
+    "What are the requirements for joining an organization?",
+    "How can I become a member of a student organization?",
+    "Where do I apply for a student club?",
+    "How do I participate in campus organizations?",
+    "How can I register for a student organization?",
+    "What is the process for joining a club?",
+    "Can freshmen join student organizations?",
+    "Who should I contact to join an organization?",
+    "How do I apply for membership in a club?",
+    "How can I join extracurricular activities?",
+    "What do I need to join a student group?",
+    "When can students join organizations?",
+    "Are there membership requirements for organizations?"
+  ],
+  "response": 
+    "Students interested in joining a student organization may participate during recruitment periods, organization fairs, or membership drives conducted by accredited organizations. Requirements and application procedures vary depending on the organization. For more information and assistance, please coordinate with the Office of Student Affairs and Services (OSAS)."
+  },
+
+{
+
+  "patterns": [
+    "What are the requirements for Latin Honors",
+    "How can I graduate with honors",
+    "What GPA is needed for Latin Honors",
+    "How do I qualify for Cum Laude",
+    "Requirements for academic honors"
+  ],
+  "response": 
+    "Students may qualify for Latin Honors based on their final academic performance and compliance with University requirements.<br><br>Generally, students must:<br>- Meet the required General Weighted Average (GWA)<br>- Have no failing grades or unresolved academic deficiencies<br>- Complete the prescribed curriculum within the allowable period<br>- Satisfy all University graduation requirements<br><br>The specific GWA requirements for Cum Laude, Magna Cum Laude, and Summa Cum Laude are determined by University policies."
+  },
+
+{
+
+"patterns": [
+"Does CvSU have a library?",
+"What services are available in the library?",
+"Can I borrow books?",
+"What are the library hours?",
+"How do I access library resources?",
+"Is the library open to students?",
+    "What services does the library offer",
+    "What can I do in the library",
+    "Library services",
+    "What resources are available in the library",
+    "Can students use the library"
+],
+"response": 
+"The university library provides access to books, journals, research materials, and other learning resources to support academic activities. Students may visit the library and follow its policies regarding borrowing, access, and resource utilization."
+},
+
+{
+
+  "patterns": [
+    "What are the requirements for first-year applicants?",
+    "I am a Senior High School graduate. What documents do I need?",
+    "How do I apply as a freshman?",
+    "What are the admission requirements for incoming first-year students?"
+  ],
+  "response": 
+    "To apply as a first-year student, please submit the following requirements:<br><br>• Accomplished Application Form for Admission<br>• Original Copy of Form 138 (Report Card)<br>• Certificate of Good Moral Character<br>• Medical Results<br>• Medical Clearance from the Campus Nurse"
+  },
+{
+
+"patterns": [
+"When is the medical assessment schedule?",
+"What are the medical requirements for enrollment?",
+"When should I complete my medical examination?",
+"What is the schedule for medical clearance?",
+"What are the medical requirements and assessment procedures?",
+"Medical requirements for enrollment",
+"What happens during medical assessment?",
+"Medical clearance process",
+"Health assessment requirements",
+"How do I get medical clearance?",
+"Do I need a medical examination before enrollment?",
+"What documents are needed for medical assessment?",
+"When is the health assessment schedule?",
+"What is required for medical clearance?",
+"How does the medical assessment work?"
+],
+"response": 
+"As part of the enrollment process, qualified applicants are required to complete the Medical Requirements and Assessment before final registration.<br><br>The medical assessment may include submission of required medical documents, physical examination, health evaluation, and issuance of medical clearance by authorized medical personnel.<br><br>Medical Assessment Schedule:<br><br>June 29 – July 03, 2026<br>• BS Hospitality Management (BSHM)<br>• BS Business Administration (BSBA)<br>• BS Information Technology (BSIT)<br>• BS Computer Science (BSCS)<br><br>July 06 – July 10, 2026<br>• BS Criminology (BSCrim)<br>• BS Psychology (BSPsych)<br>• Bachelor of Secondary Education (BSEd)<br><br>Students must complete all medical requirements and obtain medical clearance before proceeding with final enrollment and registration. Please visit the campus clinic during the schedule assigned to your program."
+},
+
+{
+ 
+  "patterns": [
+    "admission schedule",
+    "when is cvsu admission",
+    "cvsu application date",
+    "online admission 2026"
+  ],
+  "response": 
+    "The Online Admission System for CvSU Bacoor is open from June to August 2026 for First Semester SY 2026-2027 applicants. You may apply through the CvSU Admission Portal."
+  },
+{
+ 
+  "patterns": [
+    "admission link cvsu",
+    "where to apply cvsu",
+    "cvsu admission portal",
+    "apply cvsu"
+  ],
+  "response": 
+    "You may submit your application through the CvSU Online Admission System at https://admission.cvsu.edu.ph/. Make sure to sign up using a valid Gmail account."
+  },
+
+{
+
+"patterns": [
+"How do I access the student portal?",
+"What is the CvSU Bacoor student portal?",
+"How can I log in to the student portal?",
+"Where can I access my student portal account?",
+"What are the login credentials for the student portal?"
+],
+"response": 
+"The CvSU Bacoor Student Portal is the official digital platform designed to enhance student services and provide easier access to essential campus resources. It is accessible to all bona fide students of CvSU-Bacoor.<br><br>Student Portal Link:<br>https://studentportal.cvsu-bacoor.com<br><br>For Newly Registered Students:<br>Username: [StudentNumber]firstname<br>Example: 20252026juanmiguel<br>Password: The password you registered during account creation.<br><br>For Old Students (2nd–4th Year):<br>Username: [StudentNumber]firstname<br>Example: 20252026juanmiguel<br>Password: cvsubacoor[StudentNumber]<br>Example: cvsubacoor20252026<br><br>Students are encouraged to register and activate their accounts to avoid delays in the release of grades and to access important academic services."
+},
+{
+
+"patterns": [
+"What is the student portal link?",
+"Where can I access the student portal?",
+"Give me the student portal website.",
+"What is the URL of the student portal?",
+"How do I open the student portal?"
+],
+"response": 
+"You can access the official CvSU Bacoor Student Portal through:<br>https://studentportal.cvsu-bacoor.com"
+},
+{
+
+"patterns": [
+"How do newly registered students log in to the student portal?",
+"What are the credentials for new students?",
+"How can first-year students access the student portal?",
+"What is the username and password for newly registered students?",
+"Student portal login for new students"
+],
+"response": 
+"For newly registered students:<br><br>Username: [StudentNumber]firstname<br>Example: 20252026juanmiguel<br><br>Password: The password you registered during account creation."
+},
+{
+
+"patterns": [
+"How do old students log in to the student portal?",
+"What are the credentials for 2nd year students?",
+"What is the student portal password for old students?",
+"How can returning students access the student portal?",
+"Student portal login for old students"
+],
+"response": 
+"For old students (2nd–4th Year):<br><br>Username: [StudentNumber]firstname<br>Example: 20252026juanmiguel<br><br>Password: cvsubacoor[StudentNumber]<br>Example: cvsubacoor20252026"
+},
+{
+
+"patterns": [
+"What is the purpose of the student portal?",
+"Why should I register for the student portal?",
+"What can I do in the student portal?",
+"Why is the student portal important?",
+"Tell me about the student portal."
+],
+"response": 
+"The CvSU Bacoor Student Portal is the university's official digital platform that provides students with easier access to academic and campus-related services. Students are encouraged to register their accounts to avoid delays in the release of grades and to access important university resources."
+},
+
+{
+
+  "patterns": [
+    "application category",
+    "what type of applicant am i",
+    "applicant category",
+    "new student category"
+  ],
+  "response": 
+    "CvSU applicants are categorized as First-Year Applicant, Transferee, Second Courser, TCP Applicant, or Associate/Certificate/Vocational/Diploma Degree Holder. Choose the category that matches your educational background."
+  },
+{
+
+  "patterns": [
+    "first year applicant",
+    "new student",
+    "grade 12 student",
+    "senior high graduate"
+  ],
+  "response": 
+    "First-Year Applicants include current Grade 12 students, Senior High School graduates who have never enrolled in college, ALS completers, and Associate/Vocational/Diploma degree holders."
+  },
+{
+ 
+  "patterns": [
+    "transferee",
+    "transfer student",
+    "college transferee",
+    "requirements for transferee",
+    "What are the requirements for transferees",
+    "How can I transfer to CvSU Bacoor",
+    "What documents are needed for transferees",
+    "Transfer student requirements",
+    "What do I need to submit as a transferee"
+  ],
+  "response": 
+    "A transferee is an applicant who has already started college studies in another university, school, or CvSU campus and wishes to continue at CvSU Bacoor. Students applying as transferees must submit the required admission documents and satisfy the University's transfer admission policies.<br><br>Common requirements include:<br>- Transcript of Records or Certified Copy of Grades<br>- Honorable Dismissal<br>- Certificate of Good Moral Character<br>- PSA Birth Certificate<br>- Recent ID Pictures<br>- Other documents required by the Admissions Office<br><br>Applicants may also be required to undergo evaluation, interview, or entrance examination depending on University policies."
+  },
+{
+
+  "patterns": [
+    "second course",
+    "second courser",
+    "another bachelor's degree",
+    "graduate applying again"
+  ],
+  "response": 
+    "A Second Courser is an applicant who has already completed a Bachelor's degree and wants to pursue another degree program."
+  },
+{
+
+  "patterns": [
+    "tcp applicant",
+    "teacher certificate program",
+    "education units",
+    "tcp requirements"
+  ],
+  "response": 
+    "TCP Applicants are graduates of any Bachelor's degree program who wish to take the required Education units for teaching."
+  },
+{
+ 
+  "patterns": [
+    "application process",
+    "application procedure",
+    "how to apply",
+    "procedure for application"
+  ],
+  "response": 
+    "The admission process includes online registration, submission of documentary requirements, scheduling of validation, on-site validation, and admission examination or evaluation depending on the applicant category."
+  },
+{
+ 
+  "patterns": [
+    "upload requirements",
+    "scan documents",
+    "document submission",
+    "upload files"
+  ],
+  "response": 
+    "Applicants must scan or take clear screenshots of their documentary requirements. Each file must be in JPEG, PNG, or BMP format and should not exceed the size limit required by the admission system."
+  },
+{
+
+  "patterns": [
+    "requirements for grade 12 student",
+    "current grade 12 requirements",
+    "shs student requirements",
+    "grade 12 applicant"
+  ],
+  "response": 
+    "Current Grade 12 applicants must submit their completed Grade 11 report card and a certification from their school indicating that they are currently enrolled as a Grade 12 student."
+  },
+{
+
+  "patterns": [
+    "requirements for shs graduate",
+    "senior high graduate requirements",
+    "graduated shs",
+    "first year applicant graduate"
+  ],
+  "response": 
+    "Senior High School graduates must submit their completed Grade 12 report card and a Certificate of Non-Issuance of Form 137/SF-10 for college admission."
+  },
+{
+
+  "patterns": [
+    "als applicant",
+    "als passer",
+    "als completer",
+    "requirements for als"
+  ],
+  "response": 
+    "ALS Completers or Passers must submit their Certificate of Rating (COR) with eligibility to enroll in college."
+  },
+{
+
+  "patterns": [
+    "transferee requirements",
+    "requirements for transfer student",
+    "certificate of grades",
+    "tor for transferee"
+  ],
+  "response": 
+    "Transferee applicants must submit a Certificate of Grades (COG) or Transcript of Records (TOR) showing final grades for all enrolled subjects."
+  },
+{
+ 
+  "patterns": [
+    "validation appointment",
+    "application validation",
+    "validation schedule",
+    "appointment for validation"
+  ],
+  "response": 
+    "Applicants must select and save an available validation schedule through the admission system. Once the schedule is saved, application details can no longer be edited."
+  },
+{
+
+  "patterns": [
+    "Is there an entrance exam for CvSU Bacoor",
+    "Do I need to take an entrance exam",
+    "Does CvSU require an entrance test",
+    "Is admission based on an exam",
+    "Are freshmen required to take an entrance examination"
+  ],
+  "response": 
+    "Yes. CvSU Bacoor typically requires incoming freshmen and transferees to take an entrance examination as part of the admission process.<br><br>The examination is designed to assess academic readiness and generally covers subjects such as English, Mathematics, and Science. The exact coverage may vary depending on University policies and the academic year."
+  },
+{
+
+  "patterns": [
+    "What are important reminders before taking the entrance exam",
+    "What should I bring to the entrance exam",
+    "Entrance exam guidelines",
+    "What do I need for the admission test",
+    "Important entrance exam reminders"
+  ],
+  "response": 
+    "Important reminders for examinees:<br><br>- Arrive at the testing venue at least 30 minutes before your scheduled examination time.<br>- Bring your examination permit, a valid ID, two pencils, and an eraser.<br>- Mobile phones, calculators, and other electronic devices are not allowed inside the examination room.<br>- Wear comfortable and appropriate attire that follows University dress code guidelines.<br>- Observe all applicable health and safety protocols.<br>- Verify your examination schedule and assigned testing location before the exam date.<br><br>Stay focused, remain confident, and do your best during the examination."
+  },
+{
+
+  "patterns": [
+    "Where can I take the CvSU entrance exam",
+    "Where is the entrance exam conducted",
+    "Can I take the exam at Bacoor campus",
+    "Entrance exam location",
+    "Where do I take the admission test"
+  ],
+  "response": 
+    "Applicants may take the entrance examination at CvSU Bacoor Campus or at the Main Campus in Indang, depending on the examination schedule and assigned testing venue."
+  },
+{
+ 
+  "patterns": [
+    "exam permit",
+    "print permit",
+    "admission permit",
+    "permit for examination"
+  ],
+  "response": 
+    "Applicants must print their Exam Permit on bond paper and bring it on the examination day. Applicants without a physical copy of the permit will not be allowed to take the exam."
+  },
+{
+ 
+  "patterns": [
+    "requirements for exam",
+    "what to bring during exam",
+    "exam guidelines",
+    "exam materials"
+  ],
+  "response": 
+    "Bring your printed Exam Permit, a valid ID, a 1x1 ID picture, and two No. 2 pencils. Electronic devices such as calculators and cellphones are not allowed during the examination."
+  },
+{
+ 
+  "patterns": [
+    "reminders for examination",
+    "important reminders before exam",
+    "exam reminders",
+    "entrance test info"
+  ],
+  "response": 
+    "Arrive on time, wear appropriate attire, bring all required documents, and follow examination rules. The use of electronic devices is prohibited and may result in disqualification."
+  },
+{
+
+  "patterns": [
+    "exam results",
+    "where can i see exam results",
+    "admission result",
+    "result of examination",
+    "When will entrance exam results be released",
+"How can I check my exam results",
+"When are CvSU-CAT results available",
+"How do I know if I passed",
+"Entrance exam result release"
+  ],
+  "response": 
+    "The results of the admission examination will be announced through the official CvSU Bacoor Guidance and Admission Services Facebook page."
+  },
+{
+
+"patterns": [
+"What happens if I fail the entrance exam",
+"Can I still enroll if I fail",
+"What should I do if I do not pass CvSU-CAT",
+"Failed admission test",
+"Can I retake the entrance exam"
+],
+"response": 
+"Applicants who do not meet the required admission criteria may explore other available academic programs, apply during future admission periods if permitted, or inquire about alternative admission opportunities based on University policies."
+},
+{
+ 
+  "patterns": [
+    "When does the entrance exam usually take place",
+    "What is the entrance exam schedule",
+    "When is CvSU-CAT conducted",
+    "When can I take the admission test",
+    "Entrance exam dates"
+  ],
+  "response": 
+    "Entrance examinations are typically conducted between February and June before the start of the academic year. Applicants should monitor official announcements for exact schedules."
+  },
+{
+  
+  "patterns": [
+    "What subjects are included in the entrance exam",
+    "What is the coverage of CvSU-CAT",
+    "What topics are in the entrance exam",
+    "Entrance exam subjects",
+    "What should I review for the admission test"
+  ],
+  "response": 
+    "The entrance examination generally covers English, Mathematics, Science, and General Information."
+  },
+
+{
+  
+  "patterns": [
+    "What are the grade requirements for CvSU?",
+    "What grade is required for BSCS?",
+    "What grades do I need for BSIT?",
+    "Are there grade requirements for Psychology?",
+    "What grades are needed for Education?"
+  ],
+  "response": 
+    "Grade requirements vary by program. BSCS and Education usually recommend grades of 85+ in relevant subjects. BSIT requires a matching SHS strand such as STEM or TVL-ICT. Other programs may evaluate your SHS report card and available slots."
+  },
+{
+ 
+  "patterns": [
+    "What is a unit load?",
+    "What does unit load mean?",
+    "How many units can I take?",
+    "What is the normal unit load in CvSU?",
+    "What is the maximum load allowed?"
+  ],
+  "response": 
+    "Unit load refers to the total number of academic units a student enrolls in during a semester. Most students take 15 to 21 units per semester. Taking more than the normal load may require approval."
+  },
+{
+ 
+  "patterns": [
+    "What is the dress code in CvSU?",
+    "When is wash day?",
+    "When should I wear my uniform?",
+    "What should I wear during research defense?",
+    "Are uniforms required?"
+  ],
+  "response": 
+    "Students are expected to wear the official uniform on designated uniform days. Wash days usually allow casual attire within campus guidelines. Formal attire is required for research defenses, presentations, and official ceremonies."
+  },
+{
+
+  "patterns": [
+    "What is COR?",
+    "How do I get a COR?",
+    "What is COG?",
+    "How can I request my grades?",
+    "Can COR be used as proof of enrollment?"
+  ],
+  "response": 
+    "COR stands for Certificate of Registration and serves as proof of enrollment. COG stands for Certificate of Grades and shows academic performance. Both documents may be requested through the registrar or official student services."
+  },
+{
+ 
+  "patterns": [
+    "How do I get a student ID?",
+    "When will student IDs be released?",
+    "I lost my student ID",
+    "Can I use COR instead of an ID?",
+    "Do I need to bring my ID every day?"
+  ],
+  "response": 
+    "Student IDs are issued after enrollment and campus processing. Students should carry their IDs for identification and campus transactions. If your ID is lost, report it to the registrar and request a replacement."
+  },
+{
+ 
+  "patterns": [
+    "Is there a Student ID in CvSU Bacoor",
+    "Do students have IDs",
+    "Is there a student ID",
+    "Can I get a student ID",
+    "Are student IDs available"
+  ],
+  "response": 
+    "Currently, many students do not yet have their student IDs because the University is still processing them. In the meantime, the Certificate of Registration (COR) is accepted as proof of enrollment."
+  },
+{
+ 
+  "patterns": [
+    "Why don't we have our Student IDs yet",
+    "Why is my student ID delayed",
+    "Why are student IDs not available yet",
+    "Why haven't we received our IDs",
+    "What caused the ID delay"
+  ],
+  "response": 
+    "The University is still in the process of producing student IDs for all students. Delays may occur due to the large number of requests and processing requirements."
+  },
+{
+  "patterns": [
+    "Why don't we have IDs yet?",
+    "When will IDs be released?",
+    "Why is my ID delayed?",
+    "Student ID release schedule",
+    "ID availability",
+    "When will the Student IDs be available",
+    "When can I get my student ID",
+    "When are student IDs ready",
+    "What is the ID release schedule"
+  ],
+  "response": 
+    "Student IDs are released after enrollment verification and administrative processing. The University will announce the release schedule once the student IDs are ready.<br><br>Students are advised to regularly check official announcements and updates from the Registrar's Office regarding ID availability and release dates."
+  },
+{
+
+  "patterns": [
+    "How can I get my Student ID",
+    "How do I get my student ID",
+    "What is the process for claiming my ID",
+    "Where can I claim my student ID",
+    "How is the student ID issued"
+  ],
+  "response": 
+    "Student Identification Cards (IDs) are issued to enrolled students after they have successfully completed the enrollment process.<br><br>The distribution schedule and instructions are typically announced by the Registrar's Office through official University communication channels.<br><br>Students may be required to present proof of enrollment, such as a registration form or enrollment slip, along with any other required documents when claiming their ID.<br><br>Students should regularly monitor official announcements for updates regarding ID release schedules and claiming procedures."
+  },
+
+{
+ 
+  "patterns": [
+    "What is the vision of CvSU?",
+    "What is the mission of CvSU?",
+    "What are the core values of CvSU?",
+    "What does the CvSU logo mean?",
+    "Explain the CvSU seal"
+  ],
+  "response": 
+    "CvSU's vision focuses on excellence in character development, academics, research, innovation, and community engagement. Its core values are Truth, Excellence, and Service."
+  },
+{
+ 
+  "patterns": [
+    "Is there parking area in CvSU Bacoor?",
+    "Can students park inside the campus?",
+    "Is parking free?",
+    "Where can I park my motorcycle?",
+    "Is overnight parking allowed?",
+    "Where can I park my vehicle",
+    "Can students use the campus parking area",
+    "Is parking available inside the campus"
+  ],
+  "response": 
+    "Yes. The designated parking area at CvSU Bacoor is located near the Vehicle Guard House entrance.<br><br>For safety and security, students are advised to properly lock their vehicles and avoid leaving their keys inside."
+  },
+{
+  
+  "patterns": [
+    "How do I shift courses?",
+    "Can I change my program?",
+    "What are the requirements for shifting?",
+    "How can I transfer to another course?",
+    "What is the shifting process?",
+    "How can I shift courses",
+    "How do I change my program",
+    "What is the process for shifting courses",
+    "Can I transfer to another course",
+    "How do I shift to a different degree program"
+  ],
+  "response": 
+    "Students who wish to shift programs must complete the required forms, obtain approvals from relevant departments, and submit the documents to the registrar. Approval depends on academic standing and slot availability."
+  },
+{
+ 
+  "patterns": [
+    "What happens if I fail a subject?",
+    "Can I retake a failed subject?",
+    "How do I appeal a failing grade?",
+    "Will a failed subject affect graduation?",
+    "Can I still pass if I fail quizzes?",
+     "I failed a subject",
+    "What should I do if I fail a course",
+    "Can I continue if I fail a prerequisite",
+    "How does failing a subject affect me"
+  ],
+  "response": 
+    "If you fail a subject, you must retake and pass it before enrolling in any subject that requires it as a prerequisite.<br><br>If the failed subject is only offered once per academic year, you may need to wait until the following school year to retake it, which may delay your academic progress.<br><br>Even students in higher year levels are still required to complete any lower-year subjects that they have not passed.<br><br>Students are encouraged to seek academic support and regularly consult with academic advisers to avoid delays in completing their degree requirements."
+  },
+{
+ 
+  "patterns": [
+    "Is student ID required on campus?",
+    "Do I need to wear a uniform?",
+    "Can I enter without an ID?",
+    "What happens if I am not in uniform?",
+    "Are IDs mandatory?"
+  ],
+  "response": 
+    "Students are expected to wear their official ID and prescribed uniform while on campus. Failure to comply may result in restricted access to campus facilities or classrooms."
+  },
+{
+
+  "patterns": [
+    "When is graduation?",
+    "When is recognition day?",
+    "Who can attend graduation?",
+    "Do I need to attend rehearsals?",
+    "How do I know if I am eligible to graduate?"
+  ],
+  "response": 
+    "Graduation and recognition schedules are announced by the university. Eligible students must complete academic requirements and follow instructions regarding rehearsals, attire, and ceremony participation."
+  },
+{
+  
+  "patterns": [
+    "How do I request a COG?",
+    "Where can I get my Certificate of Grades?",
+    "Can I request grades online?",
+    "How much is COG processing?",
+    "When can I request my grades?"
+  ],
+  "response": 
+    "Students may request a Certificate of Grades through the registrar or official student services after grades have been officially released."
+  },
+{
+  
+  "patterns": [
+    "What can I use as proof of enrollment?",
+    "Can I use COR as proof of enrollment?",
+    "Is student ID enough as proof of enrollment?",
+    "What document proves I am enrolled?",
+    "Do I need a certificate of enrollment?"
+  ],
+  "response": 
+    "The Certificate of Registration (COR) is the primary proof of enrollment. Student IDs may also be accepted for certain transactions."
+  },
+{
+ 
+  "patterns": [
+    "I lost my student ID",
+    "How do I replace my ID?",
+    "What should I do if my ID is missing?",
+    "Can I get a replacement ID?",
+    "Lost school ID"
+  ],
+  "response": 
+    "Report the loss to the registrar immediately and follow the replacement process. Additional requirements or fees may apply."
+  },
+{
+
+  "patterns": [
+    "Is there motorcycle parking?",
+    "Where can I park my motorcycle?",
+    "Motorcycle parking area",
+    "Can motorcycles enter the campus?",
+    "Parking for motorcycles"
+  ],
+  "response": 
+    "CvSU Bacoor provides designated motorcycle parking areas. Students should park only in authorized zones."
+  },
+{
+ 
+  "patterns": [
+    "Is parking free?",
+    "Do I pay for parking?",
+    "Parking fee in CvSU",
+    "How much is parking?",
+    "Campus parking charges"
+  ],
+  "response": 
+    "Campus parking is generally free, but policies may change during special events or according to campus regulations."
+  },
+{
+  
+  "patterns": [
+    "Will failing a subject affect my scholarship?",
+    "Can I lose my scholarship if I fail?",
+    "Scholarship requirements",
+    "Failed subject scholarship",
+    "Scholarship and grades"
+  ],
+  "response": 
+    "Many scholarship programs require students to maintain academic standards. Failing grades may affect scholarship eligibility depending on the program's policies."
+  },
+{
+ 
+  "patterns": [
+    "What is the WiFi password?",
+    "Where can I get the WiFi password?",
+    "Campus WiFi credentials",
+    "How do I access WiFi?",
+    "WiFi login information"
+  ],
+  "response": 
+    "WiFi passwords are distributed through authorized offices such as the IT Office or other official campus channels."
+  },
+{
+  
+  "patterns": [
+    "I can't connect to WiFi",
+    "WiFi is not working",
+    "Campus internet problem",
+    "WiFi connection failed",
+    "Why can't I access the internet?"
+  ],
+  "response": 
+    "Connection issues may be caused by incorrect credentials, weak signal, or network congestion. Contact the IT Office if the problem continues."
+  },
+{
+  
+  "patterns": [
+    "Am I eligible for graduation?",
+    "Who can graduate?",
+    "Graduation requirements",
+    "Can I graduate this year?",
+    "Graduation evaluation"
+  ],
+  "response": 
+    "Students must complete all academic requirements, pass required subjects, and satisfy university obligations before being cleared for graduation."
+  },
+{
+
+  "patterns": [
+    "What should I wear for graduation?",
+    "Graduation attire",
+    "Recognition dress code",
+    "Graduation uniform",
+    "Graduation clothing requirements"
+  ],
+  "response": 
+    "Students are required to wear the prescribed formal attire and any required academic garments such as a toga, sash, or hood."
+  },
+
+{
+ 
+  "patterns": [
+    "What grade is required for BSCS?",
+    "BSCS grade requirement",
+    "Can I take BSCS with 80 in Math?",
+    "Required grade for Computer Science",
+    "BSCS admission grades"
+  ],
+  "response": 
+    "BSCS applicants are recommended to have grades of 85 or higher in Math, Science, and English. STEM or TVL-ICT strands are preferred."
+  },
+{
+ 
+  "patterns": [
+    "What grade is required for BSIT?",
+    "BSIT requirements",
+    "Required grades for Information Technology",
+    "Can I take BSIT?",
+    "BSIT admission grade"
+  ],
+  "response": 
+    "BSIT applicants are encouraged to come from STEM or TVL-ICT strands. Admission depends on available slots and academic evaluation."
+  },
+{
+ 
+  "patterns": [
+    "When is wash day?",
+    "What day is wash day?",
+    "Wash day schedule",
+    "Can I wear civilian clothes today?",
+    "Which days are wash days?"
+  ],
+  "response": 
+    "Wednesday and Saturday are commonly observed as wash days where students may wear permitted casual attire."
+  },
+{
+  
+  "patterns": [
+    "When should I wear my uniform?",
+    "Uniform days",
+    "Is today a uniform day?",
+    "Uniform schedule",
+    "School uniform days"
+  ],
+  "response": 
+    "Students are generally expected to wear the official uniform during designated uniform days."
+  },
+{
+  
+  "patterns": [
+    "What should I wear for research defense?",
+    "Research defense attire",
+    "Defense dress code",
+    "What is the required outfit for defense?",
+    "Formal attire for defense"
+  ],
+  "response": 
+    "Students are expected to wear formal or business attire during research defenses and academic presentations."
+  },
+
+{
+ 
+  "patterns": [
+    "How do I get a Certification of Registration",
+    "How do I get a COR",
+    "Where can I get my COR",
+    "How can I obtain a COR",
+    "How is COR issued"
+  ],
+  "response": 
+    "A Certificate of Registration (COR) is provided after you successfully enroll in your course program. The COR form is available upon request."
+  },
+{
+ 
+  "patterns": [
+    "What is a Certification of Registration used for",
+    "What is a COR used for",
+    "Why do I need a COR",
+    "What can I use COR for",
+    "Is COR important"
+  ],
+  "response": 
+    "The Certificate of Registration (COR) is used to prove that a student is officially enrolled in the University.<br><br>It may also be used when entering the University, especially if a student has not yet received a student ID or has forgotten it.<br><br>COR is required of every student. Students may not be allowed to enter or use University facilities without a COR or Student ID. Visitors may sign the visitor handbook at the guard post.<br><br>The COR form is available upon request."
+  },
+{
+
+  "utterances": [
+    "How long is COR valid?",
+    "How long is the COR valid?",
+    "Is my COR still valid?",
+    "Does COR expire?",
+    "Can I use last semester's COR?",
+    "When should I get a new COR?",
+    "How long does COR Form valid",
+    "When does COR expire?",
+    "What is the validity of COR",
+    "Validity of Certificate of Registration",
+    "How long can I use my COR",
+    "When do I need a new COR?"
+  ],
+  "responses": 
+    "The Certificate of Registration (COR) is valid only for the semester in which it was issued.<br><br>Students must obtain a new COR for each subsequent semester or once enrollment for the next semester begins. A COR from a previous semester cannot be used as a current enrollment document."
+  },
+{
+  "patterns": [
+    "Can COR forms be used as proof of enrollment",
+    "Is COR proof of enrollment",
+    "Can I use COR as enrollment proof",
+    "Does COR verify enrollment",
+    "Can COR be used officially"
+  ],
+  "response": 
+    "Yes. The Certificate of Registration (COR) is an official document that can be used as proof that a student is enrolled in the University."
+  },
+
+{
+
+  "patterns": [
+    "How can I request a Certificate of Grades",
+    "How do I request a COG",
+    "Where can I get my COG",
+    "How can I obtain a Certificate of Grades",
+    "What is the process for requesting COG"
+  ],
+  "response": 
+    "You can request a Certificate of Grades through the Registrar's Office. Typically, you will need to complete a request form and pay the corresponding processing fee."
+  },
+
+{
+ 
+  "patterns": [
+    "When can I request a Certificate of Grades",
+    "When can I get my COG",
+    "When is COG available",
+    "When may I request a Certificate of Grades",
+    "Can I request COG after the semester"
+  ],
+  "response": 
+    "You may request a Certificate of Grades after the semester has officially ended and all grades have been submitted and finalized by your professors."
+  },
+
+{
+ 
+  "patterns": [
+    "what is tor",
+    "what is transcript of records",
+    "meaning of tor",
+    "tor definition",
+    "explain tor",
+    "What does Transcript of Records mean",
+    "Explain Transcript of Records",
+    "What information is in a TOR"
+  ],
+  "response": 
+    "A Transcript of Records (TOR) is an official academic document issued by the University containing a student's complete academic history.<br><br>It includes the subjects taken, grades received, units earned, and other academic information required for employment, transfer, further studies, licensure examinations, and other official purposes."
+  },
+{
+ 
+  "patterns": [
+    "how to request tor",
+    "tor request process cvsu",
+    "how can i get my tor",
+    "steps to request tor",
+    "tor application process",
+    "How do I obtain a TOR"
+    
+  ],
+ "response": 
+    "Students and graduates may request a Transcript of Records through the Registrar's Office.<br><br>Applicants must submit the required request form, provide valid identification, comply with University requirements, and settle any applicable processing fees before the document can be released."
+  },
+{
+  "patterns": [
+    "tor requirements",
+    "tor requirement",
+    "documents needed for tor",
+    "requirements for transcript of records",
+    "what documents are needed for tor",
+    "tor documentary requirements",
+    "transcript of records",
+    "second courser requirements",
+    "diploma holder requirements"
+  ],
+  "response": 
+    "Transcript of Records (TOR) requirements typically include a completed clearance, valid ID or student ID, TOR request form, and proof of payment. Additional requirements may apply depending on your student status.<br><br>Second-Course Applicants, TCP Applicants, and Associate/Certificate/Vocational/Diploma Degree Holders must submit a Transcript of Records (TOR) indicating their graduation date."
+  },
+{
+
+  "patterns": [
+    "tor processing time",
+    "how long is tor processing",
+    "when will my tor be released",
+    "tor release schedule",
+    "how many days for tor"
+  ],
+  "response": 
+    "TOR processing usually takes 5 to 15 working days. Processing may take longer during peak periods such as enrollment and graduation."
+  },
+{
+
+  "patterns": [
+    "can i request tor while studying",
+    "tor request as current student",
+    "can enrolled students request tor",
+    "can i get tor before graduation",
+    "tor for current students"
+  ],
+  "response": 
+    "Yes. Current students may request a TOR for scholarship, transfer, or other academic purposes. Only completed and encoded subjects will appear on the document."
+  },
+{
+
+  "patterns": [
+    "can someone else claim my tor",
+    "claiming tor by representative",
+    "authorized representative for tor",
+    "can my parent claim my tor",
+    "proxy claiming tor"
+  ],
+  "response": 
+    "Yes. A representative may claim your TOR if they present an authorization letter, their valid ID, a copy of your ID, and any additional requirements requested by the Registrar."
+  },
+{
+ 
+  "patterns": [
+    "tor unpaid balance issue",
+    "unpaid balance tor restriction",
+    "can i get tor with balance",
+    "tor with outstanding account",
+    "balance before tor"
+  ],
+  "response": 
+    "Students with unpaid balances must settle their obligations first before the Registrar can process a TOR request."
+  },
+{
+
+  "patterns": [
+    "can i request an electronic tor",
+    "digital tor cvsu",
+    "electronic tor request",
+    "online tor copy",
+    "soft copy of tor"
+  ],
+  "response": 
+    "CvSU campuses generally release printed TOR copies. Availability of digital or scanned copies depends on campus policies and Registrar guidelines."
+  },
+{
+
+  "patterns": [
+    "tor fee cost",
+    "how much is tor",
+    "tor payment",
+    "tor processing fee",
+    "cost of transcript of records"
+  ],
+  "response": 
+    "TOR fees vary by campus and current university policies. Students should verify the latest rates with the Registrar or Cashier's Office."
+  },
+
+{
+
+"patterns": [
+"Do I need to pay membership fees?",
+"What are society fees?",
+"How much is society fee?",
+"Are organization fees required?",
+"Do organizations charge membership fees?"
+],
+"response": 
+"Yes, P100 pesos for society fee. Some organizations may collect membership or society fees depending on their activities and approved policies. Students should consult the organization officers for current fee information."
+},
+
+{
+
+  "patterns": [
+    "Do I need to maintain attendance to pass the school year",
+    "Is attendance required",
+    "Do I need regular attendance",
+    "What happens if I have many absences",
+    "Can I fail because of absences"
+  ],
+  "response": 
+    "Yes. Pupils and students are required to attend their classes promptly and regularly.<br><br>If a university student accumulates absences without an excusable reason amounting to 20 percent or more of the total class hours, the student may be dropped from the roll.<br><br>If the student's academic performance is poor, a grade of 5.0 may be given."
+  },
+{
+ 
+  "patterns": [
+    "What is the passing grade of CvSU Bacoor",
+    "What is the passing grade",
+    "What grade is considered passing",
+    "What is the grading system of CvSU",
+    "What is the minimum passing grade"
+  ],
+  "response": 
+    "The passing grade at CvSU Bacoor is 3.00, while 5.00 is the failing grade.<br><br>Grading System:<br>1.00 - Excellent (Highest Grade)<br>1.50 - Very Good<br>2.00 - Good<br>2.50 - Satisfactory<br>3.00 - Passing Grade<br>4.00 - Conditional Grade. This must be removed by taking a removal examination to obtain a grade of 3.00 or become 5.00.<br>INC - Incomplete. The student is passing but has not completed other course requirements.<br>5.00 - Failed.<br><br>Each college may adopt its own method of assigning grades and weighting examinations, laboratory work, and other requirements, subject to review and approval by the Vice President for Academic Affairs."
+  },
+
+{
+
+  "patterns": [
+    "How can I appeal a failing grade",
+    "Can I appeal a failing grade",
+    "What should I do if I fail a subject unfairly",
+    "How do I request a grade appeal",
+    "How can I contest my grade"
+  ],
+  "response": 
+    "If you receive a failing grade, the first step is to speak directly with your instructor. Schedule a meeting to discuss your performance and ask for specific feedback.<br><br>If you believe there was a grading error or that the grade was unfair, present supporting evidence such as completed assignments, examinations, or other relevant records.<br><br>If the issue remains unresolved, you may file a formal grade appeal according to University procedures. Submit a written appeal along with supporting documents and wait for the official review and decision."
+  },
+
+{
+
+  "patterns": [
+    "What is the Process of Phase Out Program",
+    "What is a phase out program",
+    "How does a phase out program work",
+    "What happens when a curriculum is replaced",
+    "Explain the phase out process"
+  ],
+  "response": 
+    "A phase-out program should be anticipated when implementing new or revised academic programs.<br><br>If a new program replaces an existing curriculum, implementation should begin with incoming freshmen only, while the old curriculum continues until the current students complete and graduate from it.<br><br>For revised courses, the compulsory requirements for newly introduced or revised subjects shall apply only to students who are scheduled to take those courses in the current academic year. In no case shall introduced or revised courses be required as back subjects for students."
+  },
+{
+
+  "patterns": [
+    "How do I apply for a leave of absence",
+    "What is the process for leave of absence",
+    "Can I file a leave of absence",
+    "How can I request an LOA",
+    "What should I do if I need to stop studying temporarily"
+  ],
+  "response": 
+    "Students who need to temporarily stop their studies may apply for a Leave of Absence (LOA).<br><br>The request should be submitted to the appropriate University office together with the necessary supporting documents.<br><br>Approval of the request is subject to University policies and evaluation by the concerned authorities."
+  },
+{
+
+  "patterns": [
+    "How can I return after being absent from school",
+    "What is student reinstatement",
+    "How do I get reinstated",
+    "Can I return after stopping my studies",
+    "What is the reinstatement process"
+  ],
+  "response": 
+    "Students who have discontinued their studies and wish to return may apply for reinstatement subject to University policies.<br><br>Applicants may be required to submit a written request, undergo academic evaluation, and comply with all requirements prescribed by the University before enrollment is permitted."
+  },
+{
+
+  "patterns": [
+    "What is the student council",
+    "What does the student council do",
+    "Who represents the students",
+    "Student council information",
+    "Purpose of the student council"
+  ],
+  "response": 
+    "The Student Council is the official representative body of the student population.<br><br>It serves as a link between students and the University administration, promotes student welfare, organizes activities, and advocates for the interests and concerns of students while upholding University policies and values."
+  },
+{
+
+  "patterns": [
+    "What are community extension programs",
+    "Does CvSU have extension programs",
+    "Community outreach activities",
+    "Can students join extension programs",
+    "What are extension services"
+  ],
+  "response": 
+    "Community extension programs are initiatives designed to share knowledge, skills, and services with communities.<br><br>These programs may involve training, outreach activities, livelihood projects, environmental programs, educational assistance, and other community development efforts that support the University's extension mandate."
+  },
+{
+
+  "patterns": [
+    "Can students participate in research",
+    "Research opportunities for students",
+    "How can I join research projects",
+    "Does CvSU support student research",
+    "Student research programs"
+  ],
+  "response": 
+    "Yes. Students may participate in research activities and projects as part of their academic requirements or through faculty-led initiatives.<br><br>Research participation helps students develop critical thinking, analytical skills, problem-solving abilities, and practical experience in their field of study."
+  },
+
+{
+
+  "patterns": [
+    "How can I file a complaint",
+    "Where do I report a concern",
+    "Student complaint procedure",
+    "How do I submit a grievance",
+    "What should I do if I have a complaint"
+  ],
+  "response": 
+    "Students who wish to raise concerns, complaints, or grievances should follow the University's established procedures.<br><br>Concerns should first be addressed to the appropriate instructor, office, or department. If unresolved, the matter may be elevated to higher University authorities for proper review and action."
+  },
+
+{
+
+  "patterns": [
+    "What health services are available",
+    "Campus clinic services",
+    "Can students receive medical assistance",
+    "What does the campus clinic provide",
+    "Health services for students"
+  ],
+  "response": 
+    "The University Clinic provides basic health services to students, faculty members, employees, and other authorized individuals.<br><br>Services may include health consultations, medical assessments, first aid, referrals, and other health-related assistance in accordance with University policies."
+  }
 
 ]    
 
