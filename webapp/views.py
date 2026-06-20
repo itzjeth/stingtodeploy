@@ -429,7 +429,6 @@ from django.shortcuts import render
 
 QA_DATA = [
 ############ PERSONAL BOUT CVSU ####################
-[
   {
 "patterns": [
 "What is the history of CvSU",
