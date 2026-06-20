@@ -428,7 +428,6 @@ from django.shortcuts import render
 
 
 QA_DATA = [
-############ PERSONAL BOUT CVSU ####################
   {
 "patterns": [
 "What is the history of CvSU",
@@ -473,6 +472,7 @@ QA_DATA = [
 "Can you tell me the vision and mission of CvSU?",
 "What does Cavite State University stand for?",
 "vision and mission",
+"what is the university mission and vision",
 "mission and vision"
 ],
 "response": 
@@ -924,7 +924,7 @@ QA_DATA = [
       "Freshman curriculum subjects"
     ],
     "response": 
-      "As a first-year student, you'll be excited to begin your academic journey with a variety of subjects designed to build a strong foundation in your chosen program.<br>📖✨<br><br>The subjects you will take during your first year depend on your degree program.<br>CvSU Bacoor Campus offers programs such as:<br><br>🎓 Bachelor of Science in Information Technology (BSIT)<br>🎓 Bachelor of Science in Computer Science (BSCS)<br>🎓 Bachelor of Science in Psychology (BS Psych)<br>🎓 Bachelor of Science in Business Management (BSBM)<br>🎓 Bachelor of Science in Hospitality Management (BSHM)<br>🎓 Bachelor of Secondary Education (BSEd)<br><br>For first-year students, common subjects may include:<br><br>📚 General Education (GE) Courses<br>• Understanding the Self<br>• Purposive Communication<br>• Mathematics in the Modern World<br>• Science, Technology, and Society<br>• Readings in Philippine History<br>• The Contemporary World<br>• Art Appreciation<br>• Ethics<br><br>💻 Program-Specific Courses<br><br>For BSIT and BSCS students:<br>• Introduction to Computing<br>• Computer Programming<br>• Fundamentals of Information Technology<br><br>🧠 For BS Psychology students:<br>• <br>Introduction to Psychology<br>• Psychological Statistics<br>• Understanding Human Behavior<br><br>📊 For BS Business Management students:<br>• Fundamentals of Business Management<br>• Principles of Marketing<br>• Financial Management Basics<br><br>🏨 For BS Hospitality Management students:<br>• Introduction to Hospitality Management<br>• Tourism and Hospitality Operations<br>• Food and Beverage Service Fundamentals<br><br>👨‍🏫 For BSEd students:<br>• The Teaching Profession<br>• Foundations of Education<br>• Child and Adolescent Development<br><br>Please note that the exact subjects and schedules may vary depending on your curriculum and year of admission.<br>📅<br><br>For the most accurate and updated information, you may consult your department chairperson, program adviser, or the Registrar's Office.<br>We wish you a successful and enjoyable first year at CvSU Bacoor Campus!<br>💚💛 If you have any questions about enrollment, schedules, or campus services, feel free to ask.<br>😊"
+      "As a first-year student, you'll be excited to begin your academic journey with a variety of subjects designed to build a strong foundation in your chosen program.<br><br><br>The subjects you will take during your first year depend on your degree program.<br>CvSU Bacoor Campus offers programs such as:<br><br>🎓 Bachelor of Science in Information Technology (BSIT)<br> Bachelor of Science in Computer Science (BSCS)<br>🎓 Bachelor of Science in Psychology (BS Psych)<br> Bachelor of Science in Business Management (BSBM)<br> Bachelor of Science in Hospitality Management (BSHM)<br>🎓 Bachelor of Secondary Education (BSEd)<br><br>For first-year students, common subjects may include:<br><br> General Education (GE) Courses<br>• Understanding the Self<br>• Purposive Communication<br>• Mathematics in the Modern World<br>• Science, Technology, and Society<br>• Readings in Philippine History<br>• The Contemporary World<br>• Art Appreciation<br>• Ethics<br><br>💻 Program-Specific Courses<br><br>For BSIT and BSCS students:<br>• Introduction to Computing<br>• Computer Programming<br>• Fundamentals of Information Technology<br><br>🧠 For BS Psychology students:<br>• <br>Introduction to Psychology<br>• Psychological Statistics<br>• Understanding Human Behavior<br><br> For BS Business Management students:<br>• Fundamentals of Business Management<br>• Principles of Marketing<br>• Financial Management Basics<br><br> For BS Hospitality Management students:<br>• Introduction to Hospitality Management<br>• Tourism and Hospitality Operations<br>• Food and Beverage Service Fundamentals<br><br> For BSEd students:<br>• The Teaching Profession<br>• Foundations of Education<br>• Child and Adolescent Development<br><br>Please note that the exact subjects and schedules may vary depending on your curriculum and year of admission.<br><br><br>For the most accurate and updated information, you may consult your department chairperson, program adviser, or the Registrar's Office.<br>We wish you a successful and enjoyable first year at CvSU Bacoor Campus!<br> If you have any questions about enrollment, schedules, or campus services, feel free to ask.<br>"
 },
   {
    
@@ -935,7 +935,7 @@ QA_DATA = [
       "Library location in campus"
     ],
     "response": 
-      "The library is an important resource for your studies, providing access to books, references, research materials, and a quiet place for learning.<br>📖✨<br><br>📍 The CvSU Bacoor Campus Library is located on the second floor of the old campus building.<br>Simply proceed to the old campus building and head up to the second floor, where you will find the library and its available services for students.<br>🕒 The library is open during regular campus operating hours.<br>However, schedules may vary depending on academic activities, holidays, or special events.<br>It is always a good idea to check with the library staff for the latest updates regarding operating hours and available services.<br>📚 The library offers various resources and facilities to support your academic needs, including reference materials, study spaces, and research assistance.<br>If you have any more questions or need further assistance, feel free to ask.<br>🤔"
+      "The library is an important resource for your studies, providing access to books, references, research materials, and a quiet place for learning.<br><br><br> The CvSU Bacoor Campus Library is located on the second floor of the old campus building.<br>Simply proceed to the old campus building and head up to the second floor, where you will find the library and its available services for students.<br> The library is open during regular campus operating hours.<br>However, schedules may vary depending on academic activities, holidays, or special events.<br>It is always a good idea to check with the library staff for the latest updates regarding operating hours and available services.<br> The library offers various resources and facilities to support your academic needs, including reference materials, study spaces, and research assistance.<br>If you have any more questions or need further assistance, feel free to ask.<br>"
 },
   {
    
@@ -946,18 +946,100 @@ QA_DATA = [
       "Where do I pay the OJT fee?"
     ],
     "response": 
-      "The On-the-Job Training (OJT) fee is **₱100.00**. 💸 However, please note that the amount **may vary depending on your department, program, or course requirements**.<br>🏫📚 It is recommended to confirm the exact fee with your department or OJT coordinator before making any payment.<br>To pay your OJT fee, you may visit the University's Cashier's Office during office hours.<br>🕒 You can also check with your department for any updated payment procedures and deadlines.<br>Additionally, don't forget to prepare the required documents for your OJT, which may include:<br><br>📄 Updated Resume<br>📨 Endorsement Letter<br>📝 Other supporting documents (as required by your department)<br><br>Make sure to submit all required documents to your OJT coordinator or department office to complete your OJT requirements.<br>📚<br><br>If you have any further questions or concerns, feel free to ask, and I'll be happy to assist you.<br>😊 Wishing you a successful and productive OJT experience. 💪🎉"
+      "The On-the-Job Training (OJT) fee is **₱100.00**. However, please note that the amount **may vary depending on your department, program, or course requirements**.<br> It is recommended to confirm the exact fee with your department or OJT coordinator before making any payment.<br>To pay your OJT fee, you may visit the University's Cashier's Office during office hours.<br> You can also check with your department for any updated payment procedures and deadlines.<br>Additionally, don't forget to prepare the required documents for your OJT, which may include:<br><br> Updated Resume<br> Endorsement Letter<br> Other supporting documents (as required by your department)<br><br>Make sure to submit all required documents to your OJT coordinator or department office to complete your OJT requirements.<br><br><br>If you have any further questions or concerns, feel free to ask, and I'll be happy to assist you.<br> Wishing you a successful and productive OJT experience. "
 },
   {
    
     "patterns": [
       "What is TA and TC?",
-      "Meaning of TA and TC in capstone",
-      "What is a Technical Adviser?",
-      "What is a Technical Critic?"
+    "Meaning of TA and TC in capstone",
+    "What is a Technical Adviser?",
+    "What is a Technical Critic?",
+    "What is TA",
+    "What is TC",
+    "What does TA stand for?",
+    "What does TC stand for?",
+    "Who is the TA in capstone?",
+    "Who is the TC in capstone?",
+    "What is the role of a Technical Adviser?",
+    "What is the role of a Technical Critic?",
+    "Explain TA and TC",
+    "Can you explain TA and TC?",
+    "Who are TA and TC?",
+    "What do TA and TC mean?",
+    "What are TA and TC in research?",
+    "What are TA and TC in capstone defense?",
+    "What is the meaning of TA?",
+    "What is the meaning of TC?",
+    "What does Technical Adviser mean?",
+    "What does Technical Critic mean?",
+    "Who guides students during capstone?",
+    "Who evaluates the capstone project?",
+    "Who is responsible for guiding the capstone group?",
+    "Who checks our capstone project?",
+    "Who critiques the capstone project?",
+    "Who mentors the capstone team?",
+    "Who advises students in capstone?",
+    "Who reviews the capstone work?",
+    "Difference between TA and TC",
+    "What's the difference between a Technical Adviser and Technical Critic?",
+    "How are TA and TC different?",
+    "TA versus TC",
+    "Compare TA and TC",
+    "What are the responsibilities of TA and TC?",
+    "What does a TA do?",
+    "What does a TC do?",
+    "What is the job of a Technical Adviser?",
+    "What is the job of a Technical Critic?",
+    "Functions of TA and TC",
+    "Purpose of TA and TC",
+    "Why do we need a Technical Adviser?",
+    "Why do we need a Technical Critic?",
+    "What is a capstone adviser?",
+    "Is TA the capstone adviser?",
+    "Who helps us during capstone development?",
+    "Who monitors our capstone progress?",
+    "Who provides technical guidance in capstone?",
+    "Who assesses the technical quality of a project?",
+    "What is the work of a Technical Critic?",
+    "What is the work of a Technical Adviser?",
+    "What are the duties of TA and TC?",
+    "Can you define TA and TC?",
+    "Define Technical Adviser",
+    "Define Technical Critic",
+    "Technical Adviser meaning",
+    "Technical Critic meaning",
+    "TA meaning in capstone",
+    "TC meaning in capstone",
+    "TA abbreviation meaning",
+    "TC abbreviation meaning",
+    "What does TA mean in research defense?",
+    "What does TC mean in research defense?",
+    "Who gives feedback during capstone defense?",
+    "Who asks questions during capstone defense?",
+    "Who evaluates the feasibility of the project?",
+    "Who ensures project standards are met?",
+    "What is the responsibility of a capstone TA?",
+    "What is the responsibility of a capstone TC?",
+    "Tell me about TA and TC",
+    "I want to know about TA and TC",
+    "Can you tell me the meaning of TA and TC?",
+    "What are TA and TC roles?",
+    "What do Technical Advisers and Technical Critics do?",
+    "Who supervises the capstone project?",
+    "Who examines the capstone project?",
+    "What is a technical adviser in capstone?",
+    "What is a technical critic in capstone?",
+    "Role of technical adviser",
+    "Role of technical critic",
+    "Technical adviser duties",
+    "Technical critic duties",
+    "TA and TC responsibilities",
+    "Meaning of technical adviser and technical critic"
+      
     ],
     "response": 
-      "In the context of Capstone Defense, **TA** and **TC** are important members of the evaluation panel.<br>📝<br><br>**TA** stands for **Technical Adviser**. 👨‍🏫👩‍🏫 The Technical Adviser is the faculty member who guides and mentors the group throughout the development of the Capstone project.<br>They provide technical expertise, monitor the project's progress, ensure that academic and technical standards are met, and help the students address challenges encountered during the research and development process.<br>💻📖<br><br>On the other hand, **TC** stands for **Technical Critic**. 🔍 The Technical Critic serves as an evaluator who reviews the project from a critical and technical perspective.<br>They assess the quality, feasibility, functionality, methodology, and overall technical soundness of the project.<br>During the defense, the Technical Critic may ask questions, provide recommendations, and identify areas for improvement to ensure that the project meets the required standards.<br>📊⚙️<br><br>During the Capstone Defense, both the **Technical Adviser (TA)** and the **Technical Critic (TC)** play significant roles in evaluating and improving the quality of your project.<br>📢 They will provide feedback, ask questions, and assess your team's ability to explain and defend the work you have completed.<br>💪<br><br>I hope this helps you understand the roles of the **TA (Technical Adviser)** and **TC (Technical Critic)** in the Capstone Defense at CvSU Bacoor Campus.<br>If you have any further questions or concerns, feel free to ask!<br>😊"
+      "In the context of Capstone Defense, **TA** and **TC** are important members of the evaluation panel.<br>📝<br><br>**TA** stands for **Technical Adviser**. The Technical Adviser is the faculty member who guides and mentors the group throughout the development of the Capstone project.<br>They provide technical expertise, monitor the project's progress, ensure that academic and technical standards are met, and help the students address challenges encountered during the research and development process.<br><br><br>On the other hand, **TC** stands for **Technical Critic**. The Technical Critic serves as an evaluator who reviews the project from a critical and technical perspective.<br>They assess the quality, feasibility, functionality, methodology, and overall technical soundness of the project.<br>During the defense, the Technical Critic may ask questions, provide recommendations, and identify areas for improvement to ensure that the project meets the required standards.<br><br><br>During the Capstone Defense, both the **Technical Adviser (TA)** and the **Technical Critic (TC)** play significant roles in evaluating and improving the quality of your project.<br> They will provide feedback, ask questions, and assess your team's ability to explain and defend the work you have completed.<br><br><br>I hope this helps you understand the roles of the **TA (Technical Adviser)** and **TC (Technical Critic)** in the Capstone Defense at CvSU Bacoor Campus.<br>If you have any further questions or concerns, feel free to ask!<br>"
 },
 {
   
@@ -1003,7 +1085,7 @@ QA_DATA = [
   "campus director ms macalalad"
     ],
     "response": 
-      "The current Campus Administrator of CvSU Bacoor is Ms.<br>Menvyluz S. Macalalad. MBA She oversees the overall operations, academic services, and administrative functions of the campus, ensuring that students receive quality education and a supportive learning environment.<br>Under her leadership, the campus continues to improve its programs, facilities, and student services."
+      "The current Campus Administrator of CvSU Bacoor is Ms. Menvyluz S. Macalalad. MBA She oversees the overall operations, academic services, and administrative functions of the campus, ensuring that students receive quality education and a supportive learning environment.<br>Under her leadership, the campus continues to improve its programs, facilities, and student services."
 },
 
 
@@ -1016,7 +1098,7 @@ QA_DATA = [
       "Contact for research activities"
     ],
     "response": 
-      "The current Research Coordinator of CvSU Bacoor is Mr.<br>Ronan M. Cajigal, MAEd. He is responsible for guiding the campus’ research initiatives, supporting faculty and student researchers, and ensuring that all research activities align with the university’s academic standards and goals.<br>Through his leadership, the research culture of the campus continues to grow and strengthen."
+      "The current Research Coordinator of CvSU Bacoor is Mr.  Ronan M. Cajigal, MAEd. He is responsible for guiding the campus’ research initiatives, supporting faculty and student researchers, and ensuring that all research activities align with the university’s academic standards and goals.<br>Through his leadership, the research culture of the campus continues to grow and strengthen."
 },
   {
  
@@ -1059,7 +1141,7 @@ QA_DATA = [
   "department chairperson jovelyn ocampo"
     ],
     "response": 
-      "The current Department Chairperson is Ms.<br>Jovelyn D. Ocampo, MIT. She leads the department in overseeing academic programs, guiding faculty members, and ensuring that the curriculum remains relevant and aligned with university standards.<br>Through her leadership, the department continues to enhance its instructional quality, support student development, and maintain a strong academic environment"
+      "The current Department Chairperson is Ms. Jovelyn D. Ocampo, MIT. She leads the department in overseeing academic programs, guiding faculty members, and ensuring that the curriculum remains relevant and aligned with university standards.<br>Through her leadership, the department continues to enhance its instructional quality, support student development, and maintain a strong academic environment"
 },
 {
   
@@ -1266,6 +1348,7 @@ QA_DATA = [
     "Who manages the Quality Assurance Office?",
 "Who heads Quality Assurance Office?",
 "Who is in charge of Quality Assurance Office?",
+"who leads OSAS",
 "Can you tell me the head of the Quality Assurance Office?"
 
   ],
@@ -1750,7 +1833,9 @@ QA_DATA = [
 "Who manages the ROTC unit?",
 "Who handles ROTC concerns?",
 "Who is responsible for NSTP-ROTC?",
-"Can you tell me the ROTC coordinator?"
+"Can you tell me the ROTC coordinator?",
+"Who is ROTC coordinator"
+
 ],
 "response": 
 "The Coordinator of the NSTP-ROTC Unit is Maria Lyn E. Dela Cruz."
@@ -2011,8 +2096,6 @@ QA_DATA = [
 {
  
   "patterns": [
-    "How do I join a student organization?",
-    "Can I join multiple organizations?",
     "Are organizations open to all students?",
     "Do student organizations charge fees?",
     "What are the benefits of joining organizations?",
@@ -2089,18 +2172,6 @@ QA_DATA = [
     "CvSU Bacoor recognizes academic organizations, non-academic organizations, performing arts organizations, religious organizations, the Central Student Government, and the student publication."
   },
 
-{
-
-"patterns": [
-"How do I join a student organization?",
-"How can I become a member of an organization?",
-"What is the process for joining a student club?",
-"Can I join a student organization?",
-"How do I apply for membership?"
-],
-"response": 
-"Students who wish to join a recognized student organization may contact the organization's officers, adviser, or the Office of Student Affairs and Services (OSAS). Membership requirements and application procedures may vary depending on the organization."
-},
 {
 
 "patterns": [
@@ -2323,10 +2394,76 @@ QA_DATA = [
   {
     
     "patterns": [
-      "What are the requirements for OJT?",
-      "Documents needed for internship",
-      "OJT paperwork checklist",
-      "What do I need to prepare for my OJT?"
+     "What are the requirements for OJT?",
+    "Documents needed for internship",
+    "OJT paperwork checklist",
+    "What do I need to prepare for my OJT?",
+    "requirements for OJT",
+    "requirement in OJT",
+    "What documents are required for OJT?",
+    "What are the internship requirements?",
+    "What should I submit for OJT?",
+    "Requirements needed before starting OJT",
+    "What papers do I need for internship?",
+    "What are the needed documents for OJT?",
+    "List of OJT requirements",
+    "Can you provide the OJT requirements?",
+    "What should I prepare for my internship?",
+    "What are the prerequisites for OJT?",
+    "How do I qualify for OJT?",
+    "What files are needed for OJT?",
+    "What forms are required for internship?",
+    "Internship requirements please",
+    "OJT requirements please",
+    "What is needed for on-the-job training?",
+    "What do students need for OJT?",
+    "Requirements before internship",
+    "Requirements before starting OJT",
+    "What are the documents needed for on-the-job training?",
+    "What paperwork is needed for OJT?",
+    "Do I need documents for OJT?",
+    "Can I see the OJT checklist?",
+    "Show me the OJT requirements",
+    "Show internship requirements",
+    "What are the requirements for internship application?",
+    "How can I apply for OJT?",
+    "What should I submit to apply for OJT?",
+    "What are the submission requirements for OJT?",
+    "What requirements must be completed for OJT?",
+    "Needed requirements for internship",
+    "Required documents for internship",
+    "Required documents for OJT",
+    "Requirements needed for practicum",
+    "Practicum requirements",
+    "What are the practicum requirements?",
+    "Documents needed for practicum",
+    "What do I need before taking OJT?",
+    "What are the requirements before deployment?",
+    "What must I accomplish before OJT?",
+    "Internship document requirements",
+    "OJT application requirements",
+    "Requirements for student internship",
+    "Student internship requirements",
+    "Requirements needed to start internship",
+    "Requirements needed to start OJT",
+    "What should I accomplish before internship?",
+    "Can you tell me the OJT requirements?",
+    "Can you tell me the internship requirements?",
+    "What are the official OJT requirements?",
+    "What are the mandatory requirements for OJT?",
+    "What should I prepare before my practicum?",
+    "What are the needed papers for practicum?",
+    "What requirements do interns need?",
+    "Requirements for training program",
+    "Requirements for work immersion or OJT",
+    "What is the complete list of OJT requirements?",
+    "Can I get a list of internship requirements?",
+    "What should be submitted for practicum?",
+    "Do I need endorsement letters for OJT?",
+    "What are the documents required by the OJT office?",
+    "What requirements are needed for internship approval?",
+    "What are the requirements to be deployed for OJT?",
+    "What do I need to pass before OJT starts?"
     ],
     "response": 
       "To complete your OJT requirements, you will need to prepare the following documents:<br><br>Updated Resume<br>Endorsement Letter from Department<br>Parent’s Consent<br>MOA (Memorandum of Agreement) with the company<br>Medical Certificate (if required by the company)<br>School ID &amp;<br>Registration Form<br>Good Moral Certificate (if needed)<br><br>All documents must be processed in the department office.<br>Note: Online OJT is no longer accepted."
@@ -2618,17 +2755,6 @@ QA_DATA = [
       "Bachelor of Secondary Education<br>BS Business Management<br>BS Computer Science<br>BS Criminology<br>BS Hospitality Management (formerly BS Hotel and Restaurant Management)<br>BS Information Technology<br>BS Psychology"
 },
   {
-    
-    "patterns": [
-      "What are the university mandates?",
-      "Mandates of Cavite State University",
-      "What is the purpose of the university?",
-      "University goals and mandates"
-    ],
-    "response": 
-      "To provide a general education program promoting national identity;<br>train the nation's manpower in skills required for national development; develop professions that provide leadership for the nation;<br>and advance knowledge through research to improve quality of human life and respond to changing societal needs."
-},
-  {
    
     "patterns": [
       "What are the eligibility conditions for honors?",
@@ -2645,7 +2771,9 @@ QA_DATA = [
       "Who governs the university?",
       "What is the Board of Regents?",
       "Who makes major policies in CvSU?",
-      "University governance structure"
+      "University governance structure",
+      "how is the university governed",
+      "university governed"
     ],
     "response": 
       "The University is governed by the Board of Regents (BOR) which serves as the approving authority for rules scholarships curriculum revisions major policies and other university-wide matters."
@@ -2880,17 +3008,6 @@ QA_DATA = [
     ],
     "response": 
       "The Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) or any accrediting agency prescribed by CHED and PASUC is recognized.<br>The Director for Quality Assurance and Accreditation heads the university-wide accrediting body."
-},
-  {
-   
-    "patterns": [
-      "What are the admission requirements for SHS?",
-      "How to apply for Science High School?",
-      "Exams needed for SHS admission",
-      "Requirements for high school enrollment"
-    ],
-    "response": 
-      "Admission to the Science High School requires: Form 138 (Report Card) certification of good moral character certification of physical and mental fitness from the University Physician payment of ₱100.00 entrance examination fee and passing the Mental Ability Test (MAT) Science and Math Aptitude Test (SMAT) and Essay/Communication Test."
 },
   {
 
@@ -3284,7 +3401,7 @@ QA_DATA = [
       "Are NSTP grades included in honors evaluation?"
     ],
     "response": 
-      "Academic honors awarded at graduation are: Summa Cum Laude (GPA 1.00–1.21 no grade lower than 2.00) Magna Cum Laude (GPA 1.22–1.45 no grade lower than 2.25) and Cum Laude (GPA 1.46–1.75 no grade lower than 2.50).<br>NSTP grades are included in the evaluation."
+      "Academic honors awarded at graduation are: <br><br>Summa Cum Laude (GPA 1.00–1.21 no grade lower than 2.00) <br>Magna Cum Laude (GPA 1.22–1.45 no grade lower than 2.25) <br>and Cum Laude (GPA 1.46–1.75 no grade lower than 2.50).<br><br><br>NSTP grades are included in the evaluation."
 },
   {
 
@@ -3577,6 +3694,8 @@ QA_DATA = [
 "patterns": [
 "How can I request my transcript of records?",
 "How do I get my TOR?",
+"How can i request a TOR",
+"How do i request a TOR",
 "What are the requirements for a transcript request?",
 "Can I request my transcript online?",
 "Where do I request my Transcript of Records?",
@@ -3919,29 +4038,18 @@ QA_DATA = [
     "Yes. Qualified undergraduate students enrolled at Cavite State University may enjoy free tuition and exemption from other mandatory fees under Republic Act No. 10931, also known as the Universal Access to Quality Tertiary Education Act.<br><br>This applies to qualified Filipino students pursuing their first bachelor's degree, subject to existing government and university regulations."
   },
 
-
 {
-
   "patterns": [
-    "How do I join a student organization?",
-    "Can I join a club in CvSU?",
+    "How can I join a student organization?",
+    "What is the procedure for joining a student organization?",
+    "How do I become a member of a campus organization?",
     "What are the requirements for joining an organization?",
-    "How can I become a member of a student organization?",
-    "Where do I apply for a student club?",
-    "How do I participate in campus organizations?",
-    "How can I register for a student organization?",
-    "What is the process for joining a club?",
-    "Can freshmen join student organizations?",
-    "Who should I contact to join an organization?",
-    "How do I apply for membership in a club?",
-    "How can I join extracurricular activities?",
-    "What do I need to join a student group?",
-    "When can students join organizations?",
-    "Are there membership requirements for organizations?"
+    "Can I join a student organization in CvSU Bacoor?"
+    
   ],
-  "response": 
-    "Students interested in joining a student organization may participate during recruitment periods, organization fairs, or membership drives conducted by accredited organizations. Requirements and application procedures vary depending on the organization. For more information and assistance, please coordinate with the Office of Student Affairs and Services (OSAS)."
-  },
+  "responses": 
+    "🤝 Student Organization Membership Procedure<br><br><br><br>Students who wish to join a student organization may apply through accredited organizations during their recruitment activities.<br><br><br><br>Procedure:<br><br><br><br>* Watch for recruitment periods, organization fairs, and membership drives conducted by accredited student organizations.<br><br>* Choose the organization that matches your interests, skills, and academic goals.<br><br>* Inquire about the organization's membership requirements and application process.<br><br>* Complete and submit the required application forms and supporting documents, if applicable.<br><br>* Participate in interviews, orientations, screenings, or other membership activities required by the organization.<br><br>* Wait for the evaluation and approval of your application.<br><br>* Attend the organization's orientation and official activities upon acceptance.<br><br><br><br>Please note that membership requirements and application procedures may vary depending on the organization. For further information and assistance, students may coordinate with the Office of Student Affairs and Services (OSAS)."
+},
 
 {
 
@@ -4281,6 +4389,7 @@ QA_DATA = [
  
   "patterns": [
     "requirements for exam",
+    "requirements for examination",
     "what to bring during exam",
     "exam guidelines",
     "exam materials"
@@ -4375,18 +4484,6 @@ QA_DATA = [
   ],
   "response": 
     "Unit load refers to the total number of academic units a student enrolls in during a semester. Most students take 15 to 21 units per semester. Taking more than the normal load may require approval."
-  },
-{
- 
-  "patterns": [
-    "What is the dress code in CvSU?",
-    "When is wash day?",
-    "When should I wear my uniform?",
-    "What should I wear during research defense?",
-    "Are uniforms required?"
-  ],
-  "response": 
-    "Students are expected to wear the official uniform on designated uniform days. Wash days usually allow casual attire within campus guidelines. Formal attire is required for research defenses, presentations, and official ceremonies."
   },
 {
 
@@ -4705,18 +4802,7 @@ QA_DATA = [
   "response": 
     "Wednesday and Saturday are commonly observed as wash days where students may wear permitted casual attire."
   },
-{
-  
-  "patterns": [
-    "When should I wear my uniform?",
-    "Uniform days",
-    "Is today a uniform day?",
-    "Uniform schedule",
-    "School uniform days"
-  ],
-  "response": 
-    "Students are generally expected to wear the official uniform during designated uniform days."
-  },
+
 {
   
   "patterns": [
@@ -5162,9 +5248,167 @@ QA_DATA = [
   "response": 
     "CvSU Bacoor is one of the campuses of Cavite State University dedicated to providing quality education, research, extension, and community service.<br><br>The campus offers academic programs designed to develop competent, responsible, and globally competitive graduates while supporting the University's mission of excellence in instruction, research, extension, and production."
   
+},
+{
+
+  "patterns": [
+    "What are the rules and regulations during exams?",
+    "What are the exam guidelines in CvSU Bacoor?",
+    "What should I follow during examinations?",
+    "Are there rules for taking exams in CvSU Bacoor?",
+    "What are the examination policies?"
+  ],
+  "responses": 
+    "📚 Examination Rules and Regulations<br><br><br><br>To ensure a fair and orderly examination process, all students are expected to observe the following rules:<br><br><br><br>* Arrive at the examination room on time.<br><br>* Present your valid student ID when required.<br><br>* Bring only the materials permitted by your instructor.<br><br>* Keep mobile phones and other electronic devices switched off and stored away during the examination.<br><br>* Maintain silence and avoid disturbing other examinees.<br><br>* Do not communicate, share answers, or engage in any form of cheating.<br><br>* Follow all instructions given by the proctor or instructor.<br><br>* Submit your examination papers and materials before leaving the room.<br><br>* Any form of academic dishonesty may result in disciplinary action in accordance with CvSU Bacoor policies.<br><br><br><br>For specific examination guidelines, students are encouraged to consult their instructors or the campus administration."
+  },
+{
+  
+  "patterns": [
+    "What are the rules and regulations in CvSU Bacoor?",
+    "What policies should students follow in CvSU Bacoor?",
+    "Tell me the student rules in CvSU Bacoor",
+    "What are the campus regulations?",
+    "What are the general rules for students?"
+  ],
+  "responses": 
+    "🏫 CvSU Bacoor Student Rules and Regulations<br><br><br><br>All students are expected to uphold the values and standards of Cavite State University - Bacoor Campus by following these guidelines:<br><br><br><br>* Wear the prescribed school uniform and identification card when required.<br><br>* Show respect and courtesy to fellow students, faculty members, staff, and visitors.<br><br>* Maintain proper conduct within the campus premises.<br><br>* Keep the campus clean and dispose of waste properly.<br><br>* Protect and properly use university facilities, equipment, and resources.<br><br>* Observe classroom policies and attend classes regularly.<br><br>* Refrain from engaging in bullying, harassment, discrimination, or disruptive behavior.<br><br>* Follow all university policies regarding academic integrity and student discipline.<br><br>* Comply with campus safety and security regulations.<br><br>* Participate responsibly in university activities and programs.<br><br><br><br>Students are encouraged to refer to the official Student Handbook for the complete list of university rules, regulations, and disciplinary procedures."
+  },
+{
+ 
+  "patterns": [
+    "Can I smoke in school?",
+    "Is smoking allowed in CvSU Bacoor?",
+    "Can I use a vape on campus?",
+    "Is vaping allowed in school?",
+    "Can students drink alcohol in school?",
+    "Is alcohol allowed in CvSU Bacoor?",
+    "Can I bring cigarettes to school?",
+    "Can I bring a vape inside the campus?",
+    "What is the school's policy on smoking?",
+    "Are tobacco products allowed on campus?"
+  ],
+  "responses": 
+    "🚭 Smoking, Vaping, and Alcohol Policy<br><br><br><br>To maintain a safe, healthy, and conducive learning environment, the following rules are observed within the campus:<br><br><br><br>* Smoking is strictly prohibited within the campus premises.<br><br>* The use of electronic cigarettes (e-cigarettes), vapes, and similar devices is not allowed on campus.<br><br>* Possession, consumption, or distribution of alcoholic beverages within the university premises is prohibited unless specifically authorized for official purposes.<br><br>* Students must not report to school under the influence of alcohol or prohibited substances.<br><br>* Bringing illegal drugs, dangerous substances, or drug paraphernalia into the campus is strictly prohibited.<br><br>* Students are expected to comply with all university health, safety, and disciplinary regulations.<br><br>* Violations of these policies may result in disciplinary action in accordance with university rules and regulations.<br><br><br><br>For complete information regarding student conduct and disciplinary policies, please refer to the official CvSU Student Handbook or contact the campus administration."
+  },
+{
+ 
+  "patterns": [
+    "What activities are prohibited in school?",
+    "What are not allowed in CvSU Bacoor?",
+    "What behaviors are prohibited on campus?",
+    "What can get me into trouble in school?",
+    "What actions are not allowed in the university?"
+  ],
+  "responses": 
+    "⚠️ Prohibited Activities on Campus<br><br><br><br>Students are expected to maintain proper conduct and avoid activities that may disrupt the learning environment. The following are generally prohibited:<br><br><br><br>* Smoking and vaping within the campus premises.<br><br>* Possession or consumption of alcoholic beverages without proper authorization.<br><br>* Possession, use, or distribution of illegal drugs and dangerous substances.<br><br>* Cheating, plagiarism, and other forms of academic dishonesty.<br><br>* Bullying, harassment, discrimination, and acts of violence.<br><br>* Damaging, vandalizing, or misusing university property.<br><br>* Possession of weapons or dangerous items that may threaten campus safety.<br><br>* Disruptive behavior during classes, examinations, or university activities.<br><br>* Unauthorized use of university facilities, equipment, or resources.<br><br>* Any action that violates university policies, rules, and regulations.<br><br><br><br>Students are encouraged to review the official CvSU Student Handbook for detailed policies and disciplinary procedures."
+  },
+{
+ 
+  "patterns": [
+    "Can I bring cigarettes to school?",
+    "Can I bring a vape to campus?",
+    "Can I bring alcohol to school?",
+    "What items are prohibited in school?",
+    "What things are not allowed inside the campus?"
+  ],
+  "responses": 
+    "🎒 Prohibited Items on Campus<br><br><br><br>For the safety and well-being of the university community, students should avoid bringing prohibited items to campus, including:<br><br><br><br>* Cigarettes, tobacco products, and vaping devices for use within the campus.<br><br>* Alcoholic beverages and intoxicating substances.<br><br>* Illegal drugs and drug-related paraphernalia.<br><br>* Weapons, explosives, or other dangerous items.<br><br>* Materials that may disrupt classes, university activities, or campus operations.<br><br><br><br>Students found in possession of prohibited items may be subject to disciplinary action based on university policies and regulations."
+  },
+{
+ 
+  "patterns": [
+    "Can I smoke in school?",
+    "Is smoking allowed in CvSU Bacoor?",
+    "Can I use a vape on campus?",
+    "Is vaping allowed in school?",
+    "Can students drink alcohol in school?",
+    "Is alcohol allowed in CvSU Bacoor?",
+    "Can I bring cigarettes to school?",
+    "Can I bring a vape inside the campus?",
+    "What is the school's policy on smoking?",
+    "Are tobacco products allowed on campus?"
+  ],
+  "responses": 
+    "🚭 Smoking, Vaping, and Alcohol Policy<br><br><br><br>To maintain a safe, healthy, and conducive learning environment, the following rules are observed within the campus:<br><br><br><br>* Smoking is strictly prohibited within the campus premises.<br><br>* The use of electronic cigarettes (e-cigarettes), vapes, and similar devices is not allowed on campus.<br><br>* Possession, consumption, or distribution of alcoholic beverages within the university premises is prohibited unless specifically authorized for official purposes.<br><br>* Students must not report to school under the influence of alcohol or prohibited substances.<br><br>* Bringing illegal drugs, dangerous substances, or drug paraphernalia into the campus is strictly prohibited.<br><br>* Students are expected to comply with all university health, safety, and disciplinary regulations.<br><br>* Violations of these policies may result in disciplinary action in accordance with university rules and regulations.<br><br><br><br>For complete information regarding student conduct and disciplinary policies, please refer to the official CvSU Student Handbook or contact the campus administration."
+  },
+{
+ 
+  "patterns": [
+    "What activities are prohibited in school?",
+    "What are not allowed in CvSU Bacoor?",
+    "What behaviors are prohibited on campus?",
+    "What can get me into trouble in school?",
+    "What actions are not allowed in the university?"
+  ],
+  "responses": 
+    "⚠️ Prohibited Activities on Campus<br><br><br><br>Students are expected to maintain proper conduct and avoid activities that may disrupt the learning environment. The following are generally prohibited:<br><br><br><br>* Smoking and vaping within the campus premises.<br><br>* Possession or consumption of alcoholic beverages without proper authorization.<br><br>* Possession, use, or distribution of illegal drugs and dangerous substances.<br><br>* Cheating, plagiarism, and other forms of academic dishonesty.<br><br>* Bullying, harassment, discrimination, and acts of violence.<br><br>* Damaging, vandalizing, or misusing university property.<br><br>* Possession of weapons or dangerous items that may threaten campus safety.<br><br>* Disruptive behavior during classes, examinations, or university activities.<br><br>* Unauthorized use of university facilities, equipment, or resources.<br><br>* Any action that violates university policies, rules, and regulations.<br><br><br><br>Students are encouraged to review the official CvSU Student Handbook for detailed policies and disciplinary procedures."
+  },
+  {
+  "patterns": [
+    "Can I bring cigarettes to school?",
+    "Can I bring a vape to campus?",
+    "Can I bring alcohol to school?",
+    "What items are prohibited in school?",
+    "What things are not allowed inside the campus?"
+  ],
+  "responses": 
+    "🎒 Prohibited Items on Campus<br><br><br><br>For the safety and well-being of the university community, students should avoid bringing prohibited items to campus, including:<br><br><br><br>* Cigarettes, tobacco products, and vaping devices for use within the campus.<br><br>* Alcoholic beverages and intoxicating substances.<br><br>* Illegal drugs and drug-related paraphernalia.<br><br>* Weapons, explosives, or other dangerous items.<br><br>* Materials that may disrupt classes, university activities, or campus operations.<br><br><br><br>Students found in possession of prohibited items may be subject to disciplinary action based on university policies and regulations."
+},
+{
+  "patterns": [
+    "What is the procedure for a make-up examination?",
+    "How can I request a special examination?",
+    "What should I do if I miss an exam?",
+    "Can I take a make-up exam?",
+    "What are the requirements for a special examination?"
+  ],
+  "responses": 
+    "📝 Make-Up Examination / Special Examination Procedure<br><br><br><br>Students who are unable to take a scheduled examination due to valid and documented circumstances may request a make-up or special examination, subject to university policies and approval.<br><br><br><br>Procedure:<br><br><br><br>* Inform your instructor as soon as possible regarding your absence from the examination.<br><br>* Prepare and submit the necessary supporting documents that justify your absence (e.g., medical certificate, official letter, or other relevant documents).<br><br>* Submit a formal request for a make-up or special examination following the prescribed university procedures.<br><br>* Obtain the approval of your instructor and the appropriate university authorities.<br><br>* Once approved, coordinate with your instructor regarding the schedule and venue of the examination.<br><br>* Take the make-up or special examination on the approved date and time.<br><br><br><br>Please note that make-up or special examinations are granted only under valid and documented circumstances and are subject to the university's rules and regulations."
+  
+},
+{
+  "patterns": [
+    "What is NSTP?",
+    "Can you explain NSTP?",
+    "What does NSTP mean?",
+    "What is the purpose of NSTP?",
+    "Why do students take NSTP?"
+  ],
+  "responses": 
+    "🎓 National Service Training Program (NSTP)<br><br><br><br>The National Service Training Program (NSTP) is a program mandated by Republic Act No. 9163 for tertiary-level students in the Philippines. It aims to develop civic consciousness, leadership, patriotism, and social responsibility among students through community service and nation-building activities.<br><br><br><br>NSTP helps students become active contributors to society by encouraging volunteerism, community involvement, disaster preparedness, and values formation.<br><br><br><br>Students typically complete two semesters of NSTP as part of their academic requirements. Depending on the institution, students may choose from different NSTP components such as ROTC or CWTS.<br><br><br><br>Through NSTP, students gain valuable experiences that promote personal growth, community engagement, and responsible citizenship."
+  
+},
+{
+  "utterances": [
+    "What is ROTC?",
+    "Can you explain ROTC?",
+    "What does ROTC mean?",
+    "What is the purpose of ROTC?",
+    "What happens in ROTC?"
+  ],
+  "responses": 
+    "🪖 Reserve Officers' Training Corps (ROTC)<br><br><br><br>The Reserve Officers' Training Corps (ROTC) is one of the components of the National Service Training Program (NSTP). It is designed to provide students with military-oriented training that promotes discipline, leadership, patriotism, and preparedness for national defense.<br><br><br><br>ROTC activities may include:<br><br><br><br>* Leadership and teamwork training<br><br>* Military customs and courtesies<br><br>* Basic military instruction<br><br>* Physical fitness activities<br><br>* Disaster preparedness and emergency response training<br><br>* Citizenship and nation-building programs<br><br><br><br>The program aims to develop responsible citizens who are prepared to contribute to national security, public service, and community development. ROTC also helps students strengthen their confidence, discipline, and leadership skills that can be applied in both academic and professional settings."
+  
+},
+{
+ 
+  "utterances": [
+    "What is the difference between NSTP and ROTC?",
+    "Is ROTC the same as NSTP?",
+    "How are NSTP and ROTC different?",
+    "What is NSTP ROTC?",
+    "Explain NSTP and ROTC"
+  ],
+  "responses": 
+    "📚 Difference Between NSTP and ROTC<br><br><br><br>NSTP (National Service Training Program) is the overall program required for college students to promote civic responsibility, leadership, and nation-building.<br><br><br><br>ROTC (Reserve Officers' Training Corps) is one of the components or options under NSTP that focuses on military training, discipline, leadership, and national defense preparedness.<br><br><br><br>In simple terms:<br><br><br><br>* NSTP is the program.<br><br>* ROTC is one of the NSTP components.<br><br><br><br>Students who choose ROTC fulfill their NSTP requirement through military-oriented training and related activities."
+  
 }
 
-]    
+
+
+]
+   
+
 
 def fuzzy_match(user_message, threshold=0.55):
     """Compare user's message to QA_DATA patterns and return best matching response."""
