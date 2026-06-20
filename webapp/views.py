@@ -5379,7 +5379,7 @@ QA_DATA = [
   
 },
 {
-  "utterances": [
+  "patterns": [
     "What is ROTC?",
     "Can you explain ROTC?",
     "What does ROTC mean?",
@@ -5392,7 +5392,7 @@ QA_DATA = [
 },
 {
  
-  "utterances": [
+  "patterns": [
     "What is the difference between NSTP and ROTC?",
     "Is ROTC the same as NSTP?",
     "How are NSTP and ROTC different?",
