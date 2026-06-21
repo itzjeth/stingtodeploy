@@ -433,7 +433,7 @@ QA_DATA = [
 "What is the history of CvSU",
 "When was CvSU established",
 "Tell me about CvSU history",
-"How did Cavite State University start",
+"history of cvsu",
 "Background of CvSU"
 ],
 "response": 
@@ -443,9 +443,8 @@ QA_DATA = [
 
 "patterns": [
 "What is the vision of CvSU",
-"CvSU vision statement",
-"What does CvSU aim to achieve",
-"University vision",
+"cvsu vision",
+"what is cvsu vission",
 "Vision of Cavite State University"
 ],
 "response": 
@@ -454,11 +453,10 @@ QA_DATA = [
 {
 
 "patterns": [
-"What is the mission of CvSU",
-"CvSU mission statement",
-"What is the University's mission",
-"Mission of Cavite State University",
-"What does CvSU do"
+"What is the mision of CvSU",
+"cvsu mission",
+"what is cvsu mission",
+"Mision of Cavite State University"
 ],
 "response": 
 "Cavite State University shall provide excellent, equitable, and relevant educational opportunities in the arts, sciences, and technology through quality instruction and responsive research and development activities. It shall produce professional, skilled, and morally upright individuals who are globally competitive."
@@ -486,7 +484,8 @@ QA_DATA = [
 "CvSU core values statement",
 "What is the University's core values",
 "core values of Cavite State University",
-"core values"
+"core values",
+"core valus of cvsu"
 ],
 "response": 
 "We Commit to the highest standards of education, value our stakeholders, Strive for continual improvement of our products and services, and Uphold the University's tenets of Truth, Excellence, and Service to produce globally competitive and morally upright individuals"
@@ -497,90 +496,56 @@ QA_DATA = [
 "patterns": [
 "What is the motto of CvSU",
 "CvSU motto",
-"University motto",
-"What is Cavite State University's motto",
-"School motto"
+"What is Cavite State University motto",
+"motto of cvsu"
 ],
 "response": 
 "The motto of Cavite State University is 'Truth, Excellence, and Service.'"
 },
-{
-
-"patterns": [
-"What are the official colors of CvSU",
-"CvSU official colors",
-"What colors represent the University",
-"School colors",
-"University color symbolism"
-],
-"response": 
-"The official colors of Cavite State University are green and gold."
-},
-{
-
+ {
+ 
   "patterns": [
-    "Does CvSU have a hymn",
-    "What is the CvSU hymn",
-    "University hymn",
-    "School hymn information",
-    "CvSU song"
+    "What are the lyrics to the CvSU hymn?",
+    "Can you provide the CvSU hymn lyrics?",
+    "Lyrics of the school hymn",
+    "How does the CvSU hymn go?",
+    "What is cvsu hymn lyrics",
+    "lyrics of cvsu hymn",
+    "What is the CvSU hymn?",
+    "Meaning of the school hymn",
+    "Why do we sing the CvSU hymn?",
+    "what is cvsu hymn",
+    "cvsu hymn"
   ],
   "response": 
-    "Yes. Cavite State University has an official hymn that reflects the University's values, aspirations, and commitment to excellence."
-  },
-{
-
-  "patterns": [
-    "When is CvSU Foundation Day",
-    "What is the foundation day of CvSU",
-    "Foundation anniversary",
-    "When does the University celebrate Foundation Day",
-    "CvSU founding celebration",
-    "When is the CvSU anniversary",
-    "What month is Foundation Day",
-    "When is the university founding day held",
-    "When do they celebrate CvSU Foundation Day"
-  ],
-  "response": 
-    "CvSU celebrates its Foundation Day annually through various academic, cultural, sports, and community activities organized by the University. The celebration typically takes place within the months of October to December, depending on the official university schedule for the year."
-  },
-{
-
-"patterns": [
-"What is the student publication",
-"Does CvSU have a student publication",
-"Campus journalism organization",
-"Student newspaper",
-"University publication"
-],
-"response": 
-"The University supports student publication organizations that provide students opportunities to develop skills in journalism, writing, editing, photography, and media production while promoting responsible campus communication."
+    "The CvSU Hymn is the official school song of Cavite State University. It is sung during official university events, ceremonies, and gatherings as a symbol of unity, pride, and identity among students, faculty, and alumni.\n\nThe hymn expresses the university’s values, mission, and commitment to excellence in education, service, integrity, and character formation. It also highlights pride in being part of CvSU and encourages everyone to uphold dedication and responsibility in their academic journey.\n\nYou may listen to and follow the official CvSU Hymn through this video:\n\nhttps://www.youtube.com/watch?v=A2fOWAo9jME\n\nThe hymn is commonly performed during flag ceremonies, graduation rites, and other important university occasions."
+  
 },
 
   {
 
     "patterns": [
-      "When is the onsite validation for passers?",
+    "When is the onsite validation for passers?",
+      "What is the onsite validation for passers?",
+      "onsite validation for passers?",
       "What is the schedule for requirement validation?",
       "Onsite validation dates for incoming students",
-      "When should I go to campus to validate my requirements?"
+      "Onsite validation date",
+      "What date is onsite validation"
     ],
     "response": 
       "The onsite validation of requirements for qualified applicants (passers) for the First Semester, S.Y. 2026–2027 is scheduled according to the applicant's program:<br><br>June 22 – June 25<br><br>Bachelor of Science in Hospitality Management (BSHM)<br>Bachelor of Science in Business Administration (BSBA) – Marketing Management and Human Resource Management<br>Bachelor of Science in Information Technology (BSIT)<br>Bachelor of Science in Computer Science (BSCS)<br><br>June 29 – July 2<br><br>Bachelor of Science in Criminology (BSCrim)<br>Bachelor of Science in Psychology (BS Psychology)<br>Bachelor of Secondary Education (BSEd) – English and Mathematics<br><br>Please visit the campus on the date assigned to your program and bring all the required <br>documents for validation."
 },
 {
-  "intent": "registration_process",
   "patterns": [
-    "How do I register?",
-    "How do I register for classes?",
+   "How do I register?",
+    "How to enroll",
     "What is the registration process?",
     "How can I enroll?",
-    "How do I enroll at CvSU Bacoor?",
     "Enrollment process",
     "Registration procedure",
     "Steps for registration",
     "Steps for enrollment",
-    "How do I complete my registration?",
     "What are the steps in enrollment?",
     "Can you explain the registration process?",
     "How does enrollment work?",
@@ -598,62 +563,55 @@ QA_DATA = [
     "What are the enrollment procedures?",
     "What comes after admission?",
     "How do I proceed with registration?",
-    "What should I do after receiving my admission notice?",
     "Registration guide",
-    "Enrollment guide"
+    "Enrollment guide",
+    "What is the admission process?",
+    "step by step enroll process",
+    "step by step registration process",
+    "How do I apply for admission?",
+    "How can new students enroll?",
+    "How do new students enroll?",
+    "Enrollment process for freshmen",
+    "New student enrollment procedure",
+    "What is the admission and enrollment process?",
+    "How can I apply and enroll?",
+    "How do freshmen register?",
+    "What are the requirements for enrollment?"
   ],
-  "response": [
-    "The registration/enrollment process at CvSU Bacoor generally follows these steps:\n\n1. Submit and verify the required admission documents.\n2. Receive the Notice of Admission and Medical Referral Slip.\n3. Complete the medical clearance and physical examination.\n4. Proceed to the Registrar's Office for registration/enrollment.\n5. Follow the instructions provided by the Registrar for final enrollment and class registration.\n\nFor specific schedules, requirements, and announcements, please coordinate with the Registrar's Office."
-  ]
+  "response": 
+    "The admission, registration, and enrollment process for new students at CvSU Bacoor generally consists of several important steps to ensure that applicants are officially admitted and enrolled in their chosen academic program.\n\n1. Checking and Verification of Requirements\n   - Applicants must submit all required admission documents for evaluation.\n   - The Admissions Office will review and verify the authenticity and completeness of the submitted requirements.\n   - Incomplete or incorrect documents may delay the admission process.\n\n2. Issuance of Notice of Admission and Medical Referral Slip\n   - Qualified applicants will receive a Notice of Admission confirming their eligibility for enrollment.\n   - A Medical Referral Slip will also be provided, which is required for the medical examination and health clearance process.\n\n3. Medical Examination and Clearance\n   - Applicants must undergo the required medical and physical examination at the designated clinic or health facility.\n   - The examination may include basic health assessments and laboratory procedures as required by the university.\n   - Students must secure a Medical Clearance before proceeding to the next stage of enrollment.\n\n4. Registration and Enrollment at the Registrar's Office\n   - Once all requirements and clearances have been completed, students must proceed to the Registrar's Office for registration.\n   - Personal information, academic records, and enrollment details will be verified and encoded into the university system.\n   - Students will be officially enrolled in their selected degree program upon successful processing.\n\n5. Final Enrollment Confirmation and Class Registration\n   - Students must follow the instructions provided by the Registrar regarding subject enrollment, section assignment, and class schedules.\n   - Any additional forms or enrollment procedures must be completed within the designated enrollment period.\n   - After confirmation, students may access their class schedule and other academic information.\n\nImportant Reminders:\n- Prepare all required documents before visiting the campus to avoid delays.\n- Follow the official enrollment schedule announced by the university.\n- Keep copies of all submitted documents and receipts for future reference.\n- For the latest admission guidelines, enrollment schedules, documentary requirements, and announcements, students are encouraged to coordinate directly with the Admissions Office or the Registrar's Office of CvSU Bacoor."
+  
 },
+
 {
 
-"patterns": [
-"What is the admission process?",
-"How do I apply for admission?",
-"What are the steps for freshman enrollment?",
-"How do I complete my admission at CvSU Bacoor?",
-"What is the enrollment process?",
-"How do I enroll in CvSU Bacoor?",
-"What are the steps for enrollment?",
-"How can new students enroll?",
-"What are the steps of enrollment for new students?",
-"How do new students enroll?",
-"Enrollment process for freshmen",
-"New student enrollment procedure",
-"What is the admission and enrollment process?",
-"How can I apply and enroll?",
-"What should I do after being admitted?",
-"How do freshmen register?",
-"How does the enrollment procedure work?",
-"What are the requirements for enrollment?"
-],
-"response": 
-"The admission and enrollment process for new students generally follows these steps:<br><br>1. Checking of Requirements<br>2. Releasing of Notice of Admission and Medical Referral Slip<br>3. Medical Clearance and Physical Examination<br>4. Registration and Enrollment at the Registrar's Office<br><br>Students are advised to prepare and submit all required documents to ensure a smooth enrollment process. For updated admission guidelines and schedules, please coordinate with the Admissions Office or Registrar's Office."
-},
-{
-
-"patterns": [
-"Can foreign students apply to CvSU",
-"Are international students accepted",
-"Foreign student admission requirements",
-"How can international students enroll",
-"Can non-Filipino students apply"
-],
-"response": 
-"Yes. Foreign applicants may apply for admission subject to University requirements and applicable government regulations. Additional documents may be required for evaluation and processing."
-},
-{
-
-"patterns": [
-"Is there an age limit for admission",
-"What is the age requirement for applicants",
-"Can older applicants apply",
-"Minimum age for enrollment",
-"Admission age requirement"
-],
-"response": 
-"Admission eligibility is generally based on academic qualifications and compliance with admission requirements. Applicants should verify specific age-related policies with the Admissions Office if applicable."
+  "patterns": [
+    "application category",
+    "applicant category",
+    "new student category",
+    "first year applicant",
+    "grade 12 student",
+    "senior high graduate",
+    "transfer student",
+    "college transferee",
+    "tcp applicant",
+    "teacher certificate program",
+    "tcp requirements",
+    "document submission",
+    "requirements for grade 12 student",
+    "shs student requirements",
+    "requirements for transferee",
+    "requirements for shs graduate",
+    "requirements for grade 12 graduate",
+    "requirements for ALS passer",
+    "requirements for admission",
+    "requirements in cvsu",
+    "requirements for enrollment",
+    "senior high graduate requirements",
+    "transferee requirements"
+  ],
+  "response": 
+    "ADMISSION REQUIREMENTS (Passers) FIRST SEMESTER S.Y. 2026-2027\n\nFOR SHS GRADUATES\nCan be found in the Admission Portal:\n• Notice of Admission (NOA)\n• Medical Referral Slip\n• Medical Endorsement Form\n• Student Health Record (USHE-QF-15)\n• Interview Permit (for BSHM passers only)\n\nOther Requirements:\n• Grade 12 Report Card (original)\n• Good Moral Certificate (original)\n\nFOR ALS PASSERS\nCan be found in the Admission Portal:\n• Notice of Admission (NOA)\n• Medical Referral Slip\n• Medical Endorsement Form\n• Student Health Record (USHE-QF-15)\n• Interview Permit (for BSHM passers only)\n\nOther Requirements:\n• Certificate of Rating (COR) with eligibility to enroll in college (original)\n\nFOR TRANSFEREES\nCan be found in the Admission Portal:\n• Notice of Admission (NOA)\n• Medical Referral Slip\n• Medical Endorsement Form\n• Student Health Record (USHE-QF-15)\n• Interview Permit (for BSHM passers only)\n\nOther Requirements:\n• Transcript of Records or Certificate of Grades (original)\n• Certificate of Good Moral Character (original)\n• Honorable Dismissal (original)\n• NBI or Police Clearance (original)"
 },
 {
 
@@ -661,71 +619,46 @@ QA_DATA = [
 "Is there an orientation for new students",
 "What is the freshman orientation",
 "Do new students attend orientation",
-"Orientation program information",
-"Student orientation schedule"
+"orientation for first year",
+"orientation for freshmen",
+"is orientation required to attend"
 ],
 "response": 
-"Yes. The University typically conducts orientation programs for new students to introduce important academic policies, campus services, student responsibilities, and University procedures."
+"The University typically conducts orientation programs for new students to introduce important academic policies, campus services, student responsibilities, and University procedures."
+
 },
+
 {
 
 "patterns": [
 "Does CvSU have an online admission portal",
 "Where can I apply online",
+"How do i apply online admission",
+"How do i enroll online",
 "Online admission application",
 "How do I access the admission portal",
-"Can I submit my application online"
-],
-"response": 
-"Yes. Applicants may submit admission applications through the University's official online admission portal when applications are open."
-},
-{
+"Can I submit my application online",
+"admission link cvsu",
+"where to apply cvsu",
+"cvsu admission portal",
+"online admission"
 
-"patterns": [
-"Who is qualified to apply for admission",
-"Admission qualifications",
-"Who can apply to CvSU",
-"Eligibility for admission",
-"Admission requirements for applicants"
 ],
-"response": 
-"Applicants must satisfy the University's admission requirements, submit complete documents, and comply with established admission procedures to be considered for enrollment."
+"response": [
+    "Applicants may submit admission applications through the CvSU Online Admission System when applications are open.\n\nYou may access the admission portal through:\nhttps://admission.cvsu.edu.ph/\n\nApplicants should sign up using a valid Gmail account and follow the instructions provided in the portal for the application process."
+  ]
 },
 
-  {
+ {
 
   "patterns": [
-    "What degrees are available?",
-    "List of degrees in CvSU Bacoor",
-    "What bachelor's degrees do you offer?",
-    "Available degree programs",
-    "What degree programs are offered?",
-    "What can I take in CvSU Bacoor?",
-    "What undergraduate programs are available?"
-  ],
-  "response": 
-    "CvSU Bacoor offers the following bachelor's degree programs:<br><br>• Bachelor of Secondary Education (BSEd)<br>• Bachelor of Science in Business Management (BSBM)<br>• Bachelor of Science in Computer Science (BSCS)<br>• Bachelor of Science in Criminology (BSCrim)<br>• Bachelor of Science in Hospitality Management (BSHM)<br>• Bachelor of Science in Information Technology (BSIT)<br>• Bachelor of Science in Psychology (BSPsych)<br><br>These programs are designed to prepare students for professional careers and further studies in their chosen fields."
-  },
-  {
-   
-    "patterns": [
-      "What are the extracurricular activities?",
-       "What extracurricular activities are available",
-      "Are there clubs I can join?",
-      "What student organizations are there?",
-      "Does the school have sports or arts activities?",
-       "What clubs and activities can I join",
-        "Campus extracurricular activities",
-    "Student activities and organizations",
-    "Available extracurricular programs"
-    ],
-    "response": 
-      "We're excited to share with you the various extracurricular and co-curricular opportunities available at CvSU Bacoor Campus.<br>At Cavite State University – Bacoor City Campus, student development goes beyond the classroom, encouraging participation in activities that build skills, leadership, and camaraderie.<br>Students may join or participate in activities such as:<br><br>**Sports and Athletics**<br>• Basketball<br>• Volleyball<br>• Athletics / Track and Field<br>• Other sports activities organized through campus events and intramurals<br><br> **Mind Sports**<br>• Chess (often included in intramurals and intercollegiate competitions)<br><br>**Cultural and Arts Activities**<br>• Theater and Performing Arts (during campus events and festivals)<br>• Music and Choral Performances<br>• Visual Arts (posters, painting, and creative competitions)<br><br>**Student Organizations**<br>• Department-based student organizations<br>• Recognized campus clubs and organizations under the Office of Student Affairs (OSA)<br>• Community service and volunteer groups<br><br>**Academic and Development Activities**<br>• Seminars and workshops<br>• Leadership training programs<br>• Research presentations and academic competitions<br><br>These activities are designed to help <br>students develop teamwork, leadership skills, creativity, and social responsibility while enhancing their overall college experience.<br>For updated lists of active organizations and upcoming activities, students may coordinate with the **Office of Student Affairs and Service (OSAS)**.<br>CvSU Bacoor Campus Contact Number: (046) 476-5029<br><br>Participation in extracurricular activities is encouraged to support holistic student development and campus engagement."
-},
-
-  {
-  
-  "patterns": [
+    "What are the extracurricular activities?",
+    "What extracurricular activities are available",
+    "Are there clubs I can join?",
+    "Does the school have sports or arts activities?",
+    "What clubs and activities can I join",
+    "Campus extracurricular activities",
+    "Available extracurricular programs",
     "What sports are available in CvSU Bacoor",
     "Sports activities on campus",
     "Can I join sports teams",
@@ -733,8 +666,9 @@ QA_DATA = [
     "Athletic activities"
   ],
   "response": 
-    "Students may participate in various sports and athletic activities offered by the University.<br><br>Available sports may include basketball, volleyball, tennis, athletics, chess, and other competitive or recreational activities depending on University programs and student interest."
-  },
+    "CvSU Bacoor Campus offers various extracurricular and co-curricular activities that support student development, leadership, teamwork, creativity, and campus engagement.\n\nStudents may participate in activities such as:\n\n**Sports and Athletics**\n• Basketball\n• Volleyball\n• Tennis\n• Athletics / Track and Field\n• Chess and other mind sports\n• Other recreational and competitive activities depending on University programs and student interest\n\n**Cultural and Arts Activities**\n• Theater and Performing Arts\n• Music and Choral Performances\n• Visual Arts activities and creative competitions\n\n**Student Organizations and Clubs**\n• Department-based student organizations\n• Recognized campus organizations under the Office of Student Affairs and Services (OSAS)\n• Community service and volunteer groups\n\n**Academic and Development Activities**\n• Seminars and workshops\n• Leadership training programs\n• Research presentations\n• Academic competitions\n\nThese activities help students develop teamwork, leadership skills, creativity, and social responsibility while enhancing their overall college experience.\n\nFor updated lists of active organizations, sports programs, and upcoming activities, students may coordinate with the Office of Student Affairs and Services (OSAS).\n\nCvSU Bacoor Campus Contact Number: (046) 476-5029"
+  
+},
   {
    
     "patterns": [
@@ -747,10 +681,39 @@ QA_DATA = [
       "What student services are available?"
     ],
     "response": 
-      "The Office of Student Affairs and Services (OSAS) supports students through leadership development, student organizations, scholarships, counseling referrals, student welfare programs, and other student-related services"
+       "OSAS, or the Office of Student Affairs and Services, is dedicated to supporting students throughout their university life. It provides assistance with student organizations, leadership and skills development programs, scholarships, counseling referrals, student welfare concerns, disciplinary matters, and various campus activities. If you need help with student-related concerns, opportunities, or support services, OSAS is one of the primary offices you can approach."
 },
-  {
-  
+
+{
+  "patterns": [
+    "Who is in charge of student affairs?",
+    "Who manages the OSAS office?",
+    "head of student affairs?",
+    "Who handles student services?",
+    "Who is the head of OSAS?",
+    "Name of the Student Affairs head",
+    "Who manages OSAS?",
+    "Contact person for OSAS",
+    "who leads OSAS",
+    "Who manages the Quality Assurance Office?",
+    "Who heads Quality Assurance Office?",
+    "Who is in charge of Quality Assurance Office?",
+    "Can you tell me the head of the Quality Assurance Office?",
+    "Who is the quality assurance coordinator?",
+    "Who manages quality assurance activities?",
+    "Who is responsible for quality assurance?",
+    "Can you tell me the quality assurance coordinator?",
+    "Who is the NSTP coordinator?",
+    "Who manages the National Service Training Program?",
+    "Who handles NSTP concerns?",
+    "Who is responsible for NSTP?",
+    "Can you tell me the NSTP coordinator?"
+  ],
+  "response": [
+    "Steffanie M. Bato serves as the Head of the Office of Student Affairs and Services (OSAS) of CvSU Bacoor.<br><br>She also serves as the Coordinator of the Quality Assurance Office and the Coordinator of the National Service Training Program (NSTP)."
+  ]
+},
+{
     "patterns": [
       "What are the rooms in CvSU Bacoor?",
       "List of facilities in the campus",
@@ -762,32 +725,88 @@ QA_DATA = [
       "Does the campus have laboratories?",
       "What campus facilities are available?",
       "Can students access campus facilities?",
-      "Campus facilities"
+      "rooms in cvsu",
+      "facilities in cvsu",
+      "faclity in cvsu",
+      "what kind of facilities in cvsu",
+      "Campus facilities",
+      "Where can I find the registrar?",
+  "Where is the cashier's office located?",
+  "Where is the admissions office?",
+  "Where is the OSAS office?",
+  "Where is the Office of Student Affairs and Services?",
+  "Where is the guidance office?",
+  "Where is the Guidance and Counseling Office?",
+  "Where is the campus clinic?",
+  "Where can I find the clinic?",
+  "Where is the campus administrator's office?",
+  "Where are the faculty rooms located?",
+  "Where are the consultation areas?",
+  "Where is the gymnasium?",
+  "Where is the school court?",
+  "Where is the canteen?",
+  "Where can students eat on campus?",
+  "Where are the multipurpose rooms?",
+  "Where are the meeting rooms located?",
+  "Where are the classrooms located?",
+  "What floor are the classrooms on?",
+  "Where can I hold my thesis defense?",
+  "Where are project defense rooms located?",
+  "Where is the student organization office?",
+  "Where are the student activity spaces?",
+  "Where can I find student support facilities?",
+  "Location of the clinic",
+  "Location of the registrar office",
+  "Gym location",
+  "Canteen location"
     ],
-    "response": 
-      "I'm happy to help you with your query.<br>At Cavite State University – Bacoor City Campus, the campus facilities are composed of several academic and administrative buildings that support the learning needs of students across different programs.<br>Instead of fixed room counts per building, CvSU Bacoor Campus is organized by **functional areas and departments**, which may include:<br><br>**Administrative Offices**<br>• Office of the Campus Administrator<br>• Registrar’s Office<br>• Cashier’s Office<br>• Office of Student Affairs and Services (OSAS)<br><br>**Academic Buildings**<br>• Classrooms for General Education and program-based subjects<br>• Laboratories for IT, computer science, and other technical courses 💻<br>• Faculty rooms for instructors and advisers<br><br>**Student Support Facilities**<br>• Library 📖<br>• Guidance Office<br>• Clinic / Health Services 🏥<br>• Student organizations and activity areas<br><br>**Other Campus Facilities**<br>• Computer laboratories 💻<br>• Lecture rooms and conference areas<br>• Designated event and defense venues (varies by schedule)<br><br>The exact number of rooms and <br>their assignments may change depending on campus development, renovations, and academic scheduling.<br>For the most accurate and updated campus facility information, you may contact CvSU Bacoor Campus at:<br>Email: cvsubacoor@cvsu.edu.ph<br>(046) 476-5029<br><br>CvSU Bacoor continues to improve its facilities to better serve students and support quality education."
+  
+  "response": 
+    "Cavite State University (CvSU) Bacoor City Campus provides a variety of academic, administrative, and student-support facilities to meet the needs of students, faculty, and staff.\n\nACADEMIC FACILITIES\n• Regular Classrooms – Located from the 1st Floor to the 4th Floor.\n• Computer Laboratories – Located on the 3rd Floor.\n• School Gymnasium/Court – Located on the Ground Floor; used for physical education classes, events, seminars, and university activities.\n• Specialized Laboratories – Located on the 5th Floor for program-specific practical exercises and laboratory work.\n• Faculty Rooms and Consultation Areas – Located on the Ground Floor.\n\nSTUDENT LEARNING FACILITIES\n• Library – Located on the 2nd Floor and provides academic resources, books, and study spaces.\n• Thesis, Capstone, and Project Defense Venues – Available depending on schedule and room assignment.\n\nADMINISTRATIVE OFFICES\n(Most offices are located on the Ground Floor, while some administrative functions may be found in the New Building.)\n• Office of the Campus Administrator – Near the Registrar's Area.\n• Registrar's Office – Ground Floor.\n• Cashier's Office – Ground Floor.\n• Admissions Office – Ground Floor.\n• Office of Student Affairs and Services (OSAS) – Ground Floor.\n• Guidance and Counseling Office – Ground Floor.\n\nSTUDENT SUPPORT FACILITIES\n• Campus Clinic – Located on the Ground Floor near the campus exit.\n• Student Organization and Leadership Development Offices – Ground Floor.\n\nSTUDENT ACTIVITY AND CAMPUS FACILITIES\n• Multipurpose Rooms and Meeting Areas.\n• Student Gathering and Activity Spaces.\n• Canteen – Located on the Ground Floor and serves as a common area for students.\n\nMost facilities are accessible to students during official campus hours, subject to university policies and scheduling.\n\nIf you are looking for a specific room, office, laboratory, or facility, you may inquire at the Information Desk, Registrar's Office, or the Office of Student Affairs and Services (OSAS) for directions and availability."
+
 },
   {
   
-    "patterns": [
-      "What degree programs are currently available?",
-      "Which degrees can I take up?",
-      "Undergraduate programs offered",
-      "What are the available courses to enroll in?"
-    ],
-    "response": 
-      "🎓 We're glad you're interested in learning more about the academic programs offered at CvSU Bacoor Campus.<br>📚<br><br>At Cavite State University – Bacoor City Campus, we offer a selection of undergraduate degree programs under different colleges and departments, designed to support various career paths and fields of study.<br>📖 **Available Programs include:**<br><br>• Bachelor of Science in Information Technology (BSIT) 💻<br>• Bachelor of Science in Computer Science (BSCS) 💻<br>• Bachelor of Science in Psychology (BS Psychology) 🧠<br>• Bachelor of Science in Business Management (BSBM) 📊<br>• Bachelor of Science in Hospitality Management (BSHM) 🏨<br>• Bachelor of Secondary Education (BSEd) 👩‍🏫<br><br>📌 These programs are aligned with the university’s academic standards and may include General Education courses, major subjects, laboratory work, and practical training depending on your chosen field.<br>📞 For more information about program requirements, enrollment, or curriculum details, you may contact the campus office or visit CvSU Bacoor Campus directly.<br>📧 Email: Email: cvsubacoor@cvsu.edu.ph<br>📞 Phone: (046) 476-5029<br><br>🎓 We’re happy to help guide you in choosing the program that best fits your interests and career goals."
+  "patterns": [
+    "What degrees are available?",
+    "List of degrees in CvSU Bacoor",
+    "What bachelor's degrees do you offer?",
+    "Available degree programs",
+    "What degree programs are offered?",
+    "What can I take in CvSU Bacoor?",
+    "What undergraduate programs are available?",
+    "What courses are offered?",
+    "Can you give me the list of courses?",
+    "What can I study here?",
+    "courses in cvsu",
+    "Courses available in the campus",
+    "What programs can I enroll in?",
+    "What academic programs are available?",
+    "What fields of study are offered?",
+    "List of undergraduate courses",
+    "Available programs in campus",
+    "Degrees to choose from",
+    "What degree programs are currently available?",
+    "Which degrees can I take up?",
+    "Undergraduate programs offered",
+    "What are the available courses to enroll in?"
+  ],
+  "response": 
+    "CvSU Bacoor offers several undergraduate degree programs for students who want to build careers in education, business, technology, social sciences, hospitality, and law enforcement.\n\nAvailable programs include:\n\n• Bachelor of Secondary Education (BSEd) – For students who want to become professional teachers.\n• Bachelor of Science in Business Management (BSBM) – Focuses on business operations, entrepreneurship, and management.\n• Bachelor of Science in Computer Science (BSCS) – Covers software development, programming, and computer systems.\n• Bachelor of Science in Criminology (BSCrim) – Prepares students for careers in law enforcement, public safety, and criminal justice.\n• Bachelor of Science in Hospitality Management (BSHM) – Focuses on hotel, restaurant, tourism, and hospitality services.\n• Bachelor of Science in Information Technology (BSIT) – Covers information systems, networking, web development, and IT support.\n• Bachelor of Science in Psychology (BSPsych) – Studies human behavior, mental processes, and psychological assessment.\n\nEach program includes a combination of general education subjects, major courses, practical activities, laboratory work (if applicable), and on-the-job training or internships.\n\nIf you'd like to know more about a specific course, such as its curriculum, career opportunities, or admission requirements, feel free to ask."
 },
   {
-  
-    "patterns": [
-      "Who handles OJT concerns?",
-      "Who do I talk to about my internship?",
-      "Where can I ask about OJT requirements?",
-      "Contact person for OJT"
-    ],
-    "response": 
-      "At Cavite State University - Bacoor City Campus, OJT-related matters are usually coordinated through your assigned department and OJT adviser 📚.<br>If you have questions or concerns about completing your OJT hours, requirements, or company placement, **you can also ask your OJT adviser** for guidance.<br>They can assist you with clarifications regarding documents, requirements, and proper procedures.<br>📞<br><br>To complete your OJT requirements, you will typically need to prepare the following documents:<br><br>1. Updated Resume 📄<br>2. Endorsement Letter 📨<br>3. Other requirements as specified by your department or OJT adviser 📝<br><br>📈 It is important to follow all OJT guidelines and complete the required hours properly to avoid delays or issues with your final grade.<br>📌 For any specific concerns, you may coordinate with your OJT adviser or department office, as they will provide the most accurate and updated instructions based on your program.<br>If you need further help, feel free to ask. I'm here to assist you anytime.<br>😊🎉"
+  "patterns": [
+ "Who handles OJT concerns?",
+    "Who is the OJT person",
+    "Who can i contact about OJT",
+    "Who do I talk to about my internship?",
+    "Where can I ask about OJT requirements?",
+    "Who is the OJT coordinator?",
+    "OJT concerns"
+  ],
+  "response": [
+    "The Coordinator of the Campus OJT and Job Placement Unit is Ana Rose M. Rupido.\n\nFor OJT-related matters, students may coordinate with their assigned department, OJT adviser, or the Campus OJT and Job Placement Unit.\n\nIf you have questions about internship requirements, OJT hours, company placement, endorsement letters, documents, or other internship concerns, your OJT adviser can provide guidance and clarification.\n\nTo complete OJT requirements, students are typically required to prepare:\n• Updated Resume\n• Endorsement Letter\n• Other documents required by the department or OJT adviser\n\nStudents are encouraged to follow all OJT guidelines and complete the required hours to avoid delays or issues with their final grade. For the most accurate and updated instructions, please consult your OJT adviser or department office."
+  ]
 },
   {
  
@@ -798,91 +817,130 @@ QA_DATA = [
       "How to report a lost belonging?",
       "What should I do if I lost something on campus",
     "Lost and found services",
+      "Lost and found",
+    "missing items",
+    "lose keys",
     "I lost my belongings",
     "Where can I report lost items",
-    "How do I recover lost property"
+    "recover lost items",
+    "How do I recover lost property",
+    "Where can I claim a lost item?",
+"Someone took my item",
+"I misplaced my things on campus",
+"I can't find my belongings",
+"I lost my wallet",
+"I lost my phone",
+"I lost my bag",
+"I lost my keys",
+"I left my bag in a room",
+"Who should I contact for lost items?",
+"Who handles lost and found concerns?",
+"Where do found items go?",
+"Is there a lost and found office?",
+"Can security help me recover my belongings?",
+"How do I report a missing item?",
+"Where should I go if I lose something?",
+"I lost something in the campus",
+"Missing personal belongings",
+"Lost property assistance",
+"Report lost property",
+"Retrieve lost belongings",
+"Claim lost property",
+"Found and lost items",
+"How to claim found items?"
+
     ],
-    "response": 
-      "I'm happy to help you with your concern. 🤔 Losing belongings can be frustrating, but don’t worry—CvSU Bacoor Campus has a process in place to help you retrieve lost items.<br>📚<br><br>To recover lost belongings, you may start by **asking the security guard on duty** at the campus entrance or building posts 🛡️.<br>They often receive or are informed about items that have been found within the campus.<br>You can also visit the **Student Affairs Office** 🏢. They will ask you to provide a detailed description of the lost item, including the date and location where you last saw it 📝.<br>📱 You may also check campus announcements or social media groups where found items are sometimes posted.<br>Additionally, you can ask your classmates or friends if they have seen your lost item 🤝.<br>📋 If the item is not immediately found, you may file a lost item report at the University Security Office.<br>This helps the security personnel track and monitor reported belongings in case they are turned in later.<br>🕒 Please report lost items as soon as possible, as unclaimed items may only be kept for a limited period before being disposed of or turned over following campus policy.<br>If you have any further questions or need assistance, feel free to approach the Student Affairs Office or the University Security personnel.<br>📞 Good luck, and I hope you recover your belongings soon!<br>🤞"
+  "response": 
+    "If you have lost a personal belonging on campus, you may take the following steps to help recover it:\n\n1. Ask the security guard on duty.\nSecurity personnel are often informed when lost items are found and turned in.\n\n2. Visit the Office of Student Affairs and Services (OSAS).\nProvide a detailed description of the item, including its appearance, the date it was lost, and the last location where you remember having it.\n\n3. Check campus announcements.\nFound items may sometimes be reported through official campus announcements or student communication channels.\n\n4. Ask classmates, friends, or instructors.\nSomeone may have seen or picked up the item and can provide information about its whereabouts.\n\n5. File a lost item report.\nIf the item has not been located, you may report it to the campus security office. This allows security personnel to monitor and match any found items with reported losses.\n\nIt is recommended to report lost belongings as soon as possible. The sooner a report is made, the greater the chance of recovering the item.\n\nFor further assistance, you may approach the Office of Student Affairs and Services (OSAS) or the campus security personnel."
 },
   {
-   
-    "patterns": [
-      "What is the contact number of the campus?",
-      "How can I call CvSU Bacoor?",
-      "What is the email address of the school?",
-      "Campus contact details",
-       "How can I contact CvSU Bacoor",
+  "patterns": [
+    "Contact information",
+    "Email address",
+    "Phone number",
+    "How do I contact CvSU Bacoor?",
+    "Campus contact",
+    "What is the contact number of the campus?",
+    "How can I call CvSU Bacoor?",
+    "What is the email address of the school?",
+    "Campus contact details",
+    "How can I contact CvSU Bacoor",
     "What is the contact information of CvSU Bacoor",
     "How do I reach the University",
     "Where can I contact the school",
     "University contact details"
-    ],
-    "response": 
-      "Students, applicants, parents, and stakeholders may contact CvSU Bacoor through its official communication channels for inquiries, concerns, and requests.<br><br> **CvSU Bacoor Campus Contact Information**<br><br>Email: Email: cvsubacoor@cvsu.edu.ph<br>Telephone: (046) 476-5029<br><br>Cavite State University – Bacoor City Campus<br>Lily Street, Phase II Soldiers Hills IV, Bacoor City, Cavite, Philippines<br><br>For inquiries and concerns, you may contact the campus through the email or telephone number provided.<br>These are the official contact details used for administrative, academic, and student-related concerns.<br>If you need further assistance or specific office contacts (such as registrar, admissions, or OJT concerns), feel free to ask."
+  ],
+  "response": 
+    "Students, applicants, parents, and stakeholders may contact CvSU Bacoor through its official communication channels for inquiries, concerns, and requests.\n\n**CvSU Bacoor Campus Contact Information**\n\n📍 Cavite State University – Bacoor City Campus\nLily Street, Phase II, Soldiers Hills IV, Bacoor City, Cavite, Philippines\n\n📞 Telephone: (046) 476-5029\n📧 Email: cvsubacoor@cvsu.edu.ph\n\nFor additional university contact details, visit:\nhttps://cvsu.edu.ph/contact-us/\n\nThese official contact channels may be used for administrative, academic, admissions, registrar, enrollment, student services, and other university-related concerns."
 },
   {
    
     "patterns": [
-      "How many OJT hours per department?",
-      "How many hours for internship?",
-      "Required OJT hours for my course",
-      "BSIT OJT hours"
-    ],
-    "response": 
-      "The required number of On-the-Job Training (OJT) hours at CvSU Bacoor Campus depends on your degree program and the curriculum prescribed by your department.<br>🎓<br><br>⏰ General OJT hour requirements per program:<br><br>• Bachelor of Science in Information Technology (BSIT): **360–486 hours**<br>• Bachelor of Science in Computer Science (BSCS): **240–360 hours**<br>• Bachelor of Science in Business Management (BSBM): **300–400 hours**<br>• Bachelor of Science in Hospitality Management (BSHM): **300–600 hours**<br>• Bachelor of Science in Psychology (BS Psych): **200–300 hours**<br>• Bachelor of Secondary Education (BSEd): **300–500 hours**<br><br>📝 Please note that these are **general program-based requirements** and may still vary depending on your specific curriculum, year level, and department policies at CvSU Bacoor Campus.<br>📄 To confirm your exact required OJT hours, always coordinate with your OJT coordinator, program adviser, or department office.<br>📅 Make sure to complete all required documents and hours within your assigned schedule to avoid delays in graduation processing.<br>If you need clarification for your specific program, feel free to ask your department office for the official breakdown.<br>😊 Good luck with your OJT journey! 🎓💼"
-},
-  {
- 
-    "patterns": [
-      "How much is the statistician fee?",
-      "What are the research fees?",
-      "Fee for the statistician",
-      "How much do I pay for capstone evaluation?"
-    ],
-    "response": 
-      "At CvSU Bacoor Campus, the fees associated with Capstone or Research evaluation may include the following:<br><br>• **Technical Adviser (TA) Fee:** ₱1,500.00<br>• **Technical Critic (TC) Fee:** ₱800.00<br>• **Statistician Fee:** ₱500.00<br><br>📝 Please note that these fees **may vary depending on your department, degree program, or course requirements**.<br>Different departments may implement different fee structures based on their academic policies and evaluation procedures.<br>💸 To avoid any discrepancies, it is recommended that you confirm the exact fees with your department office, research coordinator, capstone coordinator, or the Cashier's Office before making any payment.<br>📅 Be sure to settle any required fees within the prescribed deadlines to prevent delays in the evaluation and completion of your academic requirements.<br>🏫 For additional information regarding payment procedures, requirements, and schedules, you may visit your department office or coordinate directly with the concerned faculty members.<br>If you have any further questions or concerns, feel free to ask. I'm always happy to assist you.<br>😊🎓"
-},
-  {
-
-"patterns": [
-"How much is the capstone defense fee?",
-"What is the defense fee for capstone?",
-"How much do we pay for capstone defense?",
-"What is the estimated capstone defense fee?",
-"How much should we prepare for the defense fee?",
-"Is there a fee for capstone defense?",
-"How much is the panel fee for capstone defense?",
-"What are the defense expenses for capstone?",
-"How much is the payment for capstone panelists?",
-"What is the cost of defending our capstone project?"
+  "How many OJT hours per department?",
+  "How many hours for internship?",
+  "Required OJT hours for my course",
+  "OJT hours",
+  "How many hours is OJT in CvSU?",
+  "How long is internship in CvSU?",
+  "What is the required internship hours?",
+  "Internship hours requirement",
+  "OJT requirement per program",
+  "How many hours do I need to complete OJT?",
+  "How many hours of OJT for IT students?",
+  "How many hours for BSIT internship?",
+  "How many hours for BSCS internship?",
+  "How many hours for BSHM internship?",
+  "How many hours for BSBM internship?",
+  "How many hours for BS Psychology internship?",
+  "How many hours for BSEd internship?",
+  "Required training hours for OJT",
+  "OJT duration per course",
+  "Internship duration requirement",
+  "OJT hours needed to graduate",
+  "Minimum OJT hours per program",
+  "CvSU internship hours",
+  "CvSU OJT requirement",
+  "How many practicum hours are required?",
+  "Practicum hours requirement",
+  "Work immersion hours (OJT)",
+  "How long is practicum in college?",
+  "How many hours is work immersion in CvSU?",
+  "Internship length per department"
 ],
-"response": 
-"The capstone defense fee is not fixed and may vary depending on the number of panelists assigned and their availability. The fee usually ranges from ₱200 to ₱500 per panelist.<br><br>For example, if the total defense fee amounts to around ₱1,000 and your group has three members, each member may contribute approximately ₱333.33.<br><br>Students are advised to coordinate with their capstone adviser, subject instructor, or department for the official defense fee and payment arrangements."
+  "response": 
+    "The required number of On-the-Job Training (OJT) hours at CvSU Bacoor Campus depends on your degree program and the curriculum set by your department.\n\nMinimum OJT hour requirements per program are generally as follows:\n\n• Bachelor of Science in Information Technology (BSIT): minimum of 360 hours\n• Bachelor of Science in Computer Science (BSCS): minimum of 240 hours\n• Bachelor of Science in Business Management (BSBM): minimum of 200 hours\n• Bachelor of Science in Hospitality Management (BSHM): minimum of 200 hours\n• Bachelor of Science in Psychology (BS Psych): minimum of 200 hours\n• Bachelor of Secondary Education (BSEd): minimum of 200 hours\n\nPlease note that these are minimum requirements and may still vary depending on your curriculum, year level, or specific department policies.\n\nFor the most accurate and updated requirement for your program, it is best to coordinate with your OJT coordinator, program adviser, or department chair.\n\nMake sure to complete all required hours and submit necessary documentation within the assigned schedule to avoid delays in graduation processing."
 },
 {
-
-"patterns": [
-"How much is the thesis defense fee?",
-"What is the defense fee for thesis?",
-"How much do we pay for thesis defense?",
-"How much is the panel fee for thesis?",
-"What is the estimated thesis defense fee?"
-],
-"response": 
-"The thesis defense fee is determined based on the number of panelists and their availability. Fees are not fixed and may vary each semester. In most cases, the fee ranges from ₱200 to ₱500 per panelist. Students should consult their adviser or department for the official amount and payment procedure."
-},
-
-  {
-    "patterns": [
-      "How much is the TA and TC fee?",
-      "Technical adviser fee",
-      "Technical critic fee",
-      "How much do we pay the technical critic?",
-      "Panel fees for capstone"
-    ],
-    "response": 
-      "At CvSU Bacoor Campus, the fees for Capstone or Research evaluation are as follows:<br><br>• **Technical Adviser (TA) Fee:** ₱1,000.00<br>• **Technical Critic (TC) Fee:** ₱800.00<br><br>📝 Please note that these fees may vary depending on your department, program, or current university policies.<br>It is always best to verify the exact amount with your department office, capstone coordinator, or the Cashier's Office before making any payment.<br>💸 Students are encouraged to settle the required fees on or before the designated deadline to avoid delays in the evaluation and defense process.<br>📅 For more information regarding payment procedures and schedules, you may coordinate with your Technical Adviser, Technical Critic, or department office.<br>If you have any further questions or concerns, feel free to ask. I'm happy to assist you.<br>😊"
+  "patterns": [
+    "How much is the statistician fee?",
+    "What are the research fees?",
+    "Fee for the statistician",
+    "How much do I pay for capstone evaluation?",
+    "How much is the capstone defense fee?",
+    "What is the defense fee for capstone?",
+    "How much do we pay for capstone defense?",
+    "What is the estimated capstone defense fee?",
+    "How much should we prepare for the defense fee?",
+    "Is there a fee for capstone defense?",
+    "How much is the panel fee for capstone defense?",
+    "What are the defense expenses for capstone?",
+    "How much is the payment for capstone panelists?",
+    "What is the cost of defending our capstone project?",
+    "How much is the thesis defense fee?",
+    "What is the defense fee for thesis?",
+    "How much do we pay for thesis defense?",
+    "How much is the panel fee for thesis?",
+    "What is the estimated thesis defense fee?",
+    "How much is the TA and TC fee?",
+    "Technical adviser fee",
+    "Technical critic fee",
+    "Statistician fee",
+    "How much do we pay the technical critic?",
+    "Panel fees for capstone"
+  ],
+  "response": 
+    "At CvSU Bacoor Campus, the fees associated with Capstone and Research evaluation may include the following:\n\n• Technical Adviser (TA) Fee: ₱1,500.00\n• Technical Critic (TC) Fee: ₱800.00\n• Statistician Fee: ₱500.00\n\nFor Capstone or Thesis Defense, fees are not fixed and may vary depending on the number of panelists assigned and their availability. In most cases, the defense fee ranges from ₱200.00 to ₱500.00 per panelist.\n\nFor example, if the total defense fee is ₱1,000.00 and a group has three members, each member may contribute approximately ₱333.33.\n\nPlease note that these fees may vary depending on the department, degree program, academic policies, and current university guidelines. Students are advised to verify the exact fees with their department office, research coordinator, capstone coordinator, adviser, subject instructor, or the Cashier's Office before making any payment.\n\nStudents should also settle all required fees within the prescribed deadlines to avoid delays in evaluation, defense schedules, and completion of academic requirements."
+  
 },
   {
    
@@ -923,8 +981,8 @@ QA_DATA = [
       "Can we eat inside the comp lab?",
       "Laboratory guidelines"
     ],
-    "response": 
-      "📚💻 As a student of CvSU Bacoor Campus, it's important to follow the rules and regulations inside the computer laboratory to maintain a productive, safe, and respectful learning environment.<br>Here are some guidelines to keep in mind:<br><br>1. Computer Usage: 🖥️ Computers are intended for academic purposes only.<br>Students may use them for research, assignments, programming activities, projects, and other coursework-related tasks.<br>Avoid using laboratory computers for activities unrelated to academics.<br><br>2. Food and Drinks: 🍔🥤 Eating and drinking are strictly prohibited inside the computer laboratory to prevent damage to equipment and maintain cleanliness.<br>3. Noise Level: 🗣️ Maintain a quiet environment while inside the laboratory.<br>Avoid loud conversations and unnecessary noise that may distract other students.<br>4. Proper Handling of Equipment: ⚙️ Handle all computers, peripherals, and laboratory equipment with care.<br>Do not attempt to disconnect, transfer, modify, or damage any hardware components.<br>5. Software and Resources: 📁 Use only the software and resources provided or approved by the laboratory instructor.<br>Do not install unauthorized programs or make changes to system settings.<br>6. Laboratory Hours and Schedule: 🕒 Follow the designated laboratory schedule and use the facilities only during authorized hours.<br>Students should vacate the laboratory promptly when their scheduled class or session ends.<br>7. Cleanliness and Orderliness: 🧹 Keep your workstation clean and organized.<br>Arrange chairs properly and dispose of any trash before leaving the laboratory.<br>8. Supervision and Assistance: 🤔 Laboratory personnel and instructors are available to provide guidance and assistance.<br>Follow their instructions at all times and seek help whenever necessary.<br>By following these rules and regulations, you help create a safe, efficient, and conducive learning environment for everyone.<br>📚💻 If you have any questions regarding laboratory policies, feel free to ask your instructor or laboratory personnel.<br>👍"
+  "response": 
+    "At CvSU Bacoor Campus, thesis, capstone, and research defenses are usually conducted in designated classrooms, laboratories, conference rooms, or other venues assigned by the department or program.\n\nThe exact venue may vary depending on:\n• Your degree program or department\n• The type of defense (proposal, pre-oral, final oral, or capstone defense)\n• The number of groups scheduled for the day\n• Room availability and administrative arrangements\n\nTo know your exact schedule and venue, always check the official announcements from your course instructor, research adviser, capstone coordinator, or department office. These details are typically released before the scheduled defense date.\n\nIf you are unsure about your assigned venue, you may also contact your department chairperson, technical adviser, or class representative for confirmation.\n\nMake sure to arrive on time and prepare all required documents and presentation materials for your defense."
 },
   {
    
@@ -1331,36 +1389,7 @@ QA_DATA = [
   "response": 
     "The Campus Nurse of CvSU Bacoor is Aivan Rhei P. Cacho."
   },
-{
-  "patterns": [
-    "Who heads the Office of Student Affairs and Services?",
-    "Who is in charge of student affairs?",
-    "Who manages the OSAS office?",
-    "Can you tell me the head of student affairs?",
-    "Who handles student services?",
-    "Who is the head of OSAS?",
-    "Name of the Student Affairs head",
-    "Who manages OSAS?",
-    "Contact person for OSAS",
-    "who leads OSAS",
-    "Who manages the Quality Assurance Office?",
-    "Who heads Quality Assurance Office?",
-    "Who is in charge of Quality Assurance Office?",
-    "Can you tell me the head of the Quality Assurance Office?",
-    "Who is the quality assurance coordinator?",
-    "Who manages quality assurance activities?",
-    "Who is responsible for quality assurance?",
-    "Can you tell me the quality assurance coordinator?",
-    "Who is the NSTP coordinator?",
-    "Who manages the National Service Training Program?",
-    "Who handles NSTP concerns?",
-    "Who is responsible for NSTP?",
-    "Can you tell me the NSTP coordinator?"
-  ],
-  "response": [
-    "Steffanie M. Bato serves as the Head of the Office of Student Affairs and Services (OSAS) of CvSU Bacoor.<br><br>She also serves as the Coordinator of the Quality Assurance Office and the Coordinator of the National Service Training Program (NSTP)."
-  ]
-},
+
 {
 
 "patterns": [
@@ -1760,18 +1789,7 @@ QA_DATA = [
 "response": 
 "The Extension Coordinator for the Department of Arts and Sciences is Ana Rose M. Rupido."
 },
-{
 
-"patterns": [
-"Who is the OJT coordinator?",
-"Who handles job placement services?",
-"Who manages the Campus OJT and Job Placement Unit?",
-"Who is responsible for internship placement?",
-"Can you tell me the OJT coordinator?"
-],
-"response": 
-"The Coordinator of the Campus OJT and Job Placement Unit is Ana Rose M. Rupido."
-},
 {
 
 "patterns": [
@@ -2269,28 +2287,6 @@ QA_DATA = [
       "Cavite State University – CvSU Bacoor is a public state university and one of the satellite campuses of Cavite State University.<br>It provides affordable and quality higher education for students in Bacoor and nearby areas.<br>The campus offers different undergraduate programs focused on academic excellence, professional development, and community service.<br>CvSU Bacoor aims to produce competent, responsible, and globally competitive graduates through quality instruction and student-centered learning."
 },
   {
-    
-    "patterns": [
-      "What are the lyrics to the CvSU hymn?",
-      "Can you provide the CvSU hymn lyrics?",
-      "Lyrics of the school hymn",
-      "How does the CvSU hymn go?"
-    ],
-    "response": 
-      "Sorry—I can’t provide the full CvSU Hymn lyrics.<br>But I can help with a summary instead:<br><br>The CvSU Hymn of Cavite State University is a patriotic and inspirational song that expresses pride in being part of the university.<br>It highlights the values of excellence, integrity, service, and unity among students, faculty, and alumni.<br>The hymn also reflects gratitude toward the institution for providing quality education and shaping students into responsible and globally competitive individuals.<br>It is commonly sung during official ceremonies like flag ceremonies, graduations, and university events as a sign of respect and school spirit."
-},
-  {
-    
-    "patterns": [
-      "What is the CvSU hymn?",
-      "Meaning of the school hymn",
-      "Why do we sing the CvSU hymn?",
-      "Information about the university hymn"
-    ],
-    "response": 
-      "The CvSU Hymn is the official school song of Cavite State University.<br>It is sung during official university events, ceremonies, and gatherings as a symbol of unity, pride, and identity among students, faculty, and alumni.<br>The hymn expresses the university’s values, mission, and commitment to excellence in education, service, and character formation.<br>It also highlights pride in being part of CvSU and encourages everyone to uphold integrity, discipline, and dedication in their academic journey.<br>It is usually performed during flag ceremonies, graduation rites, and other important school occasions."
-},
-  {
   
     "patterns": [
       "What happens if I cannot complete my OJT hours?",
@@ -2532,20 +2528,7 @@ QA_DATA = [
   "response": 
     "What information are you looking for?<br><br>• Admissions<br>• Enrollment<br>• Student Organizations<br>• Courses Offered<br>• Downloadable Forms<br>• Campus Officials<br>• Contact Information<br>• e-Learning Portal<br>• Virtual Tour<br><br>I can provide the appropriate official link for any of these services."
   },
-{
   
-  "patterns": [
-    "Admission link",
-    "Admission website",
-    "Where do I apply?",
-    "Application form",
-    "College application",
-    "Admission requirements",
-    "Apply to CvSU Bacoor"
-  ],
-  "response": 
-    "For admission announcements and application procedures, please visit:<br>https://cvsu.edu.ph/bacoor/<br><br>You may also check the official admissions information page and announcements posted by CvSU Bacoor."
-  },
 {
  
   "patterns": [
@@ -2571,18 +2554,6 @@ QA_DATA = [
   ],
   "response": 
     "Official CvSU downloadable forms can be accessed here:<br>https://cvsu.edu.ph/downloadable-forms/"
-  },
-{
-
-  "patterns": [
-    "Contact information",
-    "Email address",
-    "Phone number",
-    "How do I contact CvSU Bacoor?",
-    "Campus contact"
-  ],
-  "response": 
-    "CvSU Bacoor Campus<br>📍 Soldiers Hills IV, Molino VI, Bacoor City, Cavite<br>📞 (046) 476-5029<br>📧 cvsubacoor@cvsu.edu.ph<br><br>More contacts:<br>https://cvsu.edu.ph/contact-us/"
   },
 {
  
@@ -2638,17 +2609,6 @@ QA_DATA = [
     ],
     "response": 
       "The University is governed by the Board of Regents (BOR) which serves as the approving authority for rules scholarships curriculum revisions major policies and other university-wide matters."
-},
-  {
-    
-    "patterns": [
-      "What does the Office of Student Affairs do?",
-      "Units under OSAS",
-      "What services are under Student Affairs?",
-      "Functions of OSA"
-    ],
-    "response": 
-      "The Office of Student Affairs (OSA) supports student services under the Vice President for Academic Affairs.<br>Its units include: Financial Assistance Unit Student Organizations and Socio-Cultural Affairs Unit Guidance Services Student Publication and Student Discipline Unit."
 },
   {
    
@@ -2793,50 +2753,6 @@ QA_DATA = [
     ],
     "response": 
       "Suspension of classes does not mean faculty and employees will not report for duty.<br>They are still required to report to work."
-},
-  {
-   
-    "patterns": [
-      "What are the guidelines for curriculum revision?",
-      "How are minor revisions approved?",
-      "Requirements for major curriculum revision",
-      "CHED rules on curriculum changes"
-    ],
-    "response": 
-      "Requirements and guidelines set by CHED per Memorandum Letter dated 23 May 2001 are followed.<br>Minor revisions require a resolution of the Academic Council and implementation scheme.<br>Major revisions additionally require a Feasibility Study or End-User Survey and a copy furnished to the CHED Regional Office."
-},
-  {
-   
-    "patterns": [
-      "What is the university's accreditation agency?",
-      "AACCUP in CvSU",
-      "Who heads the accrediting body?",
-      "Accreditation recognition"
-    ],
-    "response": 
-      "The Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) or any accrediting agency prescribed by CHED and PASUC is recognized.<br>The Director for Quality Assurance and Accreditation heads the university-wide accrediting body."
-},
-  {
-   
-    "patterns": [
-      "What are the freshman admission requirements?",
-      "How to apply as a freshman?",
-      "Documents needed for new students",
-      "Entrance exam fee for freshmen"
-    ],
-    "response": 
-      "Freshman applicants must be a graduate of any public or DECS-recognized private high school physically and mentally fit possess good moral character as certified by the High School Principal pay the ₱150.00 entrance examination fee and pass the entrance examination."
-},
-  {
-
-    "patterns": [
-      "What are the requirements for transfer students?",
-      "Documents needed to transfer to CvSU",
-      "GPA requirement for transferees",
-      "Transfer student admissions process"
-    ],
-    "response": 
-      "Transfer students must submit: certified true copy of Transcript of Records (GPA of 2.00 or better for programs with board exams) Honorable Dismissal two <br>copies of 1x1 ID pictures Certificate of Good Moral Character NBI Clearance and must pass the required entrance examination."
 },
   {
    
@@ -3102,17 +3018,8 @@ QA_DATA = [
     "response": 
       "Students receive a copy of the complaint must file an answer within 72 hours are entitled to a hearing and may be represented by a counsel or representative.<br>Decisions can be appealed. Cases involving exclusion of more than one semester or expulsion are elevated to the University President whose decision is final 15 days after receipt."
 },
-  {
   
-    "patterns": [
-      "How to get a student organization recognized?",
-      "Requirements to form a campus club",
-      "Submitting documents to the Dean of Student Affairs",
-      "Faculty adviser requirement for organizations"
-    ],
-    "response": 
-      "Organizations must submit a letter of request and required documents to the Dean of Student Affairs.<br>Requirements include: constitution and by-laws list of members and officers bio-data of the head work plan accomplishment report financial statement and letters of acceptance from at least two regular faculty members."
-},
+
   {
    
     "patterns": [
@@ -3136,27 +3043,22 @@ QA_DATA = [
       "Organizations may collect a reasonable semestral/annual membership fee covered by official receipts.<br>Organizations with funds exceeding ₱1000.00 must open a bank account at CvSU Cooperative Bank Inc. A financial report must be submitted to SOSCA within one week after each activity."
 },
   {
-   
-    "patterns": [
-      "What are the graduation requirements?",
-      "Residence requirement for graduation",
-      "Do I need to complete NSTP to graduate?",
-      "Clearance of deficiencies for graduation",
-       "What are the requirements for graduation",
+  "patterns": [
+    "What are the graduation requirements?",
+    "Residence requirement for graduation",
+    "Do I need to complete NSTP to graduate?",
+    "Clearance of deficiencies for graduation",
+    "What are the requirements for graduation",
     "How do I qualify for graduation",
     "Graduation requirements",
     "What do I need before graduating",
-    "How can I graduate from CvSU"
-    ],
-     "response": 
-    "To qualify for graduation, a student must successfully complete all academic, curricular, and institutional requirements prescribed by the University.<br><br>Requirements generally include:<br>- Completion of all required courses and units<br>- Passing grades in all subjects<br>- Completion of practicum, internship, thesis, or capstone requirements when applicable<br>- Settlement of financial and administrative obligations<br>- Submission of all required graduation documents<br><br>Students should coordinate with their academic department and the Registrar's Office for graduation evaluation."
-  },
-{
-  
-  "patterns": [
+    "How can I graduate from CvSU",
+    "Am I eligible for graduation?",
+    "Who can graduate?",
+    "Can I graduate this year?",
+    "Graduation evaluation",
     "How do I apply for graduation?",
     "How to apply for graduation?",
-    "What are the requirements for graduation?",
     "When should I file my graduation application?",
     "How can I check if I am eligible to graduate?",
     "When is the tentative list of candidates published?",
@@ -3164,8 +3066,8 @@ QA_DATA = [
     "Who certifies graduation eligibility?"
   ],
   "response": 
-    "Students who intend to graduate must submit an Application for Graduation form and complete all academic and administrative requirements before the prescribed deadline.<br><br>The College Dean submits the list of tentative candidates two weeks after second semester registration. The Registrar publishes the qualified list ten weeks before the end of the semester.<br><br>The University Registrar certifies graduation eligibility in consultation with the Deans concerned. Students with INC (Incomplete) grades cannot graduate.<br><br>For verification of graduation eligibility and requirements, students should coordinate with their Program Adviser and the Registrar's Office."
-  },
+    "To qualify for graduation, a student must successfully complete all academic, curricular, and institutional requirements prescribed by the University.\n\nRequirements generally include:\n- Completion of all required courses and academic units\n- Passing grades in all subjects\n- Completion of NSTP and other institutional requirements\n- Completion of practicum, internship, thesis, capstone, or other program requirements when applicable\n- Clearance of academic, financial, and administrative deficiencies\n- Settlement of all university obligations\n- Submission of all required graduation documents\n\nStudents who intend to graduate must submit an Application for Graduation form and complete all academic and administrative requirements before the prescribed deadline.\n\nThe College Dean submits the list of tentative candidates two weeks after second semester registration. The Registrar publishes the qualified list ten weeks before the end of the semester.\n\nThe University Registrar certifies graduation eligibility in consultation with the Deans concerned. Students with INC (Incomplete) grades cannot graduate.\n\nStudents must also undergo graduation evaluation to verify their eligibility. Only students who have satisfied all academic requirements and university obligations will be cleared for graduation.\n\nFor graduation assessment, application procedures, and confirmation of eligibility, students should coordinate with their Program Adviser, academic department, and the Registrar's Office."
+},
   {
     
     "patterns": [
@@ -3379,34 +3281,6 @@ QA_DATA = [
 {
 
 "patterns": [
-"What are the requirements for midterm examinations?",
-"Can I take the midterm exam?",
-"What should I bring during midterms?",
-"Do I need a permit for the midterm exam?",
-"What are the midterm examination guidelines?",
-"How do I prepare for my midterm exam?"
-],
-"response": 
-"Requirements for midterm examinations may vary depending on university policies and instructor guidelines. Students are advised to complete all academic requirements and follow instructions provided by their instructors before taking the examination."
-},
-
-{
-
-"patterns": [
-"What are the rules for final examinations?",
-"Can I take the final exam without completing requirements?",
-"What should I know about final exams?",
-"Are there guidelines for final examinations?",
-"What are the university policies for final exams?",
-"What happens if I miss the final examination?"
-],
-"response": 
-"Students taking final examinations are expected to comply with university policies and instructor guidelines. Requirements, examination permits, and other conditions may be imposed depending on the course and academic regulations. Please consult your instructor or department for specific details."
-},
-
-{
-
-"patterns": [
 "Can I take a make-up examination?",
 "What is the process for a make-up exam?",
 "I missed my examination, what should I do?",
@@ -3564,7 +3438,8 @@ QA_DATA = [
 "How do I report a lost student ID?",
 "Can I still enter the campus without my ID?",
 "What are the requirements for reporting a lost ID?",
-"Who should I contact regarding my lost ID?"
+"Who should I contact regarding my lost ID?",
+"Lost ID"
 ],
 "response": 
 "Students who lose their school ID should immediately report the incident to the appropriate university office. Additional requirements such as an affidavit of loss, valid identification, or other supporting documents may be required depending on university policy."
@@ -3578,7 +3453,8 @@ QA_DATA = [
 "Can I request a new ID?",
 "My ID is damaged, how do I replace it?",
 "How much is the ID replacement fee?",
-"Where do I apply for ID replacement?"
+"Where do I apply for ID replacement?",
+"Replacement of ID"
 ],
 "response": 
 "Students requesting a replacement ID may be required to submit the necessary documents and pay the applicable replacement fee. Requirements may vary depending on whether the ID was lost, stolen, or damaged. Please contact the designated university office for complete instructions."
@@ -3829,18 +3705,6 @@ QA_DATA = [
 "response": 
 "The university library provides access to books, journals, research materials, and other learning resources to support academic activities. Students may visit the library and follow its policies regarding borrowing, access, and resource utilization."
 },
-
-{
-
-  "patterns": [
-    "What are the requirements for first-year applicants?",
-    "I am a Senior High School graduate. What documents do I need?",
-    "How do I apply as a freshman?",
-    "What are the admission requirements for incoming first-year students?"
-  ],
-  "response": 
-    "To apply as a first-year student, please submit the following requirements:<br><br>• Accomplished Application Form for Admission<br>• Original Copy of Form 138 (Report Card)<br>• Certificate of Good Moral Character<br>• Medical Results<br>• Medical Clearance from the Campus Nurse"
-  },
   {
   "patterns": [
     "What are the medical requirements?",
@@ -3905,29 +3769,6 @@ QA_DATA = [
 },
 
 {
- 
-  "patterns": [
-    "admission schedule",
-    "when is cvsu admission",
-    "cvsu application date",
-    "online admission 2026"
-  ],
-  "response": 
-    "The Online Admission System for CvSU Bacoor is open from June to August 2026 for First Semester SY 2026-2027 applicants. You may apply through the CvSU Admission Portal."
-  },
-{
- 
-  "patterns": [
-    "admission link cvsu",
-    "where to apply cvsu",
-    "cvsu admission portal",
-    "apply cvsu"
-  ],
-  "response": 
-    "You may submit your application through the CvSU Online Admission System at https://admission.cvsu.edu.ph/. Make sure to sign up using a valid Gmail account."
-  },
-
-{
 
 "patterns": [
 "How do I access the student portal?",
@@ -3975,60 +3816,7 @@ QA_DATA = [
 "response": 
 "For old students (2nd–4th Year):<br><br>Username: [StudentNumber]firstname<br>Example: 20252026juanmiguel<br><br>Password: cvsubacoor[StudentNumber]<br>Example: cvsubacoor20252026"
 },
-{
 
-"patterns": [
-"What is the purpose of the student portal?",
-"Why should I register for the student portal?",
-"What can I do in the student portal?",
-"Why is the student portal important?",
-"Tell me about the student portal."
-],
-"response": 
-"The CvSU Bacoor Student Portal is the university's official digital platform that provides students with easier access to academic and campus-related services. Students are encouraged to register their accounts to avoid delays in the release of grades and to access important university resources."
-},
-
-{
-
-  "patterns": [
-    "application category",
-    "what type of applicant am i",
-    "applicant category",
-    "new student category"
-  ],
-  "response": 
-    "CvSU applicants are categorized as First-Year Applicant, Transferee, Second Courser, TCP Applicant, or Associate/Certificate/Vocational/Diploma Degree Holder. Choose the category that matches your educational background."
-  },
-{
-
-  "patterns": [
-    "first year applicant",
-    "grade 12 student",
-    "senior high graduate"
-  ],
-  "response": 
-    "First-Year Applicants include current Grade 12 students, Senior High School graduates who have never enrolled in college, ALS completers, and Associate/Vocational/Diploma degree holders."
-  },
-{
-  "patterns": [
-    "What is a transferee applicant?",
-    "transfer student",
-    "college transferee",
-    "requirements for transferee",
-    "What are the requirements for transferees",
-    "How can I transfer to CvSU Bacoor",
-    "What documents are needed for transferees",
-    "Transfer student requirements",
-    "What do I need to submit as a transferee",
-    "What is a transfer student?",
-    "Rules for transferees",
-    "Can I transfer during my last year?",
-    "Transfer student definition"
-  ],
-  "response": [
-    "A transferee or transfer student is an applicant who has already started college studies in another university, school, or CvSU campus and wishes to continue at CvSU Bacoor. A transfer student becomes officially enrolled in CvSU after fulfilling all transfer admission requirements.<br><br>Common requirements include:<br>- Transcript of Records (TOR) or Certified Copy of Grades<br>- Honorable Dismissal<br>- Certificate of Good Moral Character<br>- PSA Birth Certificate<br>- Recent ID Pictures<br>- Other documents required by the Admissions Office<br><br>Applicants may also be required to undergo evaluation, interview, or entrance examination depending on University policies.<br><br>Transferees during the last semester of the last year of a curriculum are discouraged. For specific requirements and admission procedures, applicants should coordinate with the Admissions Office."
-  ]
-},
 {
   "patterns": [
    "What is a second courser?",
@@ -4048,17 +3836,7 @@ QA_DATA = [
   "response": 
     "TCP Applicants are graduates of any Bachelor's degree program who wish to take the required Education units for teaching."
   },
-{
- 
-  "patterns": [
-    "application process",
-    "application procedure",
-    "how to apply",
-    "procedure for application"
-  ],
-  "response": 
-    "The admission process includes online registration, submission of documentary requirements, scheduling of validation, on-site validation, and admission examination or evaluation depending on the applicant category."
-  },
+
 {
  
   "patterns": [
@@ -4069,60 +3847,6 @@ QA_DATA = [
   ],
   "response": 
     "Applicants must scan or take clear screenshots of their documentary requirements. Each file must be in JPEG, PNG, or BMP format and should not exceed the size limit required by the admission system."
-  },
-{
-
-  "patterns": [
-    "requirements for grade 12 student",
-    "current grade 12 requirements",
-    "shs student requirements",
-    "grade 12 applicant"
-  ],
-  "response": 
-    "Current Grade 12 applicants must submit their completed Grade 11 report card and a certification from their school indicating that they are currently enrolled as a Grade 12 student."
-  },
-{
-
-  "patterns": [
-    "requirements for shs graduate",
-    "senior high graduate requirements",
-    "graduated shs",
-    "first year applicant graduate"
-  ],
-  "response": 
-    "Senior High School graduates must submit their completed Grade 12 report card and a Certificate of Non-Issuance of Form 137/SF-10 for college admission."
-  },
-{
-
-  "patterns": [
-    "ALS applicant",
-    "ALS passer",
-    "ALS completer",
-    "requirements for ALS"
-  ],
-  "response": 
-    "ALS Completers or Passers must submit their Certificate of Rating (COR) with eligibility to enroll in college."
-  },
-{
-
-  "patterns": [
-    "transferee requirements",
-    "requirements for transfer student",
-    "TOR for transferee"
-  ],
-  "response": 
-    "Transferee applicants must submit a Certificate of Grades (COG) or Transcript of Records (TOR) showing final grades for all enrolled subjects."
-  },
-{
- 
-  "patterns": [
-    "validation appointment",
-    "application validation",
-    "validation schedule",
-    "appointment for validation"
-  ],
-  "response": 
-    "Applicants must select and save an available validation schedule through the admission system. Once the schedule is saved, application details can no longer be edited."
   },
 {
 
@@ -4484,16 +4208,6 @@ QA_DATA = [
     "Campus parking is generally free, but policies may change during special events or according to campus regulations."
   },
 {
-  
-  "patterns": [
-    "Will failing a subject affect my scholarship?",
-    "Can I lose my scholarship if I fail?",
-    "Failed subject scholarship"
-  ],
-  "response": 
-    "Many scholarship programs require students to maintain academic standards. Failing grades may affect scholarship eligibility depending on the program's policies."
-  },
-{
  
   "patterns": [
     "What is the WiFi password?",
@@ -4528,18 +4242,6 @@ QA_DATA = [
   ],
   "response": 
     "Students must complete all academic requirements, pass required subjects, and satisfy university obligations before being cleared for graduation."
-  },
-{
-
-  "patterns": [
-    "What should I wear for graduation?",
-    "Graduation attire",
-    "Recognition dress code",
-    "Graduation uniform",
-    "Graduation clothing requirements"
-  ],
-  "response": 
-    "Students are required to wear the prescribed formal attire and any required academic garments such as a toga, sash, or hood."
   },
 
 {
@@ -4754,30 +4456,6 @@ QA_DATA = [
     "Yes. A representative may claim your TOR if they present an authorization letter, their valid ID, a copy of your ID, and any additional requirements requested by the Registrar."
   },
 {
- 
-  "patterns": [
-    "tor unpaid balance issue",
-    "unpaid balance tor restriction",
-    "can i get tor with balance",
-    "tor with outstanding account",
-    "balance before tor"
-  ],
-  "response": 
-    "Students with unpaid balances must settle their obligations first before the Registrar can process a TOR request."
-  },
-{
-
-  "patterns": [
-    "can i request an electronic tor",
-    "digital tor cvsu",
-    "electronic tor request",
-    "online tor copy",
-    "soft copy of tor"
-  ],
-  "response": 
-    "CvSU campuses generally release printed TOR copies. Availability of digital or scanned copies depends on campus policies and Registrar guidelines."
-  },
-{
 
   "patterns": [
     "tor fee cost",
@@ -4789,19 +4467,6 @@ QA_DATA = [
   "response": 
     "TOR fees vary by campus and current university policies. Students should verify the latest rates with the Registrar or Cashier's Office."
   },
-
-{
-
-"patterns": [
-"Do I need to pay membership fees?",
-"What are society fees?",
-"How much is society fee?",
-"Are organization fees required?",
-"Do organizations charge membership fees?"
-],
-"response": 
-"Yes, P100 pesos for society fee. Some organizations may collect membership or society fees depending on their activities and approved policies. Students should consult the organization officers for current fee information."
-},
 
 {
 
@@ -4991,19 +4656,6 @@ QA_DATA = [
 {
 
   "patterns": [
-    "What are the enrollment requirements",
-    "Requirements for enrollment",
-    "What documents do I need for enrollment",
-    "How can I enroll",
-    "Enrollment document requirements"
-  ],
-  "response": 
-    "Students must submit all required enrollment documents and comply with University procedures before registration can be completed.<br><br>Requirements may vary depending on the applicant category, such as freshman, transferee, returnee, or graduate student.<br><br>Applicants are advised to follow official enrollment announcements for the complete and updated list of requirements."
-  },
-
-{
-
-  "patterns": [
     "What languages can the chatbot understand",
     "Can the chatbot understand Filipino",
     "Does the chatbot support English",
@@ -5130,18 +4782,7 @@ QA_DATA = [
  "response":
     "🎒 Prohibited Items on Campus<br><br><br><br>For the safety and well-being of the university community, students should avoid bringing prohibited items to campus, including:<br><br><br><br>* Cigarettes, tobacco products, and vaping devices for use within the campus.<br><br>* Alcoholic beverages and intoxicating substances.<br><br>* Illegal drugs and drug-related paraphernalia.<br><br>* Weapons, explosives, or other dangerous items.<br><br>* Materials that may disrupt classes, university activities, or campus operations.<br><br><br><br>Students found in possession of prohibited items may be subject to disciplinary action based on university policies and regulations."
 },
-{
-  "patterns": [
-    "What is the procedure for a make-up examination?",
-    "How can I request a special examination?",
-    "What should I do if I miss an exam?",
-    "Can I take a make-up exam?",
-    "What are the requirements for a special examination?"
-  ],
- "response":
-    "📝 Make-Up Examination / Special Examination Procedure<br><br><br><br>Students who are unable to take a scheduled examination due to valid and documented circumstances may request a make-up or special examination, subject to university policies and approval.<br><br><br><br>Procedure:<br><br><br><br>* Inform your instructor as soon as possible regarding your absence from the examination.<br><br>* Prepare and submit the necessary supporting documents that justify your absence (e.g., medical certificate, official letter, or other relevant documents).<br><br>* Submit a formal request for a make-up or special examination following the prescribed university procedures.<br><br>* Obtain the approval of your instructor and the appropriate university authorities.<br><br>* Once approved, coordinate with your instructor regarding the schedule and venue of the examination.<br><br>* Take the make-up or special examination on the approved date and time.<br><br><br><br>Please note that make-up or special examinations are granted only under valid and documented circumstances and are subject to the university's rules and regulations."
-  
-},
+
 {
   "patterns": [
     "What is NSTP?",
@@ -5179,8 +4820,10 @@ QA_DATA = [
     "📚 Difference Between NSTP and ROTC<br><br><br><br>NSTP (National Service Training Program) is the overall program required for college students to promote civic responsibility, leadership, and nation-building.<br><br><br><br>ROTC (Reserve Officers' Training Corps) is one of the components or options under NSTP that focuses on military training, discipline, leadership, and national defense preparedness.<br><br><br><br>In simple terms:<br><br><br><br>* NSTP is the program.<br><br>* ROTC is one of the NSTP components.<br><br><br><br>Students who choose ROTC fulfill their NSTP requirement through military-oriented training and related activities."
   
 }
-  
+
+
 ]
+  
    
 
 
