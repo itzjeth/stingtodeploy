@@ -569,6 +569,44 @@ QA_DATA = [
       "The onsite validation of requirements for qualified applicants (passers) for the First Semester, S.Y. 2026–2027 is scheduled according to the applicant's program:<br><br>June 22 – June 25<br><br>Bachelor of Science in Hospitality Management (BSHM)<br>Bachelor of Science in Business Administration (BSBA) – Marketing Management and Human Resource Management<br>Bachelor of Science in Information Technology (BSIT)<br>Bachelor of Science in Computer Science (BSCS)<br><br>June 29 – July 2<br><br>Bachelor of Science in Criminology (BSCrim)<br>Bachelor of Science in Psychology (BS Psychology)<br>Bachelor of Secondary Education (BSEd) – English and Mathematics<br><br>Please visit the campus on the date assigned to your program and bring all the required <br>documents for validation."
 },
 {
+  "intent": "registration_process",
+  "patterns": [
+    "How do I register?",
+    "How do I register for classes?",
+    "What is the registration process?",
+    "How can I enroll?",
+    "How do I enroll at CvSU Bacoor?",
+    "Enrollment process",
+    "Registration procedure",
+    "Steps for registration",
+    "Steps for enrollment",
+    "How do I complete my registration?",
+    "What are the steps in enrollment?",
+    "Can you explain the registration process?",
+    "How does enrollment work?",
+    "What should I do to register?",
+    "How can I complete my enrollment?",
+    "Registration steps",
+    "Enrollment steps",
+    "Student registration process",
+    "How to register in CvSU Bacoor?",
+    "How to enroll in CvSU Bacoor?",
+    "CvSU Bacoor registration",
+    "CvSU Bacoor enrollment process",
+    "Procedure for enrollment",
+    "Procedure for registration",
+    "What are the enrollment procedures?",
+    "What comes after admission?",
+    "How do I proceed with registration?",
+    "What should I do after receiving my admission notice?",
+    "Registration guide",
+    "Enrollment guide"
+  ],
+  "response": [
+    "The registration/enrollment process at CvSU Bacoor generally follows these steps:\n\n1. Submit and verify the required admission documents.\n2. Receive the Notice of Admission and Medical Referral Slip.\n3. Complete the medical clearance and physical examination.\n4. Proceed to the Registrar's Office for registration/enrollment.\n5. Follow the instructions provided by the Registrar for final enrollment and class registration.\n\nFor specific schedules, requirements, and announcements, please coordinate with the Registrar's Office."
+  ]
+},
+{
 
 "patterns": [
 "What is the admission process?",
@@ -592,19 +630,6 @@ QA_DATA = [
 ],
 "response": 
 "The admission and enrollment process for new students generally follows these steps:<br><br>1. Checking of Requirements<br>2. Releasing of Notice of Admission and Medical Referral Slip<br>3. Medical Clearance and Physical Examination<br>4. Registration and Enrollment at the Registrar's Office<br><br>Students are advised to prepare and submit all required documents to ensure a smooth enrollment process. For updated admission guidelines and schedules, please coordinate with the Admissions Office or Registrar's Office."
-},
-
-{
-
-"patterns": [
-"Can I retake the entrance exam",
-"Is retaking CvSU-CAT allowed",
-"May I take the admission test again",
-"Retake entrance examination",
-"Can I apply for another exam schedule"
-],
-"response": 
-"Retaking the entrance examination is subject to University admission policies. Applicants should consult the Admissions Office regarding eligibility and available examination schedules."
 },
 {
 
@@ -680,20 +705,6 @@ QA_DATA = [
   ],
   "response": 
     "CvSU Bacoor offers the following bachelor's degree programs:<br><br>• Bachelor of Secondary Education (BSEd)<br>• Bachelor of Science in Business Management (BSBM)<br>• Bachelor of Science in Computer Science (BSCS)<br>• Bachelor of Science in Criminology (BSCrim)<br>• Bachelor of Science in Hospitality Management (BSHM)<br>• Bachelor of Science in Information Technology (BSIT)<br>• Bachelor of Science in Psychology (BSPsych)<br><br>These programs are designed to prepare students for professional careers and further studies in their chosen fields."
-  },
-{
- 
-  "patterns": [
-    "What courses are offered?",
-    "Can you give me the list of courses?",
-    "What can I study here?",
-    "Courses available in the campus",
-    "What programs can I enroll in?",
-    "What academic programs are available?",
-    "What fields of study are offered?"
-  ],
-  "response": 
-    "Students may choose from a variety of academic programs at CvSU Bacoor, including Education, Business, Information Technology, Computer Science, Psychology, Criminology, and Hospitality Management.<br><br>Available courses:<br>• Bachelor of Secondary Education (BSEd)<br>• BS Business Management (BSBM)<br>• BS Computer Science (BSCS)<br>• BS Criminology (BSCrim)<br>• BS Hospitality Management (BSHM)<br>• BS Information Technology (BSIT)<br>• BS Psychology (BSPsych)"
   },
   {
    
@@ -1049,17 +1060,9 @@ QA_DATA = [
       "Bacoor campus administrator",
       "Who runs the campus operations?",
        "campus admin ",
-    "bagong campus administrator",
-    "bagong campus admin",
     "new campus administrator",
     "new campus admin",
-    "admin",
-    "administrator",
-    "campus administrator",
     "cvsu bacoor campus director",
-    "who is campus director",
-    "current campus director cvsu bacoor",
-    "cvsu bacoor director",
   "who leads cvsu bacoor",
   "head of cvsu bacoor",
   "campus head cvsu bacoor",
@@ -1120,28 +1123,23 @@ QA_DATA = [
   {
  
     "patterns": [
-      "Who is the department chairperson?",
-      "Name of the department head",
-      "Who leads the academic department?",
-      "Current department chair",
-        "cvsu bacoor department chairperson",
-  "who is the department chair",
-  "department chair of cvsu bacoor",
-  "current department chairperson cvsu",
-  "head of academic department cvsu bacoor",
-  "program chair cvsu bacoor",
-  "cvsu bacoor program head",
-  "chairperson of my program cvsu",
-  "who leads the department cvsu bacoor",
-  "department head cvsu",
-  "cvsu bacoor department leadership",
-  "academic chairperson cvsu bacoor",
-  "ms jovelyn d ocampo",
-  "jovelyn d ocampo mit",
-  "department chairperson jovelyn ocampo"
+    "who is the department chairperson",
+    "who is the chairperson",
+    "department chairperson",
+    "department head",
+    "who is the department head",
+    "who leads the academic department",
+    "current department chair",
+    "cvsu bacoor department chairperson",
+    "who is the department chair",
+    "department chair of cvsu bacoor",
+    "head of academic department cvsu bacoor",
+    "program chair cvsu bacoor",
+    "cvsu bacoor program head",
+    "who is the chair"
     ],
     "response": 
-      "The current Department Chairperson is Ms. Jovelyn D. Ocampo, MIT. She leads the department in overseeing academic programs, guiding faculty members, and ensuring that the curriculum remains relevant and aligned with university standards.<br>Through her leadership, the department continues to enhance its instructional quality, support student development, and maintain a strong academic environment"
+      "CvSU Bacoor has multiple department chairpersons. Please specify the department: Computer Studies, Criminology, Arts and Sciences, Management Studies, or Teacher Education."
 },
 {
   
@@ -1187,7 +1185,7 @@ QA_DATA = [
   "cvsu president information"
     ],
     "response": 
-      "The current president of Cavite State University is Dr.<br>Ma. Agnes P. Nuestro. She officially became the fourth university president in 2025. As the current leader of the university, she continues to guide CvSU in providing quality education, promoting research and innovation, and supporting the growth and welfare of students, faculty, and staff.<br>Her administration focuses on maintaining academic excellence, strengthening community engagement, and preparing students to become globally competitive professionals and responsible citizens."
+      "The current president of Cavite State University is Dr. Ma. Agnes P. Nuestro. She officially became the fourth university president in 2025. As the current leader of the university, she continues to guide CvSU in providing quality education, promoting research and innovation, and supporting the growth and welfare of students, faculty, and staff.<br>Her administration focuses on maintaining academic excellence, strengthening community engagement, and preparing students to become globally competitive professionals and responsible citizens."
 },
   {
  
@@ -1334,7 +1332,6 @@ QA_DATA = [
     "The Campus Nurse of CvSU Bacoor is Aivan Rhei P. Cacho."
   },
 {
- 
   "patterns": [
     "Who heads the Office of Student Affairs and Services?",
     "Who is in charge of student affairs?",
@@ -1345,16 +1342,25 @@ QA_DATA = [
     "Name of the Student Affairs head",
     "Who manages OSAS?",
     "Contact person for OSAS",
+    "who leads OSAS",
     "Who manages the Quality Assurance Office?",
-"Who heads Quality Assurance Office?",
-"Who is in charge of Quality Assurance Office?",
-"who leads OSAS",
-"Can you tell me the head of the Quality Assurance Office?"
-
+    "Who heads Quality Assurance Office?",
+    "Who is in charge of Quality Assurance Office?",
+    "Can you tell me the head of the Quality Assurance Office?",
+    "Who is the quality assurance coordinator?",
+    "Who manages quality assurance activities?",
+    "Who is responsible for quality assurance?",
+    "Can you tell me the quality assurance coordinator?",
+    "Who is the NSTP coordinator?",
+    "Who manages the National Service Training Program?",
+    "Who handles NSTP concerns?",
+    "Who is responsible for NSTP?",
+    "Can you tell me the NSTP coordinator?"
   ],
-  "response": 
-    "The Head of the Office of Student Affairs and Services is Steffanie M. Bato."
-  },
+  "response": [
+    "Steffanie M. Bato serves as the Head of the Office of Student Affairs and Services (OSAS) of CvSU Bacoor.<br><br>She also serves as the Coordinator of the Quality Assurance Office and the Coordinator of the National Service Training Program (NSTP)."
+  ]
+},
 {
 
 "patterns": [
@@ -1370,7 +1376,7 @@ QA_DATA = [
 {
 
 "patterns": [
-"Who is the coordinator for Secondary Education major in Mathematics?",
+" for Secondary Education major in Mathematics?",
 "Who coordinates the Mathematics Education program?",
 "Who handles the BSEd Mathematics program?",
 "Who is the Mathematics program coordinator?",
@@ -1382,7 +1388,7 @@ QA_DATA = [
 {
 
 "patterns": [
-"Who is the coordinator for Secondary Education major in English?",
+" for Secondary Education major in English?",
 "Who coordinates the English Education program?",
 "Who handles the BSEd English program?",
 "Who is the English program coordinator?",
@@ -1418,18 +1424,6 @@ QA_DATA = [
   "response": 
     "The Campus Librarian and head of the Library Services Office of CvSU Bacoor is Lorema N. Acapulco."
   },
-{
-
-"patterns": [
-"Who is the quality assurance coordinator?",
-"Who heads the Quality Assurance Office?",
-"Who manages quality assurance activities?",
-"Who is responsible for quality assurance?",
-"Can you tell me the quality assurance coordinator?"
-],
-"response": 
-"The Coordinator of the Quality Assurance Office is Steffanie M. Bato."
-},
 {
 
 "patterns": [
@@ -1637,18 +1631,6 @@ QA_DATA = [
 {
 
 "patterns": [
-"Who is the 5S focal person?",
-"Who handles the 5S program?",
-"Who is responsible for 5S implementation?",
-"Who manages 5S activities?",
-"Can you tell me the 5S focal person?"
-],
-"response": 
-"Ryan Acojedo serves as the 5S Focal Person."
-},
-{
-
-"patterns": [
 "Who is the research coordinator for Criminology?",
 "Who handles Criminology research?",
 "Who manages research in the Department of Criminology?",
@@ -1709,7 +1691,7 @@ QA_DATA = [
 {
 
 "patterns": [
-"Who is the coordinator of the Instructional Materials Development Unit?",
+" of the Instructional Materials Development Unit?",
 "Who handles instructional materials development?",
 "Who manages the IMD Unit?",
 "Who is responsible for instructional materials?",
@@ -1733,7 +1715,7 @@ QA_DATA = [
 {
 
 "patterns": [
-"Who is the coordinator for student misdemeanor cases?",
+" for student misdemeanor cases?",
 "Who handles student misconduct concerns?",
 "Who is in charge of student misdemeanors?",
 "Who manages student disciplinary concerns?",
@@ -1793,18 +1775,6 @@ QA_DATA = [
 {
 
 "patterns": [
-"Who is the NSTP coordinator?",
-"Who manages the National Service Training Program?",
-"Who handles NSTP concerns?",
-"Who is responsible for NSTP?",
-"Can you tell me the NSTP coordinator?"
-],
-"response": 
-"The Coordinator of the National Service Training Program (NSTP) is Steffanie M. Bato."
-},
-{
-
-"patterns": [
 "Who is the mental health counselor?",
 "Who provides mental health counseling?",
 "Who should I contact for mental health concerns?",
@@ -1817,7 +1787,7 @@ QA_DATA = [
 {
 
 "patterns": [
-"Who is the coordinator of Student Development Services?",
+" of Student Development Services?",
 "Who handles Student Development Services?",
 "Who manages student development programs?",
 "Who is responsible for Student Development Services?",
@@ -1825,20 +1795,6 @@ QA_DATA = [
 ],
 "response": 
 "The Coordinator of the Student Development Services Unit is Maria Lyn E. Dela Cruz."
-},
-{
-
-"patterns": [
-"Who is the NSTP-ROTC coordinator?",
-"Who manages the ROTC unit?",
-"Who handles ROTC concerns?",
-"Who is responsible for NSTP-ROTC?",
-"Can you tell me the ROTC coordinator?",
-"Who is ROTC coordinator"
-
-],
-"response": 
-"The Coordinator of the NSTP-ROTC Unit is Maria Lyn E. Dela Cruz."
 },
 {
 
@@ -1859,6 +1815,7 @@ QA_DATA = [
 "Who manages student programs and services?",
 "Who is responsible for Institutional Student Programs and Services?",
 "Who coordinates student programs?",
+"who handles student program",
 "Can you tell me the coordinator of Institutional Student Programs and Services?"
 ],
 "response": 
@@ -2105,6 +2062,7 @@ QA_DATA = [
     "What organizations can I join?",
     "Student clubs in CvSU Bacoor",
     "List all organizations",
+    "What are student organizations?",
     "Available organizations",
     "What are the campus organizations?",
     "Student organizations in CvSU Bacoor",
@@ -2171,31 +2129,6 @@ QA_DATA = [
   "response": 
     "CvSU Bacoor recognizes academic organizations, non-academic organizations, performing arts organizations, religious organizations, the Central Student Government, and the student publication."
   },
-
-{
-
-"patterns": [
-"Why should I join a student organization?",
-"What are the benefits of joining a student organization?",
-"How can organizations help students?",
-"What do I gain from joining a club?",
-"Why join a campus organization?"
-],
-"response": 
-"Joining a student organization helps students develop leadership skills, teamwork, communication abilities, professional networks, and valuable experiences through academic, cultural, social, and community activities."
-},
-{
-
-"patterns": [
-"What are student organizations?",
-"What is the purpose of student organizations?",
-"Why are student organizations important?",
-"What do student organizations do?",
-"Tell me about student organizations."
-],
-"response": 
-"Student organizations are campus-based groups that promote academic excellence, leadership development, community involvement, cultural awareness, and student engagement through various programs, projects, and activities."
-},
 
 {
 
@@ -2394,90 +2327,22 @@ QA_DATA = [
   {
     
     "patterns": [
-     "What are the requirements for OJT?",
-    "Documents needed for internship",
-    "OJT paperwork checklist",
-    "What do I need to prepare for my OJT?",
-    "requirements for OJT",
-    "requirement in OJT",
+    "What are the requirements for OJT?",
     "What documents are required for OJT?",
-    "What are the internship requirements?",
     "What should I submit for OJT?",
-    "Requirements needed before starting OJT",
-    "What papers do I need for internship?",
-    "What are the needed documents for OJT?",
-    "List of OJT requirements",
-    "Can you provide the OJT requirements?",
-    "What should I prepare for my internship?",
-    "What are the prerequisites for OJT?",
-    "How do I qualify for OJT?",
-    "What files are needed for OJT?",
-    "What forms are required for internship?",
-    "Internship requirements please",
-    "OJT requirements please",
-    "What is needed for on-the-job training?",
-    "What do students need for OJT?",
-    "Requirements before internship",
-    "Requirements before starting OJT",
-    "What are the documents needed for on-the-job training?",
-    "What paperwork is needed for OJT?",
-    "Do I need documents for OJT?",
-    "Can I see the OJT checklist?",
-    "Show me the OJT requirements",
-    "Show internship requirements",
-    "What are the requirements for internship application?",
-    "How can I apply for OJT?",
-    "What should I submit to apply for OJT?",
-    "What are the submission requirements for OJT?",
-    "What requirements must be completed for OJT?",
-    "Needed requirements for internship",
-    "Required documents for internship",
-    "Required documents for OJT",
-    "Requirements needed for practicum",
-    "Practicum requirements",
+    "Documents needed for OJT",
+    "What do I need to prepare for OJT?",
+    "What are the internship requirements?",
     "What are the practicum requirements?",
-    "Documents needed for practicum",
     "What do I need before taking OJT?",
-    "What are the requirements before deployment?",
-    "What must I accomplish before OJT?",
-    "Internship document requirements",
-    "OJT application requirements",
-    "Requirements for student internship",
-    "Student internship requirements",
-    "Requirements needed to start internship",
-    "Requirements needed to start OJT",
-    "What should I accomplish before internship?",
-    "Can you tell me the OJT requirements?",
-    "Can you tell me the internship requirements?",
+    "Requirements before starting OJT",
     "What are the official OJT requirements?",
-    "What are the mandatory requirements for OJT?",
-    "What should I prepare before my practicum?",
-    "What are the needed papers for practicum?",
-    "What requirements do interns need?",
-    "Requirements for training program",
-    "Requirements for work immersion or OJT",
-    "What is the complete list of OJT requirements?",
-    "Can I get a list of internship requirements?",
-    "What should be submitted for practicum?",
-    "Do I need endorsement letters for OJT?",
-    "What are the documents required by the OJT office?",
-    "What requirements are needed for internship approval?",
+    "What are the requirements before deployment?",
     "What are the requirements to be deployed for OJT?",
-    "What do I need to pass before OJT starts?"
+    "What is the complete list of OJT requirements?"
     ],
     "response": 
       "To complete your OJT requirements, you will need to prepare the following documents:<br><br>Updated Resume<br>Endorsement Letter from Department<br>Parent’s Consent<br>MOA (Memorandum of Agreement) with the company<br>Medical Certificate (if required by the company)<br>School ID &amp;<br>Registration Form<br>Good Moral Certificate (if needed)<br><br>All documents must be processed in the department office.<br>Note: Online OJT is no longer accepted."
-},
-  {
-    
-    "patterns": [
-      "What is the COR used for?",
-      "Why do I need a COR?",
-      "Purpose of Certificate of Registration",
-      "Where is the COR required?"
-    ],
-    "response": 
-      "COR is used to verify enrollment, check registered subjects, and for official purposes such as scholarships, clearance, loans, and administrative transactions."
 },
   {
   
@@ -2490,36 +2355,26 @@ QA_DATA = [
     "response": 
       "Students can obtain a COR after completing enrollment through the registrar’s office or online student portal. Some campuses require <br>clearance or payment confirmation first."
 },
- {
- 
-  "patterns": [
-    "What is COG?",
-    "Meaning of COG",
-    "What is Certificate of Grades?",
-    "What does COG stand for?",
-    "Certificate of Grades",
-    "Explain COG",
-    "COG definition"
-  ],
-  "response": 
-    "COG stands for Certificate of Grades. At Cavite State University, it is an official record of your academic performance.<br><br>It contains the grades you have received in your subjects for a specific semester, term, or school year. This document is commonly requested for scholarships, applications, transferring to another school, and other academic purposes."
-  },
 {
-
   "patterns": [
     "What is COR?",
-    "What is COR",
-    "Meaning of COR",
-    "What does COR mean",
-    "What does COR stand for?",
-    "What is a Certificate of Registration",
-    "What is Certificate of Registration?",
-    "Explain COR",
-    "What is certification of registration"
+    "How do I get a COR?",
+    "What is COG?",
+    "Meaning of COG",
+    "What does COG stand for?",
+    "Explain COG",
+    "COG definition",
+    "How can I request my grades?",
+    "Can COR be used as proof of enrollment?",
+     "What is the COR used for?",
+      "Why do I need a COR?",
+      "Purpose of Certificate of Registration",
+      "Where is the COR required?"
   ],
-  "response": 
-    "COR stands for Certificate of Registration. At Cavite State University, it is an official document that confirms a student is enrolled.<br><br>It shows the subjects you are currently enrolled in for the semester, including your schedule, section, and other enrollment details.<br><br>You usually receive your COR after successfully completing enrollment, and it is commonly required for verification, scholarships, applications, and other school-related transactions. It is also known as a Certificate of Enrollment or Proof of School Enrollment."
-  },
+  "response": [
+    "COR stands for Certificate of Registration and serves as proof of enrollment. It contains the subjects you are enrolled in, your schedule, section, and other enrollment details for the current semester.<br><br>COG stands for Certificate of Grades. It is an official record of your academic performance and contains the grades you received for a specific semester, term, or school year. It is commonly requested for scholarships, applications, transferring to another school, and other academic purposes.<br><br>Both COR and COG may be requested through the Registrar's Office or other authorized student services."
+  ]
+},
   {
   
     "patterns": [
@@ -2742,17 +2597,23 @@ QA_DATA = [
     "You can view the official CvSU Bacoor virtual tour on the campus website:<br>https://cvsu.edu.ph/bacoor/"
   },
 
-
-  {
-  
-    "patterns": [
-      "What courses are offered?",
-      "List of undergraduate courses",
-      "Available programs in campus",
-      "Degrees to choose from"
-    ],
-    "response": 
-      "Bachelor of Secondary Education<br>BS Business Management<br>BS Computer Science<br>BS Criminology<br>BS Hospitality Management (formerly BS Hotel and Restaurant Management)<br>BS Information Technology<br>BS Psychology"
+{
+ 
+  "patterns": [
+    "What courses are offered?",
+    "Can you give me the list of courses?",
+    "What can I study here?",
+    "Courses available in the campus",
+    "What programs can I enroll in?",
+    "What academic programs are available?",
+    "What fields of study are offered?",
+    "List of undergraduate courses",
+    "Available programs in campus",
+    "Degrees to choose from"
+  ],
+  "response": [
+    "CvSU Bacoor offers a variety of undergraduate academic programs for students.<br><br>Available courses:<br>• Bachelor of Secondary Education (BSEd)<br>• BS Business Management (BSBM)<br>• BS Computer Science (BSCS)<br>• BS Criminology (BSCrim)<br>• BS Hospitality Management (BSHM) (formerly BS Hotel and Restaurant Management)<br>• BS Information Technology (BSIT)<br>• BS Psychology (BSPsych)<br><br>Students may choose from programs in Education, Business, Information Technology, Computer Science, Psychology, Criminology, and Hospitality Management."
+  ]
 },
   {
    
@@ -2836,17 +2697,6 @@ QA_DATA = [
   {
    
     "patterns": [
-      "What is a transfer student?",
-      "Rules for transferees",
-      "Can I transfer during my last year?",
-      "Transfer student definition"
-    ],
-    "response": 
-      "A transfer student comes from another college/university and is now registered in CvSU after fulfilling all transfer requirements.<br>Transferees during the last semester of the last year of a curriculum are discouraged."
-},
-  {
-   
-    "patterns": [
       "What is a student assistant?",
       "Requirements to be a student assistant",
       "Working hours for student assistants",
@@ -2877,50 +2727,7 @@ QA_DATA = [
     "response": 
       "Classification is based on the actual number of academic units completed as required for a particular curricular year (Freshman Sophomore Junior Senior) as determined by the University Registrar."
 },
-  {
   
-    "patterns": [
-      "What types of scholarships are available?",
-      "List of scholarships in CvSU",
-      "Does the school offer financial assistance?",
-      "What scholarships can I apply for?"
-    ],
-    "response": 
-      "Available scholarships include: Entrance Scholarship University/Full Scholarship College/Partial Scholarship CvSU State Scholarship Honorific or Academic Scholarship Private Scholarship Endowed Scholarship Job Experience Program (formerly Work for Tuition) Student Assistantship Government Scholarship CvSU Scholarship Privilege and Service Scholarship."
-},
-  {
-    
-    "patterns": [
-      "Who qualifies for the entrance scholarship?",
-      "Benefits of entrance scholarship",
-      "Are valedictorians exempted from tuition?",
-      "High school honors scholarship"
-    ],
-    "response": 
-      "Valedictorians salutatorians and honor students from recognized public/private high schools with graduating classes of at least 30 students qualify.<br>Benefits include free tuition for the first semester only and exemption from the University entrance examination and regular University fees except miscellaneous fees."
-},
-  {
-   
-    "patterns": [
-      "What is the GPA requirement for full scholarship?",
-      "Grades needed for university scholarship",
-      "Full scholarship maintaining grades",
-      "Undergraduate full scholarship GPA"
-    ],
-    "response": 
-      "Undergraduate students need a GPA of 1.50 or better with no grade lower than 2.50.<br>Graduate students need a GPA of 1.25 or better."
-},
-  {
-   
-    "patterns": [
-      "What is the GPA requirement for partial scholarship?",
-      "Grades needed for college scholarship",
-      "Partial scholarship maintaining grades",
-      "Undergraduate partial scholarship GPA"
-    ],
-    "response": 
-      "Undergraduate students need a GPA of 1.75 or better with no grade lower than 2.50.<br>Graduate students need a GPA of 1.50 or better."
-},
   {
    
     "patterns": [
@@ -3008,39 +2815,6 @@ QA_DATA = [
     ],
     "response": 
       "The Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) or any accrediting agency prescribed by CHED and PASUC is recognized.<br>The Director for Quality Assurance and Accreditation heads the university-wide accrediting body."
-},
-  {
-
-    "patterns": [
-      "What are the SHS retention requirements?",
-      "Grades needed to stay in Science High School",
-      "GPA requirement for SHS",
-      "Failing grades in SHS policy"
-    ],
-    "response": 
-      "Students must maintain a GPA of not lower than 78% with a weighted average in Mathematics Science and Scientific Research of not lower than 78% and no failing grades in any subject."
-},
-  {
-   
-    "patterns": [
-      "Requirements for SHS full scholarship",
-      "Benefits of SHS scholarship",
-      "Science High School stipend amount",
-      "How to get a scholarship in SHS?"
-    ],
-    "response": 
-      "SHS full scholarship requires a <br>GPA of 90% or better in all academic subjects and a weighted average of 90% or better in Science Mathematics and Scientific Research.<br>Benefits include a ₱500.00 monthly stipend and ₱500.00 yearly book allowance."
-},
-  {
-  
-    "patterns": [
-      "What are the SHS honors requirements?",
-      "How to graduate with honors in SHS?",
-      "GPA needed for high school honors",
-      "Conduct requirements for SHS graduation honors"
-    ],
-    "response": 
-      "For non-graduating students (1st-3rd year): weighted average of not lower than 88% in Science Math and Research GPA of not lower than 85% no grade lower than 83% in any subject.<br>For graduating students: completed curriculum in four years GPA of not lower than 85% from 1st to 4th year no grade lower than 83% and conduct in conformity with the Student Norm of Conduct."
 },
   {
    
@@ -3456,18 +3230,6 @@ QA_DATA = [
 {
 
 "patterns": [
-"What are the requirements for re-enrollment?",
-"How do I re-enroll?",
-"What documents do I need for re-enrollment?",
-"I am a returning student, what are the requirements?"
-],
-"response": 
-"Students applying for re-enrollment may be required to submit a re-enrollment or readmission form, clearance from concerned offices, and other supporting documents. Requirements may vary depending on the student's academic standing. Please coordinate with the Registrar's Office for complete details."
-},
-
-{
-
-"patterns": [
 "What is cross enrollment?",
 "Can I take subjects in another school?",
 "How do I apply for cross enrollment?",
@@ -3839,21 +3601,6 @@ QA_DATA = [
 {
 
 "patterns": [
-"How do I request a certificate?",
-"Can I get a Certificate of Enrollment?",
-"How do I obtain a Certificate of Registration?",
-"What certificates can the university issue?",
-"How can I request a Certificate of Good Moral Character?",
-"Where do I request school certificates?",
-"Can I request a certification for scholarship purposes?"
-],
-"response": 
-"Students and alumni may request various certifications, such as a Certificate of Enrollment, Certificate of Registration, or other official certifications, through the appropriate university office. Processing requirements and release schedules may vary depending on the type of certificate requested."
-},
-
-{
-
-"patterns": [
 "How can I access the campus WiFi?",
 "What is the campus WiFi password?",
 "Is there free WiFi on campus?",
@@ -4094,24 +3841,64 @@ QA_DATA = [
   "response": 
     "To apply as a first-year student, please submit the following requirements:<br><br>• Accomplished Application Form for Admission<br>• Original Copy of Form 138 (Report Card)<br>• Certificate of Good Moral Character<br>• Medical Results<br>• Medical Clearance from the Campus Nurse"
   },
+  {
+  "patterns": [
+    "What are the medical requirements?",
+    "Medical requirements for enrollment",
+    "What medical documents are needed?",
+    "Medical clearance requirements",
+    "Requirements for medical examination",
+    "What do I need for the medical assessment?",
+    "Medical requirements for admission",
+    "What are the health requirements for enrollment?",
+    "Medical exam requirements",
+    "Medical requirements in CvSU Bacoor",
+    "What should I bring for the medical examination?",
+    "Requirements for medical clearance",
+    "Documents needed for medical assessment",
+    "What are the requirements for medical clearance?",
+    "Medical assessment requirements",
+    "Health requirements for enrollment",
+    "Requirements before medical examination",
+    "What should I prepare for my medical exam?",
+    "Medical requirements please",
+    "Required documents for medical clearance"
+  ],
+  "response": [
+    "For the medical assessment and clearance, students are generally required to present their Medical Referral Slip, Notice of Admission (if applicable), and any other documents requested by the Campus Clinic. Additional laboratory tests or medical certificates may be required depending on the student's condition and the clinic's assessment. Please coordinate with the Campus Clinic for the complete and updated list of medical requirements."
+  ]
+},
+{
+  "patterns": [
+    "Is X-ray enough?",
+    "Is chest X-ray enough?",
+    "Do I only need an X-ray?",
+    "Is CBC enough?",
+    "Is urinalysis enough?",
+    "Do I only need a medical certificate?",
+    "Do I need all medical requirements?",
+    "Can I submit only my X-ray?",
+    "Is one medical requirement enough?",
+    "Do I need additional medical documents?",
+    "Can I proceed with only my laboratory results?",
+    "What if I only have an X-ray?"
+  ],
+  "response": [
+    "The required medical documents depend on the guidelines of the Campus Clinic. A single document, such as a chest X-ray, may not be sufficient if other medical requirements are also requested. Please coordinate with the Campus Clinic to verify the complete list of required medical documents and examinations."
+  ]
+},
 {
 
 "patterns": [
 "When is the medical assessment schedule?",
-"What are the medical requirements for enrollment?",
 "When should I complete my medical examination?",
 "What is the schedule for medical clearance?",
-"What are the medical requirements and assessment procedures?",
-"Medical requirements for enrollment",
 "What happens during medical assessment?",
 "Medical clearance process",
 "Health assessment requirements",
 "How do I get medical clearance?",
 "Do I need a medical examination before enrollment?",
-"What documents are needed for medical assessment?",
-"When is the health assessment schedule?",
-"What is required for medical clearance?",
-"How does the medical assessment work?"
+"When is the health assessment schedule?"
 ],
 "response": 
 "As part of the enrollment process, qualified applicants are required to complete the Medical Requirements and Assessment before final registration.<br><br>The medical assessment may include submission of required medical documents, physical examination, health evaluation, and issuance of medical clearance by authorized medical personnel.<br><br>Medical Assessment Schedule:<br><br>June 29 – July 03, 2026<br>• BS Hospitality Management (BSHM)<br>• BS Business Administration (BSBA)<br>• BS Information Technology (BSIT)<br>• BS Computer Science (BSCS)<br><br>July 06 – July 10, 2026<br>• BS Criminology (BSCrim)<br>• BS Psychology (BSPsych)<br>• Bachelor of Secondary Education (BSEd)<br><br>Students must complete all medical requirements and obtain medical clearance before proceeding with final enrollment and registration. Please visit the campus clinic during the schedule assigned to your program."
@@ -4216,7 +4003,6 @@ QA_DATA = [
 
   "patterns": [
     "first year applicant",
-    "new student",
     "grade 12 student",
     "senior high graduate"
   ],
@@ -4224,9 +4010,8 @@ QA_DATA = [
     "First-Year Applicants include current Grade 12 students, Senior High School graduates who have never enrolled in college, ALS completers, and Associate/Vocational/Diploma degree holders."
   },
 {
- 
   "patterns": [
-    "transferee",
+    "What is a transferee applicant?",
     "transfer student",
     "college transferee",
     "requirements for transferee",
@@ -4234,16 +4019,19 @@ QA_DATA = [
     "How can I transfer to CvSU Bacoor",
     "What documents are needed for transferees",
     "Transfer student requirements",
-    "What do I need to submit as a transferee"
+    "What do I need to submit as a transferee",
+    "What is a transfer student?",
+    "Rules for transferees",
+    "Can I transfer during my last year?",
+    "Transfer student definition"
   ],
-  "response": 
-    "A transferee is an applicant who has already started college studies in another university, school, or CvSU campus and wishes to continue at CvSU Bacoor. Students applying as transferees must submit the required admission documents and satisfy the University's transfer admission policies.<br><br>Common requirements include:<br>- Transcript of Records or Certified Copy of Grades<br>- Honorable Dismissal<br>- Certificate of Good Moral Character<br>- PSA Birth Certificate<br>- Recent ID Pictures<br>- Other documents required by the Admissions Office<br><br>Applicants may also be required to undergo evaluation, interview, or entrance examination depending on University policies."
-  },
+  "response": [
+    "A transferee or transfer student is an applicant who has already started college studies in another university, school, or CvSU campus and wishes to continue at CvSU Bacoor. A transfer student becomes officially enrolled in CvSU after fulfilling all transfer admission requirements.<br><br>Common requirements include:<br>- Transcript of Records (TOR) or Certified Copy of Grades<br>- Honorable Dismissal<br>- Certificate of Good Moral Character<br>- PSA Birth Certificate<br>- Recent ID Pictures<br>- Other documents required by the Admissions Office<br><br>Applicants may also be required to undergo evaluation, interview, or entrance examination depending on University policies.<br><br>Transferees during the last semester of the last year of a curriculum are discouraged. For specific requirements and admission procedures, applicants should coordinate with the Admissions Office."
+  ]
+},
 {
-
   "patterns": [
-    "second course",
-    "second courser",
+   "What is a second courser?",
     "another bachelor's degree",
     "graduate applying again"
   ],
@@ -4255,7 +4043,6 @@ QA_DATA = [
   "patterns": [
     "tcp applicant",
     "teacher certificate program",
-    "education units",
     "tcp requirements"
   ],
   "response": 
@@ -4308,10 +4095,10 @@ QA_DATA = [
 {
 
   "patterns": [
-    "als applicant",
-    "als passer",
-    "als completer",
-    "requirements for als"
+    "ALS applicant",
+    "ALS passer",
+    "ALS completer",
+    "requirements for ALS"
   ],
   "response": 
     "ALS Completers or Passers must submit their Certificate of Rating (COR) with eligibility to enroll in college."
@@ -4321,8 +4108,7 @@ QA_DATA = [
   "patterns": [
     "transferee requirements",
     "requirements for transfer student",
-    "certificate of grades",
-    "tor for transferee"
+    "TOR for transferee"
   ],
   "response": 
     "Transferee applicants must submit a Certificate of Grades (COG) or Transcript of Records (TOR) showing final grades for all enrolled subjects."
@@ -4425,16 +4211,20 @@ QA_DATA = [
     "The results of the admission examination will be announced through the official CvSU Bacoor Guidance and Admission Services Facebook page."
   },
 {
-
-"patterns": [
-"What happens if I fail the entrance exam",
-"Can I still enroll if I fail",
-"What should I do if I do not pass CvSU-CAT",
-"Failed admission test",
-"Can I retake the entrance exam"
-],
-"response": 
-"Applicants who do not meet the required admission criteria may explore other available academic programs, apply during future admission periods if permitted, or inquire about alternative admission opportunities based on University policies."
+  "patterns": [
+    "Can I retake the entrance exam",
+    "Is retaking CvSU-CAT allowed",
+    "May I take the admission test again",
+    "Retake entrance examination",
+    "Can I apply for another exam schedule",
+    "What happens if I fail the entrance exam",
+    "Can I still enroll if I fail",
+    "What should I do if I do not pass CvSU-CAT",
+    "Failed admission test"
+  ],
+  "response": [
+    "Applicants who do not meet the required admission criteria may explore other available academic programs, apply during future admission periods if permitted, or inquire about alternative admission opportunities based on University policies.<br><br>Retaking the entrance examination is subject to University admission policies. Applicants should consult the Admissions Office regarding eligibility, available examination schedules, and other admission options."
+  ]
 },
 {
  
@@ -4484,18 +4274,6 @@ QA_DATA = [
   ],
   "response": 
     "Unit load refers to the total number of academic units a student enrolls in during a semester. Most students take 15 to 21 units per semester. Taking more than the normal load may require approval."
-  },
-{
-
-  "patterns": [
-    "What is COR?",
-    "How do I get a COR?",
-    "What is COG?",
-    "How can I request my grades?",
-    "Can COR be used as proof of enrollment?"
-  ],
-  "response": 
-    "COR stands for Certificate of Registration and serves as proof of enrollment. COG stands for Certificate of Grades and shows academic performance. Both documents may be requested through the registrar or official student services."
   },
 {
  
@@ -4710,9 +4488,7 @@ QA_DATA = [
   "patterns": [
     "Will failing a subject affect my scholarship?",
     "Can I lose my scholarship if I fail?",
-    "Scholarship requirements",
-    "Failed subject scholarship",
-    "Scholarship and grades"
+    "Failed subject scholarship"
   ],
   "response": 
     "Many scholarship programs require students to maintain academic standards. Failing grades may affect scholarship eligibility depending on the program's policies."
@@ -4856,7 +4632,7 @@ QA_DATA = [
     "How long can I use my COR",
     "When do I need a new COR?"
   ],
-  "response": 
+ "response":
     "The Certificate of Registration (COR) is valid only for the semester in which it was issued.<br><br>Students must obtain a new COR for each subsequent semester or once enrollment for the next semester begins. A COR from a previous semester cannot be used as a current enrollment document."
   },
 {
@@ -5258,7 +5034,7 @@ QA_DATA = [
     "Are there rules for taking exams in CvSU Bacoor?",
     "What are the examination policies?"
   ],
-  "response": 
+ "response":
     "📚 Examination Rules and Regulations<br><br><br><br>To ensure a fair and orderly examination process, all students are expected to observe the following rules:<br><br><br><br>* Arrive at the examination room on time.<br><br>* Present your valid student ID when required.<br><br>* Bring only the materials permitted by your instructor.<br><br>* Keep mobile phones and other electronic devices switched off and stored away during the examination.<br><br>* Maintain silence and avoid disturbing other examinees.<br><br>* Do not communicate, share answers, or engage in any form of cheating.<br><br>* Follow all instructions given by the proctor or instructor.<br><br>* Submit your examination papers and materials before leaving the room.<br><br>* Any form of academic dishonesty may result in disciplinary action in accordance with CvSU Bacoor policies.<br><br><br><br>For specific examination guidelines, students are encouraged to consult their instructors or the campus administration."
   },
 {
@@ -5270,7 +5046,7 @@ QA_DATA = [
     "What are the campus regulations?",
     "What are the general rules for students?"
   ],
-  "response": 
+ "response":
     "🏫 CvSU Bacoor Student Rules and Regulations<br><br><br><br>All students are expected to uphold the values and standards of Cavite State University - Bacoor Campus by following these guidelines:<br><br><br><br>* Wear the prescribed school uniform and identification card when required.<br><br>* Show respect and courtesy to fellow students, faculty members, staff, and visitors.<br><br>* Maintain proper conduct within the campus premises.<br><br>* Keep the campus clean and dispose of waste properly.<br><br>* Protect and properly use university facilities, equipment, and resources.<br><br>* Observe classroom policies and attend classes regularly.<br><br>* Refrain from engaging in bullying, harassment, discrimination, or disruptive behavior.<br><br>* Follow all university policies regarding academic integrity and student discipline.<br><br>* Comply with campus safety and security regulations.<br><br>* Participate responsibly in university activities and programs.<br><br><br><br>Students are encouraged to refer to the official Student Handbook for the complete list of university rules, regulations, and disciplinary procedures."
   },
 {
@@ -5287,7 +5063,7 @@ QA_DATA = [
     "What is the school's policy on smoking?",
     "Are tobacco products allowed on campus?"
   ],
-  "response": 
+ "response":
     "🚭 Smoking, Vaping, and Alcohol Policy<br><br><br><br>To maintain a safe, healthy, and conducive learning environment, the following rules are observed within the campus:<br><br><br><br>* Smoking is strictly prohibited within the campus premises.<br><br>* The use of electronic cigarettes (e-cigarettes), vapes, and similar devices is not allowed on campus.<br><br>* Possession, consumption, or distribution of alcoholic beverages within the university premises is prohibited unless specifically authorized for official purposes.<br><br>* Students must not report to school under the influence of alcohol or prohibited substances.<br><br>* Bringing illegal drugs, dangerous substances, or drug paraphernalia into the campus is strictly prohibited.<br><br>* Students are expected to comply with all university health, safety, and disciplinary regulations.<br><br>* Violations of these policies may result in disciplinary action in accordance with university rules and regulations.<br><br><br><br>For complete information regarding student conduct and disciplinary policies, please refer to the official CvSU Student Handbook or contact the campus administration."
   },
 {
@@ -5299,7 +5075,7 @@ QA_DATA = [
     "What can get me into trouble in school?",
     "What actions are not allowed in the university?"
   ],
-  "response": 
+ "response":
     "⚠️ Prohibited Activities on Campus<br><br><br><br>Students are expected to maintain proper conduct and avoid activities that may disrupt the learning environment. The following are generally prohibited:<br><br><br><br>* Smoking and vaping within the campus premises.<br><br>* Possession or consumption of alcoholic beverages without proper authorization.<br><br>* Possession, use, or distribution of illegal drugs and dangerous substances.<br><br>* Cheating, plagiarism, and other forms of academic dishonesty.<br><br>* Bullying, harassment, discrimination, and acts of violence.<br><br>* Damaging, vandalizing, or misusing university property.<br><br>* Possession of weapons or dangerous items that may threaten campus safety.<br><br>* Disruptive behavior during classes, examinations, or university activities.<br><br>* Unauthorized use of university facilities, equipment, or resources.<br><br>* Any action that violates university policies, rules, and regulations.<br><br><br><br>Students are encouraged to review the official CvSU Student Handbook for detailed policies and disciplinary procedures."
   },
 {
@@ -5311,7 +5087,7 @@ QA_DATA = [
     "What items are prohibited in school?",
     "What things are not allowed inside the campus?"
   ],
-  "response": 
+ "response":
     "🎒 Prohibited Items on Campus<br><br><br><br>For the safety and well-being of the university community, students should avoid bringing prohibited items to campus, including:<br><br><br><br>* Cigarettes, tobacco products, and vaping devices for use within the campus.<br><br>* Alcoholic beverages and intoxicating substances.<br><br>* Illegal drugs and drug-related paraphernalia.<br><br>* Weapons, explosives, or other dangerous items.<br><br>* Materials that may disrupt classes, university activities, or campus operations.<br><br><br><br>Students found in possession of prohibited items may be subject to disciplinary action based on university policies and regulations."
   },
 {
@@ -5328,7 +5104,7 @@ QA_DATA = [
     "What is the school's policy on smoking?",
     "Are tobacco products allowed on campus?"
   ],
-  "response": 
+ "response":
     "🚭 Smoking, Vaping, and Alcohol Policy<br><br><br><br>To maintain a safe, healthy, and conducive learning environment, the following rules are observed within the campus:<br><br><br><br>* Smoking is strictly prohibited within the campus premises.<br><br>* The use of electronic cigarettes (e-cigarettes), vapes, and similar devices is not allowed on campus.<br><br>* Possession, consumption, or distribution of alcoholic beverages within the university premises is prohibited unless specifically authorized for official purposes.<br><br>* Students must not report to school under the influence of alcohol or prohibited substances.<br><br>* Bringing illegal drugs, dangerous substances, or drug paraphernalia into the campus is strictly prohibited.<br><br>* Students are expected to comply with all university health, safety, and disciplinary regulations.<br><br>* Violations of these policies may result in disciplinary action in accordance with university rules and regulations.<br><br><br><br>For complete information regarding student conduct and disciplinary policies, please refer to the official CvSU Student Handbook or contact the campus administration."
   },
 {
@@ -5340,7 +5116,7 @@ QA_DATA = [
     "What can get me into trouble in school?",
     "What actions are not allowed in the university?"
   ],
-  "response": 
+ "response":
     "⚠️ Prohibited Activities on Campus<br><br><br><br>Students are expected to maintain proper conduct and avoid activities that may disrupt the learning environment. The following are generally prohibited:<br><br><br><br>* Smoking and vaping within the campus premises.<br><br>* Possession or consumption of alcoholic beverages without proper authorization.<br><br>* Possession, use, or distribution of illegal drugs and dangerous substances.<br><br>* Cheating, plagiarism, and other forms of academic dishonesty.<br><br>* Bullying, harassment, discrimination, and acts of violence.<br><br>* Damaging, vandalizing, or misusing university property.<br><br>* Possession of weapons or dangerous items that may threaten campus safety.<br><br>* Disruptive behavior during classes, examinations, or university activities.<br><br>* Unauthorized use of university facilities, equipment, or resources.<br><br>* Any action that violates university policies, rules, and regulations.<br><br><br><br>Students are encouraged to review the official CvSU Student Handbook for detailed policies and disciplinary procedures."
   },
   {
@@ -5351,7 +5127,7 @@ QA_DATA = [
     "What items are prohibited in school?",
     "What things are not allowed inside the campus?"
   ],
-  "response": 
+ "response":
     "🎒 Prohibited Items on Campus<br><br><br><br>For the safety and well-being of the university community, students should avoid bringing prohibited items to campus, including:<br><br><br><br>* Cigarettes, tobacco products, and vaping devices for use within the campus.<br><br>* Alcoholic beverages and intoxicating substances.<br><br>* Illegal drugs and drug-related paraphernalia.<br><br>* Weapons, explosives, or other dangerous items.<br><br>* Materials that may disrupt classes, university activities, or campus operations.<br><br><br><br>Students found in possession of prohibited items may be subject to disciplinary action based on university policies and regulations."
 },
 {
@@ -5362,7 +5138,7 @@ QA_DATA = [
     "Can I take a make-up exam?",
     "What are the requirements for a special examination?"
   ],
-  "response": 
+ "response":
     "📝 Make-Up Examination / Special Examination Procedure<br><br><br><br>Students who are unable to take a scheduled examination due to valid and documented circumstances may request a make-up or special examination, subject to university policies and approval.<br><br><br><br>Procedure:<br><br><br><br>* Inform your instructor as soon as possible regarding your absence from the examination.<br><br>* Prepare and submit the necessary supporting documents that justify your absence (e.g., medical certificate, official letter, or other relevant documents).<br><br>* Submit a formal request for a make-up or special examination following the prescribed university procedures.<br><br>* Obtain the approval of your instructor and the appropriate university authorities.<br><br>* Once approved, coordinate with your instructor regarding the schedule and venue of the examination.<br><br>* Take the make-up or special examination on the approved date and time.<br><br><br><br>Please note that make-up or special examinations are granted only under valid and documented circumstances and are subject to the university's rules and regulations."
   
 },
@@ -5374,7 +5150,7 @@ QA_DATA = [
     "What is the purpose of NSTP?",
     "Why do students take NSTP?"
   ],
-  "response": 
+ "response":
     "🎓 National Service Training Program (NSTP)<br><br><br><br>The National Service Training Program (NSTP) is a program mandated by Republic Act No. 9163 for tertiary-level students in the Philippines. It aims to develop civic consciousness, leadership, patriotism, and social responsibility among students through community service and nation-building activities.<br><br><br><br>NSTP helps students become active contributors to society by encouraging volunteerism, community involvement, disaster preparedness, and values formation.<br><br><br><br>Students typically complete two semesters of NSTP as part of their academic requirements. Depending on the institution, students may choose from different NSTP components such as ROTC or CWTS.<br><br><br><br>Through NSTP, students gain valuable experiences that promote personal growth, community engagement, and responsible citizenship."
   
 },
@@ -5386,7 +5162,7 @@ QA_DATA = [
     "What is the purpose of ROTC?",
     "What happens in ROTC?"
   ],
-  "response": 
+ "response":
     "🪖 Reserve Officers' Training Corps (ROTC)<br><br><br><br>The Reserve Officers' Training Corps (ROTC) is one of the components of the National Service Training Program (NSTP). It is designed to provide students with military-oriented training that promotes discipline, leadership, patriotism, and preparedness for national defense.<br><br><br><br>ROTC activities may include:<br><br><br><br>* Leadership and teamwork training<br><br>* Military customs and courtesies<br><br>* Basic military instruction<br><br>* Physical fitness activities<br><br>* Disaster preparedness and emergency response training<br><br>* Citizenship and nation-building programs<br><br><br><br>The program aims to develop responsible citizens who are prepared to contribute to national security, public service, and community development. ROTC also helps students strengthen their confidence, discipline, and leadership skills that can be applied in both academic and professional settings."
   
 },
@@ -5399,11 +5175,11 @@ QA_DATA = [
     "What is NSTP ROTC?",
     "Explain NSTP and ROTC"
   ],
-  "response": 
+ "response":
     "📚 Difference Between NSTP and ROTC<br><br><br><br>NSTP (National Service Training Program) is the overall program required for college students to promote civic responsibility, leadership, and nation-building.<br><br><br><br>ROTC (Reserve Officers' Training Corps) is one of the components or options under NSTP that focuses on military training, discipline, leadership, and national defense preparedness.<br><br><br><br>In simple terms:<br><br><br><br>* NSTP is the program.<br><br>* ROTC is one of the NSTP components.<br><br><br><br>Students who choose ROTC fulfill their NSTP requirement through military-oriented training and related activities."
   
 }
-
+  
 ]
    
 
